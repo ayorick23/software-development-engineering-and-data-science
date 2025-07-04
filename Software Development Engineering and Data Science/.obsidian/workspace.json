@@ -1,0 +1,236 @@
+{
+  "main": {
+    "id": "3a59149703818f70",
+    "type": "split",
+    "children": [
+      {
+        "id": "f3a790624e5b5494",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f04d980f5ae028c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "University Degree Notes/Ciclo 02/Programación II/CLASE.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CLASE"
+            }
+          }
+        ]
+      },
+      {
+        "id": "00083d500942bcf5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e02e34e5f29f9d36",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista gráfica"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e8d14879f2fcbf8f",
+    "type": "split",
+    "children": [
+      {
+        "id": "d0c4474eb391ddb8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b0bf77f4b3fea507",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "c8e3f17485b5d4c1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "0ed86abeb80d9bbe",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "fba2102a22d609e9",
+    "type": "split",
+    "children": [
+      {
+        "id": "cf370f627295f665",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9c7140fb475c965f",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "5dd1c94e56fe0af3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "University Degree Notes/Ciclo 02/Programación II/CLASE.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de CLASE"
+            }
+          },
+          {
+            "id": "fca94ab40e888084",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes"
+            }
+          },
+          {
+            "id": "ebee4f1b902e161e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "5ba6210cc4896815",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "f04d980f5ae028c7",
+  "lastOpenFiles": [
+    "SQL/DDL (Data Definition Language).md",
+    "University Degree Notes/Ciclo 02/Programación II/CLASE.md",
+    "SQL/Advanced Functions.md",
+    "Java",
+    "Excalidraw/Drawing 2025-07-02 19.57.49.excalidraw.md",
+    "Excalidraw",
+    "DAX/DAX Operators.md",
+    "DAX/Information Functions.md",
+    "DAX/Filter Functions.md",
+    "DAX/Relantionship Functions.md",
+    "DAX/Logical Functions.md",
+    "DAX/Text Functions.md",
+    "DAX/DAX Statements.md",
+    "DAX/Table Manipulation Functions.md",
+    "DAX/Math and Statistical Functions.md",
+    "DAX/Time Intelligence Functions.md",
+    "DAX/Date and Time Functions.md",
+    "SQL/Common Table Expressions.md",
+    "SQL/Window Functions.md",
+    "SQL/Triggers.md",
+    "SQL/Stored Procedures and Functions.md",
+    "SQL/TCL (Transaction Control Language).md",
+    "SQL/DCL (Data Control Language).md",
+    "SQL/Aggregate Functions.md",
+    "SQL/Constraints.md",
+    "SQL/DQL (Data Query Language).md",
+    "SQL/Indexes.md",
+    "SQL/DML (Data Manipulation Language).md",
+    "R",
+    "Python/Tensorflow",
+    "Python/SymPy",
+    "Python/Seaborn",
+    "Python/SciPy",
+    "Python/Pandas",
+    "Python/NumPy",
+    "Python/Matplotlib"
+  ]
+}
