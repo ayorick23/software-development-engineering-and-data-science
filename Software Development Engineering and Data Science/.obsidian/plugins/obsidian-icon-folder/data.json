@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "FabGithub",
       "FabJava",
       "LiGraduationCap",
       "LiDatabase",
-      "FabDocker",
-      "FabGitAlt"
+      "FabDocker"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -61,5 +61,9 @@
   "Java": {
     "iconName": "FabJava",
     "iconColor": "#ed8b00"
+  },
+  "Repos de GitHub": {
+    "iconName": "FabGithub",
+    "iconColor": "#000000"
   }
 }

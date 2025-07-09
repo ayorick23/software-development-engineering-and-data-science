@@ -1,3 +1,5 @@
 {
-  "interfaceFontFamily": "JetBrains Mono"
+  "interfaceFontFamily": "Segoe UI,JetBrains Mono",
+  "cssTheme": "Border",
+  "accentColor": ""
 }

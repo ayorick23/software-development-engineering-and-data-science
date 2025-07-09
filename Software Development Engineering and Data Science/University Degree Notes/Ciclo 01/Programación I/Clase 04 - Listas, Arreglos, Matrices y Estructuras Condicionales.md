@@ -9,7 +9,6 @@ Fecha de la clase: 15 de febrero de 2025
 ## Listas
 
 > Son uno de los tipos de datos que más se utilizan en Python y se caracteriza por ser flexible. Así mismo permite almacenar una colección ordenada de elementos de diferentes tipos (enteros, flotantes, cadenas, etc.). Es decir, las listas son estructuras de datos que almacenan una secuencia ordenada de elementos.
-> 
 
 ### Características
 
@@ -59,7 +58,7 @@ La `‘i’` al principio del arreglo hace referencia al soporte de número de b
 
 ## Matrices
 
-> La biblioteca `NumPy`, es una extensión destinada específicamente a realizar cálculos numéricos eficientes, se utiliza con frecuente para implementar matrices en Python. Es posible que la matrices sean unidimensionales, bidimensionales o multidimensionales.
+> La biblioteca [[Array Creation#Introducción a NumPy|NumPy]], es una extensión destinada específicamente a realizar cálculos numéricos eficientes, se utiliza con frecuente para implementar matrices en Python. Es posible que la matrices sean unidimensionales, bidimensionales o multidimensionales.
 > 
 
 ### Especificaciones
