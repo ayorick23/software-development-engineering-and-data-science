@@ -7,11 +7,10 @@
 Existen diferentes tipos de copias en **NumPy**, la más común es la copia superficial (*shallow copy*) y la copia profunda (*deep copy*).
 
 - **Copia superficial (*shallow copy*)**:
-En este caso, se crea una nueva matriz, pero los elementos son referencias a los objetos de la matriz original. Si los elementos son mutables (por ejemplo, listas), las modificaciones en esos elementos afectarán a ambas matrices.
+En este caso, se crea una nueva matriz, pero los elementos son referencias a los objetos de la matriz original. Si los elementos son mutables (por ejemplo, [[Lists and Tuples#Listas|listas]]), las modificaciones en esos elementos afectarán a ambas matrices.
 
 - **Copia profunda (*deep copy*)**:
 En este caso, se crea una nueva matriz y se copian los datos de la matriz original, creando nuevos objetos para cada elemento. Las modificaciones en la copia profunda no afectarán a la matriz original, ni viceversa.
-
 
 ```python
 import numpy as np
@@ -19,8 +18,7 @@ import numpy as np
 
 ### Shallow Copy
 
-Una copia superficial de un array, también conocida como *vista*, comparte los datos subyacentes con el array original. Esto significa que cualquier cambio realizado en la copia superficial también se reflejará en el array original, y viceversa. Se crea una copia superficial utilizando la función ``view()`` o asignando el array a una nueva variable.
-
+Una copia superficial de un array, también conocida como *vista* ([[Views|similar a SQL]]), comparte los datos subyacentes con el array original. Esto significa que cualquier cambio realizado en la copia superficial también se reflejará en el array original, y viceversa. Se crea una copia superficial utilizando la función ``view()`` o asignando el array a una nueva variable.
 
 ```python
 #Copia superficial
@@ -32,12 +30,10 @@ print(arr1)               # El array original también cambia
 ```
 
     [5 2 3]
-    
 
 ### Deep Copy
 
 Una copia profunda de un array se crea utilizando la función ``np.copy()``. Esta función crea una nueva matriz con datos independientes, lo que significa que las modificaciones en la copia no afectarán a la matriz original, y viceversa.
-
 
 ```python
 #Copia profunda
@@ -49,7 +45,6 @@ print(arr2)             # El array original no cambia
 ```
 
     [1 2 3 4 5]
-    
 
 ## Sorting Arrays
 
@@ -61,7 +56,6 @@ El ordenamiento de arrays se realiza principalmente con la función ``np.sort()`
 
 La función ``np.sort()`` ordena los elementos de un array unidimensional en orden ascendente por defecto.
 
-
 ```python
 #Ordenamiento de arrays unidimensionales
 arr3 = np.array([3, 1, 4, 1, 5, 9, 2, 6])
@@ -70,8 +64,6 @@ print(ordenado)
 ```
 
     [1 1 2 3 4 5 6 9]
-    
-
 
 ```python
 #Orden descendente
@@ -82,12 +74,10 @@ print(arr3) # El array original no cambia
 
     [9 6 5 4 3 2 1 1]
     [3 1 4 1 5 9 2 6]
-    
 
 ### Sorting multidimensional arrays
 
 ``np.sort()`` también puede ordenar arrays multidimensionales. El parámetro ``axis`` especifica el eje a lo largo del cual se realizará la ordenación.
-
 
 ```python
 #Ordenamiento de arrays bidimensionales
@@ -99,8 +89,6 @@ print(ordenado_axis0)
 
     [[1 2]
      [3 4]]
-    
-
 
 ```python
 #Ordenamiento por filas
@@ -110,12 +98,10 @@ print(ordenado_axis1)
 
     [[2 3]
      [1 4]]
-    
 
 ### ``np.ndarray.sort()``
 
-Es un método que se llama directamente sobre un objeto ``ndarray``. Realiza la ordenación en el lugar, modificando la matriz original y no devuelve ningún valor (devuelve ``None``). Es más eficiente en términos de memoria cuando se trabaja con matrices grandes, ya que no crea una copia.
-
+Es un método que se llama directamente sobre un objeto [[Array Creation#Creación de Arrays|ndarray]]. Realiza la ordenación en el lugar, modificando la matriz original y no devuelve ningún valor (devuelve ``None``). Es más eficiente en términos de memoria cuando se trabaja con matrices grandes, ya que no crea una copia.
 
 ```python
 #Ordenamiento usando np.ndarray.sort()
@@ -125,4 +111,3 @@ print(arr5)
 ```
 
     [1 1 2 3 4 5 6 9]
-    

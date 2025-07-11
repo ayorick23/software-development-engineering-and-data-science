@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiNotebookPen",
+      "LiDatabaseZap",
       "FabGithub",
       "FabJava",
-      "LiGraduationCap",
-      "LiDatabase",
-      "FabDocker"
+      "LiGraduationCap"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -65,5 +65,9 @@
   "Repos de GitHub": {
     "iconName": "FabGithub",
     "iconColor": "#000000"
+  },
+  "DAX": {
+    "iconName": "LiDatabaseZap",
+    "iconColor": "#ffbb00"
   }
 }

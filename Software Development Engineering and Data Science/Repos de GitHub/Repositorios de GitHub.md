@@ -41,11 +41,11 @@
 - [/] [python-cheat-sheet](https://github.com/ayorick23/python-cheat-sheet)
 - [/] [python-data-science-cheat-sheet](https://github.com/ayorick23/python-data-science-cheat-sheet)
 	- [x] NumPy
-	- [x] Pandas
+	- [/] Pandas
 	- [x] Matplotlib
-	- [ ] Seaborn
+	- [/] Seaborn
 	- [ ] SciPy
-	- [ ] SimPy
+	- [/] SimPy
 	- [ ] Tensorflow
 - [/] [r-cheat-sheet](https://github.com/ayorick23/r-cheat-sheet)
 - [/] [docker-cheat-sheet](https://github.com/ayorick23/docker-cheat-sheet)
