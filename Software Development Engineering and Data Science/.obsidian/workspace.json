@@ -36,27 +36,7 @@
             }
           },
           {
-            "id": "4b3aac7466e6747a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/Lists and Tuples.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Lists and Tuples"
-            }
-          }
-        ]
-      },
-      {
-        "id": "7d7dadaa96c166d0",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "d08fb10fde464b14",
+            "id": "c4edc64e592b2365",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -64,8 +44,23 @@
               "icon": "lucide-git-fork",
               "title": "Vista gráfica"
             }
+          },
+          {
+            "id": "7c35d1783d452ad4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "University Degree Notes/Ciclo 02/Matemática II/Glosario Matemática II.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Glosario Matemática II"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -224,44 +219,44 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d08fb10fde464b14",
+  "active": "81f315ba2591b46f",
   "lastOpenFiles": [
-    "Python/Built-in Functions.md",
-    "Python/Introduction to Python.md",
-    "Python/NumPy/Array Manipulation.md",
-    "Python/Lists and Tuples.md",
-    "Python/Dictionaries.md",
-    "Python/Manipulating Strings.md",
-    "Python/String Formatting.md",
-    "Python/NumPy/Copy and Sort.md",
-    "Python/NumPy/Input and Output.md",
-    "Python/NumPy/Inspecting Arrays.md",
-    "Python/NumPy/Data Types.md",
-    "Python/NumPy/Subsetting - Slicing and Indexing.md",
-    "Python/NumPy/Array Comparison.md",
-    "SQL/Aggregate Functions.md",
-    "Python/NumPy/Mathematical Operations.md",
-    "Python/NumPy/Array Creation.md",
-    "University Degree Notes/Ciclo 01/Programación I/Clase 04 - Listas, Arreglos, Matrices y Estructuras Condicionales.md",
-    "Python/Sets.md",
+    "University Degree Notes/Ciclo 02/Física II/Clase 02 - MAS, MCU y Péndulos.md",
+    "University Degree Notes/Ciclo 02/Programación II/Clase 02 - Métodos y Modificadores de Acceso.md",
+    "University Degree Notes/Ciclo 02/Matemática II/Glosario Matemática II.md",
+    "University Degree Notes/Ciclo 02/Matemática II/Clase 01 - Derivadas Sucesivas y Trascendentes.md",
+    "University Degree Notes/Ciclo 02/Física II/Clase 01.pdf",
+    "University Degree Notes/Ciclo 02/Matemática II/Clase 02 -.md",
+    "University Degree Notes/Ciclo 02/Programación II/Clase 01 - Introducción a Java.md",
     "Python/Functions.md",
     "Python/Control Flow.md",
-    "Python/control_flow.md",
-    "Python/built-in_functions.md",
-    "Python/Matplotlib/Integration with Pandas and Seaborn.md",
-    "Python/Matplotlib/Advanced Plots.md",
+    "Python/Introduction to Python.md",
+    "University Degree Notes/Ciclo 02/Física II/Clase 01 - Movimiento Armónico Simple (MAS).md",
+    "Pasted image 20250715185202.png",
+    "Pasted image 20250715182338.png",
+    "Pasted image 20250715181925.png",
+    "Pasted image 20250707181623.png",
+    "University Degree Notes/Ciclo 02/Comunicación y Redacción/Clase 01 - Generalidades del Lenguaje y la Comunicación.md",
+    "University Degree Notes/Ciclo 02/Bases de Datos I (Relacionales)/Clase 01 - Definición de Base de Datos.md",
+    "Python/Built-in Functions.md",
+    "Python/Lists and Tuples.md",
+    "Repos de GitHub/Repositorios de GitHub.md",
+    "University Degree Notes/Ciclo 01/Sistemas Operativos/Clase 04 - Funciones de un SO.md",
+    "University Degree Notes/Ciclo 01/Sistemas Operativos/Clase 11 - Virtualización, Ventajas y Desventajas.md",
+    "University Degree Notes/Ciclo 01/Sistemas Operativos/Clase 03 - Introducción a la Virtualización.md",
+    "University Degree Notes/Ciclo 01/Sistemas Operativos/Clase 10 - Seguridad de un SO pt. 2.md",
+    "University Degree Notes/Ciclo 01/Sistemas Operativos/Clase 09 - Ponencia de Flutter y Seguridad de un SO pt. 1.md",
+    "University Degree Notes/Ciclo 01/Sistemas Operativos/Clase 08 - Sistemas de Archivos.md",
+    "University Degree Notes/Ciclo 01/Sistemas Operativos/Clase 07 - Dispositivos de Entrada y Salida.md",
+    "University Degree Notes/Ciclo 01/Sistemas Operativos/Clase 4 (2).md",
+    "University Degree Notes/Ciclo 01/Sistemas Operativos/Clase 02 - Introducción a los SO.md",
+    "University Degree Notes/Ciclo 01/Ética/Clase 16 - Ética Profesional.md",
     "Python/Matplotlib/output_33_0.png",
     "Python/Matplotlib/output_32_0.png",
     "Python/Matplotlib/output_31_0.png",
     "Python/Matplotlib/output_30_0.png",
     "Python/Matplotlib/output_29_0.png",
-    "Python/Matplotlib/Subplots and Layouts.md",
     "Python/Matplotlib/output_27_0.png",
-    "Python/Matplotlib/output_25_0.png",
-    "Python/Matplotlib/output_24_0.png",
-    "Python/Matplotlib/output_13_0.png",
-    "Python/Matplotlib/output_28_0.png",
-    "Python/Matplotlib/Basic Plots.md",
     "Templates",
     "Repos de GitHub",
     "Java",
@@ -270,7 +265,6 @@
     "Python/Tensorflow",
     "Python/SymPy",
     "Python/Seaborn",
-    "Python/SciPy",
-    "Python/Pandas"
+    "Python/SciPy"
   ]
 }

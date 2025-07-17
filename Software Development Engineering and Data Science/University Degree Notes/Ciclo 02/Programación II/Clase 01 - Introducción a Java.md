@@ -37,7 +37,7 @@ Un objeto es una instancia de una clase, es decir, una entidad concreta creada a
 ```java
 public class HolaMundo{
 	public static void main(String[] args){
-		
+		System.out.println("Hola Mundo");
 	}
 }
 ```
@@ -50,25 +50,29 @@ public class HolaMundo{
 | short | 16            | 216                        | 65,536                     |       |
 | int   | 32            | 4,294,967,296              | 4,294,967,296              |       |
 | long  | 64            | 18,446,744,073,709,551,616 | 18,446,744,073,709,551,616 |       |
-![[Pasted image 20250707183226.png]]
 
 ## Datos Primitivos Decimales
 
-| Tipo   | Tamaño (bits) | Precisión (bits significativos) | Valores Posibles |
-| ------ | ------------- | ------------------------------- | ---------------- |
-| float  | 32            |                                 | 256              |
-| double | 64            |                                 | 65,536           |
+| Tipo   | Tamaño (bits) | Precisión (bits significativos) | Valor por Defecto |
+| ------ | ------------- | ------------------------------- | ----------------- |
+| float  | 32            | 24 (=7 dígitos decimales)       | 0.0f              |
+| double | 64            | 53 (=15-16 dígitos decimales)   | 0.0d              |
 
 ## Datos Primitivos Char
 
-
-
-![[Pasted image 20250707183412.png]]
+| Tipo | Tamaño (bits) | Rango      | Valores Posibles   | Valor por Defecto |
+| ---- | ------------- | ---------- | ------------------ | ----------------- |
+| char | 16            | 0 a 65,535 | 1 carácter Unicode | '\u000' (null)    |
 
 ## Datos Primitivos Booleanos
 
-
+| Característica    | Valor/Datos                                          |
+| ----------------- | ---------------------------------------------------- |
+| Tamaño            | No está estrictamente definido (generalmente 1 byte) |
+| Valores Posibles  | `true` o `false`                                     |
+| Valor por Defecto | `false` (en variables de clase)                      |
 ## Operadores Aritméticos
+(Similares a los [[Introduction to Python#Operadores Aritméticos|Operadores Aritméticos en Python]])
 
 | Operador | Nombre         | Ejemplo | Resultado (si a = 10, b = 3) |
 | -------- | -------------- | ------- | ---------------------------- |
@@ -80,9 +84,8 @@ public class HolaMundo{
 | ``++``   | Incremento     | a++     | a = 11 (post-incremento)     |
 | ``--``   | Decremento     | a--     | a = 9 (post-decremento)      |
 
-![[Pasted image 20250707183638.png]]
-
 ## Operadores de Asignación
+(Similares a los [[Introduction to Python#Operadores de Asignación|Operadores de Asignación en Python]])
 
 | Operador | Ejemplo    | Equivalente a |
 | -------- | ---------- | ------------- |
@@ -93,13 +96,20 @@ public class HolaMundo{
 | ``/=``   | ``a /= 2`` | ``a = a / 2`` |
 | ``%=``   | ``a %= 3`` | ``a = a % 3`` |
 
-![[Pasted image 20250707183812.png]]
-
 ## Operadores Relacionales (Comparación)
+(Similares a los [[Introduction to Python#Operadores Relacionales|Operadores Relacionales en Python]])
 
-![[Pasted image 20250707183942.png]]
+| Operador | Nombre            | Ejemplo | Resultado (`a = 5`, `b = 3`) |
+| -------- | ----------------- | ------- | ---------------------------- |
+| ==       | Igual a           | a == b  | false                        |
+| !=       | Diferente de      | a != b  | true                         |
+| >        | Mayor que         | a > b   | true                         |
+| <        | Menor que         | a < b   | false                        |
+| >=       | Mayor o igual que | a >= 5  | true                         |
+| <=       | Menor o igual que | a <= 3  | false                        |
 
 ## Operadores Lógicos
+(Similares a los [[Introduction to Python#Operadores Lógicos|Operadores Lógicos en Python]])
 
 | Operador | Nombre             | Ejemplo      | Resultado (a=true, b=false)           |
 | -------- | ------------------ | ------------ | ------------------------------------- |
@@ -115,6 +125,7 @@ if (a > 0 && b > 0):
 ## Estructuras de Control
 
 ### ``if-else``
+(Similar a [[Control Flow#Sentencias Condicionales `if`, `elif`, `else`|if-elif-else en Python]])
 
 Permite ejecutar un bloque de código si se cumple una condición.
 
@@ -147,6 +158,7 @@ if (nota >= 90){
 ```
 
 ### ``switch``
+(Similar a [[Control Flow#Estructura `match`-`case`|match-case en Python]])
 
 Para selección múltiple basada en un valor.
 
@@ -172,6 +184,7 @@ System.out.println(nombreDia);
 ```
 
 ### ``for``
+(Similar a [[Control Flow#Bucle `for`|for en Python]])
 
 Para ejecutar un bloque un número específico de veces.
 
@@ -182,22 +195,33 @@ for (int i = 1; 1 <= 5; i++){
 ```
 
 ### ``while``
+(Similar a [[Control Flow#Bucle `while`|while en Python]])
 
 Ejecuta mientras se cumpla una condición.
 
 ```java
-
+int contador = 1;
+while (contador <= 5){
+	System.out.println("Contador: " + contador);
+	contador++
+}
 ```
 
 ### ``do-while``
+(Similar a [[Control Flow#Bucle `do`-`while`|do-while en Python]])
 
 Similar al while, pero garantiza al menos una ejecución.
 
 ```java
-
+int num = 5;
+do {
+	System.out.println("Número: " + num);
+	num--;
+} while (num > 0);
 ```
 
 ## Estructuras de Salto
+(Similar a las [[Control Flow#Declaraciones de control de bucle|declaraciones de control de bucle en Python]])
 
 ### ``break``
 
@@ -224,6 +248,7 @@ for (int i = 0; 1 < 10; i++) {
 }
 ```
 ### ``return``
+(Similar a los [[Functions#Valores de Retorno|valores de retorno en Python]])
 
 Sale de un método y opcionalmente devuelve un valor.
 
