@@ -1,6 +1,6 @@
 # Data Definition Language (DDL)
 
-En **SQL**, DDL (_Data Definition Language o Lenguaje de Definición de Datos_) se refiere a un conjunto de comandos que se utilizan para definir la estructura de la base de datos. Estos comandos permiten **crear**, **modificar** y **eliminar** objetos de la base de datos, como tablas, vistas, índices, etc.
+En [[Clase 02 - Estándar SQL#Definición de Estándar SQL|SQL]], DDL (_Data Definition Language o Lenguaje de Definición de Datos_) se refiere a un conjunto de comandos que se utilizan para definir la estructura de la base de datos. Estos comandos permiten **crear**, **modificar** y **eliminar** objetos de la base de datos, como tablas, vistas, índices, etc.
 
 ## `CREATE`
 

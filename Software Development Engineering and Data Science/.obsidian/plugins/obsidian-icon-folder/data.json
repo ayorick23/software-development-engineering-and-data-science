@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiInfo",
+      "FabReadme",
       "LiNotebookPen",
       "LiDatabaseZap",
-      "FabGithub",
-      "FabJava",
-      "LiGraduationCap"
+      "FabGithub"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -69,5 +69,9 @@
   "DAX": {
     "iconName": "LiDatabaseZap",
     "iconColor": "#ffbb00"
+  },
+  "README.md.md": {
+    "iconName": "LiInfo",
+    "iconColor": "#1100ff"
   }
 }
