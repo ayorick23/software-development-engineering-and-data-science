@@ -50,45 +50,21 @@
             }
           },
           {
-            "id": "f3bf5123e5e1b8fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "University Degree Notes/Ciclo 02/Bases de Datos I (Relacionales)/Clase 02 - Estándar SQL.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Clase 02 - Estándar SQL"
-            }
-          },
-          {
             "id": "e3bc7cfc013e8bc0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University Degree Notes/Ciclo 02/Bases de Datos I (Relacionales)/Clase 02 - Estándar SQL.md",
+                "file": "University Degree Notes/Ciclo 02/Física II/Clase 02 - MAS, MCU y Péndulos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Clase 02 - Estándar SQL"
-            }
-          },
-          {
-            "id": "e9d5db3a1802da00",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
+              "title": "Clase 02 - MAS, MCU y Péndulos"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -145,8 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "fba2102a22d609e9",
@@ -250,7 +225,22 @@
   },
   "active": "e3bc7cfc013e8bc0",
   "lastOpenFiles": [
+    "University Degree Notes/Ciclo 02/Comunicación y Redacción/Clase 02 - Explicación Técnica.md",
+    "DAX/Date and Time Functions.md",
+    "Repos de GitHub/Repositorios de GitHub.md",
+    "Python/JSON and YAML.md",
+    "Python/json_and_yaml.md",
+    "Python/Files Handling.md",
+    "Python/files_handling.md",
+    "Python/RegEx.md",
+    "Python/regular_expressions.md",
     "University Degree Notes/Ciclo 02/Bases de Datos I (Relacionales)/Clase 02 - Estándar SQL.md",
+    "University Degree Notes/Ciclo 02/Matemática II/Glosario Matemática II.md",
+    "Python/Lists and Tuples.md",
+    "Python/Built-in Functions.md",
+    "Python/Sets.md",
+    "University Degree Notes/Ciclo 02/Física II/Clase 02 - MAS, MCU y Péndulos.md",
+    "University Degree Notes/Ciclo 02/Física II/Clase 02.pdf",
     "University Degree Notes/Ciclo 02/Bases de Datos I (Relacionales)/Clase 01 - Definición de Base de Datos.md",
     "SQL/Aggregate Functions.md",
     "SQL/DQL (Data Query Language).md",
@@ -260,29 +250,14 @@
     "SQL/DML (Data Manipulation Language).md",
     "SQL/Constraints.md",
     "SQL/Advanced Functions.md",
-    "University Degree Notes/Ciclo 02/Matemática II/Glosario Matemática II.md",
-    "Python/Lists and Tuples.md",
-    "University Degree Notes/Ciclo 02/Física II/Clase 02.pdf",
     "University Degree Notes/Ciclo 02/Física II/Clase 01.pdf",
     "University Degree Notes/Ciclo 02/Física II/APUNTES S2.pdf",
     "University Degree Notes/Ciclo 02/Programación II/Clase 02 - Métodos y Modificadores de Acceso.md",
     "README.md.md",
-    "University Degree Notes/Ciclo 02/Física II/Clase 02 - MAS, MCU y Péndulos.md",
-    "University Degree Notes/Ciclo 02/Matemática II/Clase 01 - Derivadas Sucesivas y Trascendentes.md",
-    "University Degree Notes/Ciclo 02/Matemática II/Clase 02 -.md",
-    "University Degree Notes/Ciclo 02/Programación II/Clase 01 - Introducción a Java.md",
-    "Python/Functions.md",
-    "Python/Control Flow.md",
-    "Python/Introduction to Python.md",
-    "University Degree Notes/Ciclo 02/Física II/Clase 01 - Movimiento Armónico Simple (MAS).md",
     "Pasted image 20250715185202.png",
     "Pasted image 20250715182338.png",
     "Pasted image 20250715181925.png",
     "Pasted image 20250707181623.png",
-    "University Degree Notes/Ciclo 02/Comunicación y Redacción/Clase 01 - Generalidades del Lenguaje y la Comunicación.md",
-    "Python/Built-in Functions.md",
-    "Repos de GitHub/Repositorios de GitHub.md",
-    "University Degree Notes/Ciclo 01/Sistemas Operativos/Clase 04 - Funciones de un SO.md",
     "Python/Matplotlib/output_33_0.png",
     "Python/Matplotlib/output_32_0.png",
     "Python/Matplotlib/output_31_0.png",

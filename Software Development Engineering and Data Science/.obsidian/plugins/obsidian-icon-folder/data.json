@@ -69,9 +69,5 @@
   "DAX": {
     "iconName": "LiDatabaseZap",
     "iconColor": "#ffbb00"
-  },
-  "README.md.md": {
-    "iconName": "LiInfo",
-    "iconColor": "#1100ff"
   }
 }
