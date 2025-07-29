@@ -4,7 +4,6 @@ Materia:
   - Programación II
 Fecha de clase: 2025-07-21
 ---
-
 # Herencia
 
 La herencia es uno de los pilares fundamentales de la programación orientada a objetos (POO) en Java. Es un mecanismo que permite crear nuevas clases basadas en clases existentes, promoviendo la reutilización de código y estableciendo relaciones jerárquicas entre clases.

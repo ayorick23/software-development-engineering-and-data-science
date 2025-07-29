@@ -40,7 +40,7 @@ Se utiliza para filtrar filas basándose en una o más condiciones. Solo las fil
 
 ### 4. `GROUP BY` (_Agrupación de Filas_)
 
-Se usa para agrupar filas que tienen los mismos valores en una o más columnas en un conjunto de filas de resumen. Es crucial cuando se utilizan funciones de agregación (`COUNT`, `SUM`, `AVG`, `MIN`, `MAX`).
+Se usa para agrupar filas que tienen los mismos valores en una o más columnas en un conjunto de filas de resumen. Es crucial cuando se utilizan [[Aggregate Functions|funciones de agregación]] (`COUNT`, `SUM`, `AVG`, `MIN`, `MAX`).
 
 ### 5. `HAVING` (_Filtrado de Grupos_)
 
