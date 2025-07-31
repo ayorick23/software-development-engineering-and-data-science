@@ -17,7 +17,7 @@ En Java existen varias formas de realizar la entrada de datos, dependiendo de la
 
 # Array en Java
 
-
+En Java, un array es una estructura de datos que permite almacenar una colección de elementos del mismo tipo en una única variable. Los arrays son de tamaño fijo, lo que significa que su longitud se define al momento de crearlos y no puede ser modificada posteriormente. Cada elemento del array se puede acceder a través de un índice numérico, comenzando desde 0 para el primer elemento.
 
 ## Declaración de un Array
 
@@ -29,11 +29,22 @@ tipo nombreArray[];  // Forma alternativa (menos usada)
 ## Métodos Comunes con Arrays
 
 - `.length`: Devuelve el tamaño del array.
-- Ordenación y búsqueda:
+- **Ordenación y búsqueda:**
 	- `Arrays.sort(array)`: Ordena el array completo.
 	- `Arrays.sort(array, fromIndex, toIndex)`: Ordena un rango del array.
 	- `Arrays.binarySearch(array, key)`: Búsqueda binaria (**el array debe estar ordenado**).
-- Comparación:
+- **Comparación:**
 	- `Arrays.equals(array1, array2)`: Compara si dos arrays son iguales.
 	- `Arrays.deepEquales(array1, array2)`: Para arrays multidimensionales.
-
+- **Relleno:**
+	- `Arrays.fill(array, value)`: Rellena todo el array con un valor.
+	- `Arrays.fill(array, fromIndex, toIndex, value)`: Rellena un rango.
+- **Copia:**
+	- `Arrays.copyOf(original, newLength)`: Copia el array con una nueva longitud.
+	- `Arrays.copyOfRange(original, from to)`: Copia un rango del array.
+- **Conversión a String:**
+	- `Arrays.toString(array)`: Convierte a String legible.
+	- `Arrays.deepToString(array)`: Para arrays multidimensionales.
+- **Otros:**
+	- `Arrays.stream(array)`: Convierte el array a un Stream (Java 8+).
+	- `Arrays.asList(array)`: Convierte el array a una List (lista de tamaño fijo).

@@ -4,6 +4,8 @@ Materia:
   - Matemática II
 Fecha de clase: 2025-07-23
 ---
+
+
 # Derivadas de Funciones Trascendentes
 
 ## Derivación de Funciones Trigonométricas
@@ -92,5 +94,5 @@ Más allá de las fórmulas, ¿qué es la derivada? La derivada tiene dos interp
 ### Interpretación como Razón de Cambio
 
 - La derivada representa la razón de cambio instantánea de una variable con respecto a otra.
-- Es la respuesta a la pregunta: ¿qué tan rápido está cambiando $y$ en el preciso instante en que cambia $x$?
+- Es la respuesta a la pregunta: ¿Qué tan rápido está cambiando $y$ en el preciso instante en que cambia $x$?
 - Ejemplo Clásico: Si $p(t)$ es la posición de un objeto en el tiempo $t$, entonces su derivada $p'(t)$ es la velocidad instantánea del objeto en el tiempo $t$.
