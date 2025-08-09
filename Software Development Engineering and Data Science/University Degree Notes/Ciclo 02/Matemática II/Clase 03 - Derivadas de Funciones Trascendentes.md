@@ -5,7 +5,6 @@ Materia:
 Fecha de clase: 2025-07-23
 ---
 
-
 # Derivadas de Funciones Trascendentes
 
 ## Derivación de Funciones Trigonométricas
@@ -19,18 +18,23 @@ Aquí están las 6 derivadas esenciales. Si el ángulo es una función $u(x)$ en
 $$
 \frac{d}{dx}(sin(u)) = cos(u)·u'
 $$
+
 $$
 \frac{d}{dx}(tan(u)) = sec^2(u)·u'
 $$
+
 $$
 \frac{d}{dx}(sec(u)) = sec(u)tan(u)·u'
 $$
+
 $$
 \frac{d}{dx}(cos(u)) = -sin(u)·u'
 $$
+
 $$
 \frac{d}{dx}(cot(u)) = -csc^2(u)·u'
 $$
+
 $$
 \frac{d}{dx}(csc(u)) = -csc(u)cot(u)·u'
 $$
@@ -46,21 +50,27 @@ Nuevamente, la **Regla de la Cadena** es clave. Si el argumento es una función 
 $$
 \frac{d}{dx}(arcsin(x)) = \frac{1}{\sqrt{1-u^2}}·u'
 $$
+
 $$
 \frac{d}{dx}(arctan(x)) = \frac{1}{1+u^2}·u'
 $$
+
 $$
 \frac{d}{dx}(arcsec(x)) = \frac{1}{|u|\sqrt{u^2-1}}·u'
 $$
+
 $$
 \frac{d}{dx}(arctan(x)) = \frac{1}{1+u^2}·u'
 $$
+
 $$
 \frac{d}{dx}(arcos(x)) = -\frac{1}{\sqrt{1-u^2}}·u'
 $$
+
 $$
 \frac{d}{dx}(arccot(x)) = -\frac{1}{1+u^2}·u'
 $$
+
 $$
 \frac{d}{dx}(arccsc(x)) = -\frac{1}{|u|\sqrt{u^2-1}}·u'
 $$
@@ -72,10 +82,13 @@ La función exponencial describe crecimientos (o decrecimientos) muy rápidos. S
 ### Reglas Fundamentales
 
 - **Base natural $e$:** La función $e^u$ es su propia derivada, multiplicada por la derivada del exponente (regla de la cadena).
+
 $$
 \frac{d}{dx}(e^u) = e^u·u'
 $$
+
 - **Otra base $a$:** Para cualquier base positiva $a$, la derivada es la misma función, pero multiplicada por el logaritmo natural de la base y la derivada del exponente.
+
 $$
 \frac{d}{dx}(a^u) = a^u·ln(a)·u'
 $$
