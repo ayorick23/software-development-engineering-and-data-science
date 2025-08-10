@@ -30,6 +30,7 @@ Las listas son secuencias, lo que significa que sus elementos están ordenados y
 - **Replicación (`*`)**: Crea una nueva lista repitiendo los elementos de una lista existente un número específico de veces.
 
 ### Uso del Bucle `for` con `enumerate` y `zip`
+(Explicación del [[Control Flow#Bucle `for`|bucle for]])
 
 - `for` con `enumerate()`: Permite iterar sobre una lista (u otro iterable) obteniendo tanto el índice como el valor de cada elemento.
 
@@ -52,7 +53,7 @@ Las listas son mutables, lo que significa que puedes añadir, eliminar o modific
 - `append(item)`: Añade un elemento al final de la lista.
 - `insert(indice, item)`: Inserta un elemento en una posición específica de la lista.
 - `del`: Elimina un elemento por su índice o un slice de la lista.
-- `remove(valor)`: Elimina la primera aparición de un valor específico de la lista. Si el valor no existe, lanza un ValueError.
+- `remove(valor)`: Elimina la primera aparición de un valor específico de la lista. Si el valor no existe, lanza un [[Exception Handling#Excepciones Comunes|ValueError]].
 - `pop([indice])`: Elimina y devuelve el elemento en el índice dado. Si no se proporciona un índice, elimina y devuelve el último elemento.
 
 ### Ordenamiento de Listas
@@ -65,7 +66,7 @@ Python ofrece dos formas principales de ordenar listas:
 Ambos aceptan argumentos opcionales:
 
 - `reverse=True`: Para ordenar en orden descendente.
-- `key=funcion`: Una función de un argumento para personalizar el criterio de ordenación (similar a `max()`/`min()`).
+- `key=funcion`: Una función de un argumento para personalizar el criterio de ordenación (similar a [[Built-in Functions#`max()` y `min()`|max()/min()]]).
 
 ## Tuplas
 

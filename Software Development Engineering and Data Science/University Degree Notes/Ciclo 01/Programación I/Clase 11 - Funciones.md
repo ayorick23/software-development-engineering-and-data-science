@@ -5,6 +5,7 @@ Clase: PROGRAMACIÓN I
 Fecha de la clase: 5 de abril de 2025
 
 # Funciones en Python
+(ver [[Functions]])
 
 Una función es un bloque de código reutilizable que realiza una tarea específica. Permiten estructurar el código en partes más pequeñas y manejables, evitando la repetición y facilitando la depuración.
 

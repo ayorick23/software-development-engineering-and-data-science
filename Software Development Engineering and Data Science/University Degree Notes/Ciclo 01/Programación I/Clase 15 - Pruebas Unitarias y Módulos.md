@@ -5,6 +5,7 @@ Clase: PROGRAMACIÓN I
 Fecha de la clase: 3 de mayo de 2025
 
 # Pruebas Unitarias
+(ver [[Testing]])
 
 ## ¿Qué son las pruebas unitarias?
 

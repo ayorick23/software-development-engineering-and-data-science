@@ -4,14 +4,14 @@
 
 ## Archivos JSON
 
-**JSON** es un formato ligero para el intercambio de datos. Es fácil de leer y escribir para los humanos y fácil de parsear y generar para las máquinas. Se basa en una estructura de pares clave-valor (como los diccionarios de Python) y listas (como las listas de Python).
+**JSON** es un formato ligero para el intercambio de datos. Es fácil de leer y escribir para los humanos y fácil de parsear y generar para las máquinas. Se basa en una estructura de pares clave-valor (como los [[Dictionaries|diccionarios]] de Python) y listas (como las [[Lists and Tuples#Listas|listas]] de Python).
 
-Python tiene un módulo incorporado llamado json para trabajar con datos JSON.
+Python tiene un módulo incorporado llamado ``json`` para trabajar con datos JSON.
 
 ### Cargar Datos
 
 - `json.load(file_object)`: Lee un objeto JSON desde un objeto de archivo (ya abierto) y lo deserializa en un objeto Python (típicamente un diccionario o lista).
-- `json.loads(json_string)`: Lee una cadena JSON (string) y la deserializa en un objeto Python.
+- `json.loads(json_string)`: Lee una cadena JSON ([[Clase 02 - Tablas de Verdad y Variables#Cadenas (`string`)|string]]) y la deserializa en un objeto Python.
 
 ### Guardar Datos
 

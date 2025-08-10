@@ -1,6 +1,6 @@
 # Dictionaries
 
-Los **diccionarios** son mutables y se definen utilizando llaves `{}`. Cada par clave-valor se separa por comas, y la clave se separa del valor por dos puntos `:`. Las claves deben ser únicas e inmutables (como cadenas, números o tuplas), mientras que los valores pueden ser de cualquier tipo.
+Los **diccionarios** son mutables y se definen utilizando llaves `{}`. Cada par clave-valor se separa por comas, y la clave se separa del valor por dos puntos `:`. Las claves deben ser únicas e inmutables (como cadenas, números o [[Lists and Tuples#Tuplas|tuplas]]), mientras que los valores pueden ser de cualquier tipo.
 
 ```python
 mi_diccionario = {clave1: valor1, clave2: valor2, clave3: valor3, ...}
@@ -14,11 +14,11 @@ Puedes acceder a un valor en un diccionario utilizando su clave dentro de corche
 valor = mi_diccionario[clave]
 ```
 
-**Importante:** Si intentas acceder a una clave que no existe, Python lanzará un `KeyError`.
+**Importante:** Si intentas acceder a una clave que no existe, Python lanzará un [[Exception Handling#Excepciones Comunes|KeyError]].
 
 ## Métodos para Obtener Vistas
 
-Estos métodos devuelven "vistas" dinámicas de las claves, valores o pares clave-valor del diccionario. Una vista es un objeto que refleja los cambios en el diccionario subyacente.
+Estos métodos devuelven "vistas" (concepto similar a las [[Views|vistas en SQL]]) dinámicas de las claves, valores o pares clave-valor del diccionario. Una vista es un objeto que refleja los cambios en el diccionario subyacente.
 
 - `dict.keys()`: Devuelve una vista de todas las claves del diccionario.
 - `dict.values()`: Devuelve una vista de todos los valores del diccionario.
@@ -37,7 +37,7 @@ valor = mi_diccionario.get(clave, valor_por_defecto)
 
 ## Uso de Diccionarios en Bucles `for`
 
-Puedes iterar sobre diccionarios de varias maneras utilizando bucles for, combinándolos con los métodos `keys()`, `values()` e `items()`.
+Puedes iterar sobre diccionarios de varias maneras utilizando [[Control Flow#Bucle `for`|bucles for]], combinándolos con los métodos `keys()`, `values()` e `items()`.
 
 ## Añadir y Modificar Elementos de Forma Condicional
 

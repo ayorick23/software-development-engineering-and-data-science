@@ -1,6 +1,6 @@
 # String Formatting
 
-El formato de cadenas permite insertar variables y valores en una plantilla de texto de manera controlada.
+El formato de [[Clase 02 - Tablas de Verdad y Variables#Cadenas (`string`)|cadenas]] permite insertar variables y valores en una plantilla de texto de manera controlada.
 
 ## Operador `%`
 
@@ -29,7 +29,7 @@ Introducido en Python 2.6, este método fue una mejora significativa sobre el op
 
 ## F-Strings (_Formatted String Literals_)
 
-Introducidas en Python 3.6, las f-**strings** son la forma más recomendada, moderna y eficiente de formatear cadenas. Son literales de cadena con una `f` o `F` al principio, y te permiten incrustar expresiones de Python directamente dentro de las llaves `{}`.
+Introducidas en Python 3.6, las **f-strings** son la forma más recomendada, moderna y eficiente de formatear cadenas. Son literales de cadena con una `f` o `F` al principio, y te permiten incrustar expresiones de Python directamente dentro de las llaves `{}`.
 
 ```python
 f"Cadena de texto con {variable} y {expresion_python}."
@@ -41,7 +41,7 @@ Las f-strings no solo son convenientes, sino que también ofrecen potentes herra
 
 ### 1. El Especificador `=` para Depuración
 
-Este especificador es increíblemente útil para la depuración. Dentro de una f-string, `variable=` muestra el nombre de la variable, el signo `=` y su valor.
+Este especificador es increíblemente útil para la [[Debugging|depuración]]. Dentro de una f-string, `variable=` muestra el nombre de la variable, el signo `=` y su valor.
 
 ### 2. Agregar Espacios o Caracteres (Relleno)
 

@@ -5,6 +5,7 @@ Clase: PROGRAMACIÓN I
 Fecha de la clase: 26 de abril de 2025
 
 # Archivos en Python
+(ver [[Files Handling]])
 
 Verificar si un archivos existe es una práctica fundamental para evitar errores al intentar leer, modificar o eliminar archivos que podrían no estar presentes.
 

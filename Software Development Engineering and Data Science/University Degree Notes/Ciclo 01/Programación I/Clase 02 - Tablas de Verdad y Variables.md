@@ -24,6 +24,7 @@ Ejemplo:
 ![ejemplo5.jpg](ejemplo5.jpg)
 
 # Operadores Lógicos
+(ver [[Introduction to Python#Operadores Lógicos|Operadores Lógicos]])
 
 ## Tablas de verdad
 

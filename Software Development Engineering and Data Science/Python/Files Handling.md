@@ -22,7 +22,7 @@ ruta_completa = os.path.join('directorio', 'subdirectorio', 'archivo.txt')
 
 ## Módulo `pathlib`
 
-Introducido en Python 3.4, el módulo `pathlib` ofrece una forma orientada a objetos de manejar rutas de archivos, lo que a menudo resulta en código más legible y robusto que el módulo `os.path`. Abstrae las diferencias del sistema operativo de forma nativa.
+Introducido en Python 3.4, el módulo `pathlib` ofrece una forma [[OOP#Object Oriented Programming (OOP)|orientada a objetos]] de manejar rutas de archivos, lo que a menudo resulta en código más legible y robusto que el módulo `os.path`. Abstrae las diferencias del sistema operativo de forma nativa.
 
 ```python
 from pathlib import Path
@@ -40,7 +40,7 @@ Saber dónde se encuentra tu script es crucial para el manejo de archivos relati
 
 Crear directorios es una operación común.
 
-- `os.mkdir(ruta)`: Crea un solo directorio. Lanza un `FileExistsError` si el directorio ya existe.
+- `os.mkdir(ruta)`: Crea un solo directorio. Lanza un [[Exception Handling#Excepciones Comunes|FileExistsError]] si el directorio ya existe.
 - `os.makedirs(ruta, exist_ok=False)`: Crea directorios recursivamente (todos los directorios intermedios necesarios). Si `exist_ok=True`, no lanza un error si el directorio ya existe.
 - `Path.mkdir(parents=False, exist_ok=False)`: La contraparte de `pathlib`. `parents=True` crea directorios intermedios. `exist_ok=True` previene el error si ya existe.
 
@@ -107,7 +107,7 @@ El módulo `shutil` (_shell utilities_) es la herramienta estándar de Python pa
 
 ## Eliminar Archivos y Carpetas
 
-- `os.remove(ruta_archivo)`: Elimina un archivo. Lanza `FileNotFoundError` si no existe o `IsADirectoryError` si es un directorio.
+- `os.remove(ruta_archivo)`: Elimina un archivo. Lanza [[Exception Handling#Excepciones Comunes|FileNotFoundError]] si no existe o `IsADirectoryError` si es un directorio.
 - `os.rmdir(ruta_directorio)`: Elimina un directorio vacío. Lanza `OSError` si el directorio no está vacío.
 - `shutil.rmtree(ruta_directorio)`: Elimina un directorio y todo su contenido recursivamente (**¡Úsalo con precaución!**).
 - `Path.unlink()`: Elimina un archivo.
@@ -115,7 +115,7 @@ El módulo `shutil` (_shell utilities_) es la herramienta estándar de Python pa
 
 ## Recorrido en Árboles de Directorios (`os.walk()`)
 
-El método `os.walk()` es una herramienta extremadamente potente para recorrer recursivamente un árbol de directorios. Genera tuplas `(ruta_actual, nombres_directorios, nombres_archivos)` para cada directorio en el árbol.
+El método `os.walk()` es una herramienta extremadamente potente para recorrer recursivamente un árbol de directorios. Genera [[Lists and Tuples#Tuplas|tuplas]] `(ruta_actual, nombres_directorios, nombres_archivos)` para cada directorio en el árbol. Se recorre con un [[Control Flow#Bucle `for`|bucle for]].
 
 ```python
 for dirpath, dirnames, filenames in os.walk(directorio_raiz):
@@ -125,6 +125,7 @@ for dirpath, dirnames, filenames in os.walk(directorio_raiz):
 ```
 
 ## Lectura y Escritura de Archivos
+(ver [[Clase 09 - Manejo de Archivos]])
 
 Esta es la operación más fundamental: interactuar con el contenido de los archivos. El patrón más común es usar la declaración `with open(...) as f:`, que garantiza que el archivo se cierre automáticamente, incluso si ocurren errores.
 

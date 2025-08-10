@@ -1,6 +1,6 @@
 # Manipulación de Cadenas (Strings)
 
-Las cadenas en Python son secuencias inmutables de caracteres Unicode. Inmutable significa que, una vez creadas, no se pueden modificar en su lugar. Cualquier operación que "modifique" una cadena en realidad crea una nueva cadena.
+Las [[Clase 02 - Tablas de Verdad y Variables#Cadenas (`string`)|cadenas]] en Python son secuencias inmutables de caracteres Unicode. Inmutable significa que, una vez creadas, no se pueden modificar en su lugar. Cualquier operación que "modifique" una cadena en realidad crea una nueva cadena.
 
 ## Secuencias de Escape
 
@@ -19,7 +19,7 @@ Un carácter de escape se crea escribiendo una barra invertida `\` seguida del c
 
 ### Cadenas sin formato
 
-Si necesitas utilizar secuencias de escape sin que sean interpretadas, puedes utilizar cadenas sin formato, precediéndolas con `r` o `R` antes de las comillas.
+Si necesitas utilizar secuencias de escape sin que sean interpretadas, puedes utilizar cadenas sin formato, precediéndolas con `r` o `R` antes de las comillas (ver [[RegEx]]).
 
 ```python
 print(r"C:\Carpeta\Archivo.txt")  # Imprime: C:\Carpeta\Archivo.txt
@@ -27,7 +27,7 @@ print(r"C:\Carpeta\Archivo.txt")  # Imprime: C:\Carpeta\Archivo.txt
 
 ## Cadenas Multilínea
 
-Puedes crear cadenas que abarcan varias líneas utilizando comillas triples (`'''` o `"""`). Esto es muy útil para bloques de texto largos, como documentación o mensajes.
+Puedes crear cadenas que abarcan varias líneas utilizando comillas triples (`'''` o `"""`). Esto es muy útil para bloques de texto largos, como documentación o mensajes (base para los [[Functions#Definición de una Función|docstrings]]).
 
 ```python
 cadena_multilinea = """
@@ -39,7 +39,7 @@ Es muy útil para párrafos largos.
 
 ## Indexación y Slicing
 
-Al igual que las listas y las tuplas, las cadenas son secuencias y, por lo tanto, admiten indexación y slicing para acceder a caracteres o subcadenas.
+Al igual que las listas y las tuplas, las cadenas son secuencias y, por lo tanto, admiten [[Lists and Tuples#Índices y Slicing (_Rebanado_)|indexación y slicing]] para acceder a caracteres o subcadenas.
 
 - **Indexación:** Accede a un carácter individual por su posición. El primer carácter está en el índice `0`. Los índices negativos cuentan desde el final (`-1` es el último carácter).
 - **Slicing (Rebanado):** Extrae una porción de la cadena.
@@ -128,7 +128,7 @@ str.count(sub[, inicio[, fin]])
 
 ## `replace()`
 
-El método replace() devuelve una nueva cadena donde todas las ocurrencias de una subcadena antigua son reemplazadas por una subcadena nueva.
+El método ``replace()`` devuelve una nueva cadena donde todas las ocurrencias de una subcadena antigua son reemplazadas por una subcadena nueva.
 
 ```python
 str.replace(antigua, nueva[, count])

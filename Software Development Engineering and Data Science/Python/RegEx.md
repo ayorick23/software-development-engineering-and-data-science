@@ -2,7 +2,7 @@
 
 Las **expresiones regulares** son herramientas para encontrar patrones en texto. Pueden usarse para tareas como validar formatos de entrada, extraer información específica o reemplazar texto.
 
-## Importa Módulo
+## Importar Módulo
 
 Para trabajar con expresiones regulares en Python, siempre debes importar el módulo `re`.
 
@@ -59,7 +59,7 @@ Los paréntesis `()` en una expresión regular sirven para agrupar partes del pa
 
 ## Grupos con Pipe `|` (OR lógico)
 
-El carácter `|` actúa como un operador "OR" lógico dentro de una expresión regular, permitiéndote coincidir con cualquiera de varios patrones.
+El carácter `|` actúa como un operador [[Introduction to Python#Operadores Lógicos|OR lógico]] dentro de una expresión regular, permitiéndote coincidir con cualquiera de varios patrones.
 
 ```python
 (patron1|patron2|patron3)
