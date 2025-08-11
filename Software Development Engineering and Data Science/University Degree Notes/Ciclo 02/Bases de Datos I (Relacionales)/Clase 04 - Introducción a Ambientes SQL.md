@@ -109,6 +109,7 @@ MODIFY COLUMN columna datatype;
 En el lenguaje de MySQL existen diferentes formas de asignar reglas de validación de datos, las 2 mas importantes para la integridad de los datos son:
 
 ### MySQL ``PRIMARY KEY CONSTRAINT``
+(ver [[Constraints#`PRIMARY KEY` - Clave Primaria|PRIMARY KEY en SQL]])
 
 Se utiliza para identificar de manera única un registro en una tabla. Las llaves primarias deben contener valores "únicos" y no pueden contener valores ``NULL``, es decir no pueden ser nulos.
 
@@ -162,6 +163,7 @@ DROP PRIMARY KEY;
 ```
 
 ### MySQL ``FOREIGN KEY CONSTRAINT``
+(ver [[Constraints#`FOREIGN KEY` - Clave Foránea|FOREIGN KEY en SQL]])
 
 Es usada para que no se destruyan las relaciones entre tablas, es de las sentencias más importantes en SQL para asegurar la integridad de los datos. Una [[Constraints#`FOREIGN KEY` - Clave Foránea|llave foránea]] por definición es un campo (o colección de campos) en una tabla, que hace referencia a la llave primaria de otra tabla.
 

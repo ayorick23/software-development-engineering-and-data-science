@@ -22,7 +22,7 @@ El gestor de contexto es un objeto que debe implementar dos métodos especiales:
 
 Para crear tus propios gestores de contexto de una manera más sencilla (sin tener que definir una clase completa con `__enter__` y `__exit__`), puedes usar el decorador `@contextlib.contextmanager` del módulo `contextlib`.
 
-Este decorador te permite escribir un gestor de contexto como una simple función generadora. La parte del código antes de `yield` actúa como el método `__enter__`, y la parte después de `yield` (en el bloque `finally` para asegurar la limpieza) actúa como el método `__exit__`.
+Este decorador te permite escribir un gestor de contexto como una simple función generadora. La parte del código antes de `yield` actúa como el método `__enter__`, y la parte después de `yield` (en el [[Exception Handling#Bloque `finally`|bloque finally]] para asegurar la limpieza) actúa como el método `__exit__`.
 
 ```python
 import contextlib
@@ -44,7 +44,7 @@ with mi_gestor_funcion("Mi Base de Datos") as db:
 
 ## Clases Basadas en Gestor de Contexto
 
-Aunque `contextlib.contextmanager` es muy conveniente para casos sencillos, para gestores de contexto más complejos que necesitan mantener un estado o tener una lógica más sofisticada, es mejor crear una clase que implemente los métodos `__enter__` y `__exit__`.
+Aunque `contextlib.contextmanager` es muy conveniente para casos sencillos, para gestores de contexto más complejos que necesitan mantener un estado o tener una lógica más sofisticada, es mejor crear una [[OOP#Definición de Clases|clase]] que implemente los métodos `__enter__` y `__exit__`.
 
 ```python
 class MiGestorDeContextoClase:

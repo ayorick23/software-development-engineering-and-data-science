@@ -42,7 +42,7 @@ with open("datos.txt", "r") as archivo:
 	print(contenido)
 ```
 
-El with statement es una construcción en Python que simplifica la gestión de recursos que deben ser limpiados después de su uso. Por ejemplo archivos, conexiones de bases de datos o bloques de código que necesitan liberar recursos específicos.
+El [[Context Manager#Declaración `with`|with statement]] es una construcción en Python que simplifica la gestión de recursos que deben ser limpiados después de su uso. Por ejemplo archivos, conexiones de bases de datos o bloques de código que necesitan liberar recursos específicos.
 
 ## Modos de apertura de archivos
 

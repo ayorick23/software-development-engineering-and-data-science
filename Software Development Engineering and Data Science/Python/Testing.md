@@ -6,7 +6,7 @@ El **testing** en Python es el proceso de verificar el comportamiento de tu cód
 
 Antes de entrar en las herramientas, es vital entender estos conceptos:
 
-- **Prueba Unitaria (Unit Test):** El tipo de prueba más pequeño y fundamental. Aísla una porción de código (generalmente una función o método) y verifica que se comporta correctamente de forma independiente.
+- **Prueba Unitaria (Unit Test):** El tipo de prueba más pequeño y fundamental. Aísla una porción de código (generalmente una [[Functions#Funciones|función]] o [[OOP#Métodos Comportamiento de un Objeto|método]]) y verifica que se comporta correctamente de forma independiente.
 - **Prueba de Integración (Integration Test):** Combina y prueba diferentes partes de tu código (ej. un módulo con una base de datos) para ver si funcionan juntas correctamente.
 - **Prueba de Aceptación/Funcional (Acceptance Test):** Verifica que el sistema completo cumple con los requisitos del usuario. Se asemeja más a cómo un usuario final interactuaría con la aplicación.
 - **Cobertura de Código (Code Coverage):** Mide la cantidad de código fuente que se ha ejecutado durante las pruebas. Un alto porcentaje de cobertura no garantiza la ausencia de bugs, pero indica que gran parte de tu código está siendo probado.

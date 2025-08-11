@@ -4,7 +4,7 @@ Un **entorno virtual** es un directorio auto-contenido que contiene una instalac
 
 ## ¿Por qué son importantes?
 
-- **Aislamiento de Dependencias:** Evitan conflictos entre las versiones de librerías requeridas por diferentes proyectos. Por ejemplo, el Proyecto A podría necesitar `requests` v2.20 y el Proyecto B `requests` v2.28. Sin entornos virtuales, tendrías un conflicto global.
+- **Aislamiento de Dependencias:** Evitan conflictos entre las versiones de librerías requeridas por diferentes proyectos. Por ejemplo, el Proyecto A podría necesitar [[APIs#Consumir APIs Externas con Python|requests]] v2.20 y el Proyecto B `requests` v2.28. Sin entornos virtuales, tendrías un conflicto global.
 - **Limpieza:** Mantienen las librerías de cada proyecto separadas de la instalación global de Python, evitando el "bloat" y facilitando la gestión.
 - **Replicabilidad:** Facilitan compartir tus proyectos. Puedes exportar la lista exacta de dependencias de un entorno virtual, lo que permite a otros desarrolladores (o a ti mismo en otro momento) recrear el mismo entorno fácilmente.
 
@@ -16,7 +16,7 @@ Python viene con módulos incorporados para crear entornos virtuales, siendo los
 
 Es la herramienta de facto para crear entornos virtuales en Python 3.3 y posteriores. Viene integrada con Python.
 
-- **Funcionamiento:** Crea un directorio (`.venv` por convención) que contiene una copia mínima del intérprete de Python, un `pip` propio de ese entorno y directorios para instalar paquetes.
+- **Funcionamiento:** Crea un directorio (`.venv` por convención) que contiene una copia mínima del intérprete de Python, un `pip` propio de ese entorno y directorios para instalar [[Package Managers#Package Managers|paquetes]].
 
 **Uso Recomendado:**
 
@@ -127,7 +127,7 @@ pyenv es un administrador de versiones de Python, no un creador de entornos virt
 
 **Uso Recomendado:**
 
-- **Testing:** Para probar tus aplicaciones en diferentes versiones de Python.
+- **[[Testing#Testing|Testing]]:** Para probar tus aplicaciones en diferentes versiones de Python.
 - Desarrolladores que trabajan con **múltiples proyectos, cada uno requiriendo una versión diferente de Python.**
 
 ### Crear un Entorno Virtual con `pyenv`
@@ -171,6 +171,7 @@ Aquí es donde a menudo hay confusión. Los entornos virtuales de Python y Docke
 - **Uso Típico:** Desarrollo local, garantizar que dos proyectos en tu laptop no se pisen las dependencias.
 
 ### Docker (Contenedorización)
+(ver [[Docker]])
 
 - **Propósito:** Empaquetar una aplicación y todas sus dependencias (código, librerías del sistema, configuraciones, runtime, etc.) en una unidad autónoma y portable llamada contenedor.
 - **Alcance:** A nivel de sistema operativo (ligero) y aplicación completa.

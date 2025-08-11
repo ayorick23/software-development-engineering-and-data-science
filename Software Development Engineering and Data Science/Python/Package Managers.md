@@ -2,7 +2,7 @@
 
 Los **administradores de paquetes** son herramientas que te permiten instalar, actualizar y gestionar las librerías (o "paquetes") de Python que tus proyectos necesitan. El administrador de paquetes estándar para Python es `pip`.
 
-Cuando activas un entorno virtual, el `pip` que utilizas es el `pip` de ese entorno virtual, no el `pip` global de tu sistema. Esto garantiza que los paquetes se instalen solo dentro de tu "caja de arena" del proyecto.
+Cuando activas un [[Virtual Environments#Virtual Environments|entorno virtual]], el `pip` que utilizas es el `pip` de ese entorno virtual, no el `pip` global de tu sistema. Esto garantiza que los paquetes se instalen solo dentro de tu "caja de arena" del proyecto.
 
 ## Instalar Paquetes con `pip`
 
@@ -90,6 +90,6 @@ pip install -r requirements.txt
 `Conda` no es solo un administrador de paquetes de Python, es un administrador de paquetes y entornos independiente del lenguaje. Es especialmente popular en la comunidad de **ciencia de datos e inteligencia artificial**.
 
 - **Funcionamiento:**
-  - Instala paquetes que no son solo de Python (ej. librerías C/C++, R, Java, etc.).
+  - Instala paquetes que no son solo de Python (ej. librerías C/C++, R, [[Clase 01 - Introducción a Java#Historia de Java|Java]], etc.).
   - Crea y gestiona entornos que pueden contener diferentes versiones de Python y librerías, sin depender de `pip` o `PyPI` si no es necesario (tiene su propio repositorio de paquetes, Anaconda o Conda-Forge).
   - Puede resolver dependencias a través de lenguajes y paquetes de sistema.

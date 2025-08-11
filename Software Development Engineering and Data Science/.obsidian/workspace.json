@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Exception Handling.md",
+                "file": "Python/Built-in Functions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Exception Handling"
+              "title": "Built-in Functions"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Decorators.md",
+                "file": "University Degree Notes/Ciclo 02/Bases de Datos I (Relacionales)/Clase 04 - Introducción a Ambientes SQL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Decorators"
+              "title": "Clase 04 - Introducción a Ambientes SQL"
             }
           },
           {
@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University Degree Notes/Ciclo 01/Programación I/Clase 09 - Manejo de Archivos.md",
+                "file": "University Degree Notes/Ciclo 02/Programación II/Clase 04 - Entrada de Datos y Arrays.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Clase 09 - Manejo de Archivos"
+              "title": "Clase 04 - Entrada de Datos y Arrays"
             }
           },
           {
@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Pandas/Data Upload.md",
+                "file": "Python/NumPy/Array Creation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Data Upload"
+              "title": "Array Creation"
             }
           },
           {
@@ -74,7 +74,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -233,34 +233,34 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "81f315ba2591b46f",
+  "active": "2fa22b76352a08ad",
   "lastOpenFiles": [
-    "Python/Pandas/Data Upload.md",
-    "Python/Decorators.md",
-    "Python/OOP.md",
-    "Python/Debugging.md",
-    "University Degree Notes/Ciclo 01/Programación I/Clase 09 - Manejo de Archivos.md",
-    "University Degree Notes/Ciclo 01/Programación I/Clase 15 - Pruebas Unitarias y Módulos.md",
-    "Python/Exception Handling.md",
-    "Python/Introduction to Python.md",
+    "University Degree Notes/Ciclo 02/Bases de Datos I (Relacionales)/Clase 04 - Introducción a Ambientes SQL.md",
+    "University Degree Notes/Ciclo 02/Bases de Datos I (Relacionales)/Clase 03 - Sentencias SQL en MySQL.md",
+    "Python/Built-in Functions.md",
+    "SQL/DML (Data Manipulation Language).md",
+    "University Degree Notes/Ciclo 02/Bases de Datos I (Relacionales)/Clase 02 - Estándar SQL.md",
+    "University Degree Notes/Ciclo 02/Bases de Datos I (Relacionales)/Clase 01 - Definición de Base de Datos.md",
+    "Python/APIs.md",
     "Python/JSON and YAML.md",
+    "Python/Databases.md",
+    "Python/Context Manager.md",
+    "Python/OOP.md",
+    "SQL/DQL (Data Query Language).md",
+    "Python/Package Managers.md",
     "Python/Testing.md",
-    "Python/Files Handling.md",
-    "University Degree Notes/Ciclo 01/Programación I/Clase 14 - Archivos y Directorios.md",
-    "University Degree Notes/Ciclo 01/Programación I/Clase 11 - Funciones.md",
-    "University Degree Notes/Ciclo 01/Programación I/Clase 10 - Archivos CSV.md",
-    "Python/Pandas/Series and Dataframes.md",
+    "Python/Functions.md",
+    "Python/Concurrency.md",
     "Python/Data Structures and Algorithms.md",
-    "Python/String Formatting.md",
-    "University Degree Notes/Ciclo 01/Programación I/Clase 02 - Tablas de Verdad y Variables.md",
-    "Python/Manipulating Strings.md",
-    "University Degree Notes/Ciclo 01/Programación I/Clase 03 - Operadores Aritméticos, Lógicos y de Comparación.md",
-    "Python/Control Flow.md",
-    "University Degree Notes/Ciclo 01/Programación I/Clase 04 - Listas, Arreglos, Matrices y Estructuras Condicionales.md",
-    "University Degree Notes/Ciclo 01/Programación I/Clase 05 - Operador Ternario, Bucles For y While.md",
+    "Python/NumPy/Array Creation.md",
+    "University Degree Notes/Ciclo 02/Programación II/Clase 04 - Entrada de Datos y Arrays.md",
     "University Degree Notes/Ciclo 01/Programación I/Clase 07 - Indexación y Slicing, Collections y Deques.md",
-    "Python/Lists and Tuples.md",
-    "University Degree Notes/Ciclo 01/Programación I/Clase 08 - Tuplas, Diccionarios, Sets y Arrays.md",
+    "University Degree Notes/Ciclo 01/Programación I/Clase 05 - Operador Ternario, Bucles For y While.md",
+    "University Degree Notes/Ciclo 01/Programación I/Clase 04 - Listas, Arreglos, Matrices y Estructuras Condicionales.md",
+    "Python/Virtual Environments.md",
+    "Python/Pandas/Data Upload.md",
+    "University Degree Notes/Ciclo 02/Programación II/Clase 03 - Herencia y Clases Abstractas.md",
+    "Python/Decorators.md",
     "University Degree Notes/Ciclo 02/Física II/Clase 03.pdf",
     "Pasted image 20250729183105.png",
     "University Degree Notes/Ciclo 02/Física II/APUNTES S3.pdf",

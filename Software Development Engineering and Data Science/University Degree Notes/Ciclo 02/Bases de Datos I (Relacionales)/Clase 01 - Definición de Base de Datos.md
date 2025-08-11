@@ -67,6 +67,7 @@ Son hechos conocidos que pueden registrarse y que tienen un significado implíci
 Es todo aquello de lo que interesa guardar datos. **Ejemplos:** Clientes, facturas, productos.
 
 ### Claves Primarias y Claves Foráneas
+(ver [[Constraints|PRIMARY y FOREIGN KEY's en SQL]])
 
 Cada entidad tiene una clave primaria o campo clave o llave que identifica de forma única al conjunto de datos. Cuando en una entidad figura la clave primaria de otra entidad, ésta se denomina clave foránea o clave ajena. Las entidades se **relacionan** entre sí a través de las claves foráneas.
 

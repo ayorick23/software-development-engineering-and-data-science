@@ -22,7 +22,7 @@ def mi_funcion():
 
 ## Decorador para una Función con Parámetros
 
-Si la función que vas a decorar acepta argumentos, tu función `wrapper` dentro del decorador también debe ser capaz de aceptar esos argumentos. Para ello, usamos `*args` y `**kwargs`.
+Si la función que vas a decorar acepta [[Functions#Tipos de Argumentos|argumentos]], tu función `wrapper` dentro del decorador también debe ser capaz de aceptar esos argumentos. Para ello, usamos `*args` y `**kwargs`.
 
 - `*args`: Recoge un número variable de argumentos posicionales en una tupla.
 - `**kwargs`: Recoge un número variable de argumentos de palabra clave en un diccionario.

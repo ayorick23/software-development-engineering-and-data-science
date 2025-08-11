@@ -18,6 +18,7 @@ En 1995, Sun lanzó Java 1.0, destacando su **JVM** (_Java Virtual Machine_) y s
 Hoy, Java es uno de los lenguajes más usados en desarrollo backend, Android (aunque ahora Kotlin es preferido) y sistemas empresariales. Su filosofía de seguridad, portabilidad y comunidad lo mantiene relevante.
 
 ## Definición de una Clase en Java
+(similar a [[OOP#Definición de Clases|Definición de Clases en Python]])
 
 Una clase es como un molde o plantilla que define cómo serán los objetos.
 

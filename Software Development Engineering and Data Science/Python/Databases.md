@@ -6,16 +6,16 @@ La interacción de Python con bases de datos relacionales se realiza principalme
 
 Aunque cada motor de base de datos tendrá un módulo Python ligeramente diferente para la conexión, el flujo general de uso de la DB-API 2.0 es el siguiente:
 
-1. **Importar el módulo del conector:** Cada base de datos tiene su propia librería Python.
+1. **Importar el módulo del conector:** Cada base de datos tiene su propia [[Package Managers#Instalar Paquetes con `pip`|librería Python]].
 2. **Establecer la conexión:** Usar la función de conexión del módulo para crear un objeto `Connection`. Aquí se proporcionan los detalles de la base de datos (host, puerto, usuario, contraseña, nombre de la base de datos).
-3. **Crear un cursor:** El objeto `Cursor` permite ejecutar comandos SQL. Es un iterador que permite recorrer los resultados de una consulta.
-4. **Ejecutar consultas SQL:** Usar el método `execute()` del cursor para enviar comandos SQL (`SELECT`, `INSERT`, `UPDATE`, `DELETE`, `CREATE TABLE`, etc.).
+3. **Crear un cursor:** El objeto `Cursor` permite ejecutar [[DQL (Data Query Language)|comandos SQL]]. Es un iterador que permite recorrer los resultados de una consulta.
+4. **Ejecutar consultas SQL:** Usar el método `execute()` del cursor para enviar [[DML (Data Manipulation Language)|comandos SQL]] (`SELECT`, `INSERT`, `UPDATE`, `DELETE`, `CREATE TABLE`, etc.).
 5. **Obtener resultados (si aplica):** Para consultas `SELECT`, usar métodos como `fetchone()`, `fetchmany()`, o `fetchall()` del cursor para recuperar los datos.
-6. **Confirmar cambios (commit):** Para consultas que modifican la base de datos (`INSERT`, `UPDATE`, `DELETE`), es crucial usar `connection.commit()` para guardar los cambios permanentemente. Si no se hace, los cambios no se aplicarán.
-7. **Deshacer cambios (rollback):** En caso de error o si se desea cancelar los cambios pendientes, se usa `connection.rollback()`.
+6. **Confirmar cambios (commit):** Para consultas que modifican la base de datos (`INSERT`, `UPDATE`, `DELETE`), es crucial usar `connection.commit()` para guardar los cambios permanentemente. Si no se hace, los cambios no se aplicarán (como hacer un [[TCL (Transaction Control Language)#2. `COMMIT` - Confirmar una Transacción|commit en SQL]]).
+7. **Deshacer cambios (rollback):** En caso de error o si se desea cancelar los cambios pendientes, se usa `connection.rollback()` (como hacer un [[TCL (Transaction Control Language)#3. `ROLLBACK` - Revertir una Transacción|rollback en SQL]]).
 8. **Cerrar el cursor y la conexión:** Liberar los recursos cerrando el cursor y luego la conexión (`cursor.close()`, `connection.close()`).
 
-**IMPORTANTE:** Siempre usa bloques `try`...`except`...`finally` o la declaración `with` para asegurar que las conexiones y los cursores se cierren correctamente, incluso si ocurren errores.
+**IMPORTANTE:** Siempre usa bloques `try`...`except`...`finally` ([[Exception Handling]]) o la [[Context Manager#Declaración `with`|declaración with]] para asegurar que las conexiones y los cursores se cierren correctamente, incluso si ocurren errores.
 
 ## Conexión a Motores de Bases de Datos Específicos
 
@@ -29,6 +29,7 @@ Para cada motor de base de datos, primero deberás instalar su respectivo conect
 - **Instalación:** No se necesita instalación adicional.
 
 ## MySQL
+(ver [[Clase 03 - Sentencias SQL en MySQL#¿Qué es MySQL?|¿Qué es MySQL]])
 
 **MySQL** es uno de los sistemas de gestión de bases de datos relacionales de código abierto más populares.
 

@@ -127,7 +127,7 @@ for dirpath, dirnames, filenames in os.walk(directorio_raiz):
 ## Lectura y Escritura de Archivos
 (ver [[Clase 09 - Manejo de Archivos]])
 
-Esta es la operación más fundamental: interactuar con el contenido de los archivos. El patrón más común es usar la declaración `with open(...) as f:`, que garantiza que el archivo se cierre automáticamente, incluso si ocurren errores.
+Esta es la operación más fundamental: interactuar con el contenido de los archivos. El patrón más común es usar la declaración `with open(...) as f:` ([[Context Manager#Declaración `with`|declaración with]]), que garantiza que el archivo se cierre automáticamente, incluso si ocurren errores.
 
 ### Modos de Apertura
 

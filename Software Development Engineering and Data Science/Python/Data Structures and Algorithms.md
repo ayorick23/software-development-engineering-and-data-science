@@ -4,7 +4,7 @@ Las **estructuras de datos** son formas especializadas de organizar, procesar, r
 
 ## Estructuras Nativas
 
-- **Listas (`list`):** Colecciones ordenadas y mutables de elementos (pueden contener diferentes tipos de datos). Ideales para colecciones donde el orden y la mutabilidad son importantes.
+- **[[Lists and Tuples#Listas|Listas]] (`list`):** Colecciones ordenadas y mutables de elementos (pueden contener diferentes tipos de datos). Ideales para colecciones donde el orden y la mutabilidad son importantes.
 
   ```python
   mi_lista = [1, "hola", 3.14, True]
@@ -12,14 +12,14 @@ Las **estructuras de datos** son formas especializadas de organizar, procesar, r
   mi_lista[0] = 10   # Modificar
   ```
 
-- **Tuplas (`tuple`):** Colecciones ordenadas e inmutables. Una vez creadas, no se pueden modificar. Útiles para datos que no deben cambiar o como claves de diccionario (si son inmutables).
+- **[[Lists and Tuples#Tuplas|Tuplas]] (`tuple`):** Colecciones ordenadas e inmutables. Una vez creadas, no se pueden modificar. Útiles para datos que no deben cambiar o como claves de diccionario (si son inmutables).
 
   ```python
   mi_tupla = (1, "hola", 3.14)
   # mi_tupla[0] = 10 # Esto daría un error
   ```
 
-- **Diccionarios (`dict`):** Colecciones desordenadas de pares clave-valor. Mutables. Optimizados para búsquedas rápidas por clave.
+- **[[Dictionaries#Dictionaries|Diccionarios]] (`dict`):** Colecciones desordenadas de pares clave-valor. Mutables. Optimizados para búsquedas rápidas por clave.
 
   ```python
   mi_diccionario = {"nombre": "Ana", "edad": 30}
@@ -27,7 +27,7 @@ Las **estructuras de datos** son formas especializadas de organizar, procesar, r
   print(mi_diccionario["nombre"])
   ```
 
-- **Conjuntos (`set`):** Colecciones desordenadas de elementos únicos. Mutables. Útiles para operaciones matemáticas de conjuntos (unión, intersección) y para eliminar duplicados.
+- **[[Sets#Sets|Conjuntos]] (`set`):** Colecciones desordenadas de elementos únicos. Mutables. Útiles para operaciones matemáticas de conjuntos (unión, intersección) y para eliminar duplicados.
 
   ```python
   mi_set = {1, 2, 3, 2, 4} # {1, 2, 3, 4}
@@ -36,6 +36,7 @@ Las **estructuras de datos** son formas especializadas de organizar, procesar, r
   ```
 
 ## Arrays
+(ver [[Array Creation#Creación de Arrays|Arrayas en Python con Numpy]])
 
 En Python, la `list` nativa es muy versátil, pero no es un array estricto en el sentido de otros lenguajes (donde todos los elementos son del mismo tipo y se almacenan de forma contigua en memoria para mayor eficiencia). Python ofrece el módulo `array` para esto, útil cuando se necesita almacenar grandes cantidades de datos del mismo tipo de manera más eficiente en memoria que una lista.
 
@@ -66,7 +67,7 @@ Una lista enlazada es una colección lineal de elementos de datos, donde cada el
 - **Inserción/Eliminación eficiente:** Rápida, ya que solo hay que cambiar punteros, no reajustar elementos.
 - **Acceso secuencial:** Para acceder a un elemento en particular, se debe recorrer la lista desde el principio hasta el elemento deseado (O(n)).
 - **Uso de memoria:** Puede usar más memoria por elemento debido al almacenamiento de punteros.
-- No es una estructura nativa de Python, pero se implementa comúnmente con clases.
+- No es una estructura nativa de Python, pero se implementa comúnmente con [[OOP#Clases y Objetos Los Fundamentos|clases]].
 
 ### Tipos
 
@@ -158,7 +159,7 @@ Requiere que la colección esté ordenada. Divide repetidamente por la mitad la 
 
 ### Ordenamiento de Burbuja (_Bubble Sort_)
 
-Descripción: Un algoritmo simple que repetidamente recorre la lista, compara elementos adyacentes y los intercambia si están en el orden incorrecto. Las pasadas a través de la lista se repiten hasta que no se necesitan más intercambios, lo que indica que la lista está ordenada.
+Un algoritmo simple que repetidamente recorre la lista, compara elementos adyacentes y los intercambia si están en el orden incorrecto. Las pasadas a través de la lista se repiten hasta que no se necesitan más intercambios, lo que indica que la lista está ordenada.
 
 - **Complejidad:** O($n^2$) - Ineficiente para listas grandes.
 - **Cuándo usar:** Principalmente para propósitos educativos debido a su simplicidad.

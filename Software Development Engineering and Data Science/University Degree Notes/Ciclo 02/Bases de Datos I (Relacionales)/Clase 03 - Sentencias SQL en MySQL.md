@@ -165,6 +165,7 @@ WHERE EXISTS
 ```
 
 ### MySQL ``ANY`` & ``ALL``
+(similar a [[Built-in Functions#`all()` y `any()`|all() y any() en Python]])
 
 **ANY:** devuelve un resultado verdadero si alguno de los valores del subquery cumple con la condición establecida.
 

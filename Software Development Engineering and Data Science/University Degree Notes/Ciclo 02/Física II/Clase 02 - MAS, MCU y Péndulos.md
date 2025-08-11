@@ -9,13 +9,9 @@ Fecha de clase: 2025-07-15
 
 Circunferencia: misma distancia del centro a todas sus aristas.
 
-![[Pasted image 20250715181925.png]]
-
 $A = r$
 $Vmax = A\omega$
 $amax = A\omega ^2$
-
-![[Pasted image 20250715182338.png]]
 
 > **NOTA:** Colocar la notación científica en números grandes
 
@@ -28,7 +24,6 @@ Trabajo se refiere al movimiento.
 
 [[Clase 01 - Movimiento Armónico Simple (MAS)#Movimiento Armónico Simple (MAS)|Amplitud]] positiva ($A$) y negativa ($-A$) van a tener **energía potencial elástica** máxima y su velocidad será 0.
 El punto $x = 0$ la velocidad es máxima, por ende, la **energía cinética** será máxima.
-![[Pasted image 20250715185202.png]]
 
 # Péndulos
 

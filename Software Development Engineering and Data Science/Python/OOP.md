@@ -1,6 +1,6 @@
 # Object Oriented Programming (OOP)
 
-La **Programación Orientada a Objetos** (_POO_) es un paradigma de programación que organiza el diseño del software en torno a objetos en lugar de funciones y lógica. Un objeto es una entidad que combina datos (atributos) y comportamiento (métodos).
+La **Programación Orientada a Objetos** (_POO_) es un paradigma de programación que organiza el diseño del software en torno a objetos en lugar de [[Functions#Funciones|funciones]] y lógica. Un objeto es una entidad que combina datos (atributos) y comportamiento (métodos).
 
 Los cuatro pilares de la POO son:
 
@@ -57,6 +57,7 @@ class NombreDeLaClase:
 ```
 
 ### Métodos: Comportamiento de un Objeto
+(ver [[Clase 02 - Métodos y Modificadores de Acceso#Métodos en Java|Métodos en Java]])
 
 Los métodos son funciones que pertenecen a una clase y definen el comportamiento de sus objetos. Siempre toman `self` como su primer argumento.
 
@@ -64,7 +65,7 @@ Los métodos son funciones que pertenecen a una clase y definen el comportamient
 
 El **encapsulamiento** es el principio de agrupar los datos (_atributos_) y los métodos que operan sobre esos datos dentro de una sola unidad (_la clase_), y restringir el acceso directo a algunos de los componentes del objeto. Esto protege la integridad de los datos y simplifica el uso del objeto.
 
-En Python, el encapsulamiento se logra mediante convenciones de nombrado, ya que no tiene modificadores de acceso estrictos como `private` o `public` de otros lenguajes como Java.
+En Python, el encapsulamiento se logra mediante convenciones de nombrado, ya que no tiene modificadores de acceso estrictos como `private` o `public` de otros lenguajes como Java (ver [[Clase 02 - Métodos y Modificadores de Acceso#Modificadores de Acceso|Modificadores de Acceso en Java]]).
 
 - **Público:** Atributos y métodos accesibles desde cualquier lugar. (Sin prefijo)
 
@@ -85,6 +86,7 @@ En Python, el encapsulamiento se logra mediante convenciones de nombrado, ya que
   ```
 
 ## Abstracción
+(ver [[Clase 03 - Herencia y Clases Abstractas#Clases Abstractas|Clases Abstractas en Java]])
 
 La **abstracción** consiste en mostrar solo los detalles esenciales de un objeto y ocultar la complejidad interna. Permite al usuario interactuar con objetos a un alto nivel, sin preocuparse por cómo funcionan las cosas internamente.
 
@@ -104,6 +106,7 @@ class MiSubclase(MiClaseAbstracta):
 ```
 
 ## Herencia
+(ver [[Clase 03 - Herencia y Clases Abstractas#Herencia|Herencia en Java]])
 
 La **herencia** permite que una clase (clase hija o subclase) herede atributos y métodos de otra clase (clase padre o superclase). Esto promueve la reutilización de código y establece una relación "es un tipo de" (_is-a-kind-of_) entre las clases.
 
@@ -112,7 +115,7 @@ class Subclase(Superclase):
     pass
 ```
 
-- `super().__init__()`: Se usa para llamar al constructor de la clase padre y asegurar que los atributos de la clase padre sean inicializados.
+- `super().__init__()`: Se usa para llamar al constructor de la clase padre y asegurar que los atributos de la clase padre sean inicializados (similar a [[Clase 03 - Herencia y Clases Abstractas#`super`|super en Java]]).
 
 ## Polimorfismo
 
@@ -125,11 +128,11 @@ Python utiliza una serie de métodos especiales, también conocidos como "dunder
 Algunos importantes son:
 
 - `__init__(self, ...)`: Constructor.
-- `__str__(self)`: Representación en cadena legible para humanos (usada por `print()`).
+- `__str__(self)`: Representación en cadena legible para humanos (usada por [[Built-in Functions#`print()`|print()]]).
 - `__repr__(self)`: Representación en cadena para desarrolladores (usada en el intérprete).
 - `__eq__(self, other)`: Compara dos objetos para igualdad (`==`).
-- `__len__(self)`: Define el comportamiento de `len()`.
-- `__getitem__(self, key)`: Define el comportamiento de `[]` para acceso por índice o clave.
+- `__len__(self)`: Define el comportamiento de [[Built-in Functions#`len()`|len()]].
+- `__getitem__(self, key)`: Define el comportamiento de `[]` para acceso por índice o clave (para el [[Lists and Tuples#Índices y Slicing (_Rebanado_)|slicing]]).
 - `__setitem__(self, key, value)`: Define el comportamiento de asignación `[] =`.
 - `__delitem__(self, key)`: Define el comportamiento de `del obj[key]`.
 - `__call__(self, *args, **kwargs)`: Permite que una instancia de un objeto sea llamada como una función.
@@ -142,7 +145,7 @@ Las **propiedades** en Python te permiten definir métodos que se comportan como
 - Validar datos antes de asignarlos a un atributo.
 - Calcular el valor de un atributo "bajo demanda".
 
-Se implementan usando el decorador `@property` para el getter, y `@nombre_atributo.setter`, `@nombre_atributo.deleter` para los métodos de establecer y eliminar, respectivamente.
+Se implementan usando el [[Decorators#Decorators|decorador]] `@property` para el getter, y `@nombre_atributo.setter`, `@nombre_atributo.deleter` para los métodos de establecer y eliminar, respectivamente.
 
 ## Métodos de Clase y Métodos Estáticos
 
@@ -152,6 +155,7 @@ Además de los métodos de instancia (que usan `self`), Python ofrece:
 - **Métodos Estáticos (`@staticmethod`)**: No operan sobre la instancia ni sobre la clase. No reciben `self` ni `cls`. Son funciones que lógicamente pertenecen a la clase, pero no necesitan acceder a sus datos internos. Son como funciones normales, pero se organizan dentro de una clase para mejorar la modularidad.
 
 ## Herencia Múltiple y `MRO`
+(ver [[Clase 03 - Herencia y Clases Abstractas#Herencia Simple y Multinivel|Herencia Simple y Multinivel en Java]])
 
 Python permite la **herencia múltiple**, donde una clase puede heredar de varias clases base. Si hay métodos o atributos con el mismo nombre en diferentes clases padre, Python sigue un **Orden de Resolución de Métodos (MRO)** para determinar cuál se debe usar. El MRO se basa en un algoritmo llamado C3 linearization.
 
@@ -161,4 +165,4 @@ Puedes ver el MRO de una clase usando `Clase.mro()` o `help(Clase)`.
 
 La **sobrecarga de métodos**, en términos generales, permite definir múltiples métodos con el mismo nombre pero con diferentes listas de parámetros (tipos y/o cantidad) dentro de una misma clase. Al llamar al método, el compilador (o intérprete) determina cuál de las versiones debe ejecutarse basándose en los argumentos proporcionados.
 
-En Python, la sobrecarga de métodos, como característica inherente, **no existe como en otros lenguajes como Java o C++**. Sin embargo, se puede lograr un comportamiento similar mediante el uso de argumentos por defecto, argumentos variables (\*args, \*\*kwargs) y la comprobación de tipos dentro de un mismo método.
+En Python, la sobrecarga de métodos, como característica inherente, **no existe como en otros lenguajes como Java o C++**. Sin embargo, se puede lograr un comportamiento similar mediante el uso de argumentos por defecto, [[Functions#Tipos de Argumentos|argumentos variables]] (\*args, \*\*kwargs) y la comprobación de tipos dentro de un mismo método.
