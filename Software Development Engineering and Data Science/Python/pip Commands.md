@@ -1,4 +1,5 @@
 # Principales Comandos `pip`
+(de [[Package Managers]])
 
 | Comando Principal | Subcomando/Opción Relevante | Descripción                                                                | Ejemplo de Uso                                            |
 | ----------------- | --------------------------- | -------------------------------------------------------------------------- | --------------------------------------------------------- |
