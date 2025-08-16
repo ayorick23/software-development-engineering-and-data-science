@@ -57,5 +57,3 @@ Esto representa una clara falta de transparencia, veracidad y compromiso profesi
 Ha habido denuncias contra personal médico o administrativo por divulgar información personal de pacientes, especialmente en temas sensibles como VIH o salud mental.
 
 Aquí se transgrede el principio de confidencialidad y respeto a la dignidad humana.
-
-![image.png](image.png)

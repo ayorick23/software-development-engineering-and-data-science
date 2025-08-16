@@ -72,5 +72,3 @@ La importancia es que nos proporciona una forma de entendernos a nosotros mismos
 **TAREA:** presentar la guía en PDF sobre la película “Cadena de favores”.
 
 </aside>
-
-###

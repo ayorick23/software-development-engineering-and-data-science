@@ -12,8 +12,6 @@ La **virtualización de servidores** es una tecnología que permite ejecutar mú
 
 ### Beneficios de la Virtualización
 
-![image.png](image.png)
-
 - Optimización de recursos
 - Reducción de costos
 - Mejora de la eficiencia operativa
@@ -26,8 +24,6 @@ La **virtualización de servidores** es una tecnología que permite ejecutar mú
 - Hiperconvergencias
     - DELL (VXRAIL) y LENOVO (NUTANIX)
 
-![image.png](image%201.png)
-
 ### Virtualización en la Nube
 
 - Microsoft Azure
@@ -37,7 +33,3 @@ La **virtualización de servidores** es una tecnología que permite ejecutar mú
 
 - Azure Arc
 - Ventaja Híbrida de Azure
-
-![image.png](image%202.png)
-
-2

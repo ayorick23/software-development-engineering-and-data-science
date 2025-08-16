@@ -10,11 +10,11 @@ Comprender el comportamiento de las funciones es fundamental en diversas discipl
 
 ## Criterio de la Primera Derivada: Monotonicidad y Puntos Críticos
 
-La primera derivada de una función, $f'(x)$ o $\frac{dy}{dx}$ , nos informa sobre la tasa de cambio de la función original y su monotonicidad (si es creciente o decreciente).
+La [[Glosario Matemática II#Primera Derivada ($f'(x)$ o $ frac{dy}{dx}$)|primera derivada]] de una función, $f'(x)$ o $\frac{dy}{dx}$ , nos informa sobre la tasa de cambio de la función original y su [[Glosario Matemática II#Monotonicidad|monotonicidad]] (si es creciente o decreciente).
 
 ### Puntos Críticos
 
-Un punto crítico de una función $f(x)$ es un valor $c$ en el dominio de $f$ donde $f'(c) = 0$ o $f'(c)$ no existe. Estos puntos son candidatos a ser máximos locales, mínimos locales o puntos de inflexión.
+Un [[Glosario Matemática II#Punto Crítico|punto crítico]] de una función $f(x)$ es un valor $c$ en el dominio de $f$ donde $f'(c) = 0$ o $f'(c)$ no existe. Estos puntos son candidatos a ser [[Glosario Matemática II#Máximo Local|máximos locales]], [[Glosario Matemática II#Mínimo Local|mínimos locales]] o [[Glosario Matemática II#Punto de Inflexión|puntos de inflexión]].
 
 ### Criterio de la Primera Derivada para Monotonicidad
 
@@ -24,13 +24,14 @@ Sea $f$ una función continua en un intervalo $I$ y derivable en el interior de 
 
 ## Criterio de la Segunda Derivada: Concavidad y Clasificación de Extremos
 
-La segunda derivada, $f''(x)$ o $\frac{d^2y}{dx^2}$, nos proporciona información sobre la concavidad de la función y nos permite clasificar los puntos críticos identificados con la primera derivada.
+La [[Glosario Matemática II#Segunda Derivada ($f''(x)$ o $ frac{d 2y}{dx 2}$)|segunda derivada]], $f''(x)$ o $\frac{d^2y}{dx^2}$, nos proporciona información sobre la concavidad de la función y nos permite clasificar los puntos críticos identificados con la primera derivada.
 
 ### Concavidad
+([[Glosario Matemática II#Concavidad|Definición]])
 
 Sea $f$ una función derivable en un intervalo $I$.
-- Si $f''(x) > 0$ para todo $x$ en $I$, entonces $f(x)$ es cóncava hacia arriba (o convexa) en $I$.
-- Si $f''(x) < 0$ para todo $x$ en $I$, entonces $f(x)$ es cóncava hacia abajo en $I$.
+- Si $f''(x) > 0$ para todo $x$ en $I$, entonces $f(x)$ es [[Glosario Matemática II#Cóncava hacia Arriba|cóncava hacia arriba]] (o convexa) en $I$.
+- Si $f''(x) < 0$ para todo $x$ en $I$, entonces $f(x)$ es [[Glosario Matemática II#Cóncava hacia Abajo|cóncava hacia abajo]] en $I$.
 - Un punto de inflexión es un punto donde la concavidad de la función cambia. Esto ocurre típicamente donde $f''(x) = 0$ o $f''(x)$ no existe.
 
 ### Criterio de la Segunda Derivada para Extremos Locales

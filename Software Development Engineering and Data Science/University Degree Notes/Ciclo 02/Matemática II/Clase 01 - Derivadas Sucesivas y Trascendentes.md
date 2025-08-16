@@ -8,9 +8,9 @@ Fecha de clase: 2025-07-09
 
 ## Derivadas Sucesivas
 
-Las derivadas sucesivas representan el proceso de derivar repetidamente una función:
-- Primera derivada: $f'(x)$ - tasa de cambio
-- Segunda derivada: $f''(x)$ - aceleración
+Las [[Glosario Matemática II#Derivadas Sucesivas (de Orden Superior)|derivadas sucesivas]] representan el proceso de derivar repetidamente una función:
+- [[Glosario Matemática II#Primera Derivada ($f'(x)$ o $ frac{dy}{dx}$)|Primera derivada]]: $f'(x)$ - tasa de cambio
+- [[Glosario Matemática II#Segunda Derivada ($f''(x)$ o $ frac{d 2y}{dx 2}$)|Segunda derivada]]: $f''(x)$ - aceleración
 - Tercera derivada: $f'''(x)$ - cambio en aceleración
 - Enésima derivada: $f(n)(x)$
 
@@ -18,14 +18,14 @@ Dependiendo de la naturaleza de la función, las derivadas pueden continuar inde
 
 ## Funciones Trascendentes
 
-Las funciones trascendentes son aquellas que no pueden expresarse mediante operaciones algebraicas finitas (no son polinómicas ni algebraicas).
-- Exponenciales
+Las [[Glosario Matemática II#Funciones Trascendentes|funciones trascendentes]] son aquellas que no pueden expresarse mediante operaciones algebraicas finitas (no son polinómicas ni algebraicas).
+- [[Glosario Matemática II#Función Exponencial Natural|Exponenciales]]
 	- $f(x) = ex, ax$
 	- Crecimiento/decremento a ritmo proporcional a su valor
-- Logarítmicas
+- [[Glosario Matemática II#Función Logaritmo Natural|Logarítmicas]]
 	- $f(x) = ln(x), loga(x)$
 	- Inversas de las exponenciales, crecimiento lento
-- Trigonométricas
+- [[Glosario Matemática II#Funciones Trigonométricas|Trigonométricas]]
 	- $sin(x), cos(x), tan(x)$
 	- Modelan fenómenos periódicos y ondulatorios
 
@@ -41,7 +41,7 @@ Las funciones trascendentes son aquellas que no pueden expresarse mediante opera
 
 ## Derivadas de Funciones Trigonométricas Inversas
 
-Las funciones trigonométricas inversas son operaciones que "deshacen" las funciones trigonométricas estándar. Sus derivadas se obtienen aplicando la regla de la función inversa:
+Las [[Glosario Matemática II#Funciones Trigonométricas Inversas ($Arc-funciones$)|funciones trigonométricas inversas]] son operaciones que "deshacen" las funciones trigonométricas estándar. Sus derivadas se obtienen aplicando la regla de la función inversa:
 
 $$
 \frac{d}{dx}f^-1(x)=\frac{1}{f'(f^-1(x))}
@@ -51,7 +51,7 @@ Estas derivadas son fundamentales en cálculo integral, donde aparecen en patron
 
 ## Tabla: Derivadas Trigonométricas Inversas
 
-1. Derivada del Arcoseno (arcsin)
+1. [[Glosario Matemática II#Derivada de $Arcsen(x)$|Derivada del Arcoseno (arcsin)]]
 $$
 \frac{d}{dx}arcsin(x)=\frac{1}{\sqrt(1-x^2)}
 $$
@@ -63,7 +63,7 @@ $$
 $$
 Observe el signo negativo comparado con $arcsin$.
 
-3. Derivada del Arcotangente (arctan)
+3. [[Glosario Matemática II#Derivada de $Arctan(x)$|Derivada del Arcotangente (arctan)]]
 $$
 \frac{d}{dx}arctan(x)=\frac{1}{1+x^2}
 $$

@@ -9,7 +9,6 @@ Fecha de la clase: 29 de marzo de 2025
 - Afectan a muchas personas
 - Tienen consecuencias negativas
 - Requieren soluciones colectivas
-- 
 
 ### Pobreza y desigualdad económica
 

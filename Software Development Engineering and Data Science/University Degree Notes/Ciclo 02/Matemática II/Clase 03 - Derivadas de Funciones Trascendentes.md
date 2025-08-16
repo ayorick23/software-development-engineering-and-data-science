@@ -4,16 +4,15 @@ Materia:
   - Matemática II
 Fecha de clase: 2025-07-23
 ---
-
 # Derivadas de Funciones Trascendentes
 
 ## Derivación de Funciones Trigonométricas
 
-Las funciones trigonométricas describen ciclos y ondas, y sus derivadas nos muestran cómo cambian en cada instante. Para derivarlas, usamos un conjunto de reglas básicas que siempre debes tener a mano.
+Las [[Glosario Matemática II#Funciones Trigonométricas|funciones trigonométricas]] describen ciclos y ondas, y sus derivadas nos muestran cómo cambian en cada instante. Para derivarlas, usamos un conjunto de reglas básicas que siempre debes tener a mano.
 
 ### Reglas Fundamentales
 
-Aquí están las 6 derivadas esenciales. Si el ángulo es una función $u(x)$ en lugar de solo $x$, aplicamos la **Regla de la Cadena**, multiplicando por la derivada interna $u'$.
+Aquí están las 6 derivadas esenciales. Si el ángulo es una función $u(x)$ en lugar de solo $x$, aplicamos la [[Glosario Matemática II#Regla de la Cadena|Regla de la Cadena]], multiplicando por la derivada interna $u'$.
 
 $$
 \frac{d}{dx}(sin(u)) = cos(u)·u'

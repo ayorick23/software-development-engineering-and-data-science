@@ -191,9 +191,6 @@ Permite que los dispositivos sean mas compactos y ligeros, facilitando el uso di
 
 La conectividad se esta volviendo esencial, permitiendo la integración de múltiples tecnologías en un solo dispositivo, mejorando la accesibilidad.
 
-# Rango de velocidades
-
-![image 5.png](image 5.png)
 
 ```java
 import java.io.IOException;

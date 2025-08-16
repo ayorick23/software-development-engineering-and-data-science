@@ -46,10 +46,6 @@ La memoria caché guarda rutas dentro de la ROM
 | 10 nseg | Disco magnético | 200-1000 GB |
 | 100 nseg | Cinta magnética | 400-800 GB |
 
-![image.png](image.png)
-
-![image.png](image%201.png)
-
 ### 3. Gestión de almacenamiento
 
 - Administra el acceso a los discos duros, SSDs y otros dispositivos de almacenamiento.

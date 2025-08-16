@@ -19,10 +19,6 @@ Diagramas de flujo en LucidChart (ya tengo cuenta)
 
 No tienen un estándar, los símbolos pueden variar
 
-Ejemplo:
-
-![ejemplo5.jpg](ejemplo5.jpg)
-
 # Operadores Lógicos
 (ver [[Introduction to Python#Operadores Lógicos|Operadores Lógicos]])
 

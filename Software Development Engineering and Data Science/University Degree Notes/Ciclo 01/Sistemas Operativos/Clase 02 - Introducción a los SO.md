@@ -12,8 +12,6 @@ El kernel es el que nos permite comunicarnos con el hardware, luego viene el GUI
 
 Todo el sistema operativo se ejecuta como un solo programa en modo kernel.
 
-![1689366598453.png](1689366598453.png)
-
 ### Características
 
 1. **Un solo núcleo.** Todas las funciones dele sistema operativos están integradas en un solo módulo.
@@ -46,8 +44,6 @@ Todo el sistema operativo se ejecuta como un solo programa en modo kernel.
 ## Sistemas de capas
 
 Es un diseño estructurado donde las funcionalidades del SO se dividen en diferentes capas, cada una de las cuales cumple un rol específico y se comunica únicamente con las capas adyacentes.
-
-![300px-Figura11.png](300px-Figura11.png)
 
 ### Características
 
@@ -89,8 +85,6 @@ Es un diseño estructurado donde las funcionalidades del SO se dividen en difere
 ## Sistemas de microkernels
 
 Es un tipo de SO donde el núcleo (kernel) es reducido al mínimo indispensable. Este enfoque se centra en que el kernel solo maneje las funciones básicas esenciales, como la comunicación entre procesos, gestión del CPU y la memoria.
-
-![450_1000.png](450_1000.png)
 
 ### Características
 
@@ -139,8 +133,6 @@ Sistema embebidos (en los microondas)
 
 Es un modelo de sistema operativo que organiza sus funciones y servicios en dos partes, el cliente y el servidor.
 
-![diagrama-cliente-servidor.jpeg.webp](diagrama-cliente-servidor.jpeg.webp)
-
 ### Características
 
 1. **Arquitectura distribuida.** Los clientes y servidores pueden ejecutarse en la misma máquina o en máquinas diferentes dentro de una red.
@@ -175,8 +167,6 @@ Es un modelo de sistema operativo que organiza sus funciones y servicios en dos 
 # Máquinas Virtuales
 
 Es un sistema operativo diseñado para crear, administrar y ejecutar múltiples máquinas virtuales (VMs) sobre un único hardware físico.
-
-![Imagen1.png](Imagen1.png)
 
 ### Características
 

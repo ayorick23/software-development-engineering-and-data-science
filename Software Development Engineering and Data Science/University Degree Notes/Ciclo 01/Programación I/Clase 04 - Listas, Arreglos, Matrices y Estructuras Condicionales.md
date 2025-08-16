@@ -61,7 +61,6 @@ La `‘i’` al principio del arreglo hace referencia al soporte de número de b
 ## Matrices
 
 > La biblioteca [[Array Creation#Introducción a NumPy|NumPy]], es una extensión destinada específicamente a realizar cálculos numéricos eficientes, se utiliza con frecuente para implementar matrices en Python. Es posible que la matrices sean unidimensionales, bidimensionales o multidimensionales.
-> 
 
 ### Especificaciones
 
@@ -101,8 +100,6 @@ Las estructuras condicionales permiten que un programa tome decisiones evaluando
 
 - Permiten responder a diferentes situaciones en un programa.
 - Se usan en validaciones de datos, cálculos, lógica de negocios, juegos, etc.
-
-![image.png](image.png)
 
 ## Uso de if, elif, else
 (ver [[Control Flow#Sentencias Condicionales `if`, `elif`, `else`|Sentencias Condicionales if, elif, else]])

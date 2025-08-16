@@ -6,7 +6,7 @@ Fecha de clase: 2025-07-30
 ---
 # Derivación Implícita
 
-La derivación implícita es una técnica que se utiliza para encontrar la derivada de una variable con respecto a otra cuando la función no está en su forma explícita, es decir, no está despejada como $y = f(x)$. En su lugar, tenemos una ecuación que define una relación entre $x$ e $y$, como $x^2 + y ^2 = 25$.
+La [[Glosario Matemática II#Derivación Implícita|Regla de la Cadena]] es una técnica que se utiliza para encontrar la derivada de una variable con respecto a otra cuando la función no está en su forma explícita, es decir, no está despejada como $y = f(x)$. En su lugar, tenemos una ecuación que define una relación entre $x$ e $y$, como $x^2 + y ^2 = 25$.
 
 El método consiste en derivar ambos lados de la ecuación con respecto a $x$ y luego resolver algebraicamente para $\frac{dy}{dx}$ . La clave es recordar que $y$ es una función de $x (y = y(x))$, por lo que al derivar términos que contienen a $y$, debemos aplicar la Regla de la Cadena.
 
