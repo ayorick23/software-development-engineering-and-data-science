@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University Degree Notes/Ciclo 02/Bases de Datos I (Relacionales)/Clase 05 - MySQL Workbench.md",
+                "file": "University Degree Notes/Ciclo 02/Comunicación y Redacción/Clase 05 - Comunicación en Ámbito de Ingeniería.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Clase 05 - MySQL Workbench"
+              "title": "Clase 05 - Comunicación en Ámbito de Ingeniería"
             }
           },
           {
@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University Degree Notes/Ciclo 02/Matemática II/Glosario Matemática II.md",
+                "file": "University Degree Notes/Ciclo 02/Matemática II/Clase 02 - Criterios de la Derivada.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Glosario Matemática II"
+              "title": "Clase 02 - Criterios de la Derivada"
             }
           }
         ],
@@ -240,9 +240,12 @@
   },
   "active": "08d4446be32f2c54",
   "lastOpenFiles": [
+    "University Degree Notes/Ciclo 02/Matemática II/Clase 02 - Criterios de la Derivada.md",
+    "University Degree Notes/Ciclo 02/Comunicación y Redacción/Clase 05 - Comunicación en Ámbito de Ingeniería.md",
     "University Degree Notes/Ciclo 02/Matemática II/Glosario Matemática II.md",
-    "SQL/DML (Data Manipulation Language).md",
+    "University Degree Notes/Ciclo 02/Comunicación y Redacción/Clase 04 -.md",
     "University Degree Notes/Ciclo 02/Bases de Datos I (Relacionales)/Clase 05 - MySQL Workbench.md",
+    "SQL/DML (Data Manipulation Language).md",
     "University Degree Notes/Ciclo 02/Bases de Datos I (Relacionales)/Clase 02 - Estándar SQL.md",
     "University Degree Notes/Ciclo 02/Bases de Datos I (Relacionales)/Clase 03 - Sentencias SQL en MySQL.md",
     "University Degree Notes/Ciclo 02/Bases de Datos I (Relacionales)/Clase 04 - Introducción a Ambientes SQL.md",
@@ -263,9 +266,6 @@
     "University Degree Notes/Ciclo 01/Sistemas Operativos/Clase 11 - Virtualización, Ventajas y Desventajas.md",
     "University Degree Notes/Ciclo 01/Sistemas Operativos/Clase 10 - Seguridad de un SO pt. 2.md",
     "University Degree Notes/Ciclo 01/Sistemas Operativos/Clase 09 - Ponencia de Flutter y Seguridad de un SO pt. 1.md",
-    "University Degree Notes/Ciclo 01/Sistemas Operativos/Clase 08 - Sistemas de Archivos.md",
-    "University Degree Notes/Ciclo 01/Sistemas Operativos/Clase 07 - Dispositivos de Entrada y Salida.md",
-    "image.md",
     "Pasted image 20250813182550.png",
     "University Degree Notes/Ciclo 02/Física II/Clase 03.pdf",
     "Pasted image 20250729183105.png",
