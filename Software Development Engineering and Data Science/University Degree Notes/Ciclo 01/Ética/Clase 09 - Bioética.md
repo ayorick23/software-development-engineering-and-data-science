@@ -5,6 +5,7 @@ Clase: ÉTICA
 Fecha de la clase: 22 de marzo de 2025
 
 # La Bioética
+(derivada de [[Clase 02 - Tipos de Sanciones y Éticas]])
 
 Es una disciplina que se ocupa de los dilemas morales y éticos que surgen en el ámbito de la biología y la medicina. Esta rama del conocimiento aborda las implicaciones éticas de los avances científicos y tecnológicos relacionados con la vida humana, la salud
 
@@ -26,7 +27,7 @@ Es una disciplina que se ocupa de los dilemas morales y éticos que surgen en el
 
 - Bioética clínica
 - Bioética de la investigación
-- Bioética ambiental
+- Bioética [[Clase 14 - Ética Aplicada y Educación Ambiental#Ética ambiental|ambiental]]
 - Bioética animal
 
 Cada una de estas ramas tiene sus propias normas y desafíos, pero todas comparten el objetivo común.

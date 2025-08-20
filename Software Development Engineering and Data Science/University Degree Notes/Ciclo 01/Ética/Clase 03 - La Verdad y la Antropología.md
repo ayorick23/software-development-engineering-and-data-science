@@ -48,7 +48,7 @@ Objeto de estudio de la antropología, la humanidad como un todo.
 
 ### ¿Cómo se divide la antropología filosófica?
 
-1. Ético: explora y examina las implicaciones morales de las acciones y decisiones del ser humano. ¿se ajustan a los valores de cada época? ¿dichas decisiones ayudan o perjudican a los demás?
+1. [[Clase 02 - Tipos de Sanciones y Éticas#Ética descriptiva|Ético]]: explora y examina las implicaciones morales de las acciones y decisiones del ser humano. ¿se ajustan a los valores de cada época? ¿dichas decisiones ayudan o perjudican a los demás?
 2. Pragmático: busca considerar cómo funcionan las cosas en el mundo real. Que pensaban nuestros antepasados cuando surgían dudas como: ¿Cómo puedo mejorar mi vida? ¿Qué significa “mejor”?
 3. Científico: el enfoque científico examina cuerpo y mente, explorando cómo funcionan juntos (o no). ¿Cómo afectan las enfermedades mentales a la capacidad de vivir una vida mejor?
 

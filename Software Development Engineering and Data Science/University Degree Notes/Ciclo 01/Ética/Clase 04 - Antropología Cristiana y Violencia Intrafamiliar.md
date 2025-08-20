@@ -6,7 +6,7 @@ Fecha de la clase: 15 de febrero de 2025
 
 ### Antropología Cristiana
 
-Es una rama de la antropología que estudia al ser humano desde la perspectiva cristiana. En lugar de enfocarse exclusivamente en los aspectos biológicos, sociales o culturales del ser humano, se centra en 
+Es una rama de [[Clase 03 - La Verdad y la Antropología#La antropología|la antropología]] que estudia al ser humano desde la perspectiva cristiana. En lugar de enfocarse exclusivamente en los aspectos biológicos, sociales o culturales del ser humano, se centra en 
 
 Se ocupa de cuestiones como la creación, el pecado, la redención, la libertad humana y la vida eterna.
 

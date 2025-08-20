@@ -64,21 +64,27 @@
             }
           },
           {
-            "id": "7e292a6af0aaf087",
+            "id": "45e92bc143d58d51",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "University Degree Notes/Ciclo 02/Matemática II/Clase 02 - Criterios de la Derivada.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista gráfica"
+            }
+          },
+          {
+            "id": "8163ec4df88427b0",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Clase 02 - Criterios de la Derivada"
+              "title": "Nueva pestaña"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -135,8 +141,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "fba2102a22d609e9",
@@ -228,6 +233,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Crear nueva base": false,
       "switcher:Abrir selector rápido": false,
       "graph:Abrir vista gráfica": false,
       "canvas:Crear nuevo lienzo": false,
@@ -238,10 +244,24 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "08d4446be32f2c54",
+  "active": "8163ec4df88427b0",
   "lastOpenFiles": [
-    "University Degree Notes/Ciclo 02/Matemática II/Clase 02 - Criterios de la Derivada.md",
+    "DAX/DAX Operators.md",
+    "DAX/Logical Functions.md",
+    "DAX/Text Functions.md",
+    "University Degree Notes/Ciclo 01/Ética/Clase 16 - Ética Profesional.md",
+    "University Degree Notes/Ciclo 01/Ética/Clase 03 - La Verdad y la Antropología.md",
+    "University Degree Notes/Ciclo 01/Ética/Clase 04 - Antropología Cristiana y Violencia Intrafamiliar.md",
+    "University Degree Notes/Ciclo 01/Ética/Clase 05 - Axiología.md",
+    "University Degree Notes/Ciclo 01/Ética/Clase 10 - Desigualdad.md",
+    "University Degree Notes/Ciclo 01/Ética/Clase 09 - Bioética.md",
+    "University Degree Notes/Ciclo 01/Ética/Clase 07 - Ética Cristiana.md",
+    "University Degree Notes/Ciclo 01/Ética/Clase 02 - Tipos de Sanciones y Éticas.md",
+    "University Degree Notes/Ciclo 01/Ética/Clase 14 - Ética Aplicada y Educación Ambiental.md",
+    "University Degree Notes/Ciclo 02/Física II/Clase 05 - Sonido.md",
+    "University Degree Notes/Ciclo 02/Programación II/Clase 01 - Introducción a Java.md",
     "University Degree Notes/Ciclo 02/Comunicación y Redacción/Clase 05 - Comunicación en Ámbito de Ingeniería.md",
+    "University Degree Notes/Ciclo 02/Matemática II/Clase 02 - Criterios de la Derivada.md",
     "University Degree Notes/Ciclo 02/Matemática II/Glosario Matemática II.md",
     "University Degree Notes/Ciclo 02/Comunicación y Redacción/Clase 04 -.md",
     "University Degree Notes/Ciclo 02/Bases de Datos I (Relacionales)/Clase 05 - MySQL Workbench.md",
@@ -252,20 +272,6 @@
     "University Degree Notes/Ciclo 02/Bases de Datos I (Relacionales)/Clase 01 - Definición de Base de Datos.md",
     "University Degree Notes/Ciclo 02/Matemática II/Clase 04 - Derivación Implícita, Raíces y Método de Newton.md",
     "University Degree Notes/Ciclo 01/Programación I/Clase 04 - Listas, Arreglos, Matrices y Estructuras Condicionales.md",
-    "University Degree Notes/Ciclo 02/Matemática II/Clase 05 - Repaso para el Parcial.md",
-    "University Degree Notes/Ciclo 01/Programación I/Clase 02 - Tablas de Verdad y Variables.md",
-    "University Degree Notes/Ciclo 01/Ética/Clase 16 - Ética Profesional.md",
-    "University Degree Notes/Ciclo 01/Ética/Clase 14 - Ética Aplicada y Educación Ambiental.md",
-    "University Degree Notes/Ciclo 01/Ética/Clase 10 - Desigualdad.md",
-    "University Degree Notes/Ciclo 01/Ética/Clase 09 - Bioética.md",
-    "University Degree Notes/Ciclo 01/Ética/Clase 07 - Ética Cristiana.md",
-    "University Degree Notes/Ciclo 01/Ética/Clase 05 - Axiología.md",
-    "University Degree Notes/Ciclo 01/Ética/Clase 04 - Antropología Cristiana y Violencia Intrafamiliar.md",
-    "University Degree Notes/Ciclo 01/Ética/Clase 03 - La Verdad y la Antropología.md",
-    "University Degree Notes/Ciclo 01/Ética/Clase 02 - Tipos de Sanciones y Éticas.md",
-    "University Degree Notes/Ciclo 01/Sistemas Operativos/Clase 11 - Virtualización, Ventajas y Desventajas.md",
-    "University Degree Notes/Ciclo 01/Sistemas Operativos/Clase 10 - Seguridad de un SO pt. 2.md",
-    "University Degree Notes/Ciclo 01/Sistemas Operativos/Clase 09 - Ponencia de Flutter y Seguridad de un SO pt. 1.md",
     "Pasted image 20250813182550.png",
     "University Degree Notes/Ciclo 02/Física II/Clase 03.pdf",
     "Pasted image 20250729183105.png",

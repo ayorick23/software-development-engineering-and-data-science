@@ -16,7 +16,7 @@ La ética profesional es una rama de la ética aplicada que se encarga de estudi
 - Garantizar un comportamiento justo y equitativo.
 - Proteger el interés público.
 - Fortalecer la reputación y credibilidad de la profesión.
-- Prevenir conflictos de interés, negligencia, corrupción o abuso de poder.
+- Prevenir conflictos de interés, negligencia, [[Clase 10 - Desigualdad#Corrupción|corrupción]] o abuso de poder.
 
 ## Principios básicos de la Ética Profesional
 
@@ -25,7 +25,7 @@ La ética profesional es una rama de la ética aplicada que se encarga de estudi
 - **Justicia:** tratar a todos de manera equitativa.
 - **Respeto:** hacia colegas, clientes y normas institucionales.
 - **Confidencialidad:** proteger la información privada o sensible.
-- **Lealtad:** hacia la profesión y la verdad, por encima de intereses personales.
+- **Lealtad:** hacia la profesión y la [[Clase 03 - La Verdad y la Antropología#¿Qué es la verdad?|verdad]], por encima de intereses personales.
 
 ## Dimensiones de la Ética Profesional
 

@@ -72,6 +72,7 @@ La ética descriptiva, por su naturaleza, desempeña funciones completamente dis
 Esta rama nos proporciona el marco para evaluar nuestras acciones, ofreciendo teorías 
 
 ## Ética profesional
+(ver [[Clase 16 - Ética Profesional]])
 
 Se relaciona con las acciones que se ejercen en una determinada profesión, y tiene como objetivo velar el adecuado accionar profesional.
 

@@ -5,6 +5,7 @@ Clase: ÉTICA
 Fecha de la clase: 8 de marzo de 2025
 
 ## Ética Cristiana
+(proveniente de [[Clase 02 - Tipos de Sanciones y Éticas]])
 
 ### ¿Cuáles son mis deberes?
 
@@ -18,4 +19,3 @@ Fecha de la clase: 8 de marzo de 2025
 - Honrar al padre y a la madre
 - Respeto a la vida
 - La ley del perdón
--

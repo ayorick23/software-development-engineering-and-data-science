@@ -11,6 +11,7 @@ Fecha de la clase: 22 de febrero de 2025
 3. Debo cambiar…
 
 # Axiología
+(derivada de la [[Clase 03 - La Verdad y la Antropología#La antropología|Antropología]])
 
 Es una rama de la filosofía que estudia los valores, especialmente los valores morales, estéticos
 
@@ -25,7 +26,7 @@ Se exploran cuestiones como:
 
 ## Valores Intrínsecos
 
-Son aquellos que poseen el valor por sí mismos, ind
+Son aquellos que poseen el valor por sí mismos.
 
 Ejemplos de valores intrínsecos
 
@@ -60,9 +61,9 @@ Incluyen el bien, la verdad o la belleza
 
 Falta de valores dentro de nuestra sociedad
 
-- Corrupción política y social
+- [[Clase 10 - Desigualdad#Corrupción|Corrupción]] política y social
 - Violencia y crimen
-- Desigualdad social y económica
+- [[Clase 10 - Desigualdad#Pobreza y desigualdad económica|Desigualdad económica]] y social
 - Crisis medioambiental
 - Egoísmo y materialismo
 - Desconfianza en las instituciones públicas

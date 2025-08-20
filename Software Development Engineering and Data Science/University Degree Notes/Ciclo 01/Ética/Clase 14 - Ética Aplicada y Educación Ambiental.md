@@ -4,6 +4,7 @@ Fecha de creación: 26 de abril de 2025 18:10
 Clase: ÉTICA
 
 # Ética Aplicada
+(proveniente de [[Clase 02 - Tipos de Sanciones y Éticas]])
 
 ## Ética ambiental
 
