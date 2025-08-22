@@ -1,6 +1,6 @@
 # Advanced Functions
 
-Las funciones en SQL son herramientas poderosas que te permiten manipular y transformar los datos directamente dentro de tus consultas. Más allá de las [[Aggregate Functions|funciones de agregación]], SQL ofrece una rica variedad de funciones para trabajar con texto, números, fechas y lógica condicional. Estas funciones son cruciales para limpiar datos, formatear resultados y realizar análisis más complejos.
+Las funciones en SQL son herramientas poderosas que te permiten manipular y transformar los datos directamente dentro de tus consultas. Más allá de las [[SQL/Aggregate Functions|funciones de agregación]], SQL ofrece una rica variedad de funciones para trabajar con texto, números, fechas y lógica condicional. Estas funciones son cruciales para limpiar datos, formatear resultados y realizar análisis más complejos.
 
 ## 1. String Functions (_Funciones de Texto_)
 

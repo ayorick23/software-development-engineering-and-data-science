@@ -129,7 +129,7 @@ SELECT columnas FROM tabla2;
 
 Agrupa los registros que tienen el mismo valor dentro de registros sumarizados.
 
-Se utiliza con [[Aggregate Functions|funciones de agregación]] como son: ``COUNT()``, ``MAX()``, ``MIN()``, ``SUM()``, ``AVG()``.
+Se utiliza con [[SQL/Aggregate Functions|funciones de agregación]] como son: ``COUNT()``, ``MAX()``, ``MIN()``, ``SUM()``, ``AVG()``.
 
 ```sql
 SELECT columnas

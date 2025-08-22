@@ -1,22 +1,59 @@
 # Declaraciones DAX
 
-En DAX, una declaración se refiere a una expresión que define o calcula un valor. Estas declaraciones pueden ser medidas, columnas calculadas, o incluso variables dentro de una fórmula más grande. DAX utiliza declaraciones para crear lógica personalizada en Power BI y otros modelos de datos de Microsoft.
+En DAX, una **declaración** es la forma en que defines y nombras una expresión para que pueda ser utilizada en tu modelo. Las tres declaraciones principales son las **Medidas**, las **Columnas Calculadas** y las **Variables**. Entender la diferencia entre ellas es crucial para el modelado de datos eficiente y para crear fórmulas claras y de alto rendimiento.
 
-## Tipos de Declaraciones en DAX
+## Medidas: Cálculos Dinámicos
 
-### Medidas
+Una **medida** es una declaración que define un cálculo de agregación, como una suma o un promedio. A diferencia de las columnas, las medidas no almacenan el resultado en tu modelo de datos; se calculan dinámicamente en el momento en que se visualizan en un informe, ajustándose al contexto de filtro.
 
-Son cálculos definidos por el usuario que se evalúan en el contexto de la segmentación de datos y filas de una tabla. Se utilizan para agregar, resumir o analizar datos.
+### Cuándo usar medidas
 
-### Columnas Calculadas
+- Para cálculos que dependen del contexto de un filtro (por ejemplo, el total de ventas para una región o un año específico).
+- Para agregar datos.
+- Son más eficientes en términos de memoria, ya que no guardan valores para cada fila.
 
-Son columnas agregadas a una tabla existente con valores calculados por una expresión DAX. La expresión se evalúa para cada fila de la tabla.
+### Sintaxis
 
-- `COLUMN(<table>[<column>] = <expression>)`: Almacena el resultado de una expresión como una columna en una tabla.
-- `ORDER BY(<table>[<column>])`: Define el orden de una columna. Cada columna puede ordenarse en orden ascendente (`ASC`) o descendente (`DESC`).
+```dax
+Total Ventas = SUM(Ventas[Importe])
+```
 
-### Variables
+**Importante:** Se pueden usar en visualizaciones como gráficos de barras, tarjetas o tablas dinámicas.
 
-Se utilizan para almacenar resultados de expresiones intermedias dentro de una medida o columna calculada. Esto ayuda a mejorar la legibilidad y el rendimiento de las expresiones complejas.
+## Columnas Calculadas: Nuevos Atributos en el Modelo
 
-- `VAR(<name> = <expression>)`: Almacena el resultado de una expresión como una variable con nombre. Para devolver la variable, utilice `RETURN` después de definirla.
+Una **columna calculada** es una declaración que agrega una nueva columna a una tabla existente. La expresión DAX se evalúa fila por fila y el resultado se almacena en el modelo de datos. Este valor se recalcula solo cuando se actualiza el modelo.
+
+### Cuándo usar columnas calculadas
+
+- Para crear nuevos atributos que no existen en los datos originales, como una categoría de edad o un margen de beneficio por transacción.
+- Cuando necesitas una columna para una segmentación de datos, un eje en un gráfico o para una relación con otra tabla.
+
+### Sintaxis
+
+```dax
+Margen de Beneficio = Ventas[Ingreso] - Ventas[Costo]
+```
+
+**Consideraciones:** Consumen memoria. Si puedes lograr el mismo resultado con una medida, es preferible usar la medida para optimizar el rendimiento.
+
+## Variables: Optimizando la Lectura y el Rendimiento
+
+Las **variables (`VAR`)** son declaraciones que almacenan temporalmente el resultado de una expresión. Son increíblemente útiles dentro de medidas o columnas calculadas para mejorar la legibilidad y evitar repetir cálculos.
+
+### Cuándo usar variables
+
+- Para descomponer una fórmula compleja en pasos más pequeños y comprensibles.
+- Para capturar un resultado que necesitas reutilizar varias veces, lo que evita que DAX lo recalcule, mejorando así el rendimiento.
+
+### Sintaxis
+
+```dax
+Total Ventas vs Año Pasado =
+VAR VentasEsteAño = SUM(Ventas[Importe])
+VAR VentasAñoPasado = CALCULATE(SUM(Ventas[Importe]), SAMEPERIODLASTYEAR('Calendario'[Date]))
+RETURN
+   VentasEsteAño - VentasAñoPasado
+```
+
+**Importante:** Una declaración `VAR` debe ser seguida por un `RETURN` (misma lógica de [[Functions#Valores de Retorno|Valores de Retorno en Python]]) que especifica qué valor debe devolver la medida o la columna.

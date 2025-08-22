@@ -186,7 +186,7 @@ WHERE columnaN LIKE patrón;
 ```
 
 ## Funciones de Agregación
-(ver [[Aggregate Functions]])
+(ver [[SQL/Aggregate Functions]])
 
 Las funciones de agregación (en inglés: aggregate functions) se utilizan para realizar cálculos de un conjunto de valores que retornan un solo valor.
 

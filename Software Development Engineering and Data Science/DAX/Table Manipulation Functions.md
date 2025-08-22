@@ -1,15 +1,100 @@
 # Funciones de Manipulación de Tablas
 
-En DAX, las funciones de manipulación de tablas permiten crear nuevas tablas o modificar las existentes para realizar análisis más detallados. Estas funciones son esenciales para transformar datos y obtener información valiosa. Similares a algunas funciones [[DQL (Data Query Language)|DQL]] y [[Joins|JOIN's de SQL]].
+Las **funciones de manipulación de tablas** en DAX te permiten crear, modificar y combinar tablas en la memoria. Son esenciales para realizar análisis complejos, ya que te dan la flexibilidad de transformar tus datos para una pregunta específica, sin alterar tu modelo.
 
-## Funciones Principales
+## Agregación y Resumen
 
-- `SUMMARIZE(<table>, <groupBy_columnName>[, <groupBy_columnName>]…[, <name>, <expression>]…)`: Devuelve una tabla de resumen de los totales solicitados para un conjunto de grupos.
-- `DISTINCT(<table>)`: Devuelve una tabla eliminando filas duplicadas de otra tabla o expresión.
-- `ADDCOLUMNS(<table>, <name>, <expression>[, <name>, <expression>]…)`: Agrega columnas calculadas a la tabla o expresión de tabla dada.
-- `SELECTCOLUMNS(<table>, <name>, <expression>[, <name>, <expression>]…)`: Selecciona columnas calculadas de la tabla o expresión de tabla dada.
-- `GROUPBY(<table> [, <groupBy_columnName>[, [<column_name>] [<expression>]]…)`: Cree un resumen de la tabla de entrada agrupada por columnas específicas.
-- `INTERSECT(<left_table>, <right_table>)`: Devuelve las filas de la tabla del lado izquierdo que aparecen en la tabla del lado derecho.
-- `NATURALINNERJOIN(<left_table>, <right_table>)`: Une dos tablas mediante una unión interna.
-- `NATURALLEFTOUTERJOIN(<left_table>, <right_table>)`: Une dos tablas mediante una unión externa izquierda.
-- `UNION(<table>, <table>[, <table> [,…]])`: Devuelve la unión de tablas con columnas coincidentes.
+Estas funciones te permiten resumir una tabla de datos en una nueva tabla más pequeña, agrupando los datos por una o más columnas y calculando agregaciones para cada grupo.
+
+### SUMMARIZE()
+
+Crea una tabla de resumen. Es ideal para crear tablas de agrupamiento sencillas. Aunque es la función más conocida, a menudo se considera una función heredada debido a su comportamiento en el contexto de la transición de fila.
+
+```dax
+SUMMARIZE(<tabla>, <columna_agrupar_por>... , <nombre>, <expresión>...)
+```
+
+Rápido y efectivo para agrupaciones simples.
+
+### GROUPBY()
+(misma lógica de [[DQL (Data Query Language)#4. `GROUP BY` (_Agrupación de Filas_)|GROUP BY en SQL]])
+
+Similar a `SUMMARIZE`, pero con un comportamiento más predecible y la capacidad de anidar [[DAX/Aggregate Functions#Agregaciones Clásicas (Funciones Simples)|agregaciones]]. Es la función moderna preferida por muchos expertos en DAX para agrupar y resumir datos.
+
+```dax
+GROUPBY(<table>, <columna_agrupar_por>..., <nombre>, <expresión>...)
+```
+
+Recomendado para crear tablas de resumen.
+
+## Modificación de Tablas
+
+Estas funciones no resumen los datos, sino que crean una nueva versión de una tabla existente con cambios específicos.
+
+### ADDCOLUMNS()
+
+Agrega nuevas [[DAX Statements#Columnas Calculadas Nuevos Atributos en el Modelo|columnas calculadas]] a una tabla existente. Es ideal para enriquecer una tabla con información adicional en tiempo real.
+
+```dax
+ADDCOLUMNS(<table>, <nombre>, <expresión>...)
+```
+
+Para crear una tabla con métricas adicionales para un análisis temporal.
+
+### SELECTCOLUMNS()
+
+Crea una nueva tabla seleccionando solo las columnas que necesitas. Es una forma efectiva de reducir la cantidad de datos en memoria y simplificar una tabla para un cálculo específico.
+
+```dax
+SELECTCOLUMNS(<table>, <nombre>, <expresión>...)
+```
+
+Cuando solo necesitas un subconjunto de columnas.
+
+## Combinación de Tablas
+(misma lógica de los [[Joins|Joins en SQL]])
+
+Estas funciones te permiten combinar o comparar tablas, lo cual es útil para escenarios donde necesitas consolidar datos de múltiples fuentes o encontrar valores comunes.
+
+### UNION()
+
+Combina dos o más tablas en una sola. Las tablas deben tener el mismo número de columnas y los tipos de datos en las columnas correspondientes deben ser compatibles. Los nombres de las columnas se toman de la primera tabla.
+
+```dax
+UNION(<table>, <table>...)
+```
+
+Para consolidar datos de ventas de diferentes años o regiones.
+
+### INTERSECT()
+
+Devuelve una tabla con las filas que son comunes en ambas tablas.
+
+```dax
+INTERSECT(<tabla1>, <tabla2>)
+```
+
+Para identificar los clientes que compraron tanto el Producto A como el Producto B.
+
+### NATURALINNERJOIN() y NATURALLEFTOUTERJOIN()
+
+Unen dos tablas basándose en columnas con los mismos nombres. `NATURALINNERJOIN` solo mantiene las filas que tienen coincidencias en ambas tablas, mientras que `NATURALLEFTOUTERJOIN` mantiene todas las filas de la tabla izquierda, agregando `BLANK` si no hay coincidencias en la derecha.
+
+```dax
+NATURALINNERJOIN(<tabla1>, <tabla2>)
+NATURALLEFTOUTERJOIN(<tabla1>, <tabla2>)
+```
+
+Útiles para uniones simples en tiempo real.
+
+## Otras Funciones
+
+### DISTINCT()
+
+Devuelve una tabla con los valores únicos de una columna o las filas únicas de una tabla. Es útil para obtener una lista de valores sin duplicados.
+
+```dax
+DISTINCT(<columna> | <table>)
+```
+
+Para obtener una lista de clientes únicos, productos únicos, etc.

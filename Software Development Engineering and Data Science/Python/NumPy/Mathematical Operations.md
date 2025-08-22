@@ -174,7 +174,7 @@ print(f"Tangente de arr1 en grados: {tangente}")
 
 ## Statistical Operations
 
-Las operaciones estadísticas ([[Aggregate Functions|funciones de agregación en SQL]]) se realizan utilizando funciones que permiten calcular resúmenes numéricos de los datos contenidos en arrays. Estas funciones son esenciales para el análisis de datos, permitiendo obtener información relevante como la media, la mediana, la desviación estándar, entre otros.
+Las operaciones estadísticas ([[SQL/Aggregate Functions|funciones de agregación en SQL]]) se realizan utilizando funciones que permiten calcular resúmenes numéricos de los datos contenidos en arrays. Estas funciones son esenciales para el análisis de datos, permitiendo obtener información relevante como la media, la mediana, la desviación estándar, entre otros.
 
 - ``np.sum(array)``: Calcula la suma de todos los elementos del array.
 

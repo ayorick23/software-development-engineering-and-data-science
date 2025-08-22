@@ -34,7 +34,7 @@ END;
 Las **funciones** en SQL son similares a los procedimientos almacenados en que son bloques de código precompilados. Sin embargo, tienen diferencias fundamentales:
 
 - **Siempre devuelven un valor:** Una función siempre debe devolver un único valor escalar (o una tabla, en el caso de las funciones con valor de tabla).
-- **Pueden ser utilizadas en expresiones SQL:** Puedes usar funciones directamente en sentencias [[DML (Data Manipulation Language)#`SELECT`|SELECT]], [[DQL (Data Query Language)#3. `WHERE` (_Filtrado de Filas_)|WHERE]], [[DQL (Data Query Language)#5. `HAVING` (_Filtrado de Grupos_)|HAVING]], [[DQL (Data Query Language)#6. `ORDER BY` (_Ordenación de Resultados_)|ORDER BY]], etc., al igual que las funciones de agregación ([[Aggregate Functions#`SUM()` - Sumar Valores|SUM()]], [[Aggregate Functions#`AVG()` - Calcular el Promedio|AVG()]]).
+- **Pueden ser utilizadas en expresiones SQL:** Puedes usar funciones directamente en sentencias [[DML (Data Manipulation Language)#`SELECT`|SELECT]], [[DQL (Data Query Language)#3. `WHERE` (_Filtrado de Filas_)|WHERE]], [[DQL (Data Query Language)#5. `HAVING` (_Filtrado de Grupos_)|HAVING]], [[DQL (Data Query Language)#6. `ORDER BY` (_Ordenación de Resultados_)|ORDER BY]], etc., al igual que las funciones de agregación ([[SQL/Aggregate Functions#`SUM()` - Sumar Valores|SUM()]], [[SQL/Aggregate Functions#`AVG()` - Calcular el Promedio|AVG()]]).
 - **Restricciones:** Generalmente, las funciones no pueden realizar operaciones [[DML (Data Manipulation Language)|DML]] (`INSERT`, `UPDATE`, `DELETE`) directamente en las tablas (depende del DBMS y el tipo de función). Son principalmente para cálculos y consultas.
 - **Parámetros:** Solo aceptan parámetros de entrada.
 

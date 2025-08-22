@@ -1,6 +1,6 @@
 # Window Functions
 
-Las **Funciones de Ventana** (_Window Functions_) son una de las características más avanzadas y potentes de SQL. Permiten realizar cálculos sobre un conjunto de filas relacionadas con la fila actual, conocido como "ventana", sin agrupar el resultado de la consulta. A diferencia de las [[Aggregate Functions|funciones de agregación estándar]] (`SUM`, `AVG`, `COUNT`), las funciones de ventana no colapsan las filas; es decir, el número de filas en el resultado de la consulta es el mismo que en la entrada, pero a cada fila se le añade un valor calculado basado en su ventana.
+Las **Funciones de Ventana** (_Window Functions_) son una de las características más avanzadas y potentes de SQL. Permiten realizar cálculos sobre un conjunto de filas relacionadas con la fila actual, conocido como "ventana", sin agrupar el resultado de la consulta. A diferencia de las [[SQL/Aggregate Functions|funciones de agregación estándar]] (`SUM`, `AVG`, `COUNT`), las funciones de ventana no colapsan las filas; es decir, el número de filas en el resultado de la consulta es el mismo que en la entrada, pero a cada fila se le añade un valor calculado basado en su ventana.
 
 Las funciones de ventana son increíblemente útiles para tareas como calcular promedios móviles, clasificar resultados, calcular sumas acumuladas, o comparar valores entre filas relacionadas.
 
