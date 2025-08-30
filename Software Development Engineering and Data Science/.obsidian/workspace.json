@@ -4,53 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "71bf1145a292ae4f",
+        "id": "a8b75064b3c99145",
         "type": "tabs",
         "children": [
           {
-            "id": "0905a01bf05df3ab",
+            "id": "acbe0257351a89c4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Built-in Functions.md",
+                "file": "University Degree Notes/Ciclo 02/Matemática II/Clase 07 - Notación Sigma, Área, Integral Definida y Propiedades.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Built-in Functions"
+              "title": "Clase 07 - Notación Sigma, Área, Integral Definida y Propiedades"
             }
           },
           {
-            "id": "81f315ba2591b46f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "University Degree Notes/Ciclo 02/Bases de Datos I (Relacionales)/Clase 04 - Introducción a Ambientes SQL.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Clase 04 - Introducción a Ambientes SQL"
-            }
-          },
-          {
-            "id": "6b2f6e45275a2d75",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/Data Structures and Algorithms.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Data Structures and Algorithms"
-            }
-          },
-          {
-            "id": "45e92bc143d58d51",
+            "id": "8cb5819af64cb629",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -58,9 +30,23 @@
               "icon": "lucide-git-fork",
               "title": "Vista gráfica"
             }
+          },
+          {
+            "id": "d3f8d67090b7a4af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "University Degree Notes/Ciclo 02/Matemática II/Glosario Matemática II.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Glosario Matemática II"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -220,11 +206,27 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "45e92bc143d58d51",
+  "active": "8cb5819af64cb629",
   "lastOpenFiles": [
-    "Python/Data Structures and Algorithms.md",
+    "University Degree Notes/Ciclo 02/Matemática II/Clase 07 - Notación Sigma, Área, Integral Definida y Propiedades.md",
+    "University Degree Notes/Ciclo 02/Matemática II/Glosario Matemática II.md",
     "Sin título 1.base",
     "Sin título.base",
+    "Python/Built-in Functions.md",
+    "University Degree Notes/Ciclo 02/Bases de Datos I (Relacionales)/Clase 04 - Introducción a Ambientes SQL.md",
+    "University Degree Notes/Ciclo 02/Bases de Datos I (Relacionales)/Clase 07 - Funciones en MySQL.md",
+    "Python/Data Structures and Algorithms.md",
+    "University Degree Notes/Ciclo 02/Programación II/Clase 07 - Concurrencia en Java.md",
+    "University Degree Notes/Ciclo 02/Comunicación y Redacción/Clase 03 - Escritura.md",
+    "University Degree Notes/Ciclo 02/Comunicación y Redacción/Clase 01 - Generalidades del Lenguaje y la Comunicación.md",
+    "University Degree Notes/Ciclo 02/Comunicación y Redacción/Clase 04 -.md",
+    "University Degree Notes/Ciclo 02/Comunicación y Redacción/Clase 05 - Comunicación en Ámbito de Ingeniería.md",
+    "SQL/Joins.md",
+    "SQL/Aggregate Functions.md",
+    "University Degree Notes/Ciclo 02/Bases de Datos I (Relacionales)/Clase 03 - Sentencias SQL en MySQL.md",
+    "University Degree Notes/Ciclo 02/Bases de Datos I (Relacionales)/Clase 01 - Definición de Base de Datos.md",
+    "University Degree Notes/Ciclo 02/Bases de Datos I (Relacionales)/Clase 02 - Estándar SQL.md",
+    "SQL/DQL (Data Query Language).md",
     "Git/Configuration and Personalization.md",
     "Git/Tracking Path Changes.md",
     "Git/Branch and Merge.md",
@@ -234,22 +236,6 @@
     "Git/Inspect and Compare.md",
     "Git/Stage and Commit.md",
     "Git/Setup and Init.md",
-    "Git/Remote.md",
-    "Python/RegEx.md",
-    "University Degree Notes/Ciclo 02/Comunicación y Redacción/Clase 05 - Comunicación en Ámbito de Ingeniería.md",
-    "DAX/Aggregate Functions.md",
-    "DAX/Filter Functions.md",
-    "DAX/DAX Operators.md",
-    "Python/Introduction to Python.md",
-    "DAX/DAX Statements.md",
-    "Python/Functions.md",
-    "SQL/Advanced Functions.md",
-    "DAX/Information Functions.md",
-    "DAX/Text Functions.md",
-    "DAX/Date and Time Functions.md",
-    "SQL/Aggregate Functions.md",
-    "DAX/Table Manipulation Functions.md",
-    "SQL/Constraints.md",
     "Pasted image 20250813182550.png",
     "University Degree Notes/Ciclo 02/Física II/Clase 03.pdf",
     "Pasted image 20250729183105.png",

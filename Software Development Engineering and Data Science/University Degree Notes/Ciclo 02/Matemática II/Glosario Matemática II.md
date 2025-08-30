@@ -228,3 +228,36 @@ Ocurre cuando la secuencia de aproximaciones de un método iterativo se aleja de
 ## Suposición Inicial ($x_0$)
 
 Es el valor de partida que se elige para comenzar el proceso iterativo del Método de Newton. Una buena suposición inicial, cerca a la raíz real, es clave para asegurar una convergencia rápida y correcta.
+
+
+# Glosario Semana 5
+
+# Glosario Semana 7
+
+## Partición de un Intervalo
+
+La división de un intervalo cerrado $[a,b]$ en una cantidad finita de subintervalos.
+
+## Integral Definida
+
+El límite de la Suma de Riemann cuando el número de subintervalos tiende a infinito; representa el área neta exacta bajo una curva.
+
+## Aproximación Numérica
+
+El uso de sumas finitas (como las Sumas de Riemann) para estimar el valor de una integral definida, fundamental en la programación de simulaciones y análisis.
+
+## Modelos Matemáticos
+
+Las ecuaciones diferenciales se utilizan para describir fenómenos de la vida real en términos matemáticos.
+
+## Función Continua
+
+Una función que no tiene interrupciones ni saltos en un intervalo determinado.
+
+## Valor Promedio de una Función
+
+La altura media de la gráfica de una función en un intervalo, calculada a través de una integral definida.
+
+## Teorema del Valor Medio para la Integral
+
+El teorema que garantiza que, para una función continua, existe al menos un punto en el intervalo donde el valor de la función es exactamente igual a su valor promedio en ese intervalo.
