@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University Degree Notes/Ciclo 02/Matemática II/Clase 07 - Notación Sigma, Área, Integral Definida y Propiedades.md",
+                "file": "University Degree Notes/Ciclo 02/Comunicación y Redacción/Clase 07 - Comunicación Oral y Escrita.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Clase 07 - Notación Sigma, Área, Integral Definida y Propiedades"
+              "title": "Clase 07 - Comunicación Oral y Escrita"
             }
           },
           {
@@ -45,8 +45,7 @@
               "title": "Glosario Matemática II"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -206,9 +205,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8cb5819af64cb629",
+  "active": "acbe0257351a89c4",
   "lastOpenFiles": [
     "University Degree Notes/Ciclo 02/Matemática II/Clase 07 - Notación Sigma, Área, Integral Definida y Propiedades.md",
+    "University Degree Notes/Ciclo 02/Comunicación y Redacción/Clase 07 - Comunicación Oral y Escrita.md",
+    "University Degree Notes/Ciclo 02/Física II/Clase 07.pdf",
+    "University Degree Notes/Ciclo 02/Física II/Clase 05.pdf",
+    "University Degree Notes/Ciclo 02/Física II/APUNTES S5.pdf",
+    "University Degree Notes/Ciclo 02/Física II/APUNTES S7.pdf",
     "University Degree Notes/Ciclo 02/Matemática II/Glosario Matemática II.md",
     "Sin título 1.base",
     "Sin título.base",
@@ -235,7 +239,6 @@
     "Git/Temporary Commits.md",
     "Git/Inspect and Compare.md",
     "Git/Stage and Commit.md",
-    "Git/Setup and Init.md",
     "Pasted image 20250813182550.png",
     "University Degree Notes/Ciclo 02/Física II/Clase 03.pdf",
     "Pasted image 20250729183105.png",
@@ -247,12 +250,8 @@
     "Pasted image 20250728180705.png",
     "University Degree Notes/Ciclo 02/Física II/Clase 02.pdf",
     "University Degree Notes/Ciclo 02/Física II/Clase 01.pdf",
-    "University Degree Notes/Ciclo 02/Física II/APUNTES S2.pdf",
     "Pasted image 20250715185202.png",
     "Pasted image 20250715182338.png",
-    "Pasted image 20250715181925.png",
-    "Templates",
-    "Repos de GitHub",
-    "Java"
+    "Pasted image 20250715181925.png"
   ]
 }
