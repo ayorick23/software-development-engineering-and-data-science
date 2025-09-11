@@ -6,3 +6,13 @@ Fecha de clase: 2025-09-09
 ---
 # Principio de Arquímedes
 
+## Estática de Fluidos
+
+
+
+## Dinámica de Fluidos
+
+Flujo másico
+
+Principio de continuidad
+
