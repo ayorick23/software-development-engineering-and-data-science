@@ -100,3 +100,17 @@ Las palabras en negrita son repeticiones y resaltan un aspecto específico del e
 
 ## La Estructura de la Composición
 
+La capacidad de tomar cosas que están ahí por una razón y usarlas de una manera que se desvía de la convención o el precedente para crear una nueva forma se conoce como creatividad.
+
+Como resultado, reorganizar los componentes del lenguaje de maneras que se desvían de los estándares produce diversos efectos que mejoran la legibilidad del texto. Esto puede lograrse mediante el uso de recursos literarios o diversos tipos de recursos organizativos.
+
+- A modo de ejemplo, considere los inquietantes pasillos que se extendían como una ruta fantasmal, bordeados por puertas enigmáticas. La mansión se había convertido con el paso de los años en una pesadilla de ángulos imposibles y percepciones geométricas, un vergel aterrador de locura arquitectónica. Formas monstruosas, rostros distorsionados, miradas malignas e imágenes dantescas corroídas por insectos y elementos se exhibían en los tableros asediados, que parecían ser pasadizos aterradores hacia dimensiones oscuras y pesadillas agonizantes. Daniel González Chaves, estudiante, "La Casona" (2011)
+
+El término "siniestramente, misteriosamente, macabramente, aterradoramente, pesadillescamente, inclemente, monstruosamente, deforme, siniestramente, dantescamente, enloquecedoramente, oscuramente" se utiliza en el texto para describir elementos o eventos que evocan sentimientos y efectos relacionados con el terror.
+
+El fragmento se compone de una serie de símiles (como un camino macabro, como si fueran pasajes aterradores hacia pesadillas enloquecedoras y dimensiones oscuras) y metáforas (locura, arquitectura, pesadilla de ángulos, tablas asediadas cruzadas por puertas) que despiertan la imaginación del lector. Además, la musicalidad se logra colocando los adjetivos (bastos, corredores, horroroso, huerto, asediado, tablas, figuras monstruosas) antes del sustantivo. Esto también ocurre cuando se rompe el orden gramatical (con el paso de los años / sobre las tablas asediadas).
+
+- El lector acepta y concuerda con la hermosa representación que el autor hace del materialismo adulto en el fragmento anterior, pero a medida que avanza, empieza a reconocer elementos específicos del texto que influyen en el estilo único del hablante. Por ejemplo, nunca ha mirado una estrella, ni olido una flor, ni ha amado a nadie; solo ha añadido y quitado; y repite, como tú: "¡Soy un hombre serio! " ¡Soy un hombre rico! " (Exupéry, p. 36).
+- Un diamante es tuyo cuando encuentras uno que no pertenece a nadie más. Una isla es tuya cuando encuentras una que es exclusivamente tuya. Una idea es tuya si eres el primero en concebirla y patentarla. (Op cit: 58).
+
+Las palabras en negrita son repeticiones y resaltan un aspecto específico del estilo de escritura de Antoine de Saint Exupéry que influye al lector.

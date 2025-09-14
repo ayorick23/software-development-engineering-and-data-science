@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "acbe0257351a89c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "University Degree Notes/Ciclo 02/Comunicación y Redacción/Clase 07 - Comunicación Oral y Escrita.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Clase 07 - Comunicación Oral y Escrita"
-            }
-          },
-          {
             "id": "8cb5819af64cb629",
             "type": "leaf",
             "state": {
@@ -32,49 +18,35 @@
             }
           },
           {
-            "id": "d3f8d67090b7a4af",
+            "id": "14d8e0ee45970bf1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University Degree Notes/Ciclo 02/Física II/Clase 08 - Presión de Fluidos.md",
+                "file": "University Degree Notes/Ciclo 02/Comunicación y Redacción/Clase 05 - Comunicación en Ámbito de Ingeniería.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Clase 08 - Presión de Fluidos"
+              "title": "Clase 05 - Comunicación en Ámbito de Ingeniería"
             }
           },
           {
-            "id": "7971a002364f63a7",
+            "id": "dceec305e8d7c73e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University Degree Notes/Ciclo 02/Programación II/Clase 09 - Herencia Simple y Múltiple.md",
+                "file": "University Degree Notes/Ciclo 02/Comunicación y Redacción/Clase 04 - Naturaleza del Lenguaje.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Clase 09 - Herencia Simple y Múltiple"
-            }
-          },
-          {
-            "id": "fcf238d07d471881",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "University Degree Notes/Ciclo 02/Física II/Clase 09 - Principio de Arquímedes.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Clase 09 - Principio de Arquímedes"
+              "title": "Clase 04 - Naturaleza del Lenguaje"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -131,8 +103,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "fba2102a22d609e9",
@@ -235,51 +206,51 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "fcf238d07d471881",
+  "active": "dceec305e8d7c73e",
   "lastOpenFiles": [
-    "University Degree Notes/Ciclo 02/Física II/Clase 09 - Principio de Arquímedes.md",
-    "University Degree Notes/Ciclo 02/Programación II/Clase 09 - Herencia Simple y Múltiple.md",
-    "Excalidraw/Drawing 2025-09-08 19.04.45.excalidraw.md",
-    "University Degree Notes/Ciclo 02/Física II/Clase 07 -.md",
-    "University Degree Notes/Ciclo 02/Física II/Clase 05 - Sonido.md",
-    "University Degree Notes/Ciclo 02/Física II/Clase 07.pdf",
-    "University Degree Notes/Ciclo 02/Matemática II/Clase 08 - Fundamentos del Cálculo Integral.md",
-    "University Degree Notes/Ciclo 02/Física II/Clase 05.pdf",
-    "University Degree Notes/Ciclo 02/Bases de Datos I (Relacionales)/Clase 08 - Funciones de Control de Flujo y Condición.md",
-    "University Degree Notes/Ciclo 02/Matemática II/Clase 07 - Notación Sigma, Área, Integral Definida y Propiedades.md",
+    "University Degree Notes/Ciclo 02/Bases de Datos I (Relacionales)/Clase 09 - Funciones de Agregación y Agrupación.md",
+    "University Degree Notes/Ciclo 02/Física II/Clase 07 - Mecánica de Fluidos.md",
+    "Python/Databases.md",
     "University Degree Notes/Ciclo 02/Física II/Clase 08 - Presión de Fluidos.md",
-    "University Degree Notes/Ciclo 02/Matemática II/Glosario Matemática II.md",
-    "University Degree Notes/Ciclo 02/Programación II/Clase 08 - Git y el Control de Versiones.md",
-    "Git/Stage and Commit.md",
-    "Git/Share and Update.md",
-    "Git/Setup and Init.md",
-    "University Degree Notes/Ciclo 02/Comunicación y Redacción/Clase 07 - Comunicación Oral y Escrita.md",
-    "University Degree Notes/Ciclo 02/Física II/APUNTES S5.pdf",
-    "University Degree Notes/Ciclo 02/Física II/APUNTES S7.pdf",
-    "Sin título 1.base",
-    "Sin título.base",
-    "Python/Built-in Functions.md",
-    "University Degree Notes/Ciclo 02/Bases de Datos I (Relacionales)/Clase 04 - Introducción a Ambientes SQL.md",
-    "University Degree Notes/Ciclo 02/Bases de Datos I (Relacionales)/Clase 07 - Funciones en MySQL.md",
-    "Python/Data Structures and Algorithms.md",
-    "University Degree Notes/Ciclo 02/Programación II/Clase 07 - Concurrencia en Java.md",
+    "University Degree Notes/Ciclo 02/Física II/Clase 09 - Principio de Arquímedes.md",
+    "University Degree Notes/Ciclo 02/Física II/Clase 08.pdf",
+    "University Degree Notes/Ciclo 02/Física II/Sin confirmar 401133.crdownload",
+    "University Degree Notes/Ciclo 02/Física II/Clase 09.pdf",
+    "University Degree Notes/Ciclo 02/Física II/Sin confirmar 333104.crdownload",
+    "University Degree Notes/Ciclo 02/Física II/Clase 05 - Sonido.md",
+    "University Degree Notes/Ciclo 02/Programación II/Clase 09 - Herencia Simple y Múltiple.md",
+    "University Degree Notes/Ciclo 02/Matemática II/Clase 05 - Repaso para el Parcial.md",
+    "University Degree Notes/Ciclo 02/Matemática II/Clase 07 - Notación Sigma, Área, Integral Definida y Propiedades.md",
+    "University Degree Notes/Ciclo 02/Matemática II/Clase 08 - Fundamentos del Cálculo Integral.md",
+    "University Degree Notes/Ciclo 02/Matemática II/Clase 09 - Área de Región entre Curvas.md",
+    "University Degree Notes/Ciclo 02/Comunicación y Redacción/Clase 04 - Naturaleza del Lenguaje.md",
+    "University Degree Notes/Ciclo 02/Comunicación y Redacción/Clase 09 - Qué es un Artículo Científico.md",
+    "University Degree Notes/Ciclo 02/Comunicación y Redacción/Clase 08 - Formas de Expresión en Contextos Científicos.md",
+    "University Degree Notes/Ciclo 02/Comunicación y Redacción/Clase 07 - La Comunicación en Contextos Científicos.md",
+    "University Degree Notes/Ciclo 02/Comunicación y Redacción/Clase 05 - Comunicación en Ámbito de Ingeniería.md",
     "University Degree Notes/Ciclo 02/Comunicación y Redacción/Clase 03 - Escritura.md",
     "University Degree Notes/Ciclo 02/Comunicación y Redacción/Clase 01 - Generalidades del Lenguaje y la Comunicación.md",
-    "University Degree Notes/Ciclo 02/Comunicación y Redacción/Clase 04 -.md",
-    "University Degree Notes/Ciclo 02/Comunicación y Redacción/Clase 05 - Comunicación en Ámbito de Ingeniería.md",
-    "SQL/Joins.md",
-    "SQL/Aggregate Functions.md",
+    "University Degree Notes/Ciclo 02/Comunicación y Redacción/Clase 02 - Explicación Técnica.md",
+    "Excalidraw/Drawing 2025-09-13 18.52.58.excalidraw.md",
+    "Excalidraw/Drawing 2025-09-13 18.40.16.excalidraw.md",
+    "Excalidraw/Drawing 2025-09-13 18.37.47.excalidraw.md",
+    "Excalidraw/Drawing 2025-09-13 18.27.06.excalidraw.md",
+    "Excalidraw/Drawing 2025-09-13 18.20.39.excalidraw.md",
+    "Excalidraw/Drawing 2025-09-13 18.17.39.excalidraw.md",
+    "Excalidraw/Drawing 2025-09-13 18.07.22.excalidraw.md",
+    "Sin título.base",
+    "University Degree Notes/Ciclo 02/Matemática II/Portafolio Semana 9.ipynb",
+    "University Degree Notes/Ciclo 02/Física II/Clase 07.pdf",
+    "University Degree Notes/Ciclo 02/Física II/Clase 05.pdf",
+    "University Degree Notes/Ciclo 02/Física II/APUNTES S5.pdf",
+    "University Degree Notes/Ciclo 02/Física II/APUNTES S7.pdf",
     "Pasted image 20250813182550.png",
-    "University Degree Notes/Ciclo 02/Física II/Clase 03.pdf",
     "Pasted image 20250729183105.png",
-    "University Degree Notes/Ciclo 02/Física II/APUNTES S3.pdf",
     "Pasted image 20250728181831.png",
     "Pasted image 20250728181716.png",
     "Pasted image 20250728181158.png",
     "Pasted image 20250728180958.png",
     "Pasted image 20250728180705.png",
-    "University Degree Notes/Ciclo 02/Física II/Clase 02.pdf",
-    "University Degree Notes/Ciclo 02/Física II/Clase 01.pdf",
     "Pasted image 20250715185202.png",
     "Pasted image 20250715182338.png",
     "Pasted image 20250715181925.png"

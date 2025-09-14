@@ -4,7 +4,6 @@ Materia:
   - Matemática II
 Fecha de clase: 2025-08-13
 ---
-
 # Ejercicios de Repaso
 
 (Repasar [[Clase 01 - Derivadas Sucesivas y Trascendentes]], [[Clase 02 - Criterios de la Derivada]], [[Clase 03 - Derivadas de Funciones Trascendentes]], [[Clase 04 - Derivación Implícita, Raíces y Método de Newton]] y [[Glosario Matemática II]])

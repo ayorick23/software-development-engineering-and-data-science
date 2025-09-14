@@ -4,17 +4,13 @@ Materia:
   - Comunicación y Redacción
 Fecha de clase: 2025-08-31
 ---
-
-
-## La comunicación en Contextos Científicos
+# La Comunicación en Contextos Científicos
 
 La comunicación en contextos científicos constituye un pilar fundamental para la generación, validación y difusión del conocimiento a lo largo de las diversas disciplinas. A diferencia de otras formas de comunicación que pueden enfatizar la estética, la emotividad o la persuasión, la comunicación científica se distingue por su primordial objetivo de transmitir información de manera clara, precisa y objetiva. Esta necesidad de claridad y objetividad se convierte en un rasgo distintivo que moldea tanto el estilo de redacción como la selección de los recursos lingüísticos empleados en este tipo de discurso.  
 
 El estilo de la redacción científica se caracteriza por una serie de atributos que buscan optimizar la eficacia comunicativa y fortalecer la credibilidad del mensaje transmitido. La objetividad emerge como un elemento central, lo que implica que la información debe presentarse fundamentada en hechos verificables y evidencia empírica, reduciendo al mínimo la influencia de las opiniones o juicios subjetivos del autor.
 
 ## Objetividad del Lenguaje Científico
-
-
 
 La precisión, por su parte, demanda el uso de un lenguaje exacto y unívoco, donde cada término posee un significado específico y claramente delimitado, eliminando la ambigüedad y la vaguedad.
 
@@ -39,6 +35,8 @@ La comunicación científica no se limita a la mera transmisión de datos; impli
 1. **Revisión por pares:** Este proceso, fundamental en la comunicación científica, implica que los trabajos de investigación son evaluados por expertos en el mismo campo antes de su publicación. "La revisión por pares es un proceso de evaluación por expertos que garantiza la calidad y validez de la investigación científica" (Horacio Posseti). Este mecanismo busca asegurar la rigurosidad y la objetividad de los estudios, minimizando el riesgo de errores o sesgos.
 2. **Comunidades discursivas:** La comunicación científica se desarrolla dentro de comunidades discursivas, grupos de personas que comparten un conjunto de normas, valores y convenciones comunicativas. "Las comunidades discursivas son grupos sociales que comparten un conjunto de discursos, incluyendo sus convenciones de género, léxico y retórica" (John Swales). Estas comunidades influyen en la forma en que se produce y se interpreta la comunicación científica, estableciendo las expectativas sobre el estilo, el formato y el contenido de los textos.
 
+![[Drawing 2025-09-13 18.37.47.excalidraw]]
+
 ## La Retórica de la Ciencia
 
 Aunque la objetividad y la lógica son valores centrales en la comunicación científica, la retórica también desempeña un papel importante. Los investigadores utilizan estrategias retóricas para persuadir a sus colegas de la validez y la relevancia de sus hallazgos.
@@ -52,3 +50,5 @@ Las tecnologías de la información han transformado profundamente la comunicaci
 
 1. **Publicación electrónica:** Las revistas y los repositorios digitales han revolucionado la forma en que se publican y se acceden los resultados de la investigación. "La publicación electrónica ha aumentado la velocidad y el alcance de la difusión de la investigación científica" (Stevan Harnad).
 2. **Comunicación en línea:** Las herramientas de comunicación en línea, como las videoconferencias, los foros y las redes sociales académicas, permiten a los investigadores colaborar y compartir información de manera más eficiente.
+
+![[Drawing 2025-09-13 18.40.16.excalidraw]]
