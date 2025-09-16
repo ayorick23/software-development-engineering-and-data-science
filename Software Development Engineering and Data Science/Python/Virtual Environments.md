@@ -171,7 +171,7 @@ Aquí es donde a menudo hay confusión. Los entornos virtuales de Python y Docke
 - **Uso Típico:** Desarrollo local, garantizar que dos proyectos en tu laptop no se pisen las dependencias.
 
 ### Docker (Contenedorización)
-(ver [[Docker]])
+(ver [[Introduction to Docker]])
 
 - **Propósito:** Empaquetar una aplicación y todas sus dependencias (código, librerías del sistema, configuraciones, runtime, etc.) en una unidad autónoma y portable llamada contenedor.
 - **Alcance:** A nivel de sistema operativo (ligero) y aplicación completa.

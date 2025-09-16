@@ -37,16 +37,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University Degree Notes/Ciclo 02/Comunicación y Redacción/Clase 04 - Naturaleza del Lenguaje.md",
+                "file": "University Degree Notes/Ciclo 02/Programación II/Clase 10 - Interfaces y Clases Abstractas en Java.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Clase 04 - Naturaleza del Lenguaje"
+              "title": "Clase 10 - Interfaces y Clases Abstractas en Java"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -206,38 +206,38 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "dceec305e8d7c73e",
+  "active": "14d8e0ee45970bf1",
   "lastOpenFiles": [
+    "University Degree Notes/Ciclo 02/Programación II/Clase 10 - Interfaces y Clases Abstractas en Java.md",
+    "Docker/Introduction to Docker.md",
+    "Docker/Images.md",
+    "Docker/Containers.md",
+    "Docker/Docker Compose.md",
+    "Docker/Orchestration and Scalability.md",
+    "Docker/Docker for Data Science.md",
+    "Python/Package Managers.md",
+    "Python/pip Commands.md",
+    "Python/APIs.md",
+    "Python/Pandas/Series and Dataframes.md",
+    "Git/Configuration and Personalization.md",
+    "Python/JSON and YAML.md",
+    "Python/Virtual Environments.md",
+    "University Degree Notes/Ciclo 02/Comunicación y Redacción/Clase 05 - Comunicación en Ámbito de Ingeniería.md",
+    "Docker/docker_for_data_science.md",
+    "Docker/orchestration_and_scalability.md",
+    "Docker/docker_compose.md",
+    "Docker/containers.md",
+    "Docker/images.md",
+    "Docker/introduction.md",
+    "University Degree Notes/Ciclo 02/Comunicación y Redacción/Clase 04 - Naturaleza del Lenguaje.md",
     "University Degree Notes/Ciclo 02/Bases de Datos I (Relacionales)/Clase 09 - Funciones de Agregación y Agrupación.md",
     "University Degree Notes/Ciclo 02/Física II/Clase 07 - Mecánica de Fluidos.md",
     "Python/Databases.md",
     "University Degree Notes/Ciclo 02/Física II/Clase 08 - Presión de Fluidos.md",
-    "University Degree Notes/Ciclo 02/Física II/Clase 09 - Principio de Arquímedes.md",
     "University Degree Notes/Ciclo 02/Física II/Clase 08.pdf",
     "University Degree Notes/Ciclo 02/Física II/Sin confirmar 401133.crdownload",
     "University Degree Notes/Ciclo 02/Física II/Clase 09.pdf",
     "University Degree Notes/Ciclo 02/Física II/Sin confirmar 333104.crdownload",
-    "University Degree Notes/Ciclo 02/Física II/Clase 05 - Sonido.md",
-    "University Degree Notes/Ciclo 02/Programación II/Clase 09 - Herencia Simple y Múltiple.md",
-    "University Degree Notes/Ciclo 02/Matemática II/Clase 05 - Repaso para el Parcial.md",
-    "University Degree Notes/Ciclo 02/Matemática II/Clase 07 - Notación Sigma, Área, Integral Definida y Propiedades.md",
-    "University Degree Notes/Ciclo 02/Matemática II/Clase 08 - Fundamentos del Cálculo Integral.md",
-    "University Degree Notes/Ciclo 02/Matemática II/Clase 09 - Área de Región entre Curvas.md",
-    "University Degree Notes/Ciclo 02/Comunicación y Redacción/Clase 04 - Naturaleza del Lenguaje.md",
-    "University Degree Notes/Ciclo 02/Comunicación y Redacción/Clase 09 - Qué es un Artículo Científico.md",
-    "University Degree Notes/Ciclo 02/Comunicación y Redacción/Clase 08 - Formas de Expresión en Contextos Científicos.md",
-    "University Degree Notes/Ciclo 02/Comunicación y Redacción/Clase 07 - La Comunicación en Contextos Científicos.md",
-    "University Degree Notes/Ciclo 02/Comunicación y Redacción/Clase 05 - Comunicación en Ámbito de Ingeniería.md",
-    "University Degree Notes/Ciclo 02/Comunicación y Redacción/Clase 03 - Escritura.md",
-    "University Degree Notes/Ciclo 02/Comunicación y Redacción/Clase 01 - Generalidades del Lenguaje y la Comunicación.md",
-    "University Degree Notes/Ciclo 02/Comunicación y Redacción/Clase 02 - Explicación Técnica.md",
-    "Excalidraw/Drawing 2025-09-13 18.52.58.excalidraw.md",
-    "Excalidraw/Drawing 2025-09-13 18.40.16.excalidraw.md",
-    "Excalidraw/Drawing 2025-09-13 18.37.47.excalidraw.md",
-    "Excalidraw/Drawing 2025-09-13 18.27.06.excalidraw.md",
-    "Excalidraw/Drawing 2025-09-13 18.20.39.excalidraw.md",
-    "Excalidraw/Drawing 2025-09-13 18.17.39.excalidraw.md",
-    "Excalidraw/Drawing 2025-09-13 18.07.22.excalidraw.md",
     "Sin título.base",
     "University Degree Notes/Ciclo 02/Matemática II/Portafolio Semana 9.ipynb",
     "University Degree Notes/Ciclo 02/Física II/Clase 07.pdf",
