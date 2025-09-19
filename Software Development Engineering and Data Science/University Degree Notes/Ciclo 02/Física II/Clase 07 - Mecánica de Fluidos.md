@@ -21,7 +21,7 @@ La **densidad** es una de las propiedades más importantes de los fluidos. Nos d
 La densidad se define como la masa por unidad de volumen.
 
 $$
-ρ=Vm
+\rho=Vm
 $$​
 
 - $\rho$ = Densidad (en $kg/m^3$)
@@ -37,8 +37,11 @@ $$​
 
 El **peso específico** es el peso por unidad de volumen de una sustancia. Está directamente relacionado con la densidad.
 
+
 $$
+
 γ=\frac{V}{W}​=ρ⋅g
+
 $$
 
 - $\gamma$ = Peso específico (en $N/m^3$)
@@ -48,6 +51,7 @@ $$
 ### Gravedad Específica ($SG$) o Densidad Relativa ($DR$)
 
 Este es un número adimensional (sin unidades) que compara la densidad de una sustancia con la densidad de una sustancia de referencia (generalmente el agua para líquidos y el aire para gases).
+
 
 $$
 SG = \frac{\rho_{sustancia}}{\rho_{referencia}}
@@ -62,11 +66,15 @@ Si la gravedad específica de una sustancia es mayor que 1, es más densa que el
 
 Es la presión que un fluido en reposo ejerce sobre un cuerpo sumergido en él. Aumenta con la profundidad.
 
+
 $$
-P_{hidro}​=\rho⋅g⋅h
+
+P\_{hidro}​=\rho⋅g⋅h
+
 $$
 
 - $P_{hidro}$​ = Presión hidrostática (en $Pa$)
 - $\rho$ = Densidad del fluido (en $kg/m^3$)
 - $g$ =Aceleración de la gravedad (en $m/s^2$)
 - $h$ =Profundidad del punto (en $m$)
+
