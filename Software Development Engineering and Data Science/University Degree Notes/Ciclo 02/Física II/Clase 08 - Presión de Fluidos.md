@@ -10,17 +10,18 @@ Es el efecto del peso de las sustancias atmosféricas en los elementos en la sup
 
 La **presión atmosférica** es la presión que ejerce el aire de la atmósfera sobre la superficie de la Tierra y sobre todos los objetos que se encuentran en ella. Se debe al peso de la columna de aire que se encuentra sobre un punto determinado.
 
->Si no se dice nada con respecto a la altura, hay que asumir que el experimento se realiza al nivel del mar.
+> Si no se dice nada con respecto a la altura, hay que asumir que el experimento se realiza al nivel del mar.
 
 **Valor estándar a nivel del mar:** 1 atmósfera (atm).
 
 **Equivalencias:**
 
-- $1atm = 101,325 Pa$
+- $1 atm = 101,325 Pa$
 - $1 atm = 760 mmHg$ (milímetros de mercurio)
 - $1 atm = 1.01325×10^5 N/m^2$
 
 La presión atmosférica disminuye con la altitud, ya que hay menos aire por encima.
+
 ## Presión Manométrica y Presión Absoluta
 
 Para medir la presión en un recipiente o sistema, se utilizan diferentes escalas de referencia.
@@ -39,7 +40,7 @@ Es la presión relativa que se mide con un instrumento llamado **manómetro**. N
 Es la presión total en un punto, incluyendo la presión atmosférica. Se mide con respecto al vacío absoluto (presión cero).
 
 $$
-Pabs​=Pman​+Patm​
+P_{abs}​=P_{man​}+P_{atm​}
 $$
 
 - $P_{abs}$​ = Presión absoluta

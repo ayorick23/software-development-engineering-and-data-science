@@ -4,7 +4,7 @@ Materia:
   - Física II
 Fecha de clase: 2025-09-06
 ---
-# Mecánica de Fluidos
+# Unidad 2: Mecánica de Fluidos
 
 La **mecánica de fluidos** se centra en el estudio de los **líquidos y gases**, ya que ambos tienen la capacidad de fluir. La principal diferencia entre ellos es su **compresibilidad** y la forma en que ocupan el espacio.
 
@@ -22,13 +22,13 @@ La densidad se define como la masa por unidad de volumen.
 
 $$
 \rho=Vm
-$$​
+$$
 
 - $\rho$ = Densidad (en $kg/m^3$)
 - $m$ = Masa (en $kg$)
 - $V$ = Volumen (en $m^3$)
 
-#### Densidades importantes:
+#### Densidades importantes
 
 - **Agua:** La densidad del agua es un valor de referencia fundamental en la física. $ρ_{agua}​=1000 kg/m^3$ o $1 g/cm^3$.
 - **Aire (a nivel del mar y 20°C):** $ρ_{aire} ​≈ 1.2 kg/m^3$.
@@ -37,11 +37,8 @@ $$​
 
 El **peso específico** es el peso por unidad de volumen de una sustancia. Está directamente relacionado con la densidad.
 
-
 $$
-
-γ=\frac{V}{W}​=ρ⋅g
-
+γ=\frac{W}{V}​=ρ⋅g
 $$
 
 - $\gamma$ = Peso específico (en $N/m^3$)
@@ -52,7 +49,6 @@ $$
 
 Este es un número adimensional (sin unidades) que compara la densidad de una sustancia con la densidad de una sustancia de referencia (generalmente el agua para líquidos y el aire para gases).
 
-
 $$
 SG = \frac{\rho_{sustancia}}{\rho_{referencia}}
 $$
@@ -62,19 +58,25 @@ $$
 
 Si la gravedad específica de una sustancia es mayor que 1, es más densa que el agua y se hundirá. Si es menor que 1, es menos densa y flotará.
 
+### Presión
+
+La presión es una magnitud física que se define como la fuerza ejercida por unidad de área. En física, se refiere a la magnitud de la fuerza que actúa perpendicularmente sobre una superficie.
+
+$$
+P = \frac{F}{A}
+$$
+
+En el Sistema Internacional, la presión se mide en pascales ($Pa$)($\frac{N}{m^2}$).
+
 ### Presión Hidrostática ($P_{hidro​}$)
 
 Es la presión que un fluido en reposo ejerce sobre un cuerpo sumergido en él. Aumenta con la profundidad.
 
-
 $$
-
-P\_{hidro}​=\rho⋅g⋅h
-
+P_{hidro}​=\rho⋅g⋅h
 $$
 
 - $P_{hidro}$​ = Presión hidrostática (en $Pa$)
 - $\rho$ = Densidad del fluido (en $kg/m^3$)
 - $g$ =Aceleración de la gravedad (en $m/s^2$)
 - $h$ =Profundidad del punto (en $m$)
-

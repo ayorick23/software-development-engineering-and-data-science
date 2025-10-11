@@ -5,6 +5,7 @@ Materia:
 Fecha de clase: 2025-09-08
 ---
 # Diferencia entre Herencia Simple y Múltiple
+(ver [[Clase 03 - Herencia y Clases Abstractas#Herencia Simple y Multinivel|Herencia Simple y Multinivel en Java]])
 
 La herencia es un mecanismo que permite que una clase derive características y comportamientos de otra. Existen dos tipos principales de herencia:
 
@@ -67,7 +68,7 @@ Aunque Java no permite que una clase herede de múltiples clases, sí permite qu
 
 ### Interfaces
 
-Una interfaz es como un contrato: define qué métodos debe tener una clase, pero no dice cómo se hacen (al menos hasta Java 8, donde se permiten algunos métodos con cuerpo).
+Una [[Clase 03 - Herencia y Clases Abstractas#Interfaces|interfaz]] es como un contrato: define qué métodos debe tener una clase, pero no dice cómo se hacen (al menos hasta Java 8, donde se permiten algunos métodos con cuerpo).
 
 Una clase puede implementar múltiples interfaces, lo que le permite heredar los contratos (métodos) definidos en esas interfaces.
 
@@ -77,7 +78,7 @@ Esto permite que una clase adopte múltiples comportamientos sin los problemas d
 
 - No contienen implementación de métodos (antes de Java 8).
 - Pueden contener constantes
-- Una clase puede implementar múltiples interfaces utilizando la palabra clase `implements`.
+- Una clase puede implementar múltiples interfaces utilizando la palabra clave [[Clase 03 - Herencia y Clases Abstractas#`implements`|implements]].
 
 **Ejemplo:**
 

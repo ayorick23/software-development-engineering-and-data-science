@@ -5,6 +5,7 @@ Materia:
 Fecha de clase: 2025-09-12
 ---
 # Funciones de Agregación
+(ver [[SQL/Aggregate Functions|Aggregate Functions]])
 
 ## Función ``MIN()``
 
@@ -105,7 +106,7 @@ En estas últimas 3 funciones de agregación es importante mencionar que los val
 
 # Sentencias de Agrupación
 
-Sentencia ``GROUP BY``: como su nombre lo dice, agrupa registros con los mismo valores, se utiliza con las funciones de agregación revisadas anteriormente.
+Sentencia [[Clase 03 - Sentencias SQL en MySQL#MySQL ``GROUP BY``|GROUP BY]]: como su nombre lo dice, agrupa registros con los mismo valores, se utiliza con las funciones de agregación revisadas anteriormente.
 
 **Sintaxis:**
 
@@ -117,7 +118,7 @@ GROUP BY columnas
 ORDER BY columnas;
 ```
 
-Notemos en la sintaxis que estamos utilizando la sentencia ``ORDER BY``, como su nombre lo dice, ordena los registros de acuerdo con el orden de las columnas indicadas en dicha sentencia.
+Notemos en la sintaxis que estamos utilizando la sentencia [[DQL (Data Query Language)#6. `ORDER BY` (_Ordenación de Resultados_)|ORDER BY]], como su nombre lo dice, ordena los registros de acuerdo con el orden de las columnas indicadas en dicha sentencia.
 
 **Ejemplo:**
 
@@ -128,7 +129,7 @@ GROUP BY País
 ORDER BY COUNT(ClienteID) DESC;
 ```
 
-En combinación con la sentencia ``GROUP BY`` se utiliza para hacer condicionado de registros la cláusula ``HAVING BY``.
+En combinación con la sentencia ``GROUP BY`` se utiliza para hacer condicionado de registros la cláusula [[Clase 03 - Sentencias SQL en MySQL#MySQL ``HAVING``|HAVING]].
 
 **Sintaxis:**
 

@@ -5,6 +5,7 @@ Materia:
 Fecha de clase: 2025-08-25
 ---
 # Concurrencia en Java
+(similar a [[Concurrency|Concurrencia en Python]])
 
 La **concurrencia** es utilizada por las principales empresas de desarrollo de Java y se refiere a la capacidad de un programa para ejecutar múltiples tareas simultáneamente. Permite el uso eficiente de los recursos del sistema y puede mejorar el rendimiento general y la capacidad de respuesta de la aplicación.
 

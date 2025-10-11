@@ -5,6 +5,7 @@ Materia:
 Fecha de clase: 2025-09-18
 ---
 # MySQL Joins
+(ver [[Joins]])
 
 Esta sentencia es utilizada para combinar registros de 2 o más tablas basado en la relación entre ellas.
 
@@ -29,6 +30,7 @@ Para una mejor ilustración del concepto observemos las siguientes tablas:
 Notemos que la columna ``CustomerID`` en la tabla ``Orders`` se refiere a la columna ``CustomerID`` en la tabla ``Customers``.
 
 ## MySQL Inner Join
+(ver [[Clase 03 - Sentencias SQL en MySQL#MySQL ``INNER JOIN``|MySQL INNER JOIN]])
 
 Selecciona los registros que coinciden los valores entre 2 tablas.
 
@@ -102,6 +104,7 @@ ORDER BY Orders.OrderID;
 ```
 
 ## MySQL Cross Join
+(ver [[Clase 03 - Sentencias SQL en MySQL#MySQL ``CROSS JOIN``|MySQL CROSS JOIN]])
 
 Selecciona todos los registros de dos tablas.
 
@@ -124,6 +127,7 @@ CROSS JOIN Orders;
 ```
 
 ## MySQL Self Join
+(ver [[Clase 03 - Sentencias SQL en MySQL#MySQL ``SELF JOIN``|MySQL SELF JOIN]])
 
 Es un join normal lo único es que es sobre la misma tabla.
 

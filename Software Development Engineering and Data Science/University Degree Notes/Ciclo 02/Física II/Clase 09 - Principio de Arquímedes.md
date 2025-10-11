@@ -6,6 +6,8 @@ Fecha de clase: 2025-09-09
 ---
 # Principio de Arquímedes
 
+El **principio de Arquímedes** es fundamental para entender por qué los objetos flotan o se hunden. Afirma que un cuerpo sumergido, total o parcialmente en un fluido, experimenta un **empuje** vertical y hacia arriba, igual al peso del fluido que desaloja.
+
 ## Estática de Fluidos
 
 La **estática de fluidos** estudia los fluidos en reposo. Un concepto clave es la presión, que es una fuerza que actúa de manera uniforme en todas direcciones.
@@ -43,21 +45,26 @@ $$
 - $F1$​ y $A1$​ son la fuerza y el área del pistón pequeño.
 - $F2$​ y $A2$​ son la fuerza y el área del pistón grande.
 
-## Principio de Arquímedes
-
-El **principio de Arquímedes** es fundamental para entender por qué los objetos flotan o se hunden. Afirma que un cuerpo sumergido, total o parcialmente en un fluido, experimenta un **empuje** vertical y hacia arriba, igual al peso del fluido que desaloja.
-
 ### Empuje Hidrostático ($E$)
 
 La fuerza de empuje es la fuerza hacia arriba que contrarresta el peso de un objeto en un fluido.
 
 $$
-E=ρ_{fluido}​ ⋅ g ⋅ V_{sumergido}
-​$$
+E=\rho_{fluido}​ ⋅ g ⋅ V_{sumergido}
+​
+$$
 
-- $ρ_{fluido}$​ es la densidad del fluido.
+- $\rho_{fluido}$​ es la densidad del fluido.
 - $g$ es la aceleración de la gravedad.
 - $V_{sumergido}$​ es el **volumen del cuerpo que está sumergido** en el fluido.
+
+### Flotabilidad ($f$)
+
+La **flotabilidad** es una fuerza ascendente que ejerce un fluido (líquido o gas) sobre un objeto, oponiéndose a la fuerza de gravedad que tiende a hundirlo. Esta fuerza, explicada por el Principio de Arquímedes, es igual al peso del fluido que el objeto desaloja.
+
+$$
+\frac{v_f}{v_o} = \frac{\rho_0}{\rho_f} = f
+$$
 
 ### Casos de Flotación
 
@@ -69,9 +76,31 @@ E=ρ_{fluido}​ ⋅ g ⋅ V_{sumergido}
 
 La **dinámica de fluidos** estudia los fluidos en movimiento. Consideraremos el **flujo ideal**, que es un modelo simplificado sin fricción ni turbulencia.
 
-### Ecuación de Continuidad
+### Flujo másico ($ṁ$)
+
+El **flujo másico** (o caudal másico) es la cantidad de masa de una sustancia que atraviesa una sección transversal de referencia en un período de tiempo específico.
+
+$$
+ṁ = \frac{m}{t}
+$$
+
+### Principio de Continuidad
+
+$$
+ṁ_1=ṁ_2
+$$
+
+#### Ecuación de Continuidad
 
 Esta ecuación se basa en la **conservación de la masa**. Para un fluido incompresible que fluye a través de un tubo, el caudal (volumen de fluido que pasa por unidad de tiempo) es constante. Si el área de la sección transversal del tubo disminuye, la velocidad del fluido debe aumentar para mantener el caudal.
+
+$$
+Q_1 = Q_2
+$$
+
+$$
+\frac{v_1}{t} = \frac{v_2}{t}
+$$
 
 $$
 A_1 ⋅ v_1 ​= A_2 ​⋅ v_2​
@@ -79,15 +108,3 @@ $$
 
 - $A$ es el área de la sección transversal.
 - $v$ es la velocidad del fluido.
-
-### Ecuación de Bernoulli
-
-Esta ecuación es una expresión de la **conservación de la energía** para un fluido ideal en movimiento. Relaciona la presión, la velocidad y la altura del fluido.
-
-$$
-P_1 ​+ \frac{1}{2} ​ρv_1^2 ​+ ρgh_1 ​= P_2 ​+ \frac{1}{c}​ρv_2^2​ + ρgh_2​
-$$
-
-- $P$ es la presión del fluido.
-- $\frac{1}{2}​ρv^2$ es la **presión dinámica** (relacionada con la energía cinética).
-- $ρgh$ es la **presión hidrostática** (relacionada con la energía potencial).

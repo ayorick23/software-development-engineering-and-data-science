@@ -7,6 +7,7 @@ Fecha de clase: 2025-08-29
 # Funciones en MySQL
 
 ## Funciones de Caracteres
+(ver [[Advanced Functions#1. String Functions (_Funciones de Texto_)|String Functions]])
 
 - **``CHAR_LENGTH``:** retorna la longitud de una cadena de caracteres.
 
@@ -69,6 +70,7 @@ SELECT UPPER("SQL Tutorial es divertido!");
 ```
 
 ## Funciones de Números
+(ver [[SQL/Aggregate Functions|Aggregate Functions]])
 
 - **``ABS``:** retorna el valor absoluto de un número.
 
@@ -119,6 +121,7 @@ SELECT ROUND(135.375, 2);
 ```
 
 ## Funciones de Fechas
+(ver [[Advanced Functions#3. Date and Time Functions (_Funciones de Fecha y Hora_)|Date and Time Functions]])
 
 - **``CURRENT_DATE``:** retorna la fecha actual.
 

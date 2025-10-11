@@ -5,6 +5,7 @@ Materia:
 Fecha de clase: 2025-09-05
 ---
 # Funciones de Control de Flujo y Condición
+(ver [[Advanced Functions#4. Conditional Functions (_Funciones Condicionales_)|Conditional Functions]])
 
 ## ``CASE``
 
