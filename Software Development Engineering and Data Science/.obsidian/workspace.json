@@ -4,49 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "a8b75064b3c99145",
+        "id": "dccbbe87fff3cb25",
         "type": "tabs",
         "children": [
           {
-            "id": "972a12ba52a4a464",
+            "id": "5b714a7e95f9188b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "University Degree Notes/Ciclo 02/Bases de Datos I (Relacionales)/Clase 13 - Vistas en MySQL.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Clase 13 - Vistas en MySQL"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista gráfica"
             }
           },
           {
-            "id": "4ab3eaac1abcc4e0",
+            "id": "ce19d4aa33ea5a15",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University Degree Notes/Ciclo 02/Física II/Clase 13 - Termodinámica.md",
+                "file": "University Degree Notes/Ciclo 02/Programación II/Clase 14 - Principios SOLID.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Clase 13 - Termodinámica"
-            }
-          },
-          {
-            "id": "81163bf73bbb7a60",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "University Degree Notes/Ciclo 02/Física II/Clase 11 - Viscosidad.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Clase 11 - Viscosidad"
+              "title": "Clase 14 - Principios SOLID"
             }
           }
         ],
@@ -211,36 +193,40 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4ab3eaac1abcc4e0",
+  "active": "ce19d4aa33ea5a15",
   "lastOpenFiles": [
-    "University Degree Notes/Ciclo 02/Física II/Clase 13.pdf",
+    "Pasted image 20251013184754.png",
+    "Pasted image 20251013183233.png",
+    "Pasted image 20251013181730.png",
+    "Pasted image 20251013181654.png",
+    "University Degree Notes/Ciclo 02/Matemática II/Clase 07 - Integración Numérica.md",
+    "University Degree Notes/Ciclo 02/Programación II/Clase 14 - Principios SOLID.md",
+    "Excalidraw/Drawing 2025-10-11 18.36.47.excalidraw.md",
+    "University Degree Notes/Ciclo 02/Matemática II/Clase 08 - Integral Definida.md",
+    "University Degree Notes/Ciclo 02/Matemática II/Clase 09 - Área de Región entre Curvas.md",
+    "University Degree Notes/Ciclo 02/Matemática II/Clase 10 - Sólidos de Revolución.md",
+    "University Degree Notes/Ciclo 02/Matemática II/Clase 13 - Integración por Sustitución.md",
+    "University Degree Notes/Ciclo 02/Matemática II/Clase 11 - Repaso para Parcial.md",
+    "University Degree Notes/Ciclo 02/Comunicación y Redacción/Clase 05 - Comunicación en Ámbito de Ingeniería.md",
+    "University Degree Notes/Ciclo 02/Comunicación y Redacción/Clase 04 - Naturaleza del Lenguaje.md",
+    "University Degree Notes/Ciclo 02/Comunicación y Redacción/Clase 03 - Escritura.md",
+    "University Degree Notes/Ciclo 02/Comunicación y Redacción/Clase 01 - Generalidades del Lenguaje y la Comunicación.md",
+    "University Degree Notes/Ciclo 02/Comunicación y Redacción/Clase 02 - Explicación Técnica.md",
+    "University Degree Notes/Ciclo 02/Comunicación y Redacción/Clase 07 - La Comunicación en Contextos Científicos.md",
+    "University Degree Notes/Ciclo 02/Comunicación y Redacción/Clase 08 - Formas de Expresión en Contextos Científicos.md",
+    "University Degree Notes/Ciclo 02/Comunicación y Redacción/Clase 09 - Qué es un Artículo Científico.md",
+    "University Degree Notes/Ciclo 02/Comunicación y Redacción/Clase 10 - Fundamento de la Evidencia.md",
+    "Excalidraw/Drawing 2025-10-11 18.25.23.excalidraw.md",
+    "Excalidraw/Drawing 2025-10-11 18.16.33.excalidraw.md",
+    "University Degree Notes/Ciclo 02/Comunicación y Redacción/Clase 13 - Párrafo Científico.md",
+    "University Degree Notes/Ciclo 02/Bases de Datos I (Relacionales)/Clase 13 - Vistas en MySQL.md",
     "University Degree Notes/Ciclo 02/Física II/Clase 11 - Viscosidad.md",
     "University Degree Notes/Ciclo 02/Física II/Clase 13 - Termodinámica.md",
+    "University Degree Notes/Ciclo 02/Física II/Clase 13.pdf",
     "University Degree Notes/Ciclo 02/Física II/Clase 13 - Termodinámica.pdf",
     "University Degree Notes/Ciclo 02/Física II/AC S13_annotated.pdf",
     "University Degree Notes/Ciclo 02/Física II/Clase 10 - Viscosidad.md",
-    "University Degree Notes/Ciclo 02/Bases de Datos I (Relacionales)/Clase 13 - Vistas en MySQL.md",
     "SQL/Views.md",
-    "University Degree Notes/Ciclo 02/Programación II/Clase 13 - Pruebas Unitarias en Java.md",
-    "University Degree Notes/Ciclo 01/Programación I/Clase 15 - Pruebas Unitarias y Módulos.md",
-    "Python/Testing.md",
-    "Excalidraw/Drawing 2025-10-07 18.49.22.excalidraw.md",
-    "University Degree Notes/Ciclo 02/Matemática II/Clase 13 - Integración por Sustitución.md",
-    "Excalidraw/Drawing 2025-10-07 19.07.53.excalidraw.md",
-    "University Degree Notes/Ciclo 02/Matemática II/Clase 07 - Integración Numérica.md",
-    "SQL/DML (Data Manipulation Language).md",
-    "SQL/DDL (Data Definition Language).md",
-    "SQL/DQL (Data Query Language).md",
-    "SQL/DCL (Data Control Language).md",
-    "SQL/Joins.md",
-    "University Degree Notes/Ciclo 02/Bases de Datos I (Relacionales)/Clase 03 - Sentencias SQL en MySQL.md",
-    "University Degree Notes/Ciclo 02/Bases de Datos I (Relacionales)/Clase 02 - Estándar SQL.md",
-    "University Degree Notes/Ciclo 02/Matemática II/Clase 05 - Repaso para el Parcial.md",
-    "University Degree Notes/Ciclo 02/Matemática II/Clase 04 - Derivación Implícita, Raíces y Método de Newton.md",
-    "University Degree Notes/Ciclo 02/Matemática II/Clase 03 - Derivadas de Funciones Trascendentes.md",
-    "University Degree Notes/Ciclo 02/Física II/Clase 09 - Principio de Arquímedes.md",
-    "University Degree Notes/Ciclo 02/Física II/Clase 10 - Ecuación de Bernoulli.md",
-    "University Degree Notes/Ciclo 02/Física II/Clase 08 - Presión de Fluidos.md",
     "Sin título.base",
     "University Degree Notes/Ciclo 02/Física II/Clase 08.pdf",
     "University Degree Notes/Ciclo 02/Física II/Sin confirmar 401133.crdownload",
@@ -248,16 +234,12 @@
     "University Degree Notes/Ciclo 02/Física II/Sin confirmar 333104.crdownload",
     "University Degree Notes/Ciclo 02/Matemática II/Portafolio Semana 9.ipynb",
     "University Degree Notes/Ciclo 02/Física II/Clase 07.pdf",
-    "University Degree Notes/Ciclo 02/Física II/Clase 05.pdf",
     "Pasted image 20250813182550.png",
     "Pasted image 20250729183105.png",
     "Pasted image 20250728181831.png",
     "Pasted image 20250728181716.png",
     "Pasted image 20250728181158.png",
     "Pasted image 20250728180958.png",
-    "Pasted image 20250728180705.png",
-    "Pasted image 20250715185202.png",
-    "Pasted image 20250715182338.png",
-    "Pasted image 20250715181925.png"
+    "Pasted image 20250728180705.png"
   ]
 }

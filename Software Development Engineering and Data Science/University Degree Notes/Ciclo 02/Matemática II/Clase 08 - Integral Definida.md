@@ -4,7 +4,6 @@ Materia:
   - Matemática II
 Fecha de clase: 2025-09-03
 ---
-
 # La Integral Definida
 
 ## Sumas de Reimann
