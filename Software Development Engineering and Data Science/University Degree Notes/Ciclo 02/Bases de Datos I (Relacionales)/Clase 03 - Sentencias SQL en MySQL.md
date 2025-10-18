@@ -154,6 +154,7 @@ ORDER BY columnas;
 ```
 
 ### MySQL ``EXISTS``
+(ver [[Clase 14 - Subconsultas en MySQL#MySQL ``EXISTS``|MySQL EXISTS]])
 
 Se usa para comprobar si existe un registro en un sub-query.
 
@@ -165,6 +166,7 @@ WHERE EXISTS
 ```
 
 ### MySQL ``ANY`` & ``ALL``
+(ver [[Clase 14 - Subconsultas en MySQL#MySQL ``ANY``, ``ALL``|MySQL ALL, ANY]])
 (similar a [[Built-in Functions#`all()` y `any()`|all() y any() en Python]])
 
 **ANY:** devuelve un resultado verdadero si alguno de los valores del subquery cumple con la condición establecida.

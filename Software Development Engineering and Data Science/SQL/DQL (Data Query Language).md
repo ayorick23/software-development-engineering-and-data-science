@@ -54,7 +54,7 @@ Se utiliza para ordenar el conjunto de resultados de una consulta en orden ascen
 
 Estas cláusulas se usan para restringir el número de filas que se devuelven en el conjunto de resultados. La sintaxis varía según el sistema de gestión de bases de datos (DBMS).
 
-- `LIMIT`: Usado comúnmente en MySQL, PostgreSQL, SQLite.
+- `LIMIT`: Usado comúnmente en [[Clase 03 - Sentencias SQL en MySQL#¿Qué es MySQL?|MySQL]], PostgreSQL, SQLite.
   - `LIMIT N`: Devuelve las primeras `N` filas.
   - `LIMIT N OFFSET M`: Devuelve `N` filas a partir de la fila `M`.
 - `TOP`: Usado en SQL Server.

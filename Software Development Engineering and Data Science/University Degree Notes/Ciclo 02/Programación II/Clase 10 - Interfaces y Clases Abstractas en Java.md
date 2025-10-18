@@ -10,7 +10,7 @@ La programación orientada a objetos (**POO**) es un paradigma que nos permite e
 
 ## ¿Qué es una Interfaz en Java?
 
-Una interfaz en Java es una estructura que rige una especie de contrato para que sea aplicado en una clase. Este contrato está conformado por un conjunto de métodos que las clases que implementen la interfaz deben definir. En otras palabras, una interfaz actúa como una plantilla que garantiza que las clases adherentes tengan ciertas funcionalidades, sin imponer cómo deben implementarlas.
+Una [[Clase 09 - Herencia Simple y Múltiple#Interfaces|interfaz]] en Java es una estructura que rige una especie de contrato para que sea aplicado en una clase. Este contrato está conformado por un conjunto de métodos que las clases que implementen la interfaz deben definir. En otras palabras, una interfaz actúa como una plantilla que garantiza que las clases adherentes tengan ciertas funcionalidades, sin imponer cómo deben implementarlas.
 
 Por ejemplo, si se desea crear objetos que puedan volar en un programa, podemos definir una interfaz `Volador`, que contenga un método `volar()`. De esta forma, cualquier clase que utilice esta interfaz debe proporcionar su  propia implementación del método.
 

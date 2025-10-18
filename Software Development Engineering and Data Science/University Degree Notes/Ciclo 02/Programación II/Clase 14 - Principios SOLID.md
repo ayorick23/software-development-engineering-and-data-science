@@ -67,7 +67,7 @@ Esto nos ayuda a que los cambios aplicados en la lógica de almacenamiento o del
 
 ## **O** - Open/Closed Principle (OCP)
 
->_Las entidades de software deben estar abiertas para extensión, pero cerradas para modificación."_
+>_"Las entidades de software deben estar abiertas para extensión, pero cerradas para modificación."_
 
 ### ¿Qué significa?
 
