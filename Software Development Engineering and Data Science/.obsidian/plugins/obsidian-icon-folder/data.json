@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiExcalidrawIcon",
-      "LiInfo",
-      "FabReadme",
-      "LiNotebookPen",
-      "LiDatabaseZap"
+      "LiChartNoAxesColumn",
+      "LiChartPie",
+      "LiChartArea",
+      "🫂",
+      "LiSquareAsterisk"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -70,5 +70,21 @@
     "iconName": "LiDatabaseZap",
     "iconColor": "#ffbb00"
   },
-  "Excalidraw": "LiExcalidrawIcon"
+  "Excalidraw": "LiExcalidrawIcon",
+  "Calculus Fundamentals": {
+    "iconName": "LiCalculator",
+    "iconColor": "#fd3f3f"
+  },
+  "Tableau": {
+    "iconName": "LiSquareAsterisk",
+    "iconColor": "#0084ff"
+  },
+  "People Analytics": {
+    "iconName": "LiChartPie",
+    "iconColor": "#0052f5"
+  },
+  "Power BI": {
+    "iconName": "LiChartNoAxesColumn",
+    "iconColor": "#ffdd00"
+  }
 }

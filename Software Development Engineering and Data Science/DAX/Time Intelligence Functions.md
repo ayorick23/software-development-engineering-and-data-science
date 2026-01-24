@@ -1,6 +1,6 @@
 # Funciones de Inteligencia de Tiempo
 
-Las **funciones de inteligencia de tiempo** en DAX te permiten manipular el contexto de filtro de fechas para realizar análisis de series temporales. Son esenciales para comparar periodos, calcular acumulados y entender tendencias a lo largo del tiempo. Para que funcionen correctamente, es crucial tener una [[Date and Time Functions#Creación de Tablas de Fecha|tabla de calendario]] dedicada y marcada como tal en tu modelo de datos.
+Las **funciones de [[Inteligencia de Tiempo#¿Qué es la inteligencia de tiempo?|inteligencia de tiempo]]** en DAX te permiten manipular el contexto de filtro de fechas para realizar análisis de series temporales. Son esenciales para comparar periodos, calcular acumulados y entender tendencias a lo largo del tiempo. Para que funcionen correctamente, es crucial tener una [[Date and Time Functions#Creación de Tablas de Fecha|tabla de calendario]] dedicada y marcada como tal en tu modelo de datos.
 
 ## Desplazamiento de Periodos
 
