@@ -64,35 +64,73 @@
             }
           },
           {
-            "id": "99b7d531bee329c0",
+            "id": "a4934a0f641dfed6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "University Degree Notes/Ciclo 03/Probabilidad y Estadística/Clase 01 - Introducción al Método Estadístico.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Clase 01 - Introducción al Método Estadístico"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista gráfica"
             }
           },
           {
-            "id": "4b08a7ed616c1566",
+            "id": "5ba4158b7b47a052",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University Degree Notes/Ciclo 03/Matemática III/Clase 01 -.md",
+                "file": "University Degree Notes/Ciclo 03/Álgebra Lineal para Ciencia de Datos/Clase 01 - Intro Álgebra Lineal Data Science.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Clase 01 -"
+              "title": "Clase 01 - Intro Álgebra Lineal Data Science"
+            }
+          },
+          {
+            "id": "f07110cf671d2a91",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "University Degree Notes/Ciclo 03/Álgebra Lineal para Ciencia de Datos/Clase 03 - Matrices.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Clase 03 - Matrices"
+            }
+          },
+          {
+            "id": "475706121ac2c6ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "University Degree Notes/Ciclo 03/Programación Web I (Backend)/Clase 04 - Bases de Datos y Code First.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Clase 04 - Bases de Datos y Code First"
+            }
+          },
+          {
+            "id": "e57a53253b644536",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "University Degree Notes/Ciclo 03/Álgebra Lineal para Ciencia de Datos/Clase 01 - Intro Álgebra Lineal Data Science.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Clase 01 - Intro Álgebra Lineal Data Science"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -149,8 +187,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "fba2102a22d609e9",
@@ -253,35 +290,36 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "99b7d531bee329c0",
+  "active": "e57a53253b644536",
   "lastOpenFiles": [
-    "University Degree Notes/Ciclo 03/Matemática III/Clase 01 -.md",
-    "University Degree Notes/Ciclo 02/Bases de Datos I (Relacionales)/Clase 01 - Definición de Base de Datos.md",
     "University Degree Notes/Ciclo 03/Probabilidad y Estadística/Clase 01 - Introducción al Método Estadístico.md",
+    "University Degree Notes/Ciclo 03/Programación Web I (Backend)/Clase 04 - Bases de Datos y Code First.md",
+    "University Degree Notes/Ciclo 03/Bases de Datos II (No Relacionales)/Clase 01 - Fundamentos de las Bases de Datos NoSQL.md",
+    "University Degree Notes/Ciclo 03/Álgebra Lineal para Ciencia de Datos/Clase 02 - Matrices y Vectores en Matlab.md",
+    "University Degree Notes/Ciclo 03/Álgebra Lineal para Ciencia de Datos/Clase 01 - Intro Álgebra Lineal Data Science.md",
+    "University Degree Notes/Ciclo 02/Bases de Datos I (Relacionales)/Clase 01 - Definición de Base de Datos.md",
+    "University Degree Notes/Ciclo 02/Bases de Datos I (Relacionales)/Clase 02 - Estándar SQL.md",
+    "University Degree Notes/Ciclo 03/Bases de Datos II (No Relacionales)/Clase 03 -.md",
+    "University Degree Notes/Ciclo 03/Álgebra Lineal para Ciencia de Datos/Clase 03 - Matrices.md",
+    "University Degree Notes/Ciclo 03/Programación Web I (Backend)/Clase 03 - Formatos de Datos - JSON vs XML.md",
+    "University Degree Notes/Ciclo 03/Bases de Datos II (No Relacionales)/Clase 02 - SQL vs. NoSQL.md",
+    "University Degree Notes/Ciclo 03/Matemática III/Clase 02 - Ángulos y Cosenos Directores de un Vector.md",
+    "University Degree Notes/Ciclo 03/Matemática III/Clase 01 - Sistemas Coordenados Cartesianos.md",
+    "SQL/DML (Data Manipulation Language).md",
     "University Degree Notes/Ciclo 03/Programación Web I (Backend)/Clase 01 - Introducción a la Programación Web.md",
+    "Python/NumPy/Array Comparison.md",
+    "Python/JSON and YAML.md",
+    "University Degree Notes/Ciclo 03/Programación Web I (Backend)/Clase 02 - Introducción a API REST.md",
+    "Python/APIs.md",
+    "Python/NumPy/Mathematical Operations.md",
+    "Python/Pandas/Series and Dataframes.md",
+    "Python/NumPy/Array Creation.md",
+    "Python/Introduction to Python.md",
+    "University Degree Notes/Ciclo 03/Probabilidad y Estadística/Clase 03 - Tipos de Gráficos Estadísticos.md",
+    "University Degree Notes/Ciclo 03/Probabilidad y Estadística/Clase 02 - Funciones y Usos del Método Estadístico.md",
+    "Pasted image 20260131141821.png",
+    "Excalidraw/Drawing 2026-01-24 14.28.24.excalidraw.md",
     "Pasted image 20260120194832.png",
-    "DAX/Relantionship Functions.md",
-    "People Analytics/KPI's y Dashboards en RRHH.md",
-    "DAX/DAX Statements.md",
-    "Power BI/Creación de KPI's con Variables.md",
-    "DAX/Information Functions.md",
-    "Power BI/Inteligencia de Tiempo.md",
-    "Power BI/Funciones Iterativas.md",
-    "DAX/Table Manipulation Functions.md",
-    "DAX/Time Intelligence Functions.md",
-    "DAX/Text Functions.md",
-    "DAX/Date and Time Functions.md",
-    "DAX/DAX Operators.md",
-    "DAX/Aggregate Functions.md",
-    "Power BI/Cálculo de Medidas y Contexto de Filtro.md",
-    "DAX/Filter Functions.md",
-    "DAX/Logical Functions.md",
-    "Power BI/Lenguaje DAX.md",
-    "Power BI/Optimización de Modelos de Datos.md",
-    "Power BI/Modelado y Análisis Avanzado de Datos con Power BI.md",
-    "Power BI/Modelado de Datos.md",
-    "Power BI/Relaciones y Filtros.md",
-    "Power BI/Business Intelligence.md",
     "Power BI",
     "Pasted image 20251015182307.png",
     "People Analytics",
@@ -299,7 +337,6 @@
     "Sin título.base",
     "Pasted image 20250813182550.png",
     "Pasted image 20250729183105.png",
-    "Pasted image 20250728181831.png",
-    "Pasted image 20250728181716.png"
+    "Pasted image 20250728181831.png"
   ]
 }

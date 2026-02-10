@@ -169,6 +169,7 @@ Content-Length: 5
 - Cuerpo: JSON con los datos del producto
 
 ## Métodos ``HTTP``
+(ver [[APIs#Conceptos Fundamentales de APIs Web|Métodos HTTP en Python]])
 
 Cada método define la intención de la solicitud:
 
