@@ -178,7 +178,9 @@ public class AppDbContext : DbContext {
 
 Ahora generamos la **migración inicial**, que EF Core usará para crear la base de datos y la tabla correspondiente al modelo ``Producto``:
 
-**dotnet ef migrations add Inicial**
+```shell
+dotnet ef migrations add Inicial
+```
 
 Esto genera una carpeta ``Migrations`` con un archivo C# que contiene dos métodos:
 
@@ -214,7 +216,9 @@ protected override void Down(MigrationBuilder migrationBuilder) {
 
 Con la migración lista, ahora sí creamos la base de datos física y la tabla ``Productos``:
 
-**dotnet ef database update**
+```shell
+dotnet ef database update
+```
 
 **Resultado:**
 
