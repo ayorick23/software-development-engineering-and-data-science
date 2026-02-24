@@ -186,6 +186,85 @@ using System.DataAnnotations;
 
 namespace ApiUsuarios.Controllers
 {
-	
+	[ApiController]
+	[Route("api/[controller]")]
+	public class UsuariosController : ControllerBase
+	{
+		// Lista estática en memoria para simular base de datos
+		private static readonly List<Usuario> Usuarios = new List<Usuario>();
+		
+		// GET: api/usuarios
+		[HttpGet]
+		public ActionResult<IEnumerable<Usuario>> GetUsuarios()
+		{
+			return Ok(Usuario);
+		}
+		
+		// GET: api/usuarios/{id}
+		[HttpGet("{id}")]
+		public ActionResult<Usuario> GetUsuarioPorId(int id)
+		{
+			var usuario = Usuarios.FirstOrDefault(u => u.Id == id);
+			if (usuario == null)
+			{
+				return NotFound("Usuario no encontrado");
+			}
+			return Ok(usuario);
+		}
+		
+		// POST: api/usuarios
+		[HttpPost]
+		public ActionResult<Usuario> CrearUsuario([FromBody] Usuario usuario)
+		{
+			// Validación usuando DataAnnotations
+			var context = new ValidationContext(usuario);
+			var results = new List<ValidationResult>();
+			if (!Validator.TryValidateObject(usuario, context, results, true))
+			{
+				return BadRequest(results);
+			}
+			
+			// Asignar Id incremental y agregar a la lista
+			usuario.Id = Usuarios.Count + 1;
+			Usuarios.Add(usuario);
+			
+			return CreatedAtAction(nameof(GetUsuarioPorId), new { id = usuario.Id }, usuario);
+		}
+		
+		// PUT: api/usuarios/{id} - Actualizar usuario
+		[HttpPut("{id}")]
+		public ActionResult<Usuario> ActualizarUsuario(int id, [FromBody] Usuario usuarioActualizado)
+		{
+			var usuario = Usuarios.FirstOrDefault(u => u.Id == id);
+			if (usuario == null)
+			{
+				return NotFound("Usuario no encontrado");
+			}
+			
+			// Validación
+			var context = new ValidationContext(usuarioActualizado);
+			var results = new List<ValidationResult>();
+			if (!Validator.TryValidateObject(usuarioActualizado, context, results, true))
+			{
+				return BadRequest(results);
+			}
+			usuario.Nombre = usuarioActualizado.Nombre;
+			usuario.Edad = usuarioActualizado.Edad;
+			
+			return Ok(Usuario);
+		}
+		
+		// DELETE: api/usuarios/{id} - Eliminar usuario
+		[HttpDelete("{id}")]
+		public ActionResult EliminarUsuario(int id)
+		{
+			var usuario = Usuarios.FirstOrDefault(u +> u.Id == id);
+			if(usuario == null)
+				return NotFound("Usuario no encontrado");
+				
+			Usuarios.Remove(usuario);
+			return NoContent();
+		}
+	}
 }
 ```

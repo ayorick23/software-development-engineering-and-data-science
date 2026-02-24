@@ -36,34 +36,6 @@
             }
           },
           {
-            "id": "796d35711ee4153a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DAX/Relantionship Functions.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Relantionship Functions"
-            }
-          },
-          {
-            "id": "1ed9c3456abf3862",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "University Degree Notes/Ciclo 02/Bases de Datos I (Relacionales)/Clase 01 - Definición de Base de Datos.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Clase 01 - Definición de Base de Datos"
-            }
-          },
-          {
             "id": "a4934a0f641dfed6",
             "type": "leaf",
             "state": {
@@ -74,17 +46,45 @@
             }
           },
           {
-            "id": "e57a53253b644536",
+            "id": "137b5a6073e0e0da",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University Degree Notes/Ciclo 03/Matemática III/Clase 01 - Sistemas Coordenados Cartesianos.md",
+                "file": "University Degree Notes/Ciclo 03/Álgebra Lineal para Ciencia de Datos/Clase 03 - Matrices en Python y Matlab.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Clase 01 - Sistemas Coordenados Cartesianos"
+              "title": "Clase 03 - Matrices en Python y Matlab"
+            }
+          },
+          {
+            "id": "40a6d9387ca680ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "University Degree Notes/Ciclo 03/Álgebra Lineal para Ciencia de Datos/Clase 04 -.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Clase 04 -"
+            }
+          },
+          {
+            "id": "9d245df217dddfdd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "University Degree Notes/Ciclo 03/Bases de Datos II (No Relacionales)/Clase 04 - Configuración de Bases de Datos NoSQL.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Clase 04 - Configuración de Bases de Datos NoSQL"
             }
           }
         ],
@@ -120,7 +120,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "ACID",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -145,7 +145,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "fba2102a22d609e9",
@@ -248,34 +249,34 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e57a53253b644536",
+  "active": "9d245df217dddfdd",
   "lastOpenFiles": [
-    "University Degree Notes/Ciclo 03/Matemática III/Clase 01 - Sistemas Coordenados Cartesianos.md",
-    "University Degree Notes/Ciclo 03/Bases de Datos II (No Relacionales)/Clase 03 -.md",
-    "University Degree Notes/Ciclo 03/Bases de Datos II (No Relacionales)/Clase 02 - SQL vs. NoSQL.md",
-    "University Degree Notes/Ciclo 03/Programación Web I (Backend)/Clase 04 - Bases de Datos y Code First.md",
-    "University Degree Notes/Ciclo 03/Programación Web I (Backend)/Clase 03 - Formatos de Datos - JSON vs XML.md",
-    "University Degree Notes/Ciclo 03/Probabilidad y Estadística/Clase 03 - Tipos de Gráficos Estadísticos.md",
-    "University Degree Notes/Ciclo 03/Probabilidad y Estadística/Clase 02 - Funciones y Usos del Método Estadístico.md",
-    "University Degree Notes/Ciclo 03/Probabilidad y Estadística/Clase 01 - Introducción al Método Estadístico.md",
-    "University Degree Notes/Ciclo 03/Álgebra Lineal para Ciencia de Datos/Clase 01 - Intro Álgebra Lineal Data Science.md",
-    "University Degree Notes/Ciclo 03/Álgebra Lineal para Ciencia de Datos/Clase 02 - Matrices y Vectores en Matlab.md",
+    "University Degree Notes/Ciclo 03/Bases de Datos II (No Relacionales)/Clase 05 - Prueba de Concepto (POC).md",
+    "University Degree Notes/Ciclo 03/Bases de Datos II (No Relacionales)/Clase 04 - Configuración de Bases de Datos NoSQL.md",
+    "University Degree Notes/Ciclo 03/Álgebra Lineal para Ciencia de Datos/Clase 04 -.md",
     "University Degree Notes/Ciclo 03/Álgebra Lineal para Ciencia de Datos/Clase 03 - Matrices en Python y Matlab.md",
+    "University Degree Notes/Ciclo 03/Álgebra Lineal para Ciencia de Datos/Clase 05 -.md",
+    "University Degree Notes/Ciclo 03/Probabilidad y Estadística/Clase 04 - Medidas de Tendencia Central.md",
+    "University Degree Notes/Ciclo 03/Bases de Datos II (No Relacionales)/Clase 03 - Gestores de Bases de Datos NoSQL.md",
+    "University Degree Notes/Ciclo 03/Programación Web I (Backend)/Clase 04 - Bases de Datos y Code First.md",
     "University Degree Notes/Ciclo 03/Matemática III/Clase 04 -.md",
-    "University Degree Notes/Ciclo 03/Bases de Datos II (No Relacionales)/Clase 01 - Fundamentos de las Bases de Datos NoSQL.md",
-    "University Degree Notes/Ciclo 02/Bases de Datos I (Relacionales)/Clase 01 - Definición de Base de Datos.md",
-    "University Degree Notes/Ciclo 02/Bases de Datos I (Relacionales)/Clase 02 - Estándar SQL.md",
-    "University Degree Notes/Ciclo 03/Matemática III/Clase 02 - Ángulos y Cosenos Directores de un Vector.md",
-    "SQL/DML (Data Manipulation Language).md",
-    "University Degree Notes/Ciclo 03/Programación Web I (Backend)/Clase 01 - Introducción a la Programación Web.md",
-    "Python/NumPy/Array Comparison.md",
-    "Python/JSON and YAML.md",
+    "Power BI/Integración con R.md",
+    "Repos de GitHub/Repositorios de GitHub.md",
+    "DAX/Relantionship Functions.md",
+    "University Degree Notes/Ciclo 03/Programación Web I (Backend)/Clase 03 - Formatos de Datos - JSON vs XML.md",
     "University Degree Notes/Ciclo 03/Programación Web I (Backend)/Clase 02 - Introducción a API REST.md",
-    "Python/APIs.md",
-    "Python/NumPy/Mathematical Operations.md",
-    "Python/Pandas/Series and Dataframes.md",
-    "Python/NumPy/Array Creation.md",
-    "Python/Introduction to Python.md",
+    "University Degree Notes/Ciclo 03/Programación Web I (Backend)/Clase 01 - Introducción a la Programación Web.md",
+    "University Degree Notes/Ciclo 03/Probabilidad y Estadística/Clase 01 - Introducción al Método Estadístico.md",
+    "University Degree Notes/Ciclo 03/Probabilidad y Estadística/Clase 02 - Funciones y Usos del Método Estadístico.md",
+    "University Degree Notes/Ciclo 03/Probabilidad y Estadística/Clase 03 - Tipos de Gráficos Estadísticos.md",
+    "University Degree Notes/Ciclo 02/Bases de Datos I (Relacionales)/Clase 01 - Definición de Base de Datos.md",
+    "University Degree Notes/Ciclo 03/Bases de Datos II (No Relacionales)/Clase 01 - Fundamentos de las Bases de Datos NoSQL.md",
+    "University Degree Notes/Ciclo 03/Bases de Datos II (No Relacionales)/Clase 02 - SQL vs. NoSQL.md",
+    "Docker/Images.md",
+    "Docker/Introduction to Docker.md",
+    "Python/JSON and YAML.md",
+    "University Degree Notes/Ciclo 02/Bases de Datos I (Relacionales)/Clase 02 - Estándar SQL.md",
+    "SQL/Joins.md",
     "Pasted image 20260131141821.png",
     "Pasted image 20260120194832.png",
     "Power BI",
