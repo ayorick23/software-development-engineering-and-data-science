@@ -1,5 +1,9 @@
 {
   "interfaceFontFamily": "Segoe UI,JetBrains Mono",
-  "cssTheme": "GitHub Theme",
-  "accentColor": ""
+  "cssTheme": "Obsidianite",
+  "accentColor": "",
+  "nativeMenus": false,
+  "monospaceFontFamily": "JetBrains Mono",
+  "baseFontSizeAction": false,
+  "baseFontSize": 16
 }

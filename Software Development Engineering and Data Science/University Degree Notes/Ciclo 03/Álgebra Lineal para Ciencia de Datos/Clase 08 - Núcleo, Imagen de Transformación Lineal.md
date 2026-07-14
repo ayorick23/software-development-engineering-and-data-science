@@ -143,7 +143,12 @@ from sympy import Matrix
 
 A = Matrix([[1,2,3,4], [0,1,2,3], [1,3,5,7]])
 n = A.shape[1]
+rango = A.rank()
+ker = A.nullspace()
+nulidad = len(ker)
 
+print(f"Verificar: {n} = {rango} + {nulidad}")
+print(f"Se cumple: {n == rango+nulidad}")
 ```
 
 ### Ejercicio 2 - MATLAB
@@ -163,3 +168,7 @@ disp(pivote)
 fprintf('La Base de Im(T): ')
 disp(A(:, pivote))
 ```
+
+### Ejercicio 4 - Python
+
+

@@ -4,11 +4,7 @@ Materia:
   - Álgebra Lineal para Ciencia de Datos
 Fecha de clase: 2026-01-31
 ---
-# Matrices y Vectores en Matlab
-
-## Matrices
-
-Una [[Clase 03 - Matrices en Python y Matlab#Matrices|matriz]] es una forma ordenada de organizar números en filas y columnas, parecida a una tabla. Esta organización nos ayuda a representar información de manera clara y a realizar operaciones que serían muy complicadas si se hicieran de otra forma.
+# Vectores en Python y MATLAB
 
 ## Vectores
 

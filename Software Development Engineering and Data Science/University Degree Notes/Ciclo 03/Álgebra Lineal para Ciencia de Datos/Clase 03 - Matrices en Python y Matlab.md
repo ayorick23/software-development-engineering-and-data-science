@@ -4,7 +4,9 @@ Materia:
   - Álgebra Lineal para Ciencia de Datos
 Fecha de clase: 2026-02-07
 ---
-# Matrices
+# Matrices en Python y MATLAB
+
+## Matrices
 
 Las **matrices** son estructuras matemáticas que organizan datos en forma de **filas y columnas**. En ciencia de datos, prácticamente **todo dataset es una matriz**, donde:
 

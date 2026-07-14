@@ -227,3 +227,38 @@ dotnet ef database update
 - Crea la tabla Productos con las columnas definidas en el modelo.
 
 En este punto, ya tenemos **modelo y base de datos sincronizados**, listos para empezar a insertar datos y hacer consultas.
+
+## Estructura Profesional de un Proyecto ASP.NET
+
+```
+MiApi
+│
+├── Controllers
+│     ProductosController.cs
+│
+├── Models
+│     Producto.cs
+│
+├── Data
+│     AppDbContext.cs
+│
+├── Services
+│     ProductoService.cs
+│
+├── DTOs
+│     ProductoCreateDto.cs
+│
+├── Migrations
+│
+└── Program.cs
+```
+
+Cada carpeta tiene responsabilidad clara:
+
+|Carpeta|Función|
+|---|---|
+|Controllers|endpoints HTTP|
+|Models|entidades EF|
+|Data|DbContext|
+|Services|lógica de negocio|
+|DTOs|objetos para API|

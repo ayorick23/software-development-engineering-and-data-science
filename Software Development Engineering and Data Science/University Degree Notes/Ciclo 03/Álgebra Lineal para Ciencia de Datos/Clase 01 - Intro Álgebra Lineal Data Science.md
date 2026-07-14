@@ -106,7 +106,7 @@ $$\vec{v}=(2,4,6)$$
 | Vector posición | Representa un punto desde el origen   |
 
 ### Operaciones Básicas con Vectores
-(ver [[Clase 02 - Matrices y Vectores en Matlab]])
+(ver [[Clase 02 - Vectores en Python y MATLAB]])
 (ver [[Mathematical Operations]])
 
 #### Suma de Vectores
