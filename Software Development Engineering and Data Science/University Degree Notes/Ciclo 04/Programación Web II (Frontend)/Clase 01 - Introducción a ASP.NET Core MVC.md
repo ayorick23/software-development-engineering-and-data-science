@@ -6,7 +6,11 @@ Fecha de clase: 2026-07-10
 ---
 # Introducción a ASP.NET Core MVC
 
+El desarrollo frontend consiste en la creación y la implementación de la parte visible de una aplicación web o sitio web. Consiste en trabajar en la interfaz de usuario (UI) y la experiencia del usuario (UX), lo que implica diseñar y desarrollar elementos visuales, interactivos y funcionales con los que los usuarios interactúan directamente en su navegador u otra plataforma similar.
+
 La evolución de las tecnologías web ha transformado la manera en que las organizaciones desarrollan y utilizan aplicaciones para gestionar información y brindar servicios a sus usuarios. Actualmente, las aplicaciones web son una herramienta fundamental en empresas, instituciones educativas, entidades gubernamentales y comercios, debido a que permiten el acceso a la información desde cualquier lugar mediante un navegador web.
+
+---
 
 ## ¿Qué es una Aplicación Web?
 
@@ -20,6 +24,8 @@ Ejemplos:
 - Facebook
 - Sistema Académico
 
+---
+
 ## Arquitectura Cliente-Servidor
 
 Cuando un usuario solicita una página web ocurre el siguiente proceso:
@@ -31,16 +37,20 @@ Cuando un usuario solicita una página web ocurre el siguiente proceso:
 5. Navegador
 6. Usuario
 
+---
+
 ## ¿Qué es un Framework?
 
 Un **framework**, en el contexto del desarrollo de software, es un conjunto de herramientas, bibliotecas y convenciones que proporcionan una estructura y un marco de trabajo para el desarrollo de aplicaciones. Los frameworks facilitan el proceso de desarrollo al ofrecer una base sobre la cual los desarrolladores pueden construir su aplicación, evitando la necesidad de escribir código desde cero para tareas comunes.
 
+---
+
 ## ¿Qué es ASP.NET Core?
 
-ASP.NET Core es un framework desarrollado por Microsoft para crear aplicaciones web modernas.
+**ASP.NET Core** es un framework desarrollado por Microsoft para crear aplicaciones web modernas.
 
 - Características
-- Código abierto (Open Source)
+- Código abierto (_Open Source_)
 - Multiplataforma
 - Alto rendimiento
 - Seguro
@@ -58,6 +68,8 @@ Con ASP.NET Core podemos crear:
 - Servicios Web
 - Aplicaciones para la nube
 - Aplicaciones con Blazor
+
+---
 
 ## ¿Qué es ASP.NET MVC?
 
@@ -81,6 +93,14 @@ El lenguaje de programación principal utilizado con ASP.NET es C#. Es un lengua
 > [!IMPORTANT] IIS (_Internet Information Services_)
 Es el servidor web de Microsoft utilizado para hospedar aplicaciones ASP.NET. Proporciona un entorno para ejecutar y gestionar aplicaciones web.
 
+---
+
+## IIS (_Internet Information Services_)
+
+Es el servidor web de Microsoft utilizado para hospedar aplicaciones ASP.NET. Proporciona un entorno para ejecutar y gestionar aplicaciones web.
+
+---
+
 ## Entity Framework
 
 Para la capa de acceso a datos, Entity Framework es una opción común. Proporciona un conjunto de tecnologías que facilitan el acceso y manipulación de datos en aplicaciones .NET.
@@ -92,6 +112,8 @@ Para la capa de acceso a datos, Entity Framework es una opción común. Proporci
 - El código está organizado en clases y espacios de nombres jerárquicos.
 - Independiente del lenguaje.
 
+
+
 ### Herramientas del Módulo
 
 Durante el semestre utilizaremos:
@@ -101,4 +123,3 @@ Durante el semestre utilizaremos:
 - SQL Server Express 2022
 - SQL Server Management Studio
 - Google Chrome o Microsoft Edge
-

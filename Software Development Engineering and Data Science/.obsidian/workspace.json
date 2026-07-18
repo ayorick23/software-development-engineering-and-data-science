@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University Degree Notes/Ciclo 04/Administración de Servidores/Clase 01 - Introducción a la Administración de Servidores.md",
+                "file": "University Degree Notes/Ciclo 04/Programación Web II (Frontend)/Clase 02 -.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Clase 01 - Introducción a la Administración de Servidores"
+              "title": "Clase 02 -"
             }
           },
           {
@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University Degree Notes/Ciclo 03/Bases de Datos II (No Relacionales)/Clase 13 - Estrategias de Implementación Cassandra.md",
+                "file": "University Degree Notes/Ciclo 04/Data Analysis/Clase 01 - Fundamentos del Análisis de Datos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Clase 13 - Estrategias de Implementación Cassandra"
+              "title": "Clase 01 - Fundamentos del Análisis de Datos"
             }
           },
           {
@@ -46,8 +46,7 @@
               "title": "Vista gráfica"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -224,53 +223,53 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "fa41d5f2ffc05e14",
+  "active": "336386c2b5e3c3b0",
   "lastOpenFiles": [
-    "University Degree Notes/Ciclo 03/Bases de Datos II (No Relacionales)/Clase 10 - Diseño hacia Paradigmas NoSQL.md",
-    "University Degree Notes/Ciclo 04/Administración de Servidores/Clase 01 - Introducción a la Administración de Servidores.md",
-    "University Degree Notes/Ciclo 04/Administración de Servidores/Clase 02 - Active Directory.md",
-    "University Degree Notes/Ciclo 03/Probabilidad y Estadística/Clase 01 - Introducción al Método Estadístico.md",
     "University Degree Notes/Ciclo 04/Programación Web II (Frontend)/Clase 01 - Introducción a ASP.NET Core MVC.md",
+    "University Degree Notes/Ciclo 04/Programación Web II (Frontend)/Clase 02 -.md",
     "University Degree Notes/Ciclo 04/Data Analysis/Clase 01 - Fundamentos del Análisis de Datos.md",
-    "Excalidraw/Drawing 2026-07-07 19.07.31.excalidraw.md",
-    "University Degree Notes/Ciclo 04/Marcos de Trabajo Ágil/Clase 01 - Introducción a la Agilidad y Conceptos Básicos.md",
-    "University Degree Notes/Ciclo 04/Estadística Inferencial/Clase 01 - Distribuciones Discretas, Binomial y Poisson.md",
-    "University Degree Notes/Ciclo 03/Matemática III/Clase 01 - Sistemas Coordenados Cartesianos.md",
-    "Pasted Image 20260707190733_626.png",
-    "University Degree Notes/Ciclo 03/Programación Web I (Backend)/Clase 08 - Cifrado, Hashing, Salting y Arquitectura Limpia.md",
-    "University Degree Notes/Ciclo 03/Bases de Datos II (No Relacionales)/Clase 14 - Instalación y Configuración de Cassandra.md",
-    "University Degree Notes/Ciclo 03/Probabilidad y Estadística/Clase 12 - Distribución Normal.md",
-    "University Degree Notes/Ciclo 03/Probabilidad y Estadística/Clase 13 - Tipos de Distribución.md",
-    "University Degree Notes/Ciclo 03/Programación Web I (Backend)/Clase 09 - SQL Injection y Patrones de Diseño.md",
-    "University Degree Notes/Ciclo 03/Programación Web I (Backend)/Clase 10 - Autenticación en .NET 8.md",
-    "University Degree Notes/Ciclo 03/Programación Web I (Backend)/Clase 12 -.md",
-    "Power BI/Configuración de Data Gateway.md",
-    "Power BI/Creación de KPI's con Variables.md",
-    "People Analytics/KPI's y Dashboards en RRHH.md",
-    "University Degree Notes/Ciclo 03/Bases de Datos II (No Relacionales)/Clase 13 - Estrategias de Implementación Cassandra.md",
-    "University Degree Notes/Ciclo 03/Bases de Datos II (No Relacionales)/Clase 12 - Introducción a Apache Cassandra.md",
-    "Pasted Image 20260422192011_025.png",
-    "University Degree Notes/Ciclo 03/Probabilidad y Estadística/Clase 10 - Laboratorio 2.md",
-    "Excalidraw/Drawing 2026-04-22 19.19.50.excalidraw.md",
-    "Pasted image 20260328151716.png",
-    "Excalidraw/Drawing 2026-04-18 14.26.00.excalidraw.md",
-    "University Degree Notes/Ciclo 03/Matemática III/Clase 12 -.md",
-    "Pasted image 20260313194557.png",
-    "Pasted image 20260325212709.png",
-    "Pasted image 20260131141821.png",
-    "Pasted image 20260120194832.png",
+    "Machine Learning/10-IA-Generativa-LLMs-y-Agentes.md",
+    "Docker/Docker for Data Science.md",
+    "Python/Package Managers.md",
+    "Machine Learning/07-Librerias-de-Data-Science-y-ML.md",
+    "Machine Learning/01-Fundamentos-y-Panorama-General.md",
+    "Machine Learning/03-Arquitectura-Empresarial-de-Datos-y-ML.md",
+    "University Degree Notes/Ciclo 03/Bases de Datos II (No Relacionales)/Clase 01 - Fundamentos de las Bases de Datos NoSQL.md",
+    "Machine Learning/02-Roles-y-Carreras-en-DS-ML.md",
+    "Machine Learning/04-Ingenieria-de-Datos.md",
+    "Machine Learning/05-Ciencia-de-Datos-Estadistica-y-Fundamentos-ML.md",
+    "Machine Learning/06-Familia-de-Algoritmos-ML.md",
+    "University Degree Notes/Ciclo 04/Administración de Servidores/Clase 01 - Introducción a la Administración de Servidores.md",
+    "Machine Learning/Imágenes/statsmodels-logo-v2-horizontal.svg",
+    "Machine Learning/Imágenes/simpy-logo-small.webp",
+    "Machine Learning/Imágenes/Scikit_learn_logo_small.svg.webp",
+    "Machine Learning/Imágenes/Pasted image 20260715084315.png",
+    "Machine Learning/Imágenes/Pasted image 20260715084101.png",
+    "Machine Learning/Imágenes/Pasted image 20260715083947.png",
+    "Machine Learning/Imágenes/Pasted image 20260715083424.png",
+    "Machine Learning/Imágenes/Pasted image 20260715082743.png",
+    "Machine Learning/Imágenes/Pasted image 20260715081920.png",
+    "Machine Learning/Imágenes/Pasted image 20260715082641.png",
+    "Machine Learning/Imágenes",
+    "Machine Learning/09-MLOps-en-Profundidad.md",
+    "Machine Learning/08-Plataformas-de-Datos-y-ML.md",
+    "Machine Learning",
+    "Guía Completa/Imágenes",
+    "Guía Completa/09-MLOps-en-Profundidad.md",
+    "Guía Completa/10-IA-Generativa-LLMs-y-Agentes.md",
+    "Guía Completa/08-Plataformas-de-Datos-y-ML.md",
+    "Guía Completa/07-Librerias-de-Data-Science-y-ML.md",
+    "Guía Completa/06-Familia-de-Algoritmos-ML.md",
+    "Guía Completa/05-Ciencia-de-Datos-Estadistica-y-Fundamentos-ML.md",
+    "Guía Completa/04-Ingenieria-de-Datos.md",
+    "Guía Completa/03-Arquitectura-Empresarial-de-Datos-y-ML.md",
+    "Guía Completa/02-Roles-y-Carreras-en-DS-ML.md",
+    "Guía Completa",
     "Power BI",
-    "Pasted image 20251015182307.png",
     "People Analytics",
     "Tableau",
     "University Degree Notes/Ciclo 02/Física II/Clase 14.pdf",
     "Calculus Fundamentals",
-    "University Degree Notes/Ciclo 02/Física II/Sin confirmar 542005.crdownload",
-    "University Degree Notes/Ciclo 02/Física II/Clase 13.pdf",
-    "Pasted image 20251013181654.png",
-    "Pasted image 20251013181730.png",
-    "University Degree Notes/Ciclo 02/Física II/Clase 13 - Termodinámica.pdf",
-    "University Degree Notes/Ciclo 02/Física II/AC S13_annotated.pdf",
-    "Sin título.base"
+    "University Degree Notes/Ciclo 02/Física II/Sin confirmar 542005.crdownload"
   ]
 }
