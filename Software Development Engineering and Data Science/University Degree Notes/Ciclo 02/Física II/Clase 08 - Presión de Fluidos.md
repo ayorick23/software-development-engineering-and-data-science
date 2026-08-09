@@ -4,7 +4,10 @@ Materia:
   - Física II
 Fecha de clase: 2025-09-02
 ---
+[[Clase 07 - Mecánica de Fluidos|← Clase anterior]] | [[Clase 09 - Principio de Arquímedes|Clase siguiente →]]
+
 # Presión Atmosférica
+(continúa la [[Clase 07 - Mecánica de Fluidos#Presión|Presión]] de la Clase 07)
 
 Es el efecto del peso de las sustancias atmosféricas en los elementos en la superficie.
 

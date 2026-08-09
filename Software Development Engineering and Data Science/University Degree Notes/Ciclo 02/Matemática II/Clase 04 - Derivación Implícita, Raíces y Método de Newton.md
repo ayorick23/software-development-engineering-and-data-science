@@ -4,6 +4,8 @@ Materia:
   - Matemática II
 Fecha de clase: 2025-07-30
 ---
+[[Clase 03 - Derivadas de Funciones Trascendentes|← Clase anterior]] | [[Clase 05 - Repaso para el Parcial|Clase siguiente →]]
+
 # Derivación Implícita
 
 La [[Glosario Matemática II#Derivación Implícita|Regla de la Cadena]] es una técnica que se utiliza para encontrar la derivada de una variable con respecto a otra cuando la función no está en su forma explícita, es decir, no está despejada como $y = f(x)$. En su lugar, tenemos una ecuación que define una relación entre $x$ e $y$, como $x^2 + y ^2 = 25$.

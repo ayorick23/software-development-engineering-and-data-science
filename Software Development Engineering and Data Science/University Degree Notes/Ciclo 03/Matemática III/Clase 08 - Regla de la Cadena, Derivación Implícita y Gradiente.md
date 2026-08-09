@@ -4,7 +4,10 @@ Materia:
   - Matemática III
 Fecha de clase: 2026-03-11
 ---
+[[Clase 07 - Funciones de Varias Variables|← Clase anterior]] | [[Clase 09 - Derivadas Direccionales, Gradientes y Fórmula de Taylor|Clase siguiente →]]
+
 # Regla de la Cadena, Derivación Implícita y Gradiente
+(usa las [[Clase 07 - Funciones de Varias Variables|Funciones de Varias Variables]] introducidas en la Clase 07)
 
 Un pequeño ejemplo aplicado a la ciencia de datos
 
@@ -60,4 +63,12 @@ $$
 Con la condición estricta de que $F_z\neq0$.
 
 ## Gradiente
+(se profundiza en [[Clase 09 - Derivadas Direccionales, Gradientes y Fórmula de Taylor|Clase 09]])
 
+El **gradiente** de una función $f(x,y)$, denotado $\nabla f$, es el vector formado por todas sus derivadas parciales de primer orden:
+
+$$
+\nabla f(x,y) = \left\langle \frac{\partial f}{\partial x},\ \frac{\partial f}{\partial y} \right\rangle
+$$
+
+Geométricamente, en cada punto $(x_0,y_0)$ el vector $\nabla f(x_0,y_0)$ apunta en la dirección en la que $f$ crece más rápidamente, y su magnitud $|\nabla f|$ es esa tasa máxima de crecimiento. Es la generalización multivariable de la derivada ordinaria $f'(x)$, y es la pieza central tanto de la derivada direccional como del método del descenso de gradiente usado para entrenar modelos de machine learning (ver [[Clase 10 - Multiplicadores de Lagrange#Selección de Características mediante Regularización|Selección de Características]]).

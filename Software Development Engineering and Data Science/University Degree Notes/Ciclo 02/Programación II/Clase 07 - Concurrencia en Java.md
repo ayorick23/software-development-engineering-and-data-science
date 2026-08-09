@@ -4,6 +4,8 @@ Materia:
   - Programación II
 Fecha de clase: 2025-08-25
 ---
+[[Clase 05 - Colecciones en Java y UML|← Clase anterior]] | [[Clase 08 - Git y el Control de Versiones|Clase siguiente →]]
+
 # Concurrencia en Java
 (similar a [[Concurrency|Concurrencia en Python]])
 

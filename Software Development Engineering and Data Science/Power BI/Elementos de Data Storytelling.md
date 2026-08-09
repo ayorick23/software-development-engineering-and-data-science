@@ -1,5 +1,7 @@
 # Elementos de Data Storytelling
 
+[[Creación de Informes Efectivos (Data Storytelling)|← Anterior]] | [[Gestión de Informes en Power BI Service|Siguiente →]]
+
 ## ¿Cómo se integran los elementos de data storytelling en Power BI?
 
 El uso de Power BI te permite lograr un impacto significativo en tus informes mediante la integración de elementos de data storytelling. Estos elementos mejoran la interacción y comprensión de los datos, haciendo que los informes no solo sean visualmente atractivos, sino también más fáciles de entender e interpretar. Entre los elementos más útiles para el data storytelling en Power BI se encuentran los marcadores, los botones personalizables y los tooltips avanzados.

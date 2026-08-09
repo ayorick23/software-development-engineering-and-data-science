@@ -4,6 +4,8 @@ Materia:
   - Álgebra Lineal para Ciencia de Datos
 Fecha de clase: 2026-01-24
 ---
+[[Clase 02 - Vectores en Python y MATLAB|Clase siguiente →]]
+
 # Introducción al Álgebra Lineal para Ciencia de Datos
 
 La **álgebra lineal** es una de las bases matemáticas más importantes para la **ciencia de datos**, la **inteligencia artificial** y el **machine learning**, ya que permite representar, transformar y analizar grandes volúmenes de datos de forma eficiente.

@@ -4,7 +4,10 @@ Fecha de creación: 21 de marzo de 2025 18:01
 Clase: SISTEMAS OPERATIVOS
 Fecha de la clase: 21 de marzo de 2025
 
+[[Clase 08 - Sistemas de Archivos|← Clase anterior]] | [[Clase 10 - Seguridad de un SO pt. 2|Clase siguiente →]]
+
 # Principales características de seguridad de un sistema operativo
+(profundiza la [[Clase 04 - Funciones de un SO#5. Gestión de usuarios y seguridad|gestión de usuarios y seguridad]] vista en la Clase 04; continúa en [[Clase 10 - Seguridad de un SO pt. 2|Clase 10]])
 
 ## Control de acceso y autenticación
 

@@ -4,7 +4,10 @@ Materia:
   - Comunicación y Redacción
 Fecha de clase: 2025-08-09
 ---
+[[Clase 03 - Escritura|← Clase anterior]] | [[Clase 05 - Comunicación en Ámbito de Ingeniería|Clase siguiente →]]
+
 # La Naturaleza del Lenguaje como Sistema de Comunicación
+(profundiza la [[Clase 01 - Generalidades del Lenguaje y la Comunicación#Naturaleza del Lenguaje|Naturaleza del Lenguaje]] vista en la Clase 01)
 
 El lenguaje es mucho más que solo palabras. Es un sistema complejo y fundamental que nos permite interactuar, compartir ideas, y construir nuestro mundo social. Su naturaleza se basa en ser una herramienta de comunicación con características específicas que lo distinguen de otros sistemas.
 

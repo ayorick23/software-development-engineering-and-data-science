@@ -4,6 +4,8 @@ Materia:
   - Base de Datos II (No Relacionales)
 Fecha de clase: 2026-02-14
 ---
+[[Clase 03 - Gestores de Bases de Datos NoSQL|← Clase anterior]] | [[Clase 05 - Prueba de Concepto (POC)|Clase siguiente →]]
+
 # Configuración e Implementación de Bases de Datos NoSQL
 
 Implementar una base de datos NoSQL no es simplemente instalar el software.  

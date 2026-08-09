@@ -4,7 +4,10 @@ Materia:
   - Física II
 Fecha de clase: 2025-08-12
 ---
+[[Clase 04 - Movimiento Ondulatorio|← Clase anterior]] | [[Clase 07 - Mecánica de Fluidos|Clase siguiente →]]
+
 # ¿Qué es el Sonido?
+(aplica el [[Clase 04 - Movimiento Ondulatorio|Movimiento Ondulatorio]] de la Clase 04 a las ondas mecánicas longitudinales)
 
 El sonido es una onda mecánica longitudinal que se propaga a través de un medio elástico (sólido, líquido o gas). Se produce por la vibración de un objeto, que causa la compresión y rarefacción de las partículas del medio circundante, creando una onda de presión que viaja desde la fuente. Los humanos podemos percibir estas ondas de presión dentro de un rango de frecuencia específico, generalmente entre 20 Hz y 20,000 Hz.
 

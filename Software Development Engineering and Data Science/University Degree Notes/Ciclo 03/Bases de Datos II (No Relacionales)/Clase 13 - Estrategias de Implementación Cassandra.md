@@ -4,6 +4,8 @@ Materia:
   - Base de Datos II (No Relacionales)
 Fecha de clase: 2026-04-25
 ---
+[[Clase 12 - Introducción a Apache Cassandra|← Clase anterior]] | [[Clase 14 - Instalación y Configuración de Cassandra|Clase siguiente →]]
+
 # Estrategias de Implementación
 
 Apache Cassandra se ha consolidado como la base de datos NoSQL distribuida líder para manejar **Petabytes** de datos con latencias predecibles.
@@ -157,7 +159,7 @@ WHERE email LIKE '%@gmail.com'
 ```
 
 - Cassandra (CQL):
-	- Se enfoca 
+	- Se enfoca en las consultas (queries) que la aplicación va a ejecutar. El diseño parte de "¿cómo voy a leer estos datos?" y la tabla se modela alrededor de esa consulta, aceptando redundancia si hace falta. _"Consulta primero, diseña después"_ — lo opuesto al enfoque de SQL.
 
 ```cql
 -- Requiere tabla especifica

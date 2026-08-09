@@ -4,6 +4,8 @@ Materia:
   - Base de Datos I (Relacionales)
 Fecha de clase: 2025-07-18
 ---
+[[Clase 01 - Definición de Base de Datos|← Clase anterior]] | [[Clase 03 - Sentencias SQL en MySQL|Clase siguiente →]]
+
 # Definición de Estándar SQL
 
 Las siglas [[Clase 01 - Definición de Base de Datos#Conceptos Claves|SQL]] significan en el idioma inglés "Structured Query Language" traducido al español como "Lenguaje de Consulta Estructurada". SQL permite acceder y manipular bases de datos.

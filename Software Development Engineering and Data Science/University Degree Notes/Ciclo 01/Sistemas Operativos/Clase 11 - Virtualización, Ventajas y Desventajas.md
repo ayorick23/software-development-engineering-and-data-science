@@ -4,7 +4,10 @@ Fecha de creación: 4 de abril de 2025 18:10
 Clase: SISTEMAS OPERATIVOS
 Fecha de la clase: 4 de abril de 2025
 
+[[Clase 10 - Seguridad de un SO pt. 2|← Clase anterior]]
+
 # Virtualización
+(retoma [[Clase 02 - Introducción a los SO#Máquinas Virtuales|Máquinas Virtuales]] de la Clase 02 y la [[Clase 03 - Introducción a la Virtualización|ponencia de la Clase 03]])
 
 ## Definición de virtualización
 
@@ -185,6 +188,7 @@ La restauración rápida asegura que las operaciones se reanuden con mínima int
 La virtualización en la nube permite a las empresas acceder a recursos de manera más flexible y escalable, optimizando la utilización de recursos.
 
 ### Contenedores
+(ver [[Introduction to Docker]])
 
 Los contenedores son una forma eficiencia de virtualizar aplicaciones, permitiendo a las empresas ejecutar múltiples aplicaciones en un solo sistema operativo.
 

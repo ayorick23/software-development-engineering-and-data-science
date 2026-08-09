@@ -4,6 +4,8 @@ Materia:
   - Programación Web I (Backend)
 Fecha de clase: 2026-01-19
 ---
+[[Clase 02 - Introducción a API REST|Clase siguiente →]]
+
 # Arquitectura Cliente-Servidor, Diseño de APIs y Manipulación de Datos
 
 ## Historia de la Web y HTTP

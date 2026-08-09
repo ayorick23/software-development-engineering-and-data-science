@@ -4,6 +4,8 @@ Materia:
   - Álgebra Lineal para Ciencia de Datos
 Fecha de clase: 2026-03-21
 ---
+[[Clase 08 - Núcleo, Imagen de Transformación Lineal|← Clase anterior]] | [[Clase 10 - Valores y Vectores Propios|Clase siguiente →]]
+
 # Espacios y Subespacios Vectoriales
 
 ## Espacio Vectorial

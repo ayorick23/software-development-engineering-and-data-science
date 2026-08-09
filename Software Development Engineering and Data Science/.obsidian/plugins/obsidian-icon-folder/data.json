@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiFileChartLine",
       "LiChartNoAxesColumn",
       "LiChartPie",
       "LiChartArea",
-      "🫂",
-      "LiSquareAsterisk"
+      "🫂"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -82,5 +82,9 @@
   "Power BI": {
     "iconName": "LiChartNoAxesColumn",
     "iconColor": "#ffdd00"
+  },
+  "Machine Learning": {
+    "iconName": "LiFileChartLine",
+    "iconColor": "#009dff"
   }
 }

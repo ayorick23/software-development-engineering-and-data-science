@@ -4,6 +4,8 @@ Materia:
   - Base de Datos I (Relacionales)
 Fecha de clase: 2025-08-15
 ---
+[[Clase 04 - Introducción a Ambientes SQL|← Clase anterior]] | [[Clase 07 - Funciones en MySQL|Clase siguiente →]]
+
 # MySQL Workbench
 
 Como parte de la instalación de [[Clase 03 - Sentencias SQL en MySQL#¿Qué es MySQL?|MySQL]] encontrarás un entorno completo de diseño y manipulación de bases de datos que se llama **"MySQL Workbench"**, para acceder a él búscalo con ese nombre.

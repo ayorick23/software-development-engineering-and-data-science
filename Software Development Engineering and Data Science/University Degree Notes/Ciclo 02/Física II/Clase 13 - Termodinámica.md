@@ -4,6 +4,8 @@ Materia:
   - Física II
 Fecha de clase: 2025-10-07
 ---
+[[Clase 11 - Viscosidad|← Clase anterior]] | [[Clase 14 - Calor|Clase siguiente →]]
+
 # Unidad 3. Introducción a la Termodinámica
 
 ## Termodinámica

@@ -4,6 +4,8 @@ Materia:
   - Programación II
 Fecha de clase: 2025-09-01
 ---
+[[Clase 07 - Concurrencia en Java|← Clase anterior]] | [[Clase 09 - Herencia Simple y Múltiple|Clase siguiente →]]
+
 # ¿Qué es un Control de Versiones?
 
 Un sistema de control de versiones es un herramienta que permite a los desarrolladores gestionar los cambios en el código fuente y otros archivos de un proyecto. Con un VCS, los desarrolladores pueden trabajar en equipo, hacer modificaciones en el código y compartir esos cambios sin sobrescribir el trabajo de los demás. A lo largo del tiempo, el VCS registra todos los cambios realizados en el proyecto, lo que facilita la recuperación de versiones anteriores, la comparación de cambios y la resolución de conflictos.

@@ -4,6 +4,8 @@ Fecha de creación: 8 de marzo de 2025 14:05
 Clase: PROGRAMACIÓN I
 Fecha de la clase: 8 de marzo de 2025
 
+[[Clase 05 - Operador Ternario, Bucles For y While|← Clase anterior]] | [[Clase 08 - Tuplas, Diccionarios, Sets y Arrays|Clase siguiente →]]
+
 # Iterando información en listas
 
 ## Lista
@@ -85,6 +87,40 @@ dq.popleft()      #elimina del inicio
 print(dq)         #deque([1, 2, 3])
 ```
 
+### Más funciones de `deque`
+
+```python
+dq = deque([1, 2, 3])
+
+dq.extend([4, 5])       #agrega varios elementos al final -> deque([1, 2, 3, 4, 5])
+dq.extendleft([0, -1])  #agrega varios al inicio, en orden inverso -> deque([-1, 0, 1, 2, 3, 4, 5])
+dq.rotate(1)             #rota los elementos 1 posición a la derecha
+dq.rotate(-1)            #rota los elementos 1 posición a la izquierda
+dq.count(2)               #cuenta cuantas veces aparece un valor
+dq.remove(2)               #elimina la primera aparición de un valor
+dq.clear()                   #vacía el deque
+```
+
+<aside>
+📝
+
+`deque(maxlen=n)`: se le puede pasar un tamaño máximo; al llenarse, cada elemento nuevo descarta automáticamente el más antiguo del otro extremo. Útil para cosas como un historial reciente o un buffer circular.
+
+</aside>
+
+## Bucle `do`-`while`
+(ver [[Control Flow#Bucle `do`-`while`|Bucle do-while]])
+
+Python no tiene una sentencia `do`-`while` nativa como otros lenguajes (que garantiza que el bloque se ejecute al menos una vez antes de evaluar la condición). Se emula combinando `while True` con un `if` y `break`:
+
+```python
+while True:
+    numero = int(input("Ingrese un número (0 para salir): "))
+    print(f"Ingresaste: {numero}")
+    if numero == 0:
+        break
+```
+
 Ejercicio:
 
 ```python
@@ -93,12 +129,3 @@ import random
 numMagic = random.randint(1, 100)
 
 ```
-
-<aside>
-📝
-
-AGREGAR DO WHILE
-
-Y MAS FUNCIONES DE DEQUE
-
-</aside>

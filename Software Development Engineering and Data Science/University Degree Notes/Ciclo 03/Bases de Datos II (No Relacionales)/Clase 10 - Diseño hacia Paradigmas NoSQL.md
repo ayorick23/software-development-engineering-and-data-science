@@ -4,6 +4,8 @@ Materia:
   - Base de Datos II (No Relacionales)
 Fecha de clase: 2026-03-28
 ---
+[[Clase 09 - Modelaje de Datos NoSQL|← Clase anterior]] | [[Clase 12 - Introducción a Apache Cassandra|Clase siguiente →]]
+
 # Diseño, Optimización y Migración hacia Paradigmas NoSQL
 
 ## Diseñar el Esquema Según Patrones de Acceso
@@ -14,7 +16,7 @@ EI diseño debe centrarse en cómo la aplicación accede a los datos, no en norm
 
 ## ¿Qué es un Patrón de Acceso?
 
-
+Un **patrón de acceso** es la forma característica en que una aplicación lee y escribe sus datos: qué campos consulta junto con cuáles otros, con qué frecuencia, y si predominan las lecturas o las escrituras. En NoSQL, el patrón de acceso —no la normalización— es lo que determina cómo se debe modelar cada documento.
 
 ## Diseñar el Esquema Según Patrones de Acceso
 
@@ -184,9 +186,34 @@ db.usuarios.find({ "nombre": /Pérez/ }) // Escaneo completo
 
 Sobre varios campos combinados. Perfecto para consultas que filtran por múltiples criterios.
 
+```javascript
+// Creación
+db.usuarios.createIndex({ "ciudad": 1, "edad": -1 })
+
+// Consulta que soporta (filtra por ambos campos, u orden por el primero)
+db.usuarios.find({ "ciudad": "San Salvador", "edad": { $gte: 18 } })
+```
+
+>[!IMPORTANT] El orden de los campos importa: un índice compuesto `{a: 1, b: 1}` también sirve para consultas que solo usan `a`, pero no para las que solo usan `b`.
+
 ### Índice Geoespacial
 
 Para datos de ubicación y consultas de proximidad. Útil en aplicaciones de mapas y geolocalización como: Kontrol, Golán, inDrive y Uber.
+
+```javascript
+// Creación (formato GeoJSON)
+db.lugares.createIndex({ "ubicacion": "2dsphere" })
+
+// Consulta: puntos cercanos a una coordenada
+db.lugares.find({
+  ubicacion: {
+    $near: {
+      $geometry: { type: "Point", coordinates: [-89.2182, 13.6929] },
+      $maxDistance: 5000 // metros
+    }
+  }
+})
+```
 
 ### Índice de Texto
 
@@ -210,24 +237,59 @@ db.usuarios.find({ $text: { $search: "Juan -María" } }) // Exclusión
 ```
 
 ## Aggregation Pipeline
+(ver [[Clase 07 - Framework de Agregación#Pipeline de Agregación|Pipeline de Agregación]])
 
 EI **aggregation pipeline** es una herramienta poderosa para realizar transformaciones, agrupaciones y análisis complejos sobre los datos. Funciona como una serie de etapas (stages) que procesan los documentos paso a paso, permitiendo operaciones sofisticadas de procesamiento de datos.
 
 ```javascript
 db.ventas.aggregate([
 	{ $match: { categoria: "electrónica" } },
-	
+	{ $group: { _id: "$producto", totalVendido: { $sum: "$cantidad" } } },
+	{ $sort: { totalVendido: -1 } }
 ])
 ```
-
 
 Este pipeline filtra ventas de electrónica, agrupa por producto sumando las cantidades vendidas, y ordena los resultados de mayor a menor. Es equivalente a una consulta SQL con WHERE, GROUP BY y ORDER BY, pero con mayor flexibilidad y potencia.
 
 ## Migración de SQL a MongoDB
 
-Crear una base de datos para una
-plataforma de cursos en línea ilustra el
-proceso de migración desde SQL a
-MongoDB. La plataforma contiene
-usuarios (estudiantes y docentes), cursos,
-inscripciones y lecciones.
+Crear una base de datos para una plataforma de cursos en línea ilustra el proceso de migración desde SQL a MongoDB. La plataforma contiene usuarios (estudiantes y docentes), cursos, inscripciones y lecciones.
+
+**Modelo SQL (normalizado):**
+
+```sql
+Usuarios(id, nombre, email, rol)
+Cursos(id, titulo, docente_id)
+Lecciones(id, curso_id, titulo, orden)
+Inscripciones(id, usuario_id, curso_id, fecha)
+```
+
+Consultar las lecciones de un curso, junto con el nombre del docente y la cantidad de estudiantes inscritos, requiere varios `JOIN` entre cuatro tablas.
+
+**Modelo MongoDB (aplicando los mismos criterios de embeber vs. referenciar vistos arriba):**
+
+- **Lecciones → embebidas en Curso.** Se consultan siempre junto con el curso, no crecen sin límite y no se comparten entre cursos.
+- **Docente → referenciado desde Curso.** Un mismo docente aparece en varios cursos (dato reutilizado en múltiples contextos), así que se referencia por ID en vez de duplicarlo.
+- **Inscripciones → colección propia, referenciando Usuario y Curso.** Crecen indefinidamente y se consultan desde ambos lados (cursos de un alumno / alumnos de un curso), por lo que no conviene embeberlas en ninguno de los dos.
+
+```json
+// Colección "cursos"
+{
+  "_id": "CUR-101",
+  "titulo": "Bases de Datos II",
+  "docente_id": "USR-045",
+  "lecciones": [
+    { "titulo": "Introducción a NoSQL", "orden": 1 },
+    { "titulo": "Modelaje de Datos", "orden": 2 }
+  ]
+}
+
+// Colección "inscripciones"
+{
+  "usuario_id": "USR-230",
+  "curso_id": "CUR-101",
+  "fecha": "2026-03-28"
+}
+```
+
+Con este modelo, obtener un curso con sus lecciones es una sola consulta (`findOne`) en vez del `JOIN` entre `Cursos` y `Lecciones` que requeriría SQL.

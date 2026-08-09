@@ -4,6 +4,8 @@ Materia:
   - Probabilidad y Estadística
 Fecha de clase: 2026-02-06
 ---
+[[Clase 02 - Funciones y Usos del Método Estadístico|← Clase anterior]] | [[Clase 04 - Medidas de Tendencia Central|Clase siguiente →]]
+
 # Tipos de Gráficos Estadísticos
 
 Los gráficos estadísticos permiten **visualizar datos de forma clara**, detectar patrones, comparar grupos y comunicar resultados de manera efectiva. Elegir el gráfico correcto depende de:

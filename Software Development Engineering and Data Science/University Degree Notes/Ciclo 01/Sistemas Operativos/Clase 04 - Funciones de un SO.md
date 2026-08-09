@@ -4,6 +4,8 @@ Fecha de creación: 14 de febrero de 2025 18:09
 Clase: SISTEMAS OPERATIVOS
 Fecha de la clase: 14 de febrero de 2025
 
+[[Clase 03 - Introducción a la Virtualización|← Clase anterior]] | [[Clase 07 - Dispositivos de Entrada y Salida|Clase siguiente →]]
+
 # Funciones principales de un sistema operativo
 
 ## ¿Qué es un sistema operativo?
@@ -47,18 +49,21 @@ La memoria caché guarda rutas dentro de la ROM
 | 100 nseg | Cinta magnética | 400-800 GB |
 
 ### 3. Gestión de almacenamiento
+(se profundiza en [[Clase 08 - Sistemas de Archivos|Clase 08]])
 
 - Administra el acceso a los discos duros, SSDs y otros dispositivos de almacenamiento.
 - Organiza archivos y directorios mediante sistemas de archivos como **`NTFS, FAT32, EXT4, etc.`**
 - Maneja la lectura y escritura en discos asegurando la integridad de los datos.
 
 ### 4. Gestión de dispositivos de entrada y salida (E/S)
+(se profundiza en [[Clase 07 - Dispositivos de Entrada y Salida|Clase 07]])
 
 - Controla los periféricos como teclado, ratón, impresora, monitor, etc.
 - Utiliza controladores (drivers) para facilitar la comunicación entre el hardware y el software.
 - Coordina las solicitudes de entrada y salida para evitar conflictos entre dispositivos.
 
 ### 5. Gestión de usuarios y seguridad
+(se profundiza en [[Clase 09 - Ponencia de Flutter y Seguridad de un SO pt. 1|Clase 09]] y [[Clase 10 - Seguridad de un SO pt. 2|Clase 10]])
 
 - Maneja permisos y restricciones de acceso a archivos y recursos del sistema.
 - Proporciona autenticación mediante contraseñas, cifrado y biometría.

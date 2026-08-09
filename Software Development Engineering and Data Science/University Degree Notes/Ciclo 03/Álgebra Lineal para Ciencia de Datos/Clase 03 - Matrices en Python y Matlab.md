@@ -4,6 +4,8 @@ Materia:
   - Álgebra Lineal para Ciencia de Datos
 Fecha de clase: 2026-02-07
 ---
+[[Clase 02 - Vectores en Python y MATLAB|← Clase anterior]] | [[Clase 04 - Inversa, Adjunta y Sistemas Lineales|Clase siguiente →]]
+
 # Matrices en Python y MATLAB
 
 ## Matrices

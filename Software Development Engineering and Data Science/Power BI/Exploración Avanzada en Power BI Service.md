@@ -1,5 +1,7 @@
 # Exploración Avanzada en Power BI Service
 
+[[Gestión de Informes en Power BI Service|← Anterior]] | [[Configuración de Data Gateway|Siguiente →]]
+
 ## ¿Qué es Power BI Service y por qué es importante?
 
 Power BI Service es una herramienta valiosa para la gestión de reportes y colaboración en la nube. Con ella, puedes editar reportes directamente online, descargar versiones en desktop, PDF, o PowerPoint, y exportar datos a Excel. También permite la creación de áreas de trabajo compartidas, esenciales para gestionar roles y colaboraciones, pero esto requiere una licencia Pro. Herramientas como Power BI Service hacen posible centralizar indicadores de distintos datasets en un único dashboard, facilitando el análisis integral de datos empresariales en tiempo real.

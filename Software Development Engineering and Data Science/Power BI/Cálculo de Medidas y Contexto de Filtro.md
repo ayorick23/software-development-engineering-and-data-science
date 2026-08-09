@@ -1,5 +1,7 @@
 # Cálculo de Medidas y Contexto de Filtro
 
+[[Lenguaje DAX|← Anterior]] | [[Funciones Iterativas|Siguiente →]]
+
 ## ¿Cómo utilizar DAX para crear fórmulas en Power BI?
 
 Crear fórmulas en Power BI a través de [[Lenguaje DAX#¿Qué es DAX y por qué es relevante?|DAX (Data Analysis Expressions)]] puede ser un proceso transformador para los analistas de datos. DAX ofrece la oportunidad de optimizar cálculos y realizar análisis complejos con rapidez y precisión. La fórmula más empleada es [[Filter Functions#CALCULATE El motor de DAX|CALCULATE]], que permite agregar contextos de filtro a diversas operaciones.

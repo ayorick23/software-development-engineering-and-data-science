@@ -4,7 +4,10 @@ Materia:
   - Física II
 Fecha de clase: 2025-09-16
 ---
+[[Clase 09 - Principio de Arquímedes|← Clase anterior]] | [[Clase 11 - Viscosidad|Clase siguiente →]]
+
 # Ecuación de Bernoulli
+(expande la [[Clase 09 - Principio de Arquímedes#Dinámica de Fluidos|Dinámica de Fluidos]] y el Principio de Continuidad de la Clase 09)
 
 La **Ecuación de Bernoulli** es un principio fundamental de la dinámica de fluidos que describe la relación entre la presión, la velocidad y la altura de un fluido en movimiento. Es una expresión de la ley de la conservación de la energía, aplicada a un fluido ideal (incompresible y no viscoso) en un flujo estacionario y laminar.
 

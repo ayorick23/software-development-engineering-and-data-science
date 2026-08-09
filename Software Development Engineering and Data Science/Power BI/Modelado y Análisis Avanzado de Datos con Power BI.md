@@ -1,5 +1,7 @@
 # Modelado y Análisis Avanzado de Datos con Power BI
 
+[[Creación de KPI's con Variables|← Anterior]] | [[Creación de Informes Efectivos (Data Storytelling)|Siguiente →]]
+
 ## ¿Qué hace a Power BI tan poderoso?
 
 Power BI es más que una simple herramienta de gráficos. Su poder reside en la capacidad de modelar datos de manera eficiente y automatizar procesos que antes requerían mucho tiempo. La clave está en el aprovechamiento del modelado de datos y en su [[DAX/Aggregate Functions#Funciones de Agregación|lenguaje Dax]].

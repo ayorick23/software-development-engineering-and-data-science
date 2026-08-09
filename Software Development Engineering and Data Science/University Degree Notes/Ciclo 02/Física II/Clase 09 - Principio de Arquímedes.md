@@ -4,7 +4,10 @@ Materia:
   - Física II
 Fecha de clase: 2025-09-09
 ---
+[[Clase 08 - Presión de Fluidos|← Clase anterior]] | [[Clase 10 - Ecuación de Bernoulli|Clase siguiente →]]
+
 # Principio de Arquímedes
+(repasa la [[Clase 07 - Mecánica de Fluidos#Presión Hidrostática ($P_{hidro​}$)|Presión Hidrostática]] y el [[Clase 08 - Presión de Fluidos#Principio de Pascal|Principio de Pascal]] de las clases 07 y 08 antes de introducir la dinámica de fluidos)
 
 El **principio de Arquímedes** es fundamental para entender por qué los objetos flotan o se hunden. Afirma que un cuerpo sumergido, total o parcialmente en un fluido, experimenta un **empuje** vertical y hacia arriba, igual al peso del fluido que desaloja.
 

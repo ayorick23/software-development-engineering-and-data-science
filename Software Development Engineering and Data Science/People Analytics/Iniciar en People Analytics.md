@@ -1,5 +1,7 @@
 # Iniciar en People Analytics
 
+[[Ética en el Manejo de Datos|← Anterior]] | [[Iniciación de Proyectos|Siguiente →]]
+
 ## ¿Cómo iniciar tu proyecto de People Analytics con Excel?
 
 Iniciar un proyecto de People Analytics puede parecer una tarea desalentadora, pero no tiene por qué serlo. Con herramientas como Excel, que están fácilmente disponibles, y algunos criterios clave, puedes comenzar tu jornada de manera segura y eficaz. En este contenido, exploraremos recomendaciones y criterios esenciales que te ayudarán a arrancar este tipo de proyectos con confianza.
@@ -10,7 +12,7 @@ Tener un buen manejo de las herramientas y habilidades es crucial para el éxito
 
 1. **Conocimientos en análisis de datos:** es fundamental entender terminología básica como indicadores de costo, retorno de inversión, y más. Esto te permitirá proponer ideas valiosas basadas en los datos.
 2. **Trabajo colaborativo:** a lo largo de tu proyecto, colaborarás con personas de diversas áreas como científicos de datos o expertos en análisis estadísticos. Fomentar un buen trabajo en equipo es esencial para el éxito.
-3. **Herramientas tecnológicas:** aunque Excel es una excelente herramienta inicial, hay otras como R, Python, y SQL que también pueden ser útiles en análisis más complejos. Platzi ofrece cursos para profundizar en estas herramientas.
+3. **Herramientas tecnológicas:** aunque Excel es una excelente herramienta inicial, hay otras como R, [[Introduction to Python|Python]] y [[Clase 01 - Definición de Base de Datos|SQL]] que también pueden ser útiles en análisis más complejos, especialmente al combinarlas con [[Integración con Python|Power BI]] para análisis avanzado.
 
 ### ¿Cómo limpiar y preparar tus datos en Excel?
 

@@ -1,5 +1,7 @@
 # Lenguaje DAX
-(ver )
+(ver [[DAX Statements]] para la sintaxis general de columnas, medidas y tablas calculadas)
+
+[[Optimización de Modelos de Datos|← Anterior]] | [[Cálculo de Medidas y Contexto de Filtro|Siguiente →]]
 
 ## ¿Qué es DAX y por qué es relevante?
 

@@ -4,6 +4,8 @@ Materia:
   - Matemática III
 Fecha de clase: 2026-01-21
 ---
+[[Clase 02 - Ángulos y Cosenos Directores de un Vector|Clase siguiente →]]
+
 # Sistemas Coordenados Cartesianos
 
 ## Sistema de Coordenadas
@@ -73,6 +75,26 @@ El vector $(0, 0)$, denotado $0$, es el vector cero y actúa como elemento idén
 La diferencia se define como: $v₁ - v₂ = v₁ + (-v₂) = (x₁ - x₂, y₁ - y₂)$. Geométricamente, $v - u$ es "el vector que va de $u$ a $v$". Si $u$, $v$ y $u$ $-v$ forman un triángulo, sus flechas están dirigidas de manera que $v + (u - v) = u$.
 
 ## Magnitud y Dirección de un Vector
+(se profundiza en [[Clase 02 - Ángulos y Cosenos Directores de un Vector|Clase 02]] para el caso en $\mathbb{R}^3$)
 
 ### Norma o Magnitud
 
+La **norma** o **magnitud** de un vector $v = (x, y)$, denotada $|v|$ o $\|v\|$, es la longitud de su representación geométrica. Se calcula aplicando el teorema de Pitágoras:
+
+$$
+|v| = \sqrt{x^2 + y^2}
+$$
+
+Un vector con $|v| = 1$ se llama **vector unitario**. Cualquier vector no nulo $v$ se puede convertir en un vector unitario con la misma dirección dividiéndolo entre su propia norma: $\hat{v} = \dfrac{v}{|v|}$.
+
+### Dirección
+
+La dirección de un vector $v = (x, y)$ en el plano se describe mediante el ángulo $\theta$ que forma con el semieje $x$ positivo, medido en sentido antihorario:
+
+$$
+\theta = \arctan\left(\frac{y}{x}\right)
+$$
+
+teniendo cuidado de ajustar el cuadrante según los signos de $x$ e $y$, ya que $\arctan$ por sí solo solo distingue dos cuadrantes.
+
+Con la magnitud y la dirección se puede reconstruir el vector: $v = (|v|\cos\theta,\ |v|\sin\theta)$.

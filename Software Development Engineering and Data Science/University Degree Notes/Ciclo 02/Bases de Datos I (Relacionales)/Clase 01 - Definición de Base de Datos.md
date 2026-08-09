@@ -4,6 +4,8 @@ Materia:
   - Base de Datos I (Relacionales)
 Fecha de clase: 2025-07-11
 ---
+[[Clase 02 - Estándar SQL|Clase siguiente →]]
+
 # Definición de Base de Datos
 
 Una base de datos es una colección organizada de datos o información que se almacenara y se gestiona de manera electrónica. Las bases de datos se utilizan para almacenar grandes cantidades de información de manera eficiente y permiten a los usuarios acceder, modificar y consultar los datos de manera rápida y sencilla.

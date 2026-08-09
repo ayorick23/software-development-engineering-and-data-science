@@ -4,6 +4,8 @@ Materia:
   - Programación Web I (Backend)
 Fecha de clase: 2026-02-16
 ---
+[[Clase 04 - Bases de Datos y Code First|← Clase anterior]] | [[Clase 07 - Autenticación y Autorización|Clase siguiente →]]
+
 # Pruebas Manuales y Automatizadas
 
 En el ciclo de vida del desarrollo de software, las pruebas cumplen un papel crítico. No basta con que un endpoint devuelva datos; es necesario comprobar que:

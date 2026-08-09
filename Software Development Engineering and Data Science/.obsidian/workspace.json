@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University Degree Notes/Ciclo 04/Programación Web II (Frontend)/Clase 02 -.md",
+                "file": "University Degree Notes/Ciclo 04/Marcos de Trabajo Ágil/Clase 02 -.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University Degree Notes/Ciclo 04/Data Analysis/Clase 01 - Fundamentos del Análisis de Datos.md",
+                "file": "University Degree Notes/Ciclo 04/Marcos de Trabajo Ágil/Clase 03 - Metodología Scrum.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Clase 01 - Fundamentos del Análisis de Datos"
+              "title": "Clase 03 - Metodología Scrum"
             }
           },
           {
@@ -46,7 +46,8 @@
               "title": "Vista gráfica"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -223,23 +224,44 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "336386c2b5e3c3b0",
+  "active": "eec545fbe85865ea",
   "lastOpenFiles": [
-    "University Degree Notes/Ciclo 04/Programación Web II (Frontend)/Clase 01 - Introducción a ASP.NET Core MVC.md",
-    "University Degree Notes/Ciclo 04/Programación Web II (Frontend)/Clase 02 -.md",
-    "University Degree Notes/Ciclo 04/Data Analysis/Clase 01 - Fundamentos del Análisis de Datos.md",
-    "Machine Learning/10-IA-Generativa-LLMs-y-Agentes.md",
-    "Docker/Docker for Data Science.md",
-    "Python/Package Managers.md",
-    "Machine Learning/07-Librerias-de-Data-Science-y-ML.md",
-    "Machine Learning/01-Fundamentos-y-Panorama-General.md",
-    "Machine Learning/03-Arquitectura-Empresarial-de-Datos-y-ML.md",
-    "University Degree Notes/Ciclo 03/Bases de Datos II (No Relacionales)/Clase 01 - Fundamentos de las Bases de Datos NoSQL.md",
-    "Machine Learning/02-Roles-y-Carreras-en-DS-ML.md",
-    "Machine Learning/04-Ingenieria-de-Datos.md",
-    "Machine Learning/05-Ciencia-de-Datos-Estadistica-y-Fundamentos-ML.md",
-    "Machine Learning/06-Familia-de-Algoritmos-ML.md",
-    "University Degree Notes/Ciclo 04/Administración de Servidores/Clase 01 - Introducción a la Administración de Servidores.md",
+    "University Degree Notes/Ciclo 03/Programación Web I (Backend)/Clase 14 - Documentación de APIs con Swagger.md",
+    "Python/Matplotlib/Basic Plots.md",
+    "Power BI/Gestión de Informes en Power BI Service.md.tmp.22348.6e5df26da839",
+    "Power BI/Elementos de Data Storytelling.md.tmp.22348.9912a0374dfb",
+    "Power BI/Inteligencia de Tiempo.md.tmp.22348.64cdd94a7ed9",
+    "Power BI/Transformaciones Avanzadas con Power Query.md.tmp.22348.79b21576e7d4",
+    "Power BI/Automatización y Limpieza de Datos.md.tmp.22348.531a7d1c5648",
+    "People Analytics/Análisis de Datos - Validación de Hipótesis.md.tmp.22348.a8e5059b3e9d",
+    "People Analytics/Iniciar en People Analytics.md.tmp.22348.1c4b329b6a98",
+    "People Analytics/Tipos de Datos en PA.md.tmp.22348.f649b5450627",
+    "People Analytics/Cultura Data Driven.md.tmp.22348.d85fff229f47",
+    "People Analytics/Introducción a People Analytics.md.tmp.22348.e93f844f1eaa",
+    "University Degree Notes/Ciclo 04/Data Analysis/Clase 02 - Tipología y Formato de Datos.md",
+    "University Degree Notes/Ciclo 03/Programación Web I (Backend)/Clase 13 - CI-CD con GitHub Actions.md",
+    "University Degree Notes/Ciclo 03/Programación Web I (Backend)/Clase 12 - Despliegue de APIs con Docker.md",
+    "University Degree Notes/Ciclo 03/Programación Web I (Backend)/Clase 10 - Autenticación en .NET 8.md",
+    "University Degree Notes/Ciclo 03/Álgebra Lineal para Ciencia de Datos/Clase 14 - Análisis de Componentes Principales (PCA).md",
+    "University Degree Notes/Ciclo 03/Álgebra Lineal para Ciencia de Datos/Clase 13 - Descomposición en Valores Singulares (SVD).md",
+    "University Degree Notes/Ciclo 03/Álgebra Lineal para Ciencia de Datos/Clase 12 - Diagonalización de Matrices.md",
+    "University Degree Notes/Ciclo 03/Álgebra Lineal para Ciencia de Datos/Clase 10 - Valores y Vectores Propios.md",
+    "University Degree Notes/Ciclo 03/Álgebra Lineal para Ciencia de Datos/Clase 09 - Espacios y Subespacios Vectoriales.md",
+    "University Degree Notes/Ciclo 03/Álgebra Lineal para Ciencia de Datos/Clase 05 - Repaso para el Parcial.md",
+    "University Degree Notes/Ciclo 03/Matemática III/Clase 14 - Aplicaciones de Integrales Múltiples.md",
+    "University Degree Notes/Ciclo 03/Matemática III/Clase 13 - Integrales Dobles en Coordenadas Polares.md",
+    "University Degree Notes/Ciclo 03/Matemática III/Clase 12 - Integrales Dobles.md",
+    "University Degree Notes/Ciclo 03/Matemática III/Clase 07 - Funciones de Varias Variables.md",
+    "University Degree Notes/Ciclo 03/Matemática III/Clase 05 - Repaso para el Parcial.md",
+    "University Degree Notes/Ciclo 03/Matemática III/Clase 03 - Producto Cruz, Rectas y Planos en el Espacio.md",
+    "University Degree Notes/Ciclo 03/Probabilidad y Estadística/Clase 14 - Laboratorio 3.md",
+    "University Degree Notes/Ciclo 03/Matemática III/Clase 04 - Superficies Cuádricas.md",
+    "University Degree Notes/Ciclo 03/Álgebra Lineal para Ciencia de Datos/Clase 05 -.md",
+    "University Degree Notes/Ciclo 03/Matemática III/Clase 10 - Multiplicadores de Lagrange.md",
+    "University Degree Notes/Ciclo 03/Matemática III/Clase 12 -.md",
+    "University Degree Notes/Ciclo 03/Matemática III/Clase 08 - Regla de la Cadena, Derivación Implícita y Gradiente.md",
+    "University Degree Notes/Ciclo 03/Matemática III/Clase 04 -.md",
+    "University Degree Notes/Ciclo 03/Matemática III/Clase 02 - Ángulos y Cosenos Directores de un Vector.md",
     "Machine Learning/Imágenes/statsmodels-logo-v2-horizontal.svg",
     "Machine Learning/Imágenes/simpy-logo-small.webp",
     "Machine Learning/Imágenes/Scikit_learn_logo_small.svg.webp",
@@ -249,27 +271,6 @@
     "Machine Learning/Imágenes/Pasted image 20260715083424.png",
     "Machine Learning/Imágenes/Pasted image 20260715082743.png",
     "Machine Learning/Imágenes/Pasted image 20260715081920.png",
-    "Machine Learning/Imágenes/Pasted image 20260715082641.png",
-    "Machine Learning/Imágenes",
-    "Machine Learning/09-MLOps-en-Profundidad.md",
-    "Machine Learning/08-Plataformas-de-Datos-y-ML.md",
-    "Machine Learning",
-    "Guía Completa/Imágenes",
-    "Guía Completa/09-MLOps-en-Profundidad.md",
-    "Guía Completa/10-IA-Generativa-LLMs-y-Agentes.md",
-    "Guía Completa/08-Plataformas-de-Datos-y-ML.md",
-    "Guía Completa/07-Librerias-de-Data-Science-y-ML.md",
-    "Guía Completa/06-Familia-de-Algoritmos-ML.md",
-    "Guía Completa/05-Ciencia-de-Datos-Estadistica-y-Fundamentos-ML.md",
-    "Guía Completa/04-Ingenieria-de-Datos.md",
-    "Guía Completa/03-Arquitectura-Empresarial-de-Datos-y-ML.md",
-    "Guía Completa/02-Roles-y-Carreras-en-DS-ML.md",
-    "Guía Completa",
-    "Power BI",
-    "People Analytics",
-    "Tableau",
-    "University Degree Notes/Ciclo 02/Física II/Clase 14.pdf",
-    "Calculus Fundamentals",
-    "University Degree Notes/Ciclo 02/Física II/Sin confirmar 542005.crdownload"
+    "Machine Learning/Imágenes/Pasted image 20260715082641.png"
   ]
 }

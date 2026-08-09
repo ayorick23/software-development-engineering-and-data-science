@@ -4,6 +4,8 @@ Materia:
   - Probabilidad y Estadística
 Fecha de clase: 2026-02-13
 ---
+[[Clase 03 - Tipos de Gráficos Estadísticos|← Clase anterior]] | [[Clase 05 - Laboratorio 1|Clase siguiente →]]
+
 # Medidas de Tendencia Central
 
 Las **medidas de tendencia central** resumen un conjunto de datos mediante un valor representativo que indica dónde se concentran los datos.

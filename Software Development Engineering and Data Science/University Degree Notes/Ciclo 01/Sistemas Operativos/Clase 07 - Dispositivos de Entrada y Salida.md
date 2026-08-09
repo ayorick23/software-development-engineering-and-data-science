@@ -4,7 +4,10 @@ Fecha de creación: 7 de marzo de 2025 17:58
 Clase: SISTEMAS OPERATIVOS
 Fecha de la clase: 7 de marzo de 2025
 
+[[Clase 04 - Funciones de un SO|← Clase anterior]] | [[Clase 08 - Sistemas de Archivos|Clase siguiente →]]
+
 # Dispositivos de Entrada y Salida: Componentes clave en la interacción con la tecnología
+(profundiza la [[Clase 04 - Funciones de un SO#4. Gestión de dispositivos de entrada y salida (E/S)|gestión de E/S]] vista en la Clase 04)
 
 ## Clasificación de los dispositivos E/S
 

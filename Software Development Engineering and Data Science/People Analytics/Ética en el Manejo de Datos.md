@@ -1,5 +1,7 @@
 # Ética en el Manejo de Datos
 
+[[Tipos de Datos en PA|← Anterior]] | [[Iniciar en People Analytics|Siguiente →]]
+
 ## ¿Por qué la ética es crucial en People Analytics?
 
 En el mundo del People Analytics, no se puede ignorar la importancia de manejar los datos con ética y responsabilidad. Los datos representan personas, y su uso indebido puede tener consecuencias legales y éticas significativas. Implementar principios éticos básicos en el análisis de datos es esencial para el éxito de cualquier proyecto en este ámbito. Desde la transparencia hasta la minimización de datos, cada principio juega un papel fundamental en la protección de los derechos de los individuos y en el buen desarrollo de los proyectos de analytics.
@@ -31,6 +33,6 @@ Privacidad y confidencialidad son pilares en el manejo de la información dentro
 
 Para asegurar un manejo adecuado de la información en People Analytics, es crucial estar bien informado sobre las regulaciones internacionales, locales y las políticas internas de la organización. Estas regulaciones pueden cambiar frecuentemente, especialmente con el auge de la inteligencia artificial, por lo que actualizarse constantemente es imprescindible. Conocer las normas laborales y las leyes de protección de datos vigentes ayudará a minimizar riesgos y asegurar un uso ético de los datos.
 
-### ¿Qué recursos están disponibles para profundizar en esta temática?
+### ¿Cómo se relaciona esto con la ética en IA?
 
-Platzi ofrece cursos especializados que pueden ayudar a profundizar en la ética y el manejo de datos, aplicados a data science e inteligencia artificial. Estos recursos educativos son valiosos para quienes desean ampliar sus conocimientos y garantizar el cumplimiento ético en sus proyectos de People Analytics.
+Con el auge de la inteligencia artificial generativa como herramienta de análisis (ver [[Análisis de Datos - Validación de Hipótesis|Validación de Hipótesis]] y [[Análisis de Entrevistas de Salida|Análisis de Entrevistas de Salida]], donde se usan ChatGPT y NLP sobre datos de empleados), estos mismos principios de transparencia y minimización de datos aplican al usar IA: nunca se debe alimentar a un modelo externo con datos personales identificables sin anonimizar primero.

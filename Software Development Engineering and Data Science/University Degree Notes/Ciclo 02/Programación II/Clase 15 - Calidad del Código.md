@@ -4,6 +4,8 @@ Materia:
   - Programación II
 Fecha de clase: 2025-10-21
 ---
+[[Clase 14 - Principios SOLID|← Clase anterior]]
+
 # Técnicas para Mejorar Eficiencia, Legibilidad y Mantenibilidad
 
 Desarrollar estas habilidades es muy importante para:

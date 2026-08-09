@@ -4,6 +4,8 @@ Materia:
   - Base de Datos II (No Relacionales)
 Fecha de clase: 2026-03-07
 ---
+[[Clase 05 - Prueba de Concepto (POC)|← Clase anterior]] | [[Clase 08 - Diseño de Esquemas en Bases de Datos|Clase siguiente →]]
+
 # Framework de Agregación
 
 El **Framework de Agregación** en MongoDB es una herramienta poderosa que permite **procesar y analizar grandes volúmenes de datos dentro de la base de datos**, de manera similar a las operaciones `GROUP BY`, `SUM`, `AVG` y `JOIN` en bases de datos relacionales.

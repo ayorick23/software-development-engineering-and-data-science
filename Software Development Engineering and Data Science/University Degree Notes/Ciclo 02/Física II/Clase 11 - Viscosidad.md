@@ -4,7 +4,10 @@ Materia:
   - Física II
 Fecha de clase: 2025-09-23
 ---
+[[Clase 10 - Ecuación de Bernoulli|← Clase anterior]] | [[Clase 13 - Termodinámica|Clase siguiente →]]
+
 # Viscosidad
+(introduce la fricción interna que el fluido ideal de la [[Clase 10 - Ecuación de Bernoulli|Ecuación de Bernoulli]] asumía como cero)
 
 La **viscosidad** es una propiedad física de los fluidos que representa la resistencia interna al flujo. Es la "fricción" entre las capas de un fluido cuando se mueven unas sobre otras.
 

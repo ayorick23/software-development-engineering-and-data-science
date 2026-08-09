@@ -4,6 +4,8 @@ Materia:
   - Base de Datos II (No Relacionales)
 Fecha de clase: 2026-03-21
 ---
+[[Clase 08 - Diseño de Esquemas en Bases de Datos|← Clase anterior]] | [[Clase 10 - Diseño hacia Paradigmas NoSQL|Clase siguiente →]]
+
 # Modelaje de Datos NoSQL
 
 El **modelaje de datos en bases de datos NoSQL** consiste en diseñar la estructura de los datos de manera que las consultas sean eficientes y el sistema pueda escalar correctamente.
@@ -83,7 +85,7 @@ El valor puede ser:
 
 ## ¿Qué es el polimorfismo?
 
-Enfocado en las bases de datos
+Aplicado a bases de datos, el **polimorfismo de esquema** describe la capacidad de almacenar documentos con estructuras distintas dentro de la misma colección, siempre que representen variantes de una misma entidad. Por ejemplo, en una colección `productos`, un documento de tipo "libro" puede tener el campo `autor` y otro de tipo "electrónico" puede tener `garantia`, sin que eso rompa la colección. Es una consecuencia directa de que MongoDB no exige un esquema fijo (ver [[Clase 08 - Diseño de Esquemas en Bases de Datos#¿MongoDB necesita esquemas?|¿MongoDB necesita esquemas?]]).
 
 ## Bases de Datos Documentales
 

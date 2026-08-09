@@ -4,6 +4,8 @@ Materia:
   - Programación Web I (Backend)
 Fecha de clase: 2026-02-02
 ---
+[[Clase 02 - Introducción a API REST|← Clase anterior]] | [[Clase 04 - Bases de Datos y Code First|Clase siguiente →]]
+
 # Formatos de Datos: ``JSON`` vs ``XML``
 (ver [[JSON and YAML]])
 

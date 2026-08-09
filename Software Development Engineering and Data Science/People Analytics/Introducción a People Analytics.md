@@ -1,5 +1,7 @@
 # Introducción a People Analytics
 
+[[Importancia de People Analytics|Siguiente →]]
+
 ## ¿Qué es People Analytics y cómo está transformando los recursos humanos?
 
 People Analytics está revolucionando la manera en que las organizaciones entienden a sus empleados. Este enfoque basado en datos ha cambiado las reglas del juego, dejando atrás las decisiones basadas en intuiciones para dar paso a estrategias basadas en información concreta. Numerosas empresas han experimentado incrementos significativos en productividad y reducciones en la rotación de personal gracias a People Analytics.

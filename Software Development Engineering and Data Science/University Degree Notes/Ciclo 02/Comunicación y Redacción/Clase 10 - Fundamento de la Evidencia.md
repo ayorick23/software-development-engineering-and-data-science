@@ -4,6 +4,8 @@ Materia:
   - Comunicación y Redacción
 Fecha de clase: 2025-09-21
 ---
+[[Clase 09 - Qué es un Artículo Científico|← Clase anterior]] | [[Clase 13 - Párrafo Científico|Clase siguiente →]]
+
 **Revisión de la matriz de congruencia.**
 
 # Fundamento de la Evidencia

@@ -4,6 +4,8 @@ Materia:
   - Probabilidad y Estadística
 Fecha de clase: 2026-03-27
 ---
+[[Clase 09 - Permutaciones y Combinaciones|← Clase anterior]] | [[Clase 12 - Distribución Normal|Clase siguiente →]]
+
 # Laboratorio 2
 
 Repasar:

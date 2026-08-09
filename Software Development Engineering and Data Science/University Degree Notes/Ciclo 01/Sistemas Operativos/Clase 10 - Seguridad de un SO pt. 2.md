@@ -4,7 +4,10 @@ Fecha de creación: 28 de marzo de 2025 17:59
 Clase: SISTEMAS OPERATIVOS
 Fecha de la clase: 28 de marzo de 2025
 
+[[Clase 09 - Ponencia de Flutter y Seguridad de un SO pt. 1|← Clase anterior]] | [[Clase 11 - Virtualización, Ventajas y Desventajas|Clase siguiente →]]
+
 # … Principales características de seguridad de un sistema operativo
+(continuación de [[Clase 09 - Ponencia de Flutter y Seguridad de un SO pt. 1|Clase 09]])
 
 ## Autenticación multifactor
 

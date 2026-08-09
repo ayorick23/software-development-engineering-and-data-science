@@ -4,6 +4,8 @@ Materia:
   - Programación Web I (Backend)
 Fecha de clase: 2026-03-14
 ---
+[[Clase 07 - Autenticación y Autorización|← Clase anterior]] | [[Clase 09 - SQL Injection y Patrones de Diseño|Clase siguiente →]]
+
 # Cifrado, Hashing, Salting y Arquitectura Limpia
 
 EI manejo de contraseñas es uno de los aspectos más críticos en el desarrollo de aplicaciones seguras.
@@ -244,19 +246,65 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 
-public class JwtService()
+public class JwtService
 {
-	
+	private readonly string _secretKey;
+
+	public JwtService(IConfiguration config)
+	{
+		_secretKey = config["Jwt:SecretKey"]; // clave larga y secreta, nunca en el código fuente
+	}
+
+	public string GenerateToken(Usuario user)
+	{
+		var claims = new[]
+		{
+			new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
+			new Claim(ClaimTypes.Email, user.Email),
+			new Claim(ClaimTypes.Role, user.Rol)
+		};
+
+		var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_secretKey));
+		var credentials = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+
+		var token = new JwtSecurityToken(
+			claims: claims,
+			expires: DateTime.UtcNow.AddHours(1), // token de corta duración
+			signingCredentials: credentials
+		);
+
+		return new JwtSecurityTokenHandler().WriteToken(token);
+	}
 }
 ```
 
 ### Validación del JWT
 
-El backend debe validar cada petición autenticada verificando la firma y la expiración del token.
+El backend debe validar cada petición autenticada verificando la firma y la expiración del token. En ASP.NET Core esto se configura una sola vez, como middleware de autenticación, en lugar de validarlo manualmente en cada endpoint:
 
 ```csharp
+// En Program.cs
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+	.AddJwtBearer(options =>
+	{
+		options.TokenValidationParameters = new TokenValidationParameters
+		{
+			ValidateIssuerSigningKey = true,
+			IssuerSigningKey = new SymmetricSecurityKey(
+				Encoding.UTF8.GetBytes(builder.Configuration["Jwt:SecretKey"])),
+			ValidateIssuer = false,
+			ValidateAudience = false,
+			ValidateLifetime = true, // rechaza tokens expirados automáticamente
+			ClockSkew = TimeSpan.Zero
+		};
+	});
 
+// ...
+app.UseAuthentication(); // debe ir antes de UseAuthorization
+app.UseAuthorization();
 ```
+
+Con esto configurado, basta con decorar un endpoint con `[Authorize]` (o `[Authorize(Roles = "Admin")]`, como en la Clase 07) para que ASP.NET Core valide automáticamente la firma y la expiración del token antes de ejecutar el método.
 
 ## Protección contra Ataques de Fuerza Bruta
 
@@ -290,5 +338,44 @@ options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(15);
 10. Monitorear intentos de acceso sospechosos.
 
 ## Arquitectura Limpia
+(evoluciona la [[Clase 04 - Bases de Datos y Code First#Estructura Profesional de un Proyecto ASP.NET|estructura de carpetas]] vista en la Clase 04 hacia una separación explícita por capas)
 
+La **Arquitectura Limpia (_Clean Architecture_)**, propuesta por Robert C. Martin, organiza el código en capas concéntricas donde las capas externas dependen de las internas, pero nunca al revés. El objetivo es que la lógica de negocio (el "dominio") no dependa de detalles técnicos como el framework web o el motor de base de datos — esos detalles deben poder cambiarse sin tocar las reglas de negocio.
 
+### Las Capas
+
+1. **Domain (Dominio):** el núcleo. Contiene las entidades (`Usuario`, `Producto`) y las reglas de negocio puras, sin ninguna dependencia externa — ni de EF Core, ni de ASP.NET, ni de ninguna librería.
+2. **Application (Aplicación):** casos de uso del sistema (ej. "registrar usuario", "crear producto"). Define *qué* hace el sistema, orquestando las entidades del dominio, pero sin saber *cómo* se persisten los datos o *cómo* llegan las peticiones HTTP.
+3. **Infrastructure (Infraestructura):** implementaciones concretas — el `DbContext` de EF Core, el `JwtService`, el envío de correos, llamadas a APIs externas. Depende de Application y Domain, nunca al revés.
+4. **Presentation (Presentación):** los `Controllers` de la API, responsables solo de recibir peticiones HTTP, invocar los casos de uso de Application, y devolver la respuesta.
+
+### ¿Por Qué Importa Esta Separación?
+
+- **Independencia de frameworks:** el dominio no sabe que existe ASP.NET Core; se podría exponer por una API REST, una CLI o un worker sin cambiar la lógica de negocio.
+- **Independencia de la base de datos:** cambiar de SQL Server a PostgreSQL, o de relacional a MongoDB, solo afecta la capa de Infrastructure.
+- **Testabilidad:** los casos de uso en Application se pueden probar unitariamente sin levantar una base de datos real, ya que dependen de abstracciones (interfaces), no de implementaciones concretas — el mismo principio de inyección de dependencias usado para inyectar el `AppDbContext` en los controladores.
+
+### Ejemplo de Organización de Carpetas
+
+```
+MiApi
+│
+├── MiApi.Domain
+│     Entities/Usuario.cs
+│     Entities/Producto.cs
+│
+├── MiApi.Application
+│     Interfaces/IUsuarioRepository.cs
+│     UseCases/RegistrarUsuario.cs
+│
+├── MiApi.Infrastructure
+│     Data/AppDbContext.cs
+│     Repositories/UsuarioRepository.cs
+│     Services/JwtService.cs
+│
+└── MiApi.Presentation (o MiApi.Api)
+      Controllers/UsuariosController.cs
+      Program.cs
+```
+
+A diferencia de la estructura plana de la Clase 04 (una sola carpeta `Controllers`, `Models`, `Data`), aquí cada capa es su propio proyecto dentro de la solución, lo que obliga —a nivel de compilador— a respetar la dirección de las dependencias.

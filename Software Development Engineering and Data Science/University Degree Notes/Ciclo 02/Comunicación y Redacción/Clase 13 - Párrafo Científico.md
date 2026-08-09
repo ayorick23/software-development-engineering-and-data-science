@@ -4,7 +4,10 @@ Materia:
   - Comunicación y Redacción
 Fecha de clase: 2025-10-11
 ---
+[[Clase 10 - Fundamento de la Evidencia|← Clase anterior]] | [[Clase 14 - Lectura Comprensiva de Textos Científicos|Clase siguiente →]]
+
 # Principios Fundamentales que Guían la Organización de Ideas en el Párrafo Científico
+(estos mismos principios —unidad, coherencia, cohesión— se aplican a nivel de documento completo en la [[Clase 15 - Redacción de Documentos Científicos|Clase 15]])
 
 ## Principios Fundamentales
 

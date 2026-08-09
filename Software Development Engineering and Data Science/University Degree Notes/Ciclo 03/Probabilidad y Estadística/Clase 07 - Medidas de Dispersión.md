@@ -4,6 +4,8 @@ Materia:
   - Probabilidad y Estadística
 Fecha de clase: 2026-03-06
 ---
+[[Clase 05 - Laboratorio 1|← Clase anterior]] | [[Clase 08 - Introducción a la Probabilidad|Clase siguiente →]]
+
 # Medidas de Dispersión
 
 En estadística, además de conocer **el centro de los datos** mediante medidas de tendencia central (media, mediana y moda), también es importante analizar **qué tan dispersos o concentrados están los valores** alrededor de ese centro.
@@ -133,7 +135,7 @@ Ejemplo:
 El punto medio se calcula:
 
 $$
-\text{Punto medio} = (\text{Límite inferior}\times\text{Límite superior}/2)
+\text{Punto medio} = \frac{\text{Límite inferior}+\text{Límite superior}}{2}
 $$
 
 Luego se usan esos valores en las fórmulas de media, varianza y desviación estándar multiplicados por su frecuencia.

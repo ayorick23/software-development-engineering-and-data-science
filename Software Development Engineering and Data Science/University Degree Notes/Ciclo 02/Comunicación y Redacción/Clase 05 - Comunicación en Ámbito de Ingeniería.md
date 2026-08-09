@@ -4,6 +4,8 @@ Materia:
   - Comunicación y Redacción
 Fecha de clase: 2025-08-16
 ---
+[[Clase 04 - Naturaleza del Lenguaje|← Clase anterior]] | [[Clase 07 - La Comunicación en Contextos Científicos|Clase siguiente →]]
+
 # La Comunicación en el Ámbito de la Ingeniería
 
 Es fundamental para lograr el éxito en el diseño de proyectos, colaboración efectiva y la comprensión clara de conceptos técnicos.

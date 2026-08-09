@@ -4,6 +4,8 @@ Materia:
   - Física II
 Fecha de clase: 2025-07-08
 ---
+[[Clase 02 - MAS, MCU y Péndulos|Clase siguiente →]]
+
 # Unidad 1: Ondas y Acústica
 
 ## Movimiento Periódico y Movimiento Oscilatorio
@@ -86,6 +88,7 @@ $$
 ---
 
 ## Posición, Velocidad y Aceleración en MAS
+(velocidad y aceleración se obtienen derivando, ver [[Derivadas e Integrales Fundamentales#Derivadas Fundamentales|Derivadas Fundamentales]])
 
 La posición, velocidad y aceleración de un objeto en MAS cambian constantemente a lo largo del tiempo. Estas se describen mediante funciones sinusoidales. Si consideramos que la oscilación comienza en la posición de máxima elongación ($x_0 = A$), las ecuaciones son:
 

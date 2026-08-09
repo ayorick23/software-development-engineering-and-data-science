@@ -4,6 +4,8 @@ Materia:
   - Programación Web I (Backend)
 Fecha de clase: 2026-02-09
 ---
+[[Clase 03 - Formatos de Datos - JSON vs XML|← Clase anterior]] | [[Clase 05 - Pruebas Manuales y Automatizadas|Clase siguiente →]]
+
 # Bases de Datos y Code First
 
 ## Historia de las Bases de Datos

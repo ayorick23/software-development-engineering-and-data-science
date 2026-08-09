@@ -1,5 +1,7 @@
 # Integración con Python
 
+[[Integración de Power Apps y Power Automate|← Anterior]] | [[Integración con R|Siguiente →]]
+
 ## ¿Cómo se integra Python con Power BI?
 
 La integración de [[Introduction to Python#Introduction to Python|Python]] en Power BI es una poderosa funcionalidad que permite a los analistas de datos ampliar las capacidades de visualización y análisis de esta herramienta. Gracias a Python, puedes limpiar y transformar datos, así como crear visualizaciones avanzadas utilizando diversas bibliotecas. A continuación, exploraremos el proceso para implementar Python dentro de Power BI Desktop.

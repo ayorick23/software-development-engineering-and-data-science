@@ -4,6 +4,8 @@ Fecha de creación: 1 de febrero de 2025 21:16
 Clase: SISTEMAS OPERATIVOS
 Fecha de la clase: 31 de enero de 2025
 
+[[Clase 03 - Introducción a la Virtualización|Clase siguiente →]]
+
 # Unidad I: Introducción a los SO
 
 El kernel es el que nos permite comunicarnos con el hardware, luego viene el GUI, la forma en la que nosotros nos comunicamos con el sistema.
@@ -165,6 +167,7 @@ Es un modelo de sistema operativo que organiza sus funciones y servicios en dos 
 - macOS (modelos de red)
 
 # Máquinas Virtuales
+(ver [[Introduction to Docker#Contenedores vs. Máquinas Virtuales (VMs)|Contenedores vs. Máquinas Virtuales]] y continuación en [[Clase 11 - Virtualización, Ventajas y Desventajas|Clase 11]])
 
 Es un sistema operativo diseñado para crear, administrar y ejecutar múltiples máquinas virtuales (VMs) sobre un único hardware físico.
 

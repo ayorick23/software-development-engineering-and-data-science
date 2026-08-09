@@ -4,6 +4,8 @@ Materia:
   - Programación Web I (Backend)
 Fecha de clase: 2026-03-02
 ---
+[[Clase 05 - Pruebas Manuales y Automatizadas|← Clase anterior]] | [[Clase 08 - Cifrado, Hashing, Salting y Arquitectura Limpia|Clase siguiente →]]
+
 # Autenticación y Autorización
 
 Estos dos conceptos suelen confundirse, pero son procesos distintos y complementarios dentro de la seguridad backend.

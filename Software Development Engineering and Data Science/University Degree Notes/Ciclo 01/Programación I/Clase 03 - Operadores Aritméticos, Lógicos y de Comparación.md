@@ -4,6 +4,8 @@ Fecha de creación: 8 de febrero de 2025 14:17
 Clase: PROGRAMACIÓN I
 Fecha de la clase: 8 de febrero de 2025
 
+[[Clase 02 - Tablas de Verdad y Variables|← Clase anterior]] | [[Clase 04 - Listas, Arreglos, Matrices y Estructuras Condicionales|Clase siguiente →]]
+
 ### Resolución de diagrama de flujo de foro de participación
 
 1. Se inicia con una elipse

@@ -4,6 +4,8 @@ Materia:
   - Matemática II
 Fecha de clase: 2025-07-23
 ---
+[[Clase 02 - Criterios de la Derivada|← Clase anterior]] | [[Clase 04 - Derivación Implícita, Raíces y Método de Newton|Clase siguiente →]]
+
 # Derivadas de Funciones Trascendentes
 
 ## Derivación de Funciones Trigonométricas
@@ -107,4 +109,4 @@ Más allá de las fórmulas, ¿qué es la derivada? La derivada tiene dos interp
 
 - La derivada representa la razón de cambio instantánea de una variable con respecto a otra.
 - Es la respuesta a la pregunta: ¿Qué tan rápido está cambiando $y$ en el preciso instante en que cambia $x$?
-- Ejemplo Clásico: Si $p(t)$ es la posición de un objeto en el tiempo $t$, entonces su derivada $p'(t)$ es la velocidad instantánea del objeto en el tiempo $t$.
+- Ejemplo Clásico: Si $p(t)$ es la posición de un objeto en el tiempo $t$, entonces su derivada $p'(t)$ es la velocidad instantánea del objeto en el tiempo $t$ (ver la aplicación directa de esta idea en [[Clase 01 - Movimiento Armónico Simple (MAS)#Posición, Velocidad y Aceleración en MAS|Posición, Velocidad y Aceleración en MAS]] de Física II).

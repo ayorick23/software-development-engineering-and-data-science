@@ -1,4 +1,6 @@
-## Cultura Data Driven
+# Cultura Data Driven
+
+[[Importancia de People Analytics|← Anterior]] | [[Tipos de Datos en PA|Siguiente →]]
 
 ## ¿Por qué es fundamental una cultura data driven en people analytics?
 
@@ -27,8 +29,8 @@ Implementar una cultura data driven no es tarea sencilla, pero seguir un proceso
 
 Entender en qué punto se encuentra tu organización en el camino hacia una cultura data driven es vital. Utilizar herramientas de autodiagnóstico puede ayudarte a identificar áreas de mejora en liderazgo, estrategia y habilidades necesarias dentro de tu equipo. Este diagnóstico te proporcionará una visión clara de qué se necesita para avanzar en este enfoque.
 
-### ¿Cómo pueden apoyar otros cursos de Platzi?
+### ¿Cómo se conecta esto con Business Intelligence?
 
-Platzi ofrece cursos adicionales en toma de decisiones basadas en datos y visualización de datos a través de Business Intelligence, recursos fundamentales para fortalecer una cultura data driven. Explora estos cursos y sigue potenciando la habilidad de tu equipo para integrar los datos en todas las decisiones empresariales.
+La visualización de datos a través de [[Business Intelligence|Business Intelligence]] y [[Modelado y Análisis Avanzado de Datos con Power BI|Power BI]] es la herramienta natural para sostener esta cultura: sin dashboards accesibles y actualizados, es difícil que los equipos de recursos humanos desarrollen el hábito de consultar datos antes de decidir (ver [[KPI's y Dashboards en RRHH|KPI's y Dashboards en RRHH]]).
 
 Fomentar una cultura data driven es más que una necesidad, es una ventaja competitiva que no solo optimiza a los equipos de recursos humanos, sino que transforma toda la organización hacia mejores y más informadas decisiones.

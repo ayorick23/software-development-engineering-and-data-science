@@ -1,5 +1,7 @@
 # Business Intelligence
 
+[[Arquitecturas de Power BI|Siguiente →]]
+
 ## ¿Qué es el business intelligence?
 
 La inteligencia comercial o business intelligence (BI) es una capacidad que va más allá de simplemente manejar datos. Se trata de convertir esos datos en información útil y, posteriormente, transformar esa información en conocimiento valioso. Los datos en su forma inicial son generalmente registros desarticulados provenientes de diversas fuentes. El objetivo del BI es organizarlos en un formato comprensible, como tablas, y facilitar así el proceso de toma de decisiones. Pero, ¿cuál es el proceso para lograrlo?

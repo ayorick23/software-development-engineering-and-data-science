@@ -1,5 +1,7 @@
 # Combinación de Tablas y Consultas con Power Query
 
+[[Transformaciones Avanzadas con Power Query|← Anterior]] | [[Automatización de Datos con Lenguaje M|Siguiente →]]
+
 ## ¿Cómo funcionan las combinaciones en Power Query?
 
 Entender las funcionalidades de [[Transformación de Datos con Power Query#¿Qué son Power Query y el proceso ETL?|Power Query]] es esencial para optimizar la integración y gestión de datos desde diferentes fuentes. Este potente recurso nos permite, entre otras cosas, unificar tablas o consultas, lo que resulta invaluable en numerosos escenarios de negocio. Examinemos cómo dichas combinaciones pueden ejecutarse eficazmente, mejorando nuestra capacidad de gestión de datos.

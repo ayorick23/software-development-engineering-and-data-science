@@ -4,6 +4,8 @@ Materia:
   - Programación Web I (Backend)
 Fecha de clase: 2026-02-02
 ---
+[[Clase 01 - Introducción a la Programación Web|← Clase anterior]] | [[Clase 03 - Formatos de Datos - JSON vs XML|Clase siguiente →]]
+
 # Introducción a API REST
 
 ## ¿Qué es una API y por qué se usa?

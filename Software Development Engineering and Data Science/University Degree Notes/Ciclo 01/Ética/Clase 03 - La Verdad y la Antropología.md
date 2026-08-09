@@ -4,6 +4,8 @@ Fecha de creación: 8 de febrero de 2025 18:02
 Clase: ÉTICA
 Fecha de la clase: 8 de febrero de 2025
 
+[[Clase 02 - Tipos de Sanciones y Éticas|← Clase anterior]] | [[Clase 04 - Antropología Cristiana y Violencia Intrafamiliar|Clase siguiente →]]
+
 ## ¿Qué es la verdad?
 
 Se entiende por verdad a la concordancia que existe entre lo que se **dice, piensa y cree, y lo real** (lo cierto de lo que no se puede dudar).

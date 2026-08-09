@@ -4,6 +4,8 @@ Materia:
   - Programación II
 Fecha de clase: 2025-07-28
 ---
+[[Clase 03 - Herencia y Clases Abstractas|← Clase anterior]] | [[Clase 05 - Colecciones en Java y UML|Clase siguiente →]]
+
 # Entrada de Datos en Java
 
 La entrada de datos en Java se refiere al proceso de recibir información desde fuentes externas (como el teclado, archivos, bases de datos, etc.) para ser procesada por un programa. Es una operación fundamental en la programación que permite la interacción entre el usuario y la aplicación.

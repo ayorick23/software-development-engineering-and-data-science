@@ -1,4 +1,7 @@
 # Evaluación de Impacto en Proyectos
+(cierra el ciclo de proyecto abierto en [[Iniciación de Proyectos|Iniciación de Proyectos]]: aquí se revisan las hipótesis planteadas entonces)
+
+[[KPI's y Dashboards en RRHH|← Anterior]] | [[Estrategias a Largo Plazo|Siguiente →]]
 
 ## ¿Cómo evaluar el impacto de tus iniciativas de people analytics?
 

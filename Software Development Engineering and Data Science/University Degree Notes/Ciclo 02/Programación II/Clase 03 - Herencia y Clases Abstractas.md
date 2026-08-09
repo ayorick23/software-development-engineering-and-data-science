@@ -4,7 +4,10 @@ Materia:
   - Programación II
 Fecha de clase: 2025-07-21
 ---
+[[Clase 02 - Métodos y Modificadores de Acceso|← Clase anterior]] | [[Clase 04 - Entrada de Datos y Arrays|Clase siguiente →]]
+
 # Herencia
+(ver [[OOP#Herencia|Herencia en Python]]; se profundiza en [[Clase 09 - Herencia Simple y Múltiple|Clase 09]])
 
 La herencia es uno de los pilares fundamentales de la programación orientada a objetos (POO) en Java. Es un mecanismo que permite crear nuevas clases basadas en clases existentes, promoviendo la reutilización de código y estableciendo relaciones jerárquicas entre clases.
 

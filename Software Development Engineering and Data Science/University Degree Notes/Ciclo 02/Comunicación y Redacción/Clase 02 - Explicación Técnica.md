@@ -4,6 +4,8 @@ Materia:
   - Comunicación y Redacción
 Fecha de clase: 2025-07-19
 ---
+[[Clase 01 - Generalidades del Lenguaje y la Comunicación|← Clase anterior]] | [[Clase 03 - Escritura|Clase siguiente →]]
+
 # Explicación Técnica
 
 Para que el destinatario visualice correctamente el objeto o la circunstancia, la descripción debe estar estructurada. Además, debe ser fiable, lo que exige imparcialidad, corrección, objetividad y orden. Al utilizar una descripción en un documento expositivo, el remitente debe asegurarse de que se completamente veraz.

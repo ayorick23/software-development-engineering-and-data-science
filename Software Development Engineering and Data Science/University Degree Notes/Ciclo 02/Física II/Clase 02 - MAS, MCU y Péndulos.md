@@ -4,6 +4,8 @@ Materia:
   - Física II
 Fecha de clase: 2025-07-15
 ---
+[[Clase 01 - Movimiento Armónico Simple (MAS)|← Clase anterior]] | [[Clase 03 - Oscilaciones Amortiguadas y Forzadas|Clase siguiente →]]
+
 # Comparación entre MAS y MCU
 
 El Movimiento Circular Uniforme (MCU) es el movimiento de un objeto a lo largo de una circunferencia con rapidez constante. Aunque parezca muy diferente al MAS, hay una profunda conexión matemática entre ambos. El MAS es, de hecho, la proyección de un MCU sobre un eje (ya sea el eje x o el eje y).

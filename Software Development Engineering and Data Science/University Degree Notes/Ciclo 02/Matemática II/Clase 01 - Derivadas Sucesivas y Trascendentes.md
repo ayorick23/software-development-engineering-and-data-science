@@ -4,6 +4,8 @@ Materia:
   - Matemática II
 Fecha de clase: 2025-07-09
 ---
+[[Clase 02 - Criterios de la Derivada|Clase siguiente →]]
+
 # Derivadas Avanzadas: Funciones Sucesivas y Trascendentes
 
 ## Derivadas Sucesivas

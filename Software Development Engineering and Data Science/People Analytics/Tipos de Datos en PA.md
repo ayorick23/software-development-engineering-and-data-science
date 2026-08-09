@@ -1,5 +1,7 @@
 # Tipos de Datos en PA
 
+[[Cultura Data Driven|← Anterior]] | [[Ética en el Manejo de Datos|Siguiente →]]
+
 ## ¿Por qué son esenciales los datos en People Analytics?
 
 En la era digital, la recolección de datos de calidad es fundamental para el éxito de cualquier proyecto de People Analytics. Entender y clasificar adecuadamente los datos no solo facilita el análisis, sino que también profundiza los resultados obtenidos. A través de estos datos, las empresas pueden impulsar estrategias centradas en los recursos humanos, lo que es crucial para la toma de decisiones fundamentadas y eficientes.
@@ -8,7 +10,7 @@ En la era digital, la recolección de datos de calidad es fundamental para el é
 
 Al explorar las diversas clasificaciones de datos, es importante reconocer su naturaleza para asegurar una interpretación precisa y valida. Aquí te presentamos los tipos de datos más frecuentes en recursos humanos:
 
-- **Cuantitativos:** datos numéricos como enteros o reales que son medibles y se pueden analizar estadísticamente para correlaciones y regresiones.
+- **Cuantitativos:** datos numéricos como enteros o reales que son medibles y se pueden analizar estadísticamente para correlaciones y regresiones (ver [[Clase 01 - Introducción al Método Estadístico#Clasificación de Datos (Variables)|Clasificación de Datos]] en Probabilidad y Estadística).
 - **Cualitativos:** datos cualitativos como texto o cadenas largas que proporcionan contexto y descripciones detalladas.
 
 ### ¿Qué tipos de datos encontramos en recursos humanos?

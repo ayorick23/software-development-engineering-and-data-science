@@ -1,5 +1,7 @@
 # Funciones Iterativas
 
+[[Cálculo de Medidas y Contexto de Filtro|← Anterior]] | [[Inteligencia de Tiempo|Siguiente →]]
+
 ## ¿Cómo funcionan las funciones iterativas en Power BI?
 
 Las [[DAX/Aggregate Functions#Funciones de Iteración (Las que terminan en `X`)|funciones iterativas]], también conocidas como funciones X, son esenciales para manejar cálculos avanzados en Power BI. Estas funciones permiten iterar fila por fila dentro de una tabla, lo que es útil para generar cálculos complejos que no se pueden lograr con métodos tradicionales de Excel, como la simple referencia a filas o rangos de celdas.

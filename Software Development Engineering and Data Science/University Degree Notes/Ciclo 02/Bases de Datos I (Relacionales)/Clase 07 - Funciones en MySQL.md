@@ -4,6 +4,8 @@ Materia:
   - Base de Datos I (Relacionales)
 Fecha de clase: 2025-08-29
 ---
+[[Clase 05 - MySQL Workbench|← Clase anterior]] | [[Clase 08 - Funciones de Control de Flujo y Condición|Clase siguiente →]]
+
 # Funciones en MySQL
 
 ## Funciones de Caracteres

@@ -1,5 +1,7 @@
 # Integración y Análisis de Encuestas de Satisfacción
 
+[[Análisis de Datos - Validación de Hipótesis|← Anterior]] | [[Análisis de Entrevistas de Salida|Siguiente →]]
+
 ## ¿Cómo integrar y analizar datos de encuestas de satisfacción laboral?
 
 En la era digital actual, el análisis de datos es esencial para cualquier organización que busca mejorar el rendimiento y la satisfacción de sus empleados. Los resultados de las encuestas de satisfacción laboral son una herramienta valiosa, pero a menudo se reciben en diferentes formatos. Aquí exploraremos cómo integrar estos datos con tu base principal y analizarlos eficazmente usando herramientas como el BUSCARV en Excel.

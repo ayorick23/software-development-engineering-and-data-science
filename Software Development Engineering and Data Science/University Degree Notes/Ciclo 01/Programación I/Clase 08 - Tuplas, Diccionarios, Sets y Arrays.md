@@ -4,6 +4,8 @@ Fecha de creación: 22 de marzo de 2025 15:16
 Clase: PROGRAMACIÓN I
 Fecha de la clase: 15 de marzo de 2025
 
+[[Clase 07 - Indexación y Slicing, Collections y Deques|← Clase anterior]] | [[Clase 09 - Manejo de Archivos|Clase siguiente →]]
+
 # Arrays y Colecciones avanzadas
 
 ## Tuplas (`tuples`)

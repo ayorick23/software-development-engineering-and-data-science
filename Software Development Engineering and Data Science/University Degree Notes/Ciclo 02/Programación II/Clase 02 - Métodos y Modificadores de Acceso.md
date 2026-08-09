@@ -4,7 +4,10 @@ Materia:
   - Programación II
 Fecha de clase: 2025-07-14
 ---
+[[Clase 01 - Introducción a Java|← Clase anterior]] | [[Clase 03 - Herencia y Clases Abstractas|Clase siguiente →]]
+
 # Métodos en Java
+(similar a [[Functions|Funciones en Python]])
 
 En Java, un método es un bloque de código que realiza una tarea específica y puede ser invocado "_llamado_" desde otras partes del programa. Los métodos permiten organizar el código en unidades reutilizables, lo que mejora la legibilidad y mantenibilidad del programa.
 

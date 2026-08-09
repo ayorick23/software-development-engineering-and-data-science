@@ -1,9 +1,11 @@
 ---
 Fecha de creación: 2026-03-14T18:21:00
 Materia:
-  - Probabilidad y Estadística
+  - Álgebra Lineal para Ciencia de Datos
 Fecha de clase: 2026-03-07
 ---
+[[Clase 05 - Repaso para el Parcial|← Clase anterior]] | [[Clase 08 - Núcleo, Imagen de Transformación Lineal|Clase siguiente →]]
+
 # Geometría de las Transformaciones Lineales
 
 Desde una perspectiva geométrica, una transformación lineal $T: \mathbb{R}^n \rightarrow \mathbb{R}^m$ es una regla que "mueve" los puntos del espacio. Lo más importante es que las transformaciones lineales siempre:

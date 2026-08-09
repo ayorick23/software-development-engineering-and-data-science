@@ -4,6 +4,8 @@ Materia:
   - Base de Datos I (Relacionales)
 Fecha de clase: 2025-09-12
 ---
+[[Clase 08 - Funciones de Control de Flujo y Condición|← Clase anterior]] | [[Clase 10 - Joins en MySQL|Clase siguiente →]]
+
 # Funciones de Agregación
 (ver [[SQL/Aggregate Functions|Aggregate Functions]])
 

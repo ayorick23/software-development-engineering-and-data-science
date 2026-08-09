@@ -4,6 +4,8 @@ Materia:
   - Probabilidad y Estadística
 Fecha de clase: 2026-03-20
 ---
+[[Clase 08 - Introducción a la Probabilidad|← Clase anterior]] | [[Clase 10 - Laboratorio 2|Clase siguiente →]]
+
 # Permutaciones y Combinaciones
 
 Las **permutaciones** y **combinaciones** son herramientas fundamentales de la **probabilidad y la estadística** que permiten contar cuántas formas existen de organizar o seleccionar elementos de un conjunto.

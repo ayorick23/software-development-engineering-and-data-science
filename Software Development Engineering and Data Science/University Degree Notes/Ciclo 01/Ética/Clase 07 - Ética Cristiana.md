@@ -4,6 +4,8 @@ Fecha de creación: 8 de marzo de 2025 18:05
 Clase: ÉTICA
 Fecha de la clase: 8 de marzo de 2025
 
+[[Clase 05 - Axiología|← Clase anterior]] | [[Clase 09 - Bioética|Clase siguiente →]]
+
 ## Ética Cristiana
 (proveniente de [[Clase 02 - Tipos de Sanciones y Éticas]])
 

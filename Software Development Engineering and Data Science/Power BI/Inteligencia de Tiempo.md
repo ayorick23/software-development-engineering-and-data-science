@@ -1,5 +1,7 @@
 # Inteligencia de Tiempo
 
+[[Funciones Iterativas|← Anterior]] | [[Creación de KPI's con Variables|Siguiente →]]
+
 ## ¿Qué es la inteligencia de tiempo?
 
 La inteligencia de tiempo es una técnica poderosa que implica el uso de estrategias para analizar y monitorear medidas en un periodo prolongado. En Power BI, una herramienta de Business Intelligence, el concepto de tiempo es esencial. A través de la inteligencia de tiempo, se puede evaluar la evolución de datos, supervisar crecimientos y prever tendencias futuras, todo de manera detallada.

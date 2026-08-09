@@ -4,6 +4,8 @@ Materia:
   - Probabilidad y Estadística
 Fecha de clase: 2026-01-30
 ---
+[[Clase 01 - Introducción al Método Estadístico|← Clase anterior]] | [[Clase 03 - Tipos de Gráficos Estadísticos|Clase siguiente →]]
+
 # Funciones y Usos del Método Estadístico
 
 La **estadística** es una disciplina fundamental en ingeniería porque permite **recopilar, organizar, analizar, interpretar y comunicar datos** para apoyar la toma de decisiones en contextos reales como producción, calidad, logística, finanzas, salud y tecnología.

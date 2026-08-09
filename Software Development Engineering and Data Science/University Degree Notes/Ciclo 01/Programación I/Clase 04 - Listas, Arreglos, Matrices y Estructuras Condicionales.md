@@ -4,6 +4,8 @@ Fecha de creación: 15 de febrero de 2025 14:06
 Clase: PROGRAMACIÓN I
 Fecha de la clase: 15 de febrero de 2025
 
+[[Clase 03 - Operadores Aritméticos, Lógicos y de Comparación|← Clase anterior]] | [[Clase 05 - Operador Ternario, Bucles For y While|Clase siguiente →]]
+
 # Arreglos, listas y matrices
 
 ## Listas

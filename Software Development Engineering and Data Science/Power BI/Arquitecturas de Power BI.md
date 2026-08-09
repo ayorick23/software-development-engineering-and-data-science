@@ -1,5 +1,7 @@
 # Arquitecturas de Power BI
 
+[[Business Intelligence|← Anterior]] | [[Automatización y Limpieza de Datos|Siguiente →]]
+
 [[Modelado y Análisis Avanzado de Datos con Power BI#¿Qué hace a Power BI tan poderoso?|Power BI]] es una herramienta poderosa para la implementación tecnológica en empresas que buscan gestionar eficientemente sus datos. Sin embargo, el aspecto financiero y las necesidades específicas de cada organización juegan un papel crucial a la hora de elegir la arquitectura más adecuada de Power BI. Vamos a explorar las diferentes arquitecturas disponibles y cómo cada una puede satisfacer las etapas de madurez de las empresas en el mundo de los datos.
 
 ## ¿Qué costos y características tiene Power BI Freak?

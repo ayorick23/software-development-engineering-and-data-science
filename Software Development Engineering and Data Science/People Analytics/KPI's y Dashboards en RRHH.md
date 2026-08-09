@@ -1,4 +1,7 @@
 # KPI's y Dashboards en RRHH
+(ver [[Creación de KPI's con Variables|Creación de KPI's con Variables]] y [[Business Intelligence|Business Intelligence]] para la construcción de estos mismos indicadores directamente en Power BI, con DAX en vez de tablas dinámicas de Excel)
+
+[[Análisis de Entrevistas de Salida|← Anterior]] | [[Evaluación de Impacto en Proyectos|Siguiente →]]
 
 ## ¿Qué son los KPIs básicos en recursos humanos y por qué son importantes?
 

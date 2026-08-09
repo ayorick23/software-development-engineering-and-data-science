@@ -4,6 +4,8 @@ Materia:
   - Matemática II
 Fecha de clase: 2025-09-10
 ---
+[[Clase 08 - Integral Definida|← Clase anterior]] | [[Clase 10 - Sólidos de Revolución|Clase siguiente →]]
+
 # Área de Región entre Curvas
 
 Sean dos funciones continuas $f(x)$ y $g(x)$ en el intervalo cerrado $[a, b]$, donde: $f(x) >= g(x)$ en $[a,b]$, es decir, la gráfica de $f$ está por encima de la de $g$.

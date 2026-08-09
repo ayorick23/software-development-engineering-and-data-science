@@ -1,4 +1,7 @@
 # Diseño de Proyectos de PA
+(continúa y detalla los pasos de [[Iniciación de Proyectos|Iniciación de Proyectos]]: recolección de variables y herramientas concretas para la hipótesis ya planteada)
+
+[[Iniciación de Proyectos|← Anterior]] | [[Análisis de Datos - Validación de Hipótesis|Siguiente →]]
 
 ## ¿Cómo dar los primeros pasos en People Analytics?
 

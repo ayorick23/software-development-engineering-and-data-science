@@ -1,5 +1,7 @@
 # Integración de Power Apps y Power Automate
 
+[[Configuración de Data Gateway|← Anterior]] | [[Integración con Python|Siguiente →]]
+
 ## ¿Qué es Microsoft Power Platform y qué aplicaciones incluye?
 
 Microsoft Power Platform es un conjunto de herramientas diseñadas para facilitar la creación e implementación de soluciones de procesos inteligentes. Esta potente suite de Microsoft incluye aplicaciones destacadas como PowerApps y Power Automate. PowerApps permite la creación de aplicaciones y formularios de baja codificación, facilitando su integración con todo el ecosistema de Microsoft 365 y Power BI. Power Automate, por su parte, automatiza flujos de trabajo como el envío de correos y notificaciones, integrándose también de forma perfecta con Power BI y Office 365.

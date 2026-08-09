@@ -1,5 +1,7 @@
 # Gestión de Informes en Power BI Service
 
+[[Elementos de Data Storytelling|← Anterior]] | [[Exploración Avanzada en Power BI Service|Siguiente →]]
+
 ## ¿Qué es Power BI Service y cómo se accede?
 
 Power BI Service es un componente vital de la suite de Power BI, que se ofrece como SaaS (Software as a Service). Diseñado para facilitar la colaboración y compartir informes en la nube de manera segura, este servicio requiere un correo electrónico corporativo para registrarse y acceder. Una cuenta corporativa permite ejecutar toda la colaboración a través de Power BI Service, contribuyendo significativamente al flujo de trabajo de una organización.

@@ -4,6 +4,8 @@ Materia:
   - Álgebra Lineal para Ciencia de Datos
 Fecha de clase: 2026-02-14
 ---
+[[Clase 03 - Matrices en Python y MATLAB|← Clase anterior]] | [[Clase 07 - Geometría de Transformaciones Lineales|Clase siguiente →]]
+
 # Matriz Inversa, Adjunta, Gauss-Jordan y Sistemas Lineales
 
 Esta clase fue un repaso integral de los métodos algebraicos clásicos para resolver sistemas lineales y calcular la inversa de una matriz. Aunque muchos de estos procedimientos hoy se automatizan con software, entenderlos es fundamental para comprender cómo funcionan los algoritmos numéricos utilizados en Ciencia de Datos y Machine Learning.
@@ -29,7 +31,7 @@ $$
 Cuando:
 
 - $\det(A)\neq 0$ - matriz regular o invertible
-- $\det(A)\neq 0$ - matriz singular (no tiene inversa)
+- $\det(A) = 0$ - matriz singular (no tiene inversa)
 
 ## Determinante y Ley de Sarrus (Solo 3×3)
 

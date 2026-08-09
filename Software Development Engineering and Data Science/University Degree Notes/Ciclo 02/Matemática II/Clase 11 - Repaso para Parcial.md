@@ -1,9 +1,11 @@
 ---
-Fecha de creación: 2025-10-11T18:54:00
+Fecha de creación: 2025-09-24T18:00:00
 Materia:
-  - Comunicación y Redacción
-Fecha de clase: 2025-10-11
+  - Matemática II
+Fecha de clase: 2025-09-24
 ---
+[[Clase 10 - Sólidos de Revolución|← Clase anterior]] | [[Clase 13 - Integración por Sustitución|Clase siguiente →]]
+
 # Repaso para Parcial Registro II
 
 Repaso de temas:

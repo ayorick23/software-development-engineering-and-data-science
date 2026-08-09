@@ -4,6 +4,8 @@ Materia:
   - Matemática II
 Fecha de clase: 2025-10-08
 ---
+[[Clase 11 - Repaso para Parcial|← Clase anterior]] | [[Clase 14 - Sustitución Trigonométrica|Clase siguiente →]]
+
 # Integración por Sustitución
 
 La **integración por sustitución**, también conocida como cambio de variable, es un método para encontrar la integral de una función. Es la contraparte de la regla de la cadena en la diferenciación. La idea principal es reemplazar un parte de la expresión a integrar por una nueva variable (generalmente $u$) para simplificar la integral.

@@ -4,6 +4,8 @@ Materia:
   - Base de Datos I (Relacionales)
 Fecha de clase: 2025-10-17
 ---
+[[Clase 13 - Vistas en MySQL|← Clase anterior]] | [[Clase 15 - Procedimientos Almacenados en MySQL|Clase siguiente →]]
+
 # Subconsultas en MySQL
 (ver [[Subqueries]])
 

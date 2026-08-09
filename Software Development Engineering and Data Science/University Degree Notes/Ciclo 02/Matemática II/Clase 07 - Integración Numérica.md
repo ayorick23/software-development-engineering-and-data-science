@@ -4,6 +4,7 @@ Materia:
   - Matemática II
 Fecha de clase: 2025-08-29
 ---
+[[Clase 05 - Repaso para el Parcial|← Clase anterior]] | [[Clase 08 - Integral Definida|Clase siguiente →]]
 
 # La Integración Numérica
 

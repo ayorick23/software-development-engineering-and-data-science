@@ -4,6 +4,8 @@ Materia:
   - Base de Datos II (No Relacionales)
 Fecha de clase: 2026-02-21
 ---
+[[Clase 04 - Configuración de Bases de Datos NoSQL|← Clase anterior]] | [[Clase 07 - Framework de Agregación|Clase siguiente →]]
+
 # ¿Qué es una Prueba de Concepto (POC)?
 
 Una **Prueba de Concepto (Proof of Concept)** es una implementación pequeña y controlada que se realiza antes de un despliegue completo, con el objetivo de validar que una tecnología realmente cumple con los requisitos técnicos y de negocio.

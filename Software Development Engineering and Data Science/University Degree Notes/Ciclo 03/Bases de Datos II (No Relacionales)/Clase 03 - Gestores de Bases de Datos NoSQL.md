@@ -4,6 +4,8 @@ Materia:
   - Base de Datos II (No Relacionales)
 Fecha de clase: 2026-02-07
 ---
+[[Clase 02 - SQL vs. NoSQL|← Clase anterior]] | [[Clase 04 - Configuración de Bases de Datos NoSQL|Clase siguiente →]]
+
 # Gestores de Bases de Datos NoSQL
 
 ## Diferencias Clave entre Gestores NoSQL

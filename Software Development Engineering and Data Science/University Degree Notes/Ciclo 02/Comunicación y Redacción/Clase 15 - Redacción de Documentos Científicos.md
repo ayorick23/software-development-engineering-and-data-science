@@ -4,7 +4,10 @@ Materia:
   - Comunicación y Redacción
 Fecha de clase: 2025-10-25
 ---
+[[Clase 14 - Lectura Comprensiva de Textos Científicos|← Clase anterior]]
+
 # Redacción de un Documento Científico
+(traslada al nivel de documento completo los principios de [[Clase 13 - Párrafo Científico#Principios Fundamentales|Unidad, Coherencia y Cohesión]] vistos en la Clase 13 para el párrafo)
 
 La redacción de un documento científico de alta calidad representa un desafío intelectual que trasciende la mera corrección gramatical y la elección precisa de la terminología. Su verdadera fortaleza reside en la organización de ideas a nivel de documento completo, es decir, en la macroestructura que rige la disposición lógica y el flujo de la información desde el título hasta las conclusiones finales.
 

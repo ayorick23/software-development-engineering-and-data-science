@@ -4,6 +4,8 @@ Fecha de creación: 22 de febrero de 2025 11:49
 Clase: ÉTICA
 Fecha de la clase: 22 de febrero de 2025
 
+[[Clase 04 - Antropología Cristiana y Violencia Intrafamiliar|← Clase anterior]] | [[Clase 07 - Ética Cristiana|Clase siguiente →]]
+
 ### Termina la frase…
 
 1. No soporto que los amigos…

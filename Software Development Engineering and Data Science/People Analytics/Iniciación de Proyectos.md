@@ -1,5 +1,7 @@
 # Iniciación de Proyectos
 
+[[Iniciar en People Analytics|← Anterior]] | [[Diseño de Proyectos de PA|Siguiente →]]
+
 ## ¿Por qué es crucial iniciar un proyecto de People Analytics?
 
 People Analytics se ha convertido en una prioridad estratégica en recursos humanos, tal como lo sugiere Gartner en sus reportes recientes. No obstante, muchos profesionales desconocen cómo iniciarlo. Este tipo de proyectos es clave para definir y resolver problemas dentro de una organización, y comprender esto permitirá que tu proyecto tenga éxito. La base es entender bien el fenómeno a analizar y formular adecuadamente las preguntas de investigación.

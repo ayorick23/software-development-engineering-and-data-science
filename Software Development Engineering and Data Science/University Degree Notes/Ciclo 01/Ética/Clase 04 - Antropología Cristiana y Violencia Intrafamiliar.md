@@ -4,6 +4,8 @@ Fecha de creación: 15 de febrero de 2025 18:05
 Clase: ÉTICA
 Fecha de la clase: 15 de febrero de 2025
 
+[[Clase 03 - La Verdad y la Antropología|← Clase anterior]] | [[Clase 05 - Axiología|Clase siguiente →]]
+
 ### Antropología Cristiana
 
 Es una rama de [[Clase 03 - La Verdad y la Antropología#La antropología|la antropología]] que estudia al ser humano desde la perspectiva cristiana. En lugar de enfocarse exclusivamente en los aspectos biológicos, sociales o culturales del ser humano, se centra en 

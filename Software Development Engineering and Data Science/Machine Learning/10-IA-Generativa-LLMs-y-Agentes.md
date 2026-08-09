@@ -4,7 +4,7 @@ aliases: [IA Generativa, LLMs y Agentes, GenAI]
 ---
 # Parte 10 — IA Generativa: LLMs, RAG y Agentes
 
-> Cierra (por ahora) la serie que empezó en [[01-Fundamentos-y-Panorama-General]]. Retoma varios conceptos ya sembrados ahí (embedding, vector, fine-tuning) y en [[06-Familia-de-Algoritmos-ML#11. LLMs (Large Language Models)]], y los profundiza. El orden de esta nota sigue, a propósito, la secuencia lógica: primero la arquitectura que lo hizo posible (Transformers), luego el modelo (LLM), luego cómo se especializa (fine-tuning/LoRA/PEFT), luego cómo se le da conocimiento externo (embeddings/vector DB/RAG), luego cómo se le da instrucciones (prompt engineering), y finalmente cómo se le da autonomía (agentes/MCP) y con qué herramientas se construye todo esto.
+> Cierra (por ahora) la serie que empezó en [[01-Fundamentos-y-Panorama-General]]. Retoma varios conceptos ya sembrados ahí (embedding, vector, fine-tuning) y en [[06-Familia-de-Algoritmos-ML#LLMs (Large Language Models)]], y los profundiza. El orden de esta nota sigue, a propósito, la secuencia lógica: primero la arquitectura que lo hizo posible (Transformers), luego el modelo (LLM), luego cómo se especializa (fine-tuning/LoRA/PEFT), luego cómo se le da conocimiento externo (embeddings/vector DB/RAG), luego cómo se le da instrucciones (prompt engineering), y finalmente cómo se le da autonomía (agentes/MCP) y con qué herramientas se construye todo esto.
 
 ---
 

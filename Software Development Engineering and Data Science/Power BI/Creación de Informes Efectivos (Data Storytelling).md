@@ -1,5 +1,7 @@
 # Creación de Informes Efectivos (Data Storytelling)
 
+[[Modelado y Análisis Avanzado de Datos con Power BI|← Anterior]] | [[Elementos de Data Storytelling|Siguiente →]]
+
 ## ¿Qué es el Data Storytelling?
 
 El data storytelling se ha convertido en una herramienta esencial para comunicar efectivamente los datos dentro de las organizaciones. Este arte no solo permite contar una historia envolvente, sino que también busca instalar una cultura orientada en datos, conocida como data-driven. Con visualizaciones efectivas, se pueden transmitir claramente ideas y descubrir información relevante que impulse a las empresas hacia el cambio.

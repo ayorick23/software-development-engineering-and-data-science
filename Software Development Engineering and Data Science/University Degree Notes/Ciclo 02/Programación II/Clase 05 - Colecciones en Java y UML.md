@@ -4,6 +4,8 @@ Materia:
   - Programación II
 Fecha de clase: 2025-08-11
 ---
+[[Clase 04 - Entrada de Datos y Arrays|← Clase anterior]] | [[Clase 07 - Concurrencia en Java|Clase siguiente →]]
+
 # Colecciones en Java
 (similar a [[Data Structures and Algorithms]])
 

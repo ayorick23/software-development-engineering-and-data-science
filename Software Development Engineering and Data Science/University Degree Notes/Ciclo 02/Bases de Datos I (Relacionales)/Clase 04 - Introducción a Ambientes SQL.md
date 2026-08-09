@@ -4,6 +4,8 @@ Materia:
   - Base de Datos I (Relacionales)
 Fecha de clase: 2025-08-09
 ---
+[[Clase 03 - Sentencias SQL en MySQL|← Clase anterior]] | [[Clase 05 - MySQL Workbench|Clase siguiente →]]
+
 # Instalación de MySQL
 
 ## Crear Bases de Datos y Tablas en MySQL

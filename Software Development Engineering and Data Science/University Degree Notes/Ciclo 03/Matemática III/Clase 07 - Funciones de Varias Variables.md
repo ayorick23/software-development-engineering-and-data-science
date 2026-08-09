@@ -4,6 +4,8 @@ Materia:
   - Matemática III
 Fecha de clase: 2026-03-04
 ---
+[[Clase 05 - Repaso para el Parcial|← Clase anterior]] | [[Clase 08 - Regla de la Cadena, Derivación Implícita y Gradiente|Clase siguiente →]]
+
 # Unidad II: Funciones de Varias Variables
 
 Una **función de dos variables** es una regla que asigna un valor real a cada par ordenado:
@@ -96,16 +98,24 @@ $$
 si
 
 $$
+\forall \epsilon > 0,\ \exists\, \delta > 0
+$$
 
+tal que
+
+$$
+|f(x,y) - L| < \epsilon
 $$
 
 cuando
 
 $$
-
+0 < \sqrt{(x-a)^2+(y-b)^2} < \delta
 $$
 
 ### Interpretación
 
 - $\epsilon$ → tolerancia en el valor de la función
 - $\delta$ → radio del entorno alrededor del punto
+
+A diferencia de una función de una variable (donde solo hay dos formas de acercarse a un punto: por la izquierda o por la derecha), aquí el punto $(x,y)$ puede aproximarse a $(a,b)$ desde **infinitas direcciones y trayectorias** dentro de ese círculo de radio $\delta$. Para que el límite exista, $f(x,y)$ debe acercarse a $L$ sin importar por cuál de esas infinitas trayectorias nos aproximemos — si dos trayectorias distintas dan resultados diferentes, el límite no existe.

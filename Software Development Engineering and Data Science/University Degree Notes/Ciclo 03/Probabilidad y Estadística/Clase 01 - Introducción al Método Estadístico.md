@@ -4,6 +4,8 @@ Materia:
   - Probabilidad y Estadística
 Fecha de clase: 2026-01-23
 ---
+[[Clase 02 - Funciones y Usos del Método Estadístico|Clase siguiente →]]
+
 # Introducción al Método Estadístico
 
 La estadística en la ingeniería no es solo "contar cosas"; es la herramienta fundamental para la **toma de decisiones bajo incertidumbre**. Nos permite transformar datos brutos en información accionable.

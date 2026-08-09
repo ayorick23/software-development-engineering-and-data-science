@@ -4,6 +4,8 @@ Materia:
   - Probabilidad y Estadística
 Fecha de clase: 2026-04-17
 ---
+[[Clase 10 - Laboratorio 2|← Clase anterior]] | [[Clase 13 - Tipos de Distribución|Clase siguiente →]]
+
 # Distribución Normal
 
 La **distribución normal**, también conocida como distribución gaussiana, es un modelo probabilístico continuo ampliamente utilizado para describir fenómenos naturales y sociales. Su forma característica es una campana simétrica en la que los valores tienden a concentrarse alrededor de un punto central. Esta distribución queda completamente definida por dos parámetros:

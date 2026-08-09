@@ -18,6 +18,8 @@ MLOps es, en esencia, **aplicarle al ciclo de vida de un modelo de ML las mismas
 
 ### Git
 
+(ver [[Setup and Init]])
+
 **Qué hace:** El sistema estándar de control de versiones de código — registra cada cambio, permite ramas (branches) para trabajar en paralelo sin pisarse, y es la base sobre la que se construye casi toda la automatización moderna (CI/CD).
 
 **Rol específico en MLOps:** Versiona el código de tus pipelines, scripts de entrenamiento, definiciones de infraestructura — pero **no versiona bien datasets grandes ni modelos entrenados** (archivos binarios de GBs) de forma nativa y eficiente. De ahí nace la necesidad de herramientas complementarias (DVC — Data Version Control, o directamente el Model Registry de MLflow) específicamente para versionar datos y modelos, dejando a Git enfocado en lo que hace mejor: código.
@@ -27,6 +29,8 @@ MLOps es, en esencia, **aplicarle al ciclo de vida de un modelo de ML las mismas
 ## Contenedores y empaquetado
 
 ### Docker
+
+(ver [[Introduction to Docker]])
 
 **Qué hace:** Empaqueta una aplicación (o un modelo con todas sus dependencias exactas: versión de Python, librerías, sistema operativo base) en un **contenedor** — una unidad portable que corre exactamente igual sin importar en qué máquina se ejecute.
 
@@ -40,7 +44,7 @@ MLOps es, en esencia, **aplicarle al ciclo de vida de un modelo de ML las mismas
 
 **Herramientas típicas:** GitHub Actions, GitLab CI, Jenkins, Azure DevOps Pipelines.
 
-**Por qué existe (aplicado a ML — "CT", Continuous Training):** En MLOps, el concepto se extiende más allá del CI/CD tradicional de software a menudo llamado **CT (Continuous Training)** — no solo automatizas el despliegue del código que sirve al modelo, sino también el **reentrenamiento automático** cuando llegan datos nuevos o cuando el monitoreo detecta drift (cerrando el ciclo descrito en [[03-Arquitectura-Empresarial-de-Datos-y-ML#13. Reentrenamiento]]).
+**Por qué existe (aplicado a ML — "CT", Continuous Training):** En MLOps, el concepto se extiende más allá del CI/CD tradicional de software a menudo llamado **CT (Continuous Training)** — no solo automatizas el despliegue del código que sirve al modelo, sino también el **reentrenamiento automático** cuando llegan datos nuevos o cuando el monitoreo detecta drift (cerrando el ciclo descrito en [[03-Arquitectura-Empresarial-de-Datos-y-ML#Reentrenamiento]]).
 
 **Qué problema resuelve:** Sin CI/CD/CT, cada actualización de modelo o pipeline es un proceso manual, lento y propenso a errores humanos — y en un contexto como forecasting recurrente (tu caso con Claro RD), la falta de automatización significa literalmente alguien ejecutando el mismo proceso a mano cada vez que hay que actualizar el modelo.
 
@@ -48,7 +52,7 @@ MLOps es, en esencia, **aplicarle al ciclo de vida de un modelo de ML las mismas
 
 ## Versionado (de datos y modelos, más allá del código)
 
-**Qué es:** Además de Git para código, en MLOps necesitas versionar **datasets** (¿con qué datos exactos se entrenó este modelo?) y **modelos** (¿cuál es la versión actual en producción, cuál la anterior?). Herramientas: DVC (Data Version Control, se integra con Git), y el **Model Registry** (ver siguiente sección y [[03-Arquitectura-Empresarial-de-Datos-y-ML#10. Registro del Modelo (Model Registry)]]).
+**Qué es:** Además de Git para código, en MLOps necesitas versionar **datasets** (¿con qué datos exactos se entrenó este modelo?) y **modelos** (¿cuál es la versión actual en producción, cuál la anterior?). Herramientas: DVC (Data Version Control, se integra con Git), y el **Model Registry** (ver siguiente sección y [[03-Arquitectura-Empresarial-de-Datos-y-ML#Registro del Modelo (_Model Registry_)]]).
 
 **Por qué es un problema distinto al versionado de código:** Los datasets pueden pesar gigabytes/terabytes — Git no está diseñado para eso. Y a diferencia del código (donde "la versión 3" es inequívoca), un modelo depende de una combinación de código + datos + hiperparámetros + hardware/librerías, por lo que versionar "solo el código" no es suficiente para poder reproducir exactamente un modelo anterior.
 
@@ -62,7 +66,7 @@ Ya cubierto en profundidad en [[03-Arquitectura-Empresarial-de-Datos-y-ML#10. Re
 
 ## Monitoreo y Drift
 
-Ya cubierto conceptualmente en [[03-Arquitectura-Empresarial-de-Datos-y-ML#12. Monitoreo]]. Aquí el detalle técnico de **qué tipos de drift existen** y con qué se detectan:
+Ya cubierto conceptualmente en [[03-Arquitectura-Empresarial-de-Datos-y-ML#Monitoreo]]. Aquí el detalle técnico de **qué tipos de drift existen** y con qué se detectan:
 
 - **Data drift:** la distribución de las features de entrada cambió respecto a los datos de entrenamiento (ej. tu forecasting empezó a recibir un rango de valores de "volumen histórico" muy distinto al que vio en entrenamiento, por un cambio de negocio).
 - **Concept drift:** la _relación_ entre las features y el target cambió, aunque las features en sí se vean parecidas (ej. el mismo nivel de "quejas del cliente" que antes predecía churn con 80% de confianza, ahora predice distinto porque cambió el contexto de mercado).
@@ -74,7 +78,7 @@ Ya cubierto conceptualmente en [[03-Arquitectura-Empresarial-de-Datos-y-ML#12. M
 
 ## Reentrenamiento (Retraining)
 
-Ya cubierto en [[03-Arquitectura-Empresarial-de-Datos-y-ML#13. Reentrenamiento]]. El detalle operativo que agrega esta nota: el reentrenamiento puede dispararse de tres formas — **programado** (cron/Airflow, ej. cada mes), **disparado por drift** (cuando Evidently u otra herramienta de monitoreo detecta que se cruzó un umbral), o **manual** (un humano decide que es momento, típicamente tras un evento de negocio conocido — ej. un cambio de política comercial que sabes de antemano que afectará los patrones históricos).
+Ya cubierto en [[03-Arquitectura-Empresarial-de-Datos-y-ML#Reentrenamiento]]. El detalle operativo que agrega esta nota: el reentrenamiento puede dispararse de tres formas — **programado** (cron/Airflow, ej. cada mes), **disparado por drift** (cuando Evidently u otra herramienta de monitoreo detecta que se cruzó un umbral), o **manual** (un humano decide que es momento, típicamente tras un evento de negocio conocido — ej. un cambio de política comercial que sabes de antemano que afectará los patrones históricos).
 
 ---
 

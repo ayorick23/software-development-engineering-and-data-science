@@ -4,6 +4,8 @@ Fecha de creación: 1 de febrero de 2025 18:00
 Clase: ÉTICA
 Fecha de la clase: 1 de febrero de 2025
 
+[[Clase 03 - La Verdad y la Antropología|Clase siguiente →]]
+
 ### Clase anterior
 
 - Conceptos de Ética y Moral

@@ -4,6 +4,8 @@ Materia:
   - Comunicación y Redacción
 Fecha de clase: 2025-07-12
 ---
+[[Clase 02 - Explicación Técnica|Clase siguiente →]]
+
 # Unidad 1: Generalidades del Lenguaje y la Comunicación
 
 ## El lenguaje como sistema de comunicación
@@ -17,6 +19,7 @@ Considerando un proceso esencial para los seres humanos, permite la expresión d
 >**Noam Chomsky (2015)**
 
 ## Naturaleza del Lenguaje
+(se profundiza en [[Clase 04 - Naturaleza del Lenguaje|Clase 04]])
 
 - Un instrumento de comunicación
 - Un medio de interacción social

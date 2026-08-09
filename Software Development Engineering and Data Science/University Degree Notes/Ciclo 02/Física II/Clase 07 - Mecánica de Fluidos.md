@@ -4,6 +4,8 @@ Materia:
   - Física II
 Fecha de clase: 2025-09-06
 ---
+[[Clase 05 - Sonido|← Clase anterior]] | [[Clase 08 - Presión de Fluidos|Clase siguiente →]]
+
 # Unidad 2: Mecánica de Fluidos
 
 La **mecánica de fluidos** se centra en el estudio de los **líquidos y gases**, ya que ambos tienen la capacidad de fluir. La principal diferencia entre ellos es su **compresibilidad** y la forma en que ocupan el espacio.

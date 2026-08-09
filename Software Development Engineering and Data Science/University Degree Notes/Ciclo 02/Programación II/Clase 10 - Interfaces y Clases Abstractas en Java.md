@@ -4,6 +4,8 @@ Materia:
   - Programación II
 Fecha de clase: 2025-09-15
 ---
+[[Clase 09 - Herencia Simple y Múltiple|← Clase anterior]] | [[Clase 11 - Repaso para Parcial|Clase siguiente →]]
+
 # Interfaces y Clases Abstractas en Java
 
 La programación orientada a objetos (**POO**) es un paradigma que nos permite estructurar el código entorno a objetos que podrían ejemplificar entidades del mundo real. Bajo este enfoque, las interfaces y las clases abstractas son dos herramientas muy importantes que facilitan la organización del código y la reutilización de funcionalidades.

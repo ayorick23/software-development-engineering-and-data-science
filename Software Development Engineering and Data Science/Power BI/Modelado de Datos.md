@@ -1,5 +1,7 @@
 # Modelado de Datos
 
+[[Automatización de Datos con Lenguaje M|← Anterior]] | [[Relaciones y Filtros|Siguiente →]]
+
 ## ¿Qué es el modelamiento de datos y por qué es importante en Business Intelligence?
 
 El modelamiento de datos es la clave para construir soluciones efectivas en Business Intelligence (BI) y analítica, permitiéndonos realizar análisis complejos entre múltiples tablas interconectadas mediante campos comunes. Dentro de Power BI, esto se logra a través del esquema de modelo estrella, compuesto por una tabla de hechos central y varias tablas de dimensiones. ¿Por qué es vital este enfoque? Porque optimiza tanto el rendimiento como el tamaño del modelo de datos, eliminando redundancias y acelerando la toma de decisiones empresariales.

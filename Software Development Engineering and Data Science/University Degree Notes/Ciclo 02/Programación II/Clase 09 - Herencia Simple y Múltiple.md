@@ -4,6 +4,8 @@ Materia:
   - Programación II
 Fecha de clase: 2025-09-08
 ---
+[[Clase 08 - Git y el Control de Versiones|← Clase anterior]] | [[Clase 10 - Interfaces y Clases Abstractas en Java|Clase siguiente →]]
+
 # Diferencia entre Herencia Simple y Múltiple
 (ver [[Clase 03 - Herencia y Clases Abstractas#Herencia Simple y Multinivel|Herencia Simple y Multinivel en Java]])
 

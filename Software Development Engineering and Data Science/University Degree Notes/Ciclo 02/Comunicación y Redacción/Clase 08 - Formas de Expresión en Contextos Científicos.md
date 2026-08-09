@@ -4,7 +4,10 @@ Materia:
   - Comunicación y Redacción
 Fecha de clase: 2025-09-06
 ---
+[[Clase 07 - La Comunicación en Contextos Científicos|← Clase anterior]] | [[Clase 09 - Qué es un Artículo Científico|Clase siguiente →]]
+
 # Formas de Expresión en Contextos Científicos
+(amplía la [[Clase 07 - La Comunicación en Contextos Científicos|Clase 07]] con más detalle en géneros textuales, retórica y ética)
 
 La comunicación en los contextos científicos constituye un pilar fundamental para la generación, validación y difusión del conocimiento a lo largo de las diversas disciplinas. A diferencia de otras formas de comunicación que pueden enfatizar la estética, la emotividad o la persuasión, la comunicación científica se distingue por su primordial objetivo de transmitir información de manera clara, precisa y objetiva. Esta necesidad de claridad y objetividad se convierte en un rasgo distintivo que moldea tanto el estilo de redacción como la selección de los recursos lingüísticos empleados en este tipo de discurso.
 

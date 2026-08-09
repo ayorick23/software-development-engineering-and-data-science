@@ -4,6 +4,8 @@ Materia:
   - Probabilidad y Estadística
 Fecha de clase: 2026-03-13
 ---
+[[Clase 07 - Medidas de Dispersión|← Clase anterior]] | [[Clase 09 - Permutaciones y Combinaciones|Clase siguiente →]]
+
 # Introducción a la Probabilidad
 
 La **probabilidad** es una rama de la estadística que estudia la posibilidad de que ocurra un determinado evento en situaciones donde el resultado no puede predecirse con certeza.

@@ -4,6 +4,8 @@ Fecha de creación: 22 de febrero de 2025 11:48
 Clase: PROGRAMACIÓN I
 Fecha de la clase: 22 de febrero de 2025
 
+[[Clase 04 - Listas, Arreglos, Matrices y Estructuras Condicionales|← Clase anterior]] | [[Clase 07 - Indexación y Slicing, Collections y Deques|Clase siguiente →]]
+
 # Operador Ternario (Sentencia Condicional)
 (ver [[Control Flow#Operador Condicional Ternario|Operador Condicional Ternario]])
 

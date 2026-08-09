@@ -4,6 +4,8 @@ Materia:
   - Base de Datos II (No Relacionales)
 Fecha de clase: 2026-03-14
 ---
+[[Clase 07 - Framework de Agregación|← Clase anterior]] | [[Clase 09 - Modelaje de Datos NoSQL|Clase siguiente →]]
+
 # Diseño de Esquemas en Bases de Datos
 
 El **diseño de esquemas** es una etapa fundamental en el desarrollo de bases de datos. Define cómo se organizarán los datos, cómo se relacionarán entre sí y cómo serán consultados por las aplicaciones.

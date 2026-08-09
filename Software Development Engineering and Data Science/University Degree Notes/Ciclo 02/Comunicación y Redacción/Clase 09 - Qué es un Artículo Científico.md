@@ -4,7 +4,10 @@ Materia:
   - Comunicación y Redacción
 Fecha de clase: 2025-09-13
 ---
+[[Clase 08 - Formas de Expresión en Contextos Científicos|← Clase anterior]] | [[Clase 10 - Fundamento de la Evidencia|Clase siguiente →]]
+
 # ¿Qué es un artículo científico?
+(profundiza los [[Clase 08 - Formas de Expresión en Contextos Científicos#Géneros Textuales|Géneros Textuales]] de la Clase 08, específicamente la estructura del artículo científico)
 
 La estructura y organización de los textos científicos son elementos cruciales para garantizar la eficacia de la comunicación en el ámbito científico. Estos textos no se presentan de manera aleatoria, sino que siguen patrones y convenciones que facilitan la comprensión y la evaluación de la información por parte de la comunidad científica.
 

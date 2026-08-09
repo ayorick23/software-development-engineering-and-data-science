@@ -1,9 +1,11 @@
 ---
 Fecha de creación: 2026-03-14T18:02:00
 Materia:
-  - Probabilidad y Estadística
+  - Álgebra Lineal para Ciencia de Datos
 Fecha de clase: 2026-03-14
 ---
+[[Clase 07 - Geometría de Transformaciones Lineales|← Clase anterior]] | [[Clase 09 - Espacios y Subespacios Vectoriales|Clase siguiente →]]
+
 # Núcleo e Imagen de una Transformación Lineal
 
 Un función T: V -> W entre espacios vectoriales es una transformación lineal si cumple:
@@ -12,15 +14,17 @@ Un función T: V -> W entre espacios vectoriales es una transformación lineal s
 - Homogeneidad: $T(\alpha v) = \alpha \cdot T(v)$
 
 Ejemplo 1: Rotación en $R^2$
+(ver [[Clase 07 - Geometría de Transformaciones Lineales#Tipos de Transformaciones Básicas ($\mathbb{R}^2$)|Rotación]] en la Clase 07)
 
-
+$T(x,y) = (x\cos\theta - y\sin\theta,\ x\sin\theta + y\cos\theta)$ — rota cada vector un ángulo $\theta$ sin cambiar su magnitud. Es lineal porque rotar la suma de dos vectores da el mismo resultado que sumar sus rotaciones por separado.
 
 Ejemplo 2: Derivación
 
-
+$T(f) = f'$, es decir, la función que envía a cada función derivable $f$ su derivada $f'$. Es lineal porque $(f+g)' = f' + g'$ y $(cf)' = cf'$ — la derivada de una suma es la suma de las derivadas, y sacar una constante también se preserva. Aquí $V$ y $W$ ya no son $\mathbb{R}^n$, sino espacios de funciones.
 
 Ejemplo 3: Proyección
 
+$T(x,y,z) = (x,y,0)$ — proyecta cualquier vector de $\mathbb{R}^3$ sobre el plano $xy$, "aplastando" la componente $z$. Es lineal, y es un buen ejemplo de una transformación **no inyectiva**: todo punto de la recta vertical que pasa por $(x,y,0)$ se mapea al mismo resultado.
 
 
 Representación Matricial
@@ -72,11 +76,15 @@ $$
 
 ### Monomorfismo (Inyectiva)
 
+$T$ es inyectiva si a cada vector distinto de $V$ le corresponde una imagen distinta en $W$ ($u \neq v \implies T(u) \neq T(v)$). Equivale a que el núcleo sea trivial: $Ker(T) = \{0\}$. Geométricamente, ninguna información se "pierde" al aplicar $T$.
 
 ### Epimorfismo (Sobreyectiva)
 
+$T$ es sobreyectiva si todo vector de $W$ es la imagen de al menos un vector de $V$, es decir, $Im(T) = W$. Equivale a que $\text{rango}(T) = \dim(W)$.
 
 ### Isomorfismo (Biyectiva)
+
+$T$ es un isomorfismo si es inyectiva y sobreyectiva a la vez (monomorfismo y epimorfismo simultáneamente). Esto significa que $T$ tiene una inversa $T^{-1}$, y que $V$ y $W$ son estructuralmente "el mismo" espacio vectorial, solo con los vectores etiquetados de forma distinta.
 
 
 ### Ejercicio 1 - Python

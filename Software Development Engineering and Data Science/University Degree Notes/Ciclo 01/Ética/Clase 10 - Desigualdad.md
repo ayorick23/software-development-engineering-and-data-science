@@ -4,7 +4,10 @@ Fecha de creación: 29 de marzo de 2025 18:01
 Clase: ÉTICA
 Fecha de la clase: 29 de marzo de 2025
 
+[[Clase 09 - Bioética|← Clase anterior]] | [[Clase 14 - Ética Aplicada y Educación Ambiental|Clase siguiente →]]
+
 ## Características de los problemas
+(retoma las preguntas sobre pobreza y responsabilidad del gobierno planteadas al final de la [[Clase 09 - Bioética|Clase 09]]; ver también [[Clase 05 - Axiología#¿Qué es una crisis de valores?|crisis de valores]] y [[Clase 16 - Ética Profesional#1. Corrupción en obras públicas|corrupción]], que citan esta clase)
 
 - Afectan a muchas personas
 - Tienen consecuencias negativas

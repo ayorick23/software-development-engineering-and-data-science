@@ -4,7 +4,10 @@ Materia:
   - Matemática II
 Fecha de clase: 2025-09-03
 ---
+[[Clase 07 - Integración Numérica|← Clase anterior]] | [[Clase 09 - Área de Región entre Curvas|Clase siguiente →]]
+
 # La Integral Definida
+(formaliza la [[Clase 07 - Integración Numérica#Aproximación del Área de una Región Plana (Integración Numérica)|aproximación del área]] de la Clase 07 como un límite exacto)
 
 ## Sumas de Reimann
 

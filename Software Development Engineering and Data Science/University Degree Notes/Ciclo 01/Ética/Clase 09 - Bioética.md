@@ -4,6 +4,8 @@ Fecha de creación: 22 de marzo de 2025 16:04
 Clase: ÉTICA
 Fecha de la clase: 22 de marzo de 2025
 
+[[Clase 07 - Ética Cristiana|← Clase anterior]] | [[Clase 10 - Desigualdad|Clase siguiente →]]
+
 # La Bioética
 (derivada de [[Clase 02 - Tipos de Sanciones y Éticas]])
 
@@ -47,6 +49,7 @@ Cada una de estas ramas tiene sus propias normas y desafíos, pero todas compart
 3. Problemas éticos en el ámbito global.
 
 # ¿Es responsabilidad del gobierno o de la sociedad reducir la pobreza?
+(estas preguntas se retoman en [[Clase 10 - Desigualdad|Clase 10]])
 
 ## 1. ¿El sistema educativo salvadoreño es suficiente para garantizar un futuro mejor a la juventud?
 

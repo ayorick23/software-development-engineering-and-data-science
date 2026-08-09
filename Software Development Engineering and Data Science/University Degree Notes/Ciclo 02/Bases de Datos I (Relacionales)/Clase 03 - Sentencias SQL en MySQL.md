@@ -4,6 +4,8 @@ Materia:
   - Base de Datos I (Relacionales)
 Fecha de clase: 2025-07-25
 ---
+[[Clase 02 - Estándar SQL|← Clase anterior]] | [[Clase 04 - Introducción a Ambientes SQL|Clase siguiente →]]
+
 # ¿Qué es MySQL?
 
 MySQL es un sistema manejador de bases de datos relacionales.

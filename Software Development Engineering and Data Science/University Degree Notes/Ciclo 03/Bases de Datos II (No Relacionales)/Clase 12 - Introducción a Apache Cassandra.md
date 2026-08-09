@@ -4,7 +4,10 @@ Materia:
   - Base de Datos II (No Relacionales)
 Fecha de clase: 2026-04-18
 ---
+[[Clase 10 - Diseño hacia Paradigmas NoSQL|← Clase anterior]] | [[Clase 13 - Estrategias de Implementación Cassandra|Clase siguiente →]]
+
 # Introducción a Apache Cassandra
+(ver [[Clase 03 - Gestores de Bases de Datos NoSQL#Apache Cassandra - Columnas Anchas|primera mención en la Clase 03]] y la [[Clase 04 - Configuración de Bases de Datos NoSQL#Cassandra: Arquitectura Peer-to-Peer|arquitectura peer-to-peer]] vista en la Clase 04)
 
 ## ¿Qué es Apache Cassandra?
 

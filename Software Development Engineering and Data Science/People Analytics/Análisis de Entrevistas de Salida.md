@@ -1,8 +1,11 @@
 # Análisis de Entrevistas de Salida
+(aplica análisis de texto e IA sobre un tipo de dato ya mencionado en [[Tipos de Datos en PA#¿Qué tipos de datos encontramos en recursos humanos?|Tipos de Datos en PA - Rotación]])
 
-## ¿Qué es People Analytics y cómo se utiliza en las organizaciones?
+[[Integración y Análisis de Encuestas de Satisfacción|← Anterior]] | [[KPI's y Dashboards en RRHH|Siguiente →]]
 
-People Analytics se ha convertido en una herramienta esencial para maximizar el potencial humano dentro de las organizaciones. Al analizar datos de recursos humanos, las empresas pueden obtener valiosos insumos que dirigen sus estrategias hacia mejoras organizacionales. La clave está en saber utilizar la información cualitativa y cuantitativa para tomar decisiones informadas y efectivas.
+## ¿Cómo convertir entrevistas de retiro en información accionable?
+
+Retomando la [[Introducción a People Analytics|definición de People Analytics]] ya vista: la clave para aprovechar las entrevistas de retiro está en saber combinar la información cualitativa y cuantitativa para tomar decisiones informadas y efectivas.
 
 ### ¿Cómo convertir las entrevistas de retiro en oportunidades de mejora?
 

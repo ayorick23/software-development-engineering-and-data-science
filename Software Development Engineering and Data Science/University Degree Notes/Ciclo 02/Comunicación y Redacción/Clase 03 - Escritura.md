@@ -4,6 +4,8 @@ Materia:
   - Comunicación y Redacción
 Fecha de clase: 2025-07-27
 ---
+[[Clase 02 - Explicación Técnica|← Clase anterior]] | [[Clase 04 - Naturaleza del Lenguaje|Clase siguiente →]]
+
 # La Enseñanza de la Escritura
 
 La enseñanza de la escritura tal como la conocemos hoy no existía hace cuarenta y cinco años. Al comienzo de las clases, en las décadas de 1940 y 1950, un profesor o instructor de idiomas decía a los alumnos que habían escrito una composición para la hora, cuyo título se mostraba en la pizarra. Esto cambió en la década de 1950, y la «gran renovación didáctica>> incluyó el uso del término «ensayo» en lugar de sugerir un tema, permitiendo a los alumnos elegir el suyo propio.

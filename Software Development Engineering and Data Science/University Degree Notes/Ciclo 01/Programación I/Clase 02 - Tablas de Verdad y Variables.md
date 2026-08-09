@@ -4,6 +4,8 @@ Fecha de creación: 1 de febrero de 2025 14:34
 Clase: PROGRAMACIÓN I
 Fecha de la clase: 1 de febrero de 2025
 
+[[Clase 03 - Operadores Aritméticos, Lógicos y de Comparación|Clase siguiente →]]
+
 # Algoritmos y Diagramas de Flujo
 
 Nos ayudan a entender la lógica de lo que vamos a programar
@@ -58,7 +60,23 @@ No tienen un estándar, los símbolos pueden variar
 | TRUE | FALSE | TRUE |
 | TRUE | TRUE | FALSE |
 
-(faltan dos mas)
+**NAND (Not AND):** Negación de la conjunción (es la única falsa cuando ambas son verdaderas)
+
+| Valor1 | Valor2 | NAND |
+| --- | --- | --- |
+| FALSE | FALSE | TRUE |
+| FALSE | TRUE | TRUE |
+| TRUE | FALSE | TRUE |
+| TRUE | TRUE | FALSE |
+
+**NOR (Not OR):** Negación de la disyunción (solo es verdadera cuando ambas son falsas)
+
+| Valor1 | Valor2 | NOR |
+| --- | --- | --- |
+| FALSE | FALSE | TRUE |
+| FALSE | TRUE | FALSE |
+| TRUE | FALSE | FALSE |
+| TRUE | TRUE | FALSE |
 
 Ejemplo:
 

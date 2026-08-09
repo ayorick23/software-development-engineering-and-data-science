@@ -4,7 +4,10 @@ Fecha de creación: 14 de marzo de 2025 18:04
 Clase: SISTEMAS OPERATIVOS
 Fecha de la clase: 14 de marzo de 2025
 
+[[Clase 07 - Dispositivos de Entrada y Salida|← Clase anterior]] | [[Clase 09 - Ponencia de Flutter y Seguridad de un SO pt. 1|Clase siguiente →]]
+
 # Tipos de sistemas de archivos en los sistemas operativos
+(profundiza la [[Clase 04 - Funciones de un SO#3. Gestión de almacenamiento|gestión de almacenamiento]] vista en la Clase 04; a nivel de aplicación, ver también cómo Python interactúa con archivos y directorios en [[Clase 09 - Manejo de Archivos|Programación I, Clase 09]] y [[Clase 14 - Archivos y Directorios|Clase 14]])
 
 ## Sistema de archivo
 

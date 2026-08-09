@@ -4,6 +4,8 @@ Materia:
   - Matemática II
 Fecha de clase: 2025-07-16
 ---
+[[Clase 01 - Derivadas Sucesivas y Trascendentes|← Clase anterior]] | [[Clase 03 - Derivadas de Funciones Trascendentes|Clase siguiente →]]
+
 # Criterios de la Primera y Segunda Derivada: Fundamentos del Análisis de Funciones
 
 Comprender el comportamiento de las funciones es fundamental en diversas disciplinas. Los criterios de la primera y segunda derivada nos proporcionan herramientas poderosas para lograr este entendimiento.

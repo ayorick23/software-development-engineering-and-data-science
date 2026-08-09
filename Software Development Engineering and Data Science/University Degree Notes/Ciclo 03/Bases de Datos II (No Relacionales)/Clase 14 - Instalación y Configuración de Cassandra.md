@@ -4,6 +4,8 @@ Materia:
   - Base de Datos II (No Relacionales)
 Fecha de clase: 2026-05-02
 ---
+[[Clase 13 - Estrategias de Implementación Cassandra|← Clase anterior]]
+
 # Instalación y Configuración de Apache Cassandra
 
 ## Entornos NoSQL

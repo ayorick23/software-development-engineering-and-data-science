@@ -3,6 +3,8 @@
 Fecha de creación: 26 de abril de 2025 18:10
 Clase: ÉTICA
 
+[[Clase 10 - Desigualdad|← Clase anterior]] | [[Clase 16 - Ética Profesional|Clase siguiente →]]
+
 # Ética Aplicada
 (proveniente de [[Clase 02 - Tipos de Sanciones y Éticas]])
 

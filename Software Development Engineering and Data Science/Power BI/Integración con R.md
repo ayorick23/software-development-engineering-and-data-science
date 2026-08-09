@@ -1,5 +1,7 @@
 # Integración con R
 
+[[Integración con Python|← Anterior]]
+
 El lenguaje de programación R es una herramienta fundamental en el análisis de datos, especialmente por su capacidad para crear visualizaciones detalladas y manipular grandes conjuntos de datos. Sin embargo, su integración con herramientas como Power BI es lo que realmente amplifica su potencial en el mundo del business analytics. A continuación, exploraremos cómo puedes integrar R en Power BI Desktop y cómo esta combinación puede mejorar tus informes y análisis.
 
 ## ¿Por qué usar R para el análisis de datos?

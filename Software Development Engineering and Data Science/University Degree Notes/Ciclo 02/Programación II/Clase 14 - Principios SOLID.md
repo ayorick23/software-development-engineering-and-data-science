@@ -4,7 +4,10 @@ Materia:
   - Programación II
 Fecha de clase: 2025-10-13
 ---
+[[Clase 13 - Pruebas Unitarias en Java|← Clase anterior]] | [[Clase 15 - Calidad del Código|Clase siguiente →]]
+
 # Principios SOLID
+(ver [[30-Principios-SOLID-y-Clean-Code-para-ML|Principios SOLID y Clean Code para ML]])
 
 ## **S** - Single Responsibility Principle (SRP)
 

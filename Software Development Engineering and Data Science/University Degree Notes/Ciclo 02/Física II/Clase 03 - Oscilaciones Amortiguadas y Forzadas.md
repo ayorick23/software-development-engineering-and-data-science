@@ -4,7 +4,10 @@ Materia:
   - Física II
 Fecha de clase: 2025-07-22
 ---
+[[Clase 02 - MAS, MCU y Péndulos|← Clase anterior]] | [[Clase 04 - Movimiento Ondulatorio|Clase siguiente →]]
+
 # Oscilaciones Amortiguadas y Forzadas
+(parte del [[Clase 01 - Movimiento Armónico Simple (MAS)|MAS]] sin fricción visto en la Clase 01, ahora agregando una fuerza de amortiguamiento)
 
 ## Oscilaciones Amortiguadas
 

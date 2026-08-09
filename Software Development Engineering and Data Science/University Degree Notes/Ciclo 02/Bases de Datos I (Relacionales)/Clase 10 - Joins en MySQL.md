@@ -4,6 +4,8 @@ Materia:
   - Base de Datos I (Relacionales)
 Fecha de clase: 2025-09-18
 ---
+[[Clase 09 - Funciones de Agregación y Agrupación|← Clase anterior]] | [[Clase 11 - Constraints e Índices en MySQL|Clase siguiente →]]
+
 # MySQL Joins
 (ver [[Joins]])
 

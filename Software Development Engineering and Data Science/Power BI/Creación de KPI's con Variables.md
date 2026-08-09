@@ -1,4 +1,7 @@
 # Creación de KPI's con Variables
+(ver [[KPI's y Dashboards en RRHH|KPI's y Dashboards en RRHH]] para la misma idea aplicada con tablas dinámicas de Excel en vez de DAX)
+
+[[Inteligencia de Tiempo|← Anterior]] | [[Modelado y Análisis Avanzado de Datos con Power BI|Siguiente →]]
 
 ## ¿Cómo crear KPIs en Power BI usando variables?
 

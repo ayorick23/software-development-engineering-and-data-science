@@ -4,6 +4,8 @@ Materia:
   - Base de Datos II (No Relacionales)
 Fecha de clase: 2026-01-31
 ---
+[[Clase 01 - Fundamentos de las Bases de Datos NoSQL|← Clase anterior]] | [[Clase 03 - Gestores de Bases de Datos NoSQL|Clase siguiente →]]
+
 # SQL vs. NoSQL
 
 ## Contexto Histórico y Necesidad Tecnológica

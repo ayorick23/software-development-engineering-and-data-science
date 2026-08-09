@@ -1,5 +1,7 @@
 # Transformaciones Avanzadas con Power Query
 
+[[Transformación de Datos con Power Query|← Anterior]] | [[Combinación de Tablas y Consultas con Power Query|Siguiente →]]
+
 ## ¿Qué es una transformación en Power Query?
 
 Las transformaciones en [[Transformación de Datos con Power Query#¿Qué son Power Query y el proceso ETL?|Power Query]] son herramientas poderosas que permiten ajustar y modelar datos para satisfacer necesidades específicas. En su esencia, una transformación en Power Query puede realizar diversas tareas, como cambiar el tipo de dato, dividir columnas, reemplazar valores o filtrar datos. Estas acciones aseguran que la información sea eficazmente modelada para un análisis posterior. Además, Power Query ofrece la posibilidad de combinar consultas y anexar datos para obtener resultados más complejos y alineados con objetivos específicos.

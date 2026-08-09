@@ -1,5 +1,7 @@
 # Optimización de Modelos de Datos
 
+[[Relaciones y Filtros|← Anterior]] | [[Lenguaje DAX|Siguiente →]]
+
 ## ¿Cómo optimizar el rendimiento en Power BI?
 
 La optimización del rendimiento de un modelo de datos en Power BI es crucial para asegurar una experiencia fluida y eficiente. A través de herramientas como [[Transformación de Datos con Power Query#¿Qué son Power Query y el proceso ETL?|Power Query]] y Power BI, podemos implementar prácticas efectivas para mejorar la eficiencia. Este proceso incluye la eliminación de tablas innecesarias, el ocultamiento de campos técnicos y la gestión adecuada de las columnas. Además, es fundamental asegurarse de que todos los datos no deseados no se transfieran a Power BI, liberando así recursos y mejorando el rendimiento.

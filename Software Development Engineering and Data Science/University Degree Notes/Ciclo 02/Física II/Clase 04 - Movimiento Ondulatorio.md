@@ -4,6 +4,8 @@ Materia:
   - Física II
 Fecha de clase: 2025-07-29
 ---
+[[Clase 03 - Oscilaciones Amortiguadas y Forzadas|← Clase anterior]] | [[Clase 05 - Sonido|Clase siguiente →]]
+
 # Movimiento Ondulatorio
 
 ## ¿Qué es una Onda?
@@ -82,7 +84,7 @@ $$
 v(x,t) = A\omega cos(kx±\omega t + \phi)
 $$
 
-Aceleración (derivada):
+Aceleración (derivada, ver [[Derivadas e Integrales Fundamentales#Derivadas Fundamentales|Derivadas Fundamentales]]):
 
 $$
 a(x,t) = -A\omega^2 sen(kx±\omega t + \phi)

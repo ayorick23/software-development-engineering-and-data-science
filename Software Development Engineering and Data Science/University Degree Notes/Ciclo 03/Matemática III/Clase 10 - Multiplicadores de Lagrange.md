@@ -4,7 +4,10 @@ Materia:
   - Matemática III
 Fecha de clase: 2026-03-25
 ---
+[[Clase 09 - Derivadas Direccionales, Gradientes y Fórmula de Taylor|← Clase anterior]]
+
 # Multiplicadores de Lagrange
+(usa el [[Clase 08 - Regla de la Cadena, Derivación Implícita y Gradiente#Gradiente|Gradiente]], profundizado en [[Clase 09 - Derivadas Direccionales, Gradientes y Fórmula de Taylor|Clase 09]], como condición central del método)
 
 El método de **Multiplicadores de Lagrange** es un procedimiento estratégico de cálculo multivariable utilizado para encontrar los máximos y mínimos locales de una función $f(x, y, . . .)$ sometida a la condición impuesta por una restricción de igualdad $g(x, y, . . .) = k$. Introduce una nueva variable escalar $\lambda$ para transformar un problema con restricciones en un sistema de ecuaciones resoluble.
 
@@ -49,3 +52,5 @@ La función objetivo, denotada como $f(x, y)$, es la ecuación matemática que d
 Una restricción es una condición inflexible que las variables del sistema deben cumplir. Se modela igualando a una constante: $g(x, y) = k$. Geométricamente, representa un cerco, una frontera o un carril del cual el algoritmo no puede escapar.
 
 ### Curvas de Nivel
+
+Una **curva de nivel** de $f(x,y)$ es el conjunto de puntos donde la función toma un valor constante: $f(x,y) = c$. Son útiles para visualizar en el plano una función de dos variables (que geométricamente es una superficie en $\mathbb{R}^3$), como las curvas de un mapa topográfico. El método de Lagrange se entiende geométricamente como el punto donde una curva de nivel de $f$ es tangente a la curva de restricción $g(x,y)=k$ — precisamente donde sus gradientes son paralelos.

@@ -1,5 +1,7 @@
 # Importancia de People Analytics
 
+[[Introducción a People Analytics|← Anterior]] | [[Cultura Data Driven|Siguiente →]]
+
 ## ¿Qué es People Analytics y cuál es su importancia?
 
 People Analytics se ha convertido en un pilar fundamental para las organizaciones que buscan optimizar su gestión del talento a través de un enfoque basado en datos. A partir de 2010, este campo ha visto un crecimiento del 400% en publicaciones científicas, demostrando su relevancia creciente entre académicos y profesionales. Esta metodología se centra en utilizar datos internos y externos para guiar decisiones estratégicas, aumentando así la eficiencia y efectividad en la gestión de recursos humanos. Al integrar información multidimensional, se amplía el entendimiento de los elementos que influencian el rendimiento y satisfacción del personal, lo cual es crucial en la toma de decisiones informadas.

@@ -4,6 +4,8 @@ Materia:
   - Programación II
 Fecha de clase: 2025-10-17
 ---
+[[Clase 10 - Interfaces y Clases Abstractas en Java|← Clase anterior]] | [[Clase 13 - Pruebas Unitarias en Java|Clase siguiente →]]
+
 # Repaso para Parcial Registro II
 
 Repaso de temas:

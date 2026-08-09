@@ -4,6 +4,8 @@ Materia:
   - Base de Datos I (Relacionales)
 Fecha de clase: 2025-10-24
 ---
+[[Clase 14 - Subconsultas en MySQL|← Clase anterior]]
+
 # Procedimientos Almacenados en MySQL
 (ver [[Stored Procedures and Functions#Procedimientos Almacenados (_Stored Procedures_)|Procedimientos Almacenados]])
 

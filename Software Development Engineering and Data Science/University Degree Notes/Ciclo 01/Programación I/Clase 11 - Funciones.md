@@ -4,6 +4,8 @@ Fecha de creación: 3 de mayo de 2025 15:08
 Clase: PROGRAMACIÓN I
 Fecha de la clase: 5 de abril de 2025
 
+[[Clase 10 - Archivos CSV|← Clase anterior]] | [[Clase 14 - Archivos y Directorios|Clase siguiente →]]
+
 # Funciones en Python
 (ver [[Functions]])
 
@@ -71,6 +73,7 @@ saludar("Luis") #Hola, Luis
 ```
 
 ### Parámetros arbitrarios `(*args)`
+(ver [[Functions#Tipos de Argumentos|Tipos de Argumentos]])
 
 Se usa para pasar una cantidad variable de argumentos en forma de tupla.
 

@@ -1,5 +1,7 @@
 # Configuración de Data Gateway
 
+[[Exploración Avanzada en Power BI Service|← Anterior]] | [[Integración de Power Apps y Power Automate|Siguiente →]]
+
 ## ¿Cómo configurar actualizaciones automáticas en Power BI Service?
 
 Incorporar actualizaciones automáticas en Power BI Service es esencial para mantener frescos y precisos nuestros reportes. A través de la configuración adecuada del data gateway o puerta de enlace, podemos lograr una sincronización efectiva con nuestros archivos fuente. Aquí te mostramos cómo usar estas herramientas para optimizar tus procesos en Power BI.

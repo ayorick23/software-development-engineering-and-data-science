@@ -4,8 +4,10 @@ Fecha de creación: 3 de mayo de 2025 14:29
 Clase: PROGRAMACIÓN I
 Fecha de la clase: 3 de mayo de 2025
 
+[[Clase 14 - Archivos y Directorios|← Clase anterior]]
+
 # Pruebas Unitarias
-(ver [[Testing]])
+(ver [[Testing#Unittest (PyUnit)\: El Framework Estándar|Unittest]])
 
 ## ¿Qué son las pruebas unitarias?
 
@@ -79,6 +81,7 @@ def tearDown(self):
 ```
 
 # Módulos en Python
+(ver [[Package Managers]] para instalar módulos de terceros con `pip`)
 
 ## ¿Qué es un módulo en Python?
 

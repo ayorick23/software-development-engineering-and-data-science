@@ -4,6 +4,8 @@ Materia:
   - Base de Datos I (Relacionales)
 Fecha de clase: 2025-09-05
 ---
+[[Clase 07 - Funciones en MySQL|← Clase anterior]] | [[Clase 09 - Funciones de Agregación y Agrupación|Clase siguiente →]]
+
 # Funciones de Control de Flujo y Condición
 (ver [[Advanced Functions#4. Conditional Functions (_Funciones Condicionales_)|Conditional Functions]])
 

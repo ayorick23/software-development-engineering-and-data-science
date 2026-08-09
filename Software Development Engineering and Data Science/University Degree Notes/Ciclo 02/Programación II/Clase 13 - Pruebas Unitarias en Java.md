@@ -4,6 +4,8 @@ Materia:
   - Programación II
 Fecha de clase: 2025-10-06
 ---
+[[Clase 11 - Repaso para Parcial|← Clase anterior]] | [[Clase 14 - Principios SOLID|Clase siguiente →]]
+
 # Pruebas Unitarias en Java
 (similar a [[Clase 15 - Pruebas Unitarias y Módulos]])
 

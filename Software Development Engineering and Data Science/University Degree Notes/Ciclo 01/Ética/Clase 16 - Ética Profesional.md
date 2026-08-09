@@ -4,7 +4,10 @@ Fecha de creación: 17 de mayo de 2025 18:08
 Clase: ÉTICA
 Fecha de la clase: 17 de mayo de 2025
 
+[[Clase 14 - Ética Aplicada y Educación Ambiental|← Clase anterior]]
+
 # Ética Profesional
+(especialización de la [[Clase 14 - Ética Aplicada y Educación Ambiental#Ética Aplicada|Ética Aplicada]] vista en la Clase 14, ver también [[Clase 02 - Tipos de Sanciones y Éticas#Ética profesional|primera mención en la Clase 02]])
 
 ## ¿Qué es?
 

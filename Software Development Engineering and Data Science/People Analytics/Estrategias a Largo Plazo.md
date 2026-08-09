@@ -1,5 +1,7 @@
 # Estrategias a Largo Plazo
 
+[[Evaluación de Impacto en Proyectos|← Anterior]]
+
 ## ¿Cómo construir un equipo eficaz para People Analytics?
 
 Para crear una estrategia exitosa de largo plazo en **People Analytics**, construir un equipo fuerte es el primer paso crucial. Este campo no solo depende de entender los desafíos y fenómenos dentro de la organización, sino también de trabajar en colaboración con roles clave. Vamos a desglosar los elementos esenciales para lograrlo:
@@ -35,6 +37,7 @@ La **_inteligencia artificial (IA)_** es una herramienta poderosa que ha llega
 - **Análisis de redes organizacionales**: identifica colaboradores influyentes no por su cargo, sino por sus interacciones.
 
 ### Potencial de la inteligencia artificial
+(ver [[10-IA-Generativa-LLMs-y-Agentes|IA Generativa: LLMs, RAG y Agentes]] para profundizar en cómo funcionan estas herramientas por dentro)
 
 Explorar el uso de la IA requiere comprender las políticas internas de la organización y rever su aplicación dentro del marco estratégico:
 

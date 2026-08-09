@@ -4,6 +4,8 @@ Materia:
   - Programación II
 Fecha de clase: 2025-07-07
 ---
+[[Clase 02 - Métodos y Modificadores de Acceso|Clase siguiente →]]
+
 # Historia de Java
 
 **Java** fue creado en 1991 por James Gosling y su equipo en **Sun Microsystems**. Originalmente se llamó "**Oak**".

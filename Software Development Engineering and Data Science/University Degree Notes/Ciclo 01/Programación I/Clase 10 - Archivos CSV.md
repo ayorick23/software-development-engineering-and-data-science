@@ -4,6 +4,8 @@ Fecha de creación: 29 de marzo de 2025 13:51
 Clase: PROGRAMACIÓN I
 Fecha de la clase: 29 de marzo de 2025
 
+[[Clase 09 - Manejo de Archivos|← Clase anterior]] | [[Clase 11 - Funciones|Clase siguiente →]]
+
 # Archivos CSV en Python
 
 Los archivos CSV (Comma-Separated Values) son un formato de almacenamiento de datos estructurado en texto plano. Son ampliamente utilizados para la transferencia de datos entre diferentes sistemas, debido a su simplicidad y compatibilidad con múltiples plataformas y programas.
@@ -14,7 +16,7 @@ En Python, existen diferentes métodos y librerías para manejar archivos CSV, d
 
 - Estructura tabular: Similar a una hoja de cálculo, con filas y columnas separadas por comas (,), aunque otros delimitadores como ; o \t también pueden usarse.
 - Formato ligero: Son archivos de texto plano, lo que los hace más livianos en comparación con formatos binarios como Excel.
-- Interoperabilidad: Se pueden abrir y modificar en programas como Microsoft Excel, Google Sheets y bases de datos SQL.
+- Interoperabilidad: Se pueden abrir y modificar en programas como Microsoft Excel, Google Sheets y bases de datos SQL (ver [[DML (Data Manipulation Language)]] para cargar estos datos en una base de datos relacional).
 - No soporta tipos de datos: Todo se almacena como texto; si se necesitan números o fechas, es necesario convertirlos al tipo de dato adecuado al procesarlos en Python.
 
 ### Módulo `csv`: Manejo de archivos CSV en Python

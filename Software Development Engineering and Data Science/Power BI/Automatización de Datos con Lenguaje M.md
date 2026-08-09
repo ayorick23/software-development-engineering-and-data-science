@@ -1,5 +1,7 @@
 # Automatización de Datos con Lenguaje M
 
+[[Combinación de Tablas y Consultas con Power Query|← Anterior]] | [[Modelado de Datos|Siguiente →]]
+
 ## ¿Qué es el lenguaje M en Power BI y cómo funciona?
 
 Power BI se ha consolidado como una herramienta esencial para el análisis de datos y la visualización de información. Uno de los aspectos más fascinantes de Power BI es el lenguaje M, o lenguaje MatchUp, que, aunque muchos no lo conocen a fondo, juega un papel crucial en la optimización de procesos dentro de [[Transformación de Datos con Power Query#¿Qué son Power Query y el proceso ETL?|Power Query]]. Este lenguaje nos permite automatizar y conectar diferentes fuentes de información, facilitando el enriquecimiento y la homologación de datos.

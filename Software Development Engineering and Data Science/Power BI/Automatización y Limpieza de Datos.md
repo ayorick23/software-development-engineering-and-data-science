@@ -1,5 +1,7 @@
 # Automatización y Limpieza de Datos
 
+[[Arquitecturas de Power BI|← Anterior]] | [[Transformación de Datos con Power Query|Siguiente →]]
+
 ## ¿Qué es Power Query y por qué se le considera una "magia"?
 
 Power Query es una herramienta esencial dentro de Power BI, encargada del proceso de [[Transformación de Datos con Power Query#¿Cuál es el ciclo ETL?|ETL (extracción, transformación y carga)]] de datos. No obstante, es importante comprender que Power Query no es una herramienta para el análisis directo de datos, sino para crear procesos de automatización de calidad, homologación y más. Una de sus características más destacadas es la capacidad de retroceder, avanzar o eliminar un paso dentro del proceso, similar a desarrollar macros pero en un entorno de código bajo.

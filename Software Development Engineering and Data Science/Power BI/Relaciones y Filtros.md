@@ -1,5 +1,7 @@
 # Relaciones y Filtros
 
+[[Modelado de Datos|← Anterior]] | [[Optimización de Modelos de Datos|Siguiente →]]
+
 El entendimiento de las relaciones y filtros en Power BI es esencial para quien busca optimizar modelos de datos robustos y precisos. Aunque a menudo se ignora, este aspecto puede decidir el éxito de un análisis de datos. Al familiarizarnos con conceptos como las llaves primarias y foráneas y al comprender la importancia de las relaciones entre tablas, estamos un paso más cerca de desarrollar modelos de datos eficientes.
 
 ## ¿Qué son las llaves en un modelo de datos?

@@ -1,5 +1,7 @@
 # Transformación de Datos con Power Query
 
+[[Automatización y Limpieza de Datos|← Anterior]] | [[Transformaciones Avanzadas con Power Query|Siguiente →]]
+
 ## ¿Qué son Power Query y el proceso ETL?
 
 Power Query es una herramienta de Microsoft diseñada para llevar a cabo el proceso de Extracción, Transformación y Carga ([[Business Intelligence#¿Cómo ayuda el BI en la toma de decisiones empresariales?|ETL]]) de datos. Se integra en plataformas populares como Excel y Power BI para proporcionar automatización de ETL a usuarios de negocio.

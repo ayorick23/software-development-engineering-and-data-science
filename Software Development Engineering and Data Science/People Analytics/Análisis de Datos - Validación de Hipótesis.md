@@ -1,4 +1,7 @@
 # Análisis de Datos: Validación de Hipótesis
+(aplica en un caso concreto el [[Diseño de Proyectos de PA|Diseño de Proyectos]] anterior: plantear y probar una hipótesis específica)
+
+[[Diseño de Proyectos de PA|← Anterior]] | [[Integración y Análisis de Encuestas de Satisfacción|Siguiente →]]
 
 ## ¿Cómo validar una hipótesis sobre la rotación de personal utilizando análisis de datos?
 
@@ -13,7 +16,7 @@ La hipótesis en cuestión sugiere que la distancia del domicilio al lugar de tr
 Para determinar si la distancia realmente afecta la rotación, el primer paso es calcular las trayectorias desde los domicilios de los empleados hasta su oficina. Aunque a primera vista esto pueda parecer una tarea laboriosa -- especialmente con bases de datos grandes --, existe una solución eficiente gracias a la inteligencia artificial, específicamente utilizando **ChatGPT**.
 
 1. **Obtener direcciones**: comienza recopilando las direcciones de los empleados de la base de datos.
-2. **Utilizar inteligencia artificial**: mediante un prompt en ChatGPT, solicita el cálculo experimental de las distancias en kilómetros entre dos puntos de interés, por ejemplo, en Bogotá, Colombia.
+2. **Utilizar inteligencia artificial** (ver [[10-IA-Generativa-LLMs-y-Agentes#Prompt Engineering|Prompt Engineering]]): mediante un prompt en ChatGPT, solicita el cálculo experimental de las distancias en kilómetros entre dos puntos de interés, por ejemplo, en Bogotá, Colombia.
 3. **Automatización en masa**: para un análisis más ágil y rápido, formula otro prompt para calcular las distancias para todos los registros de empleados y presentarlas en una tabla de Excel.
 
 ### ¿Qué tipo de análisis se puede realizar con estos datos?

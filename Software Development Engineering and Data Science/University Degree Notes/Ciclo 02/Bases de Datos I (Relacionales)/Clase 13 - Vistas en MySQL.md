@@ -4,6 +4,8 @@ Materia:
   - Base de Datos I (Relacionales)
 Fecha de clase: 2025-10-10
 ---
+[[Clase 11 - Constraints e Índices en MySQL|← Clase anterior]] | [[Clase 14 - Subconsultas en MySQL|Clase siguiente →]]
+
 # Vistas
 (ver [[Views]])
 
