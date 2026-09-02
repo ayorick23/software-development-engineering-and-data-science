@@ -13,7 +13,7 @@ Mientras que Docker es ampliamente conocido para el despliegue de aplicaciones w
 
 El uso de Docker en un proyecto de ciencia de datos sigue una lógica clara y ordenada:
 
-1. **Definir el Entorno:** En lugar de instalar dependencias globalmente, las defines en un Dockerfile. Especificas la imagen base (ej. `python:3.9`), instalas las bibliotecas necesarias ([[Series and Dataframes#Introducción a Pandas|pandas]], [[Array Creation#Introducción a NumPy|numpy]], `scikit-learn`) y otras herramientas (como Jupyter).
+1. **Definir el Entorno:** En lugar de instalar dependencias globalmente, las defines en un Dockerfile. Especificas la imagen base (ej. `python:3.9`), instalas las bibliotecas necesarias ([[Python/Pandas/01 - Introducción y Arquitectura Interna|pandas]], [[Python/NumPy/01 - Introducción y Arquitectura Interna|numpy]], `scikit-learn`) y otras herramientas (como Jupyter).
 2. **Construir la Imagen:** Se construye una [[Images#Construyendo Imágenes con Dockerfiles|imagen]] de Docker a partir de tu Dockerfile. Esta imagen es un paquete auto-contenido que contiene todo lo necesario para ejecutar tu código de análisis o tu modelo.
 3. **Ejecutar el Contenedor:** Inicias un [[Containers#Ciclo de Vida del Contenedor|contenedor]] a partir de la imagen. Puedes ejecutar scripts de análisis, entrenar modelos o incluso lanzar un servidor de Jupyter Notebook dentro del contenedor.
 4. **Compartir el Entorno:** La imagen de Docker se puede compartir fácilmente. Puedes subirla a [[Introduction to Docker#Docker Hub|Docker Hub]] o a un registro privado para que otros colaboradores la descarguen y la usen. Esto garantiza que todos trabajen en el mismo entorno.
@@ -24,7 +24,7 @@ El uso de Docker en un proyecto de ciencia de datos sigue una lógica clara y or
 
 Uno de los usos más comunes es crear un entorno de trabajo con Jupyter. En lugar de instalar todo el ecosistema de Python localmente, lo encapsulas en un contenedor.
 
-- **Dockerfile:** Define una imagen base de Python, instala jupyter, pandas, [[Introduction to Matplotlib#Introducción a Matplotlib|matplotlib]], etc., y define el puerto y el comando para lanzar Jupyter Notebook.
+- **Dockerfile:** Define una imagen base de Python, instala jupyter, pandas, [[Python/Matplotlib/01 - Introducción y Arquitectura|matplotlib]], etc., y define el puerto y el comando para lanzar Jupyter Notebook.
 - **Comando:** `docker run -it -p 8888:8888 -v $(pwd):/app mi-imagen-ds jupyter notebook --ip=0.0.0.0 --allow-root`
 - **Beneficio:** Cualquier colaborador solo necesita Docker. Al ejecutar el comando, tendrá un Jupyter Notebook listo con todas las dependencias correctas, sin afectar su sistema local.
 

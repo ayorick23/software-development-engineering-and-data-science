@@ -18,7 +18,7 @@ En Java existen varias formas de realizar la entrada de datos, dependiendo de la
 - `System.console()`: Para lectura de contraseñas sin eco en pantalla.
 
 # Array en Java
-(ver [[Data Structures and Algorithms#Arrays|Arrays en Python]] y [[Array Creation#Creación de Arrays|Arrays en Python con Numpy]])
+(ver [[Data Structures and Algorithms#Arrays|Arrays en Python]] y [[Python/NumPy/02 - Creación de Arrays|Arrays en Python con Numpy]])
 
 En Java, un array es una estructura de datos que permite almacenar una colección de elementos del mismo tipo en una única variable. Los arrays son de tamaño fijo, lo que significa que su longitud se define al momento de crearlos y no puede ser modificada posteriormente. Cada elemento del array se puede acceder a través de un índice numérico, comenzando desde 0 para el primer elemento.
 

@@ -10,7 +10,7 @@ Fecha de la clase: 29 de marzo de 2025
 
 Los archivos CSV (Comma-Separated Values) son un formato de almacenamiento de datos estructurado en texto plano. Son ampliamente utilizados para la transferencia de datos entre diferentes sistemas, debido a su simplicidad y compatibilidad con múltiples plataformas y programas.
 
-En Python, existen diferentes métodos y librerías para manejar archivos CSV, desde el módulo estándar csv hasta herramientas más avanzadas como [[Data Upload#Load data from a CSV file|pandas]]. A continuación, exploraremos conceptos teóricos clave sobre la manipulación de estos archivos.
+En Python, existen diferentes métodos y librerías para manejar archivos CSV, desde el módulo estándar csv hasta herramientas más avanzadas como [[Python/Pandas/02 - Creación y Carga de Datos|pandas]]. A continuación, exploraremos conceptos teóricos clave sobre la manipulación de estos archivos.
 
 ## Características de los archivos CSV
 
@@ -63,7 +63,7 @@ with open("archivo.csv", mode="w", newline="", encoding="utf-8") as file:
 
 ## Manipulación avanzada con Pandas
 
-Para grandes volúmenes de datos, la librería [[Series and Dataframes#Introducción a Pandas|Pandas]] proporciona métodos optimizados para manipular CSVs.
+Para grandes volúmenes de datos, la librería [[Python/Pandas/01 - Introducción y Arquitectura Interna|Pandas]] proporciona métodos optimizados para manipular CSVs (ver también [[Python/Pandas/14 - Exportación de Datos|exportación]] para el camino inverso).
 
 Pandas no viene incluido en la biblioteca estándar de Python, por lo que necesitas instalarlo antes de usarlo. Puedes instalarlo con el siguiente comando.
 

@@ -8,7 +8,7 @@ Todo lo cubierto hasta ahora (Pods, Deployments, Services, escalado) aplica igua
 
 ## El patrón base: FastAPI/MLflow + Docker + Deployment + Service
 
-El caso más simple —y perfectamente válido en producción— es empaquetar el modelo servido con [[FastAPI/16 - Integración con el Ecosistema|FastAPI]] o `mlflow models serve` (ver `MLflow/09 - Model Serving y Despliegue.md`) en una imagen Docker, y desplegarla como cualquier otra API:
+El caso más simple —y perfectamente válido en producción— es empaquetar el modelo servido con [[Python/FastAPI/16 - Integración con el Ecosistema|FastAPI]] o `mlflow models serve` (ver `MLflow/09 - Model Serving y Despliegue.md`) en una imagen Docker, y desplegarla como cualquier otra API:
 
 ```yaml
 apiVersion: apps/v1

@@ -93,7 +93,7 @@ Para combatir el ruido sin eliminar los atributos valiosos, se aplican los esque
 
 ### Inspección Visual
 
-Se realiza usando bibliotecas gráficas como Matplotlib y Seaborn combinadas con técnicas estadísticas o de aprendizaje automático para resaltar puntos alejados del comportamiento normal.
+Se realiza usando bibliotecas gráficas como [[Python/Matplotlib/01 - Introducción y Arquitectura|Matplotlib]] y Seaborn combinadas con técnicas estadísticas o de aprendizaje automático para resaltar puntos alejados del comportamiento normal.
 
 ```python
 import matplotlib.pyplot as plt
@@ -112,7 +112,7 @@ plt.show()
 
 ### Desviación Estándar (Diagnóstico Gaussiano)
 
-Para realizar un diagnóstico o ajuste gaussiano de datos en Python, se utilizan librerías como **NumPy**, **SciPy** y **Matplotlib**. Puedes calcular la media y la desviación estándar para una prueba de normalidad o usar `scipy.optimize.curve_fit` para ajustar una curva de campana de Gauss a un conjunto de puntos.
+Para realizar un diagnóstico o ajuste gaussiano de datos en Python, se utilizan librerías como **[[Python/NumPy/01 - Introducción y Arquitectura Interna|NumPy]]**, **SciPy** y **[[Python/Matplotlib/01 - Introducción y Arquitectura|Matplotlib]]**. Puedes calcular la media y la desviación estándar para una prueba de normalidad o usar `scipy.optimize.curve_fit` para ajustar una curva de campana de Gauss a un conjunto de puntos.
 
 ```python
 import numpy as np

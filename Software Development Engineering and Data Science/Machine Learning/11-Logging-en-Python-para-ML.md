@@ -107,7 +107,7 @@ Aquí es donde el logging deja de ser "genérico de software" y se vuelve "de ML
 - **Metadatos de datos de entrada**: shape, rango de fechas, cantidad de nulos por columna, distribución básica (media, std) antes y después de imputación.
 - **Metadatos de entrenamiento**: hiperparámetros usados, tiempo de entrenamiento, tamaño de train/test, semilla aleatoria (`random_state`) para reproducibilidad.
 - **Metadatos de inferencia**: versión del modelo cargado, tiempo de inferencia, número de predicciones generadas, si hubo fallback a un modelo anterior.
-- **Alertas de drift o de calidad de datos**: cuando un feature sale del rango esperado histórico (esto conecta directo con [[Evidently]] y [[Great-Expectations]], vistas en [[07-Librerias-de-Data-Science-y-ML]]).
+- **Alertas de drift o de calidad de datos**: cuando un feature sale del rango esperado histórico (esto conecta directo con [[07-Librerias-de-Data-Science-y-ML#Evidently|Evidently]] y [[07-Librerias-de-Data-Science-y-ML#Great Expectations|Great Expectations]]).
 
 Este tipo de logging es lo que después alimenta tus dashboards de [[18-Monitoreo-y-Observabilidad-de-Modelos]] — no pienses el logging como algo aislado del monitoreo, es su materia prima.
 

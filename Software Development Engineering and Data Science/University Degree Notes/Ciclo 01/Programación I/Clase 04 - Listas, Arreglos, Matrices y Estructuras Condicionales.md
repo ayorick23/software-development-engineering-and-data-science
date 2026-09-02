@@ -62,7 +62,7 @@ La `‘i’` al principio del arreglo hace referencia al soporte de número de b
 
 ## Matrices
 
-> La biblioteca [[Array Creation#Introducción a NumPy|NumPy]], es una extensión destinada específicamente a realizar cálculos numéricos eficientes, se utiliza con frecuente para implementar matrices en Python. Es posible que la matrices sean unidimensionales, bidimensionales o multidimensionales.
+> La biblioteca [[Python/NumPy/01 - Introducción y Arquitectura Interna|NumPy]], es una extensión destinada específicamente a realizar cálculos numéricos eficientes, se utiliza con frecuente para implementar matrices en Python. Es posible que la matrices sean unidimensionales, bidimensionales o multidimensionales.
 
 ### Especificaciones
 

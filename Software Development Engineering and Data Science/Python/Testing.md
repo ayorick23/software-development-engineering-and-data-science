@@ -40,6 +40,7 @@ Antes de entrar en las herramientas, es vital entender estos conceptos:
 
 - **Instalación:** `pip install pytest`
 - **Uso:** Descubre automáticamente las pruebas, ofrece `fixtures` más poderosas, y tiene una gran cantidad de plugins.
+- **Ver también:** cheat-sheet práctico completo en [[Python/Pytest/01 - Introducción y Arquitectura|Python/Pytest]] (fixtures, parametrización, mocking, cobertura, testing asíncrono, Hypothesis e integración con CI/CD).
 
 ## Tox: El Entorno de Pruebas Aislado
 

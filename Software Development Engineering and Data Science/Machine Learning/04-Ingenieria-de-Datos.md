@@ -115,6 +115,8 @@ Es simplemente **la API de Python para Apache Spark**. Existe porque Python es e
 
 **Cuándo se elige:** Cuando pandas se queda lento/se queda sin memoria pero el dataset todavía no justifica la complejidad de Spark — el punto intermedio entre pandas y Spark.
 
+**Ver también:** cheat-sheet práctico completo en [[Python/Polars/01 - Introducción y Arquitectura|Python/Polars]] (eager vs lazy, expresiones, optimización de queries, streaming y comparativa detallada con Pandas/Dask/PySpark).
+
 ---
 
 ## Orquestación

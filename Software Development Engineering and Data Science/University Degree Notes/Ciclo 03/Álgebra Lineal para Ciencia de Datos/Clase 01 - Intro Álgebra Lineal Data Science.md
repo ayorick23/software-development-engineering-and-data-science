@@ -43,9 +43,9 @@ El álgebra lineal permite:
 
 Es el lenguaje principal en ciencia de datos por su ecosistema:
 
-- **[[Array Creation#Introducción a NumPy|Numpy]]** → Vectores y matrices
+- **[[Python/NumPy/01 - Introducción y Arquitectura Interna|Numpy]]** → Vectores y matrices
 - **SciPy** → Álgebra lineal avanzada
-- **[[Series and Dataframes#Introducción a Pandas|Pandas]]** → Manipulación de datos tabulares
+- **[[Python/Pandas/01 - Introducción y Arquitectura Interna|Pandas]]** → Manipulación de datos tabulares
 - **Scikit-learn** → Machine learning
 
 **Ejemplo básico en Python:**
@@ -109,7 +109,7 @@ $$\vec{v}=(2,4,6)$$
 
 ### Operaciones Básicas con Vectores
 (ver [[Clase 02 - Vectores en Python y MATLAB]])
-(ver [[Mathematical Operations]])
+(ver [[Python/NumPy/10 - Operaciones Matemáticas y Vectorización|Operaciones Matemáticas]])
 
 #### Suma de Vectores
 

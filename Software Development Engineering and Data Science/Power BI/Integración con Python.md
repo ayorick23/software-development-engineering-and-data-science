@@ -25,7 +25,7 @@ Anaconda es un entorno de desarrollo integrado (IDE) muy eficaz para trabajar co
     - Ejecuta el instalador, selecciona "Para todos los usuarios" y sigue las instrucciones para la instalación completa.
 2. **Configuración en Anaconda Navigator:**
     - Abre Anaconda Navigator y crea un nuevo entorno que nombrarás como "Power BI Platzi" (o similar según tu preferencia).
-    - Dentro del nuevo entorno, instala bibliotecas esenciales de Python como [[Series and Dataframes#Introducción a Pandas|Pandas]], [[Array Creation#Introducción a NumPy|NumPy]] y [[Introduction to Matplotlib#Introducción a Matplotlib|Matplotlib]]. Estas son fundamentales para la manipulación y visualización avanzada de datos.
+    - Dentro del nuevo entorno, instala bibliotecas esenciales de Python como [[Python/Pandas/01 - Introducción y Arquitectura Interna|Pandas]], [[Python/NumPy/01 - Introducción y Arquitectura Interna|NumPy]] y [[Python/Matplotlib/01 - Introducción y Arquitectura|Matplotlib]]. Estas son fundamentales para la manipulación y visualización avanzada de datos.
 3. **Configuración en Power BI Desktop:**
     - Dirígete a las opciones de Power BI Desktop y selecciona la ruta raíz de Python creada en Anaconda. Asegúrate de establecer la configuración correcta para scripts de Python.
 

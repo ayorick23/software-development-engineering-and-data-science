@@ -36,7 +36,7 @@ Las **estructuras de datos** son formas especializadas de organizar, procesar, r
   ```
 
 ## Arrays
-(ver [[Array Creation#Creación de Arrays|Arrayas en Python con Numpy]])
+(ver [[Python/NumPy/02 - Creación de Arrays|Arrays en Python con Numpy]])
 
 En Python, la `list` nativa es muy versátil, pero no es un array estricto en el sentido de otros lenguajes (donde todos los elementos son del mismo tipo y se almacenan de forma contigua en memoria para mayor eficiencia). Python ofrece el módulo `array` para esto, útil cuando se necesita almacenar grandes cantidades de datos del mismo tipo de manera más eficiente en memoria que una lista.
 

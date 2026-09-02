@@ -62,11 +62,15 @@ aliases: [Librerias de Python para Data Science, Librerias ML]
 
 **Hasta dónde llega:** Pandas **no entrena modelos** (aunque a veces se usa junto a scikit-learn tan seguido que la gente los confunde), y **no está diseñado para datasets que no caben en la memoria RAM de una sola máquina** (para eso: Spark, [[#Dask]], o [[04-Ingenieria-de-Datos#DuckDB|DuckDB]]).
 
+**Ver también:** cheat-sheet práctico completo en [[Python/Pandas/01 - Introducción y Arquitectura Interna|Python/Pandas]] (arquitectura interna, selección, groupby, series de tiempo, rendimiento e integración con el resto del stack).
+
 ### NumPy
 
 ![[Pasted image 20260714142214.png|317]]
 
 **Qué hace:** La librería base de **cómputo numérico** en Python — arrays multidimensionales eficientes y operaciones matemáticas/álgebra lineal vectorizadas (mucho más rápidas que loops nativos de Python). Es, literalmente, el cimiento sobre el que está construido Pandas, scikit-learn, y en buena medida TensorFlow/PyTorch.
+
+**Ver también:** cheat-sheet práctico completo en [[Python/NumPy/01 - Introducción y Arquitectura Interna|Python/NumPy]] (arquitectura interna, broadcasting, álgebra lineal, rendimiento e integración con el resto del stack).
 
 **Hasta dónde llega:** NumPy no sabe nada de "dataframes con nombres de columnas" (eso es Pandas encima de NumPy), no entrena modelos, y no maneja datos que no caben en memoria de una sola máquina.
 
@@ -118,6 +122,8 @@ aliases: [Librerias de Python para Data Science, Librerias ML]
 
 **Hasta dónde llega:** Matplotlib **no está orientado a crear dashboards interactivos** ni ofrece una sintaxis especialmente amigable para análisis exploratorio rápido. Para visualizaciones estadísticas de alto nivel suele utilizarse [[#Seaborn]], y para gráficos interactivos [[#Plotly]].
 
+**Ver también:** cheat-sheet práctico completo en [[Python/Matplotlib/01 - Introducción y Arquitectura|Python/Matplotlib]] (arquitectura Figure/Axes, tipos de gráficos, personalización, animaciones y rendimiento).
+
 ### Seaborn
 
 ![[logo-wide-lightbg.png.webp|375]]
@@ -125,6 +131,8 @@ aliases: [Librerias de Python para Data Science, Librerias ML]
 **Qué hace:** Biblioteca de visualización estadística construida sobre **Matplotlib**. Simplifica la creación de gráficos elegantes para análisis exploratorio (EDA), distribuciones, correlaciones, relaciones entre variables y comparación de grupos.
 
 **Hasta dónde llega:** Seaborn **no reemplaza completamente a Matplotlib**, ya que internamente depende de él. Cuando se requiere una personalización muy específica normalmente se modifica el gráfico utilizando funciones de Matplotlib.
+
+**Ver también:** cheat-sheet práctico completo en [[Python/Seaborn/01 - Introducción y Arquitectura|Python/Seaborn]] (figure-level vs axes-level, gráficos de relación/distribución/categóricos, FacetGrid, estadística integrada e integración con Pandas/Matplotlib).
 
 ### Plotly
 
