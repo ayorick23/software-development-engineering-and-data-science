@@ -82,6 +82,7 @@ val["office_target_encoded"] = val["office_id"].map(medias_por_oficina)  # usa l
 Un modelo lineal regularizado con excelentes features frecuentemente supera a un XGBoost sin tunear con features pobres. La razón es simple: el algoritmo solo puede aprender patrones que **existen explícitamente** en los datos que le das. Si la relación real depende de "demanda del mismo día la semana pasada" y ese feature no existe en tu dataset, ningún algoritmo — por sofisticado que sea — puede inventarlo desde cero solo con `total_demand` cruda. El feature engineering es, literalmente, el proceso de hacerle explícito al modelo el conocimiento de negocio que tú ya tienes como humano que entiende el dominio.
 
 ## Ver también
+- Cheat-sheet técnico de scikit-learn (sintaxis y API): `Scikit-learn/02 - Preprocessing y Escalado.md` y `Scikit-learn/10 - Selección de Features.md`
 - [[37-Validacion-Rigurosa-en-ML]]
 - [[39-Interpretabilidad-de-Modelos]]
 - [[29-SQL-para-Machine-Learning]]

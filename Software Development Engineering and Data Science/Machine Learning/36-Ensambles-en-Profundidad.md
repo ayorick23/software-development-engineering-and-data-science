@@ -102,6 +102,8 @@ modelo = XGBRegressor(
 En la práctica de forecasting como el tuyo, XGBoost suele ganar en precisión final con suficiente tuning, pero Random Forest es un baseline más robusto y rápido de poner en marcha con menos riesgo de configurarlo mal.
 
 ## Ver también
+- Cheat-sheet técnico de scikit-learn (sintaxis y API): `Scikit-learn/07 - Árboles y Ensambles - Sintaxis y API.md`
+- Cheat-sheet técnico de XGBoost/LightGBM/CatBoost (sintaxis, API, comparativa): `Gradient Boosting/01 - Introducción y Panorama.md`
 - [[35-Arboles-de-Decision-en-Profundidad]]
 - [[34-Modelos-Lineales-en-Profundidad]]
 - [[37-Validacion-Rigurosa-en-ML]]

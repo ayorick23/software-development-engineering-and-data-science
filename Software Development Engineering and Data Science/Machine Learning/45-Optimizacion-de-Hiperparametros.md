@@ -144,6 +144,7 @@ mae_final = evaluar(mejor_modelo, datos_test)  # ¡mismo set usado implícitamen
 Si usas el mismo conjunto para elegir hiperparámetros y para reportar el desempeño final, estás **optimizando implícitamente contra ese conjunto** — el MAE que reportas está sesgado optimistamente, un tipo sutil de leakage muy relacionado con lo visto en [[37-Validacion-Rigurosa-en-ML]]. La disciplina correcta: separa un conjunto de test que Optuna nunca ve durante los 100 trials, y evalúa el modelo final solo una vez contra él, al terminar toda la búsqueda.
 
 ## Ver también
+- Cheat-sheet técnico completo de Optuna (sintaxis, API, ejemplos): `Optuna/01 - Introducción y Conceptos Fundamentales.md`
 - [[37-Validacion-Rigurosa-en-ML]]
 - [[36-Ensambles-en-Profundidad]]
 - [[15-MLflow-en-Profundidad]]

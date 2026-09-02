@@ -146,3 +146,4 @@ CMD ["uvicorn", "forecasting_pipeline.api:app", "--host", "0.0.0.0", "--port", "
 - [[47-Docker-en-Profundidad-para-ML]]
 - [[11-Logging-en-Python-para-ML]]
 - [[15-MLflow-en-Profundidad]]
+- [[01 - Introducción y Arquitectura]] — cheat-sheet dedicado de FastAPI, profundiza en routing, Pydantic, DI, seguridad, testing y despliegue más allá de servir modelos

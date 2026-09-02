@@ -92,6 +92,7 @@ No compiten — se complementan. Un flujo maduro: Git versiona `entrenar.py`, DV
 Con criterio honesto, igual que con el Feature Store de la nota 43: DVC agrega valor real cuando **el dataset de entrenamiento cambia de forma versionable** (snapshots periódicos, distintas versiones curadas) y necesitas poder volver exactamente a una versión anterior de los datos, no solo del código. Si tu pipeline siempre lee "los últimos N días desde SQL Server" de forma dinámica (como probablemente haces hoy), el concepto de "versión fija de datos" es menos directo — DVC brilla más cuando trabajas con snapshots explícitos y curados, o cuando necesitas reproducir exactamente un entrenamiento histórico para debugging o auditoría.
 
 ## Ver también
+- Cheat-sheet técnico completo de DVC (sintaxis, API, ejemplos): `DVC/01 - Introducción y Arquitectura Interna.md`
 - [[15-MLflow-en-Profundidad]]
 - [[12-Gestion-Moderna-de-Proyectos-Python]]
 - [[19-Mantenimiento-y-Ciclo-de-Vida-del-Modelo]]

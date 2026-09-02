@@ -103,6 +103,7 @@ Esto es exactamente el puente hacia [[14-CICD-para-ML-con-GitLab]]: los tests no
 
 ## Ver también
 
+- Cheat-sheet técnico completo de Pandera (sintaxis, API, ejemplos): `Pandera/01 - Introducción y Conceptos Fundamentales.md`
 - [[11-Logging-en-Python-para-ML]]
 - [[12-Gestion-Moderna-de-Proyectos-Python]]
 - [[14-CICD-para-ML-con-GitLab]]

@@ -132,7 +132,7 @@ aliases: [Librerias de Python para Data Science, Librerias ML]
 
 **Qué hace:** Biblioteca para crear **gráficos interactivos** con zoom, selección, filtros y herramientas de exploración. Es ampliamente utilizada para dashboards, aplicaciones web y análisis exploratorio donde el usuario necesita interactuar con la información.
 
-**Hasta dónde llega:** Plotly **no está pensado para análisis estadístico**, sino para la visualización de resultados. Para construir aplicaciones completas suele combinarse con [[#Dash]] o Streamlit.
+**Hasta dónde llega:** Plotly **no está pensado para análisis estadístico**, sino para la visualización de resultados. Para construir aplicaciones completas suele combinarse con [[#Dash]] o Streamlit (cheat-sheet técnico completo en `Streamlit/01 - Introducción y Modelo de Ejecución.md`).
 
 ### Dash
 
@@ -337,6 +337,8 @@ aliases: [Librerias de Python para Data Science, Librerias ML]
 
 ## Ver también
 
+- Cheat-sheet técnico de XGBoost/LightGBM/CatBoost (sintaxis, API, comparativa): `Gradient Boosting/01 - Introducción y Panorama.md`
+- Cheat-sheet técnico de scikit-learn (sintaxis y API): `Scikit-learn/01 - Introducción, Filosofía y la API Consistente.md`
 - [[06-Familia-de-Algoritmos-ML]]
 - [[08-Plataformas-de-Datos-y-ML]]
 - [[09-MLOps-en-Profundidad]]

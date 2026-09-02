@@ -83,6 +83,7 @@ Tres razones prácticas, no solo teóricas:
 - **Interpretabilidad para el negocio**: los coeficientes de un modelo lineal regularizado son directamente interpretables ("cada llamada adicional de hace 30 minutos aumenta la predicción actual en X") — un lenguaje mucho más fácil de explicar a tu jefa que un feature importance de un ensamble de 300 árboles.
 
 ## Ver también
+- Cheat-sheet técnico de scikit-learn (sintaxis y API): `Scikit-learn/06 - Modelos Lineales - Sintaxis y API.md`
 - [[35-Arboles-de-Decision-en-Profundidad]]
 - [[36-Ensambles-en-Profundidad]]
 - [[37-Validacion-Rigurosa-en-ML]]

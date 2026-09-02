@@ -134,6 +134,8 @@ Vale la pena remarcar la diferencia entre estos dos términos que se usan de for
 
 **Rol en MLOps:** Es la infraestructura subyacente sobre la que corren muchas plataformas de ML modernas (Kubeflow está construido explícitamente sobre Kubernetes) y sobre la que se despliegan los endpoints de inferencia en producción a escala — permite que un servicio de modelo escale automáticamente según la demanda real, sin que un humano tenga que aprovisionar servidores manualmente.
 
+**Ver también:** para la sintaxis y arquitectura interna (Pods, Deployments, Services, HPA, RBAC, Helm y cómo servir modelos de ML con KServe/Seldon), ver la carpeta `Kubernetes/`, empezando por [[01 - Introducción y Arquitectura del Clúster]].
+
 ---
 
 ## El flujo de herramientas MLOps de punta a punta

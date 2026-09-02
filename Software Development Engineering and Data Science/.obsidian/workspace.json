@@ -13,37 +13,41 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University Degree Notes/Ciclo 04/Marcos de Trabajo Ágil/Clase 02 -.md",
+                "file": "University Degree Notes/Ciclo 04/Data Analysis/Clase 01 - Fundamentos del Análisis de Datos.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Clase 02 -"
-            }
-          },
-          {
-            "id": "fa41d5f2ffc05e14",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "University Degree Notes/Ciclo 04/Marcos de Trabajo Ágil/Clase 03 - Metodología Scrum.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Clase 03 - Metodología Scrum"
+              "title": "Clase 01 - Fundamentos del Análisis de Datos"
             }
           },
           {
             "id": "eec545fbe85865ea",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
+              "type": "markdown",
+              "state": {
+                "file": "University Degree Notes/Ciclo 04/Administración de Servidores/Clase 07 - Administración de Servidores Linux.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Clase 07 - Administración de Servidores Linux"
+            }
+          },
+          {
+            "id": "9ff90f3816f46835",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Pandas/Data Upload.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Data Upload"
             }
           }
         ],
@@ -67,7 +71,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Explorador de archivos"
@@ -224,44 +230,44 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "eec545fbe85865ea",
+  "active": "9ff90f3816f46835",
   "lastOpenFiles": [
-    "University Degree Notes/Ciclo 03/Programación Web I (Backend)/Clase 14 - Documentación de APIs con Swagger.md",
-    "Python/Matplotlib/Basic Plots.md",
-    "Power BI/Gestión de Informes en Power BI Service.md.tmp.22348.6e5df26da839",
-    "Power BI/Elementos de Data Storytelling.md.tmp.22348.9912a0374dfb",
-    "Power BI/Inteligencia de Tiempo.md.tmp.22348.64cdd94a7ed9",
-    "Power BI/Transformaciones Avanzadas con Power Query.md.tmp.22348.79b21576e7d4",
-    "Power BI/Automatización y Limpieza de Datos.md.tmp.22348.531a7d1c5648",
-    "People Analytics/Análisis de Datos - Validación de Hipótesis.md.tmp.22348.a8e5059b3e9d",
-    "People Analytics/Iniciar en People Analytics.md.tmp.22348.1c4b329b6a98",
-    "People Analytics/Tipos de Datos en PA.md.tmp.22348.f649b5450627",
-    "People Analytics/Cultura Data Driven.md.tmp.22348.d85fff229f47",
-    "People Analytics/Introducción a People Analytics.md.tmp.22348.e93f844f1eaa",
-    "University Degree Notes/Ciclo 04/Data Analysis/Clase 02 - Tipología y Formato de Datos.md",
-    "University Degree Notes/Ciclo 03/Programación Web I (Backend)/Clase 13 - CI-CD con GitHub Actions.md",
-    "University Degree Notes/Ciclo 03/Programación Web I (Backend)/Clase 12 - Despliegue de APIs con Docker.md",
-    "University Degree Notes/Ciclo 03/Programación Web I (Backend)/Clase 10 - Autenticación en .NET 8.md",
-    "University Degree Notes/Ciclo 03/Álgebra Lineal para Ciencia de Datos/Clase 14 - Análisis de Componentes Principales (PCA).md",
-    "University Degree Notes/Ciclo 03/Álgebra Lineal para Ciencia de Datos/Clase 13 - Descomposición en Valores Singulares (SVD).md",
-    "University Degree Notes/Ciclo 03/Álgebra Lineal para Ciencia de Datos/Clase 12 - Diagonalización de Matrices.md",
-    "University Degree Notes/Ciclo 03/Álgebra Lineal para Ciencia de Datos/Clase 10 - Valores y Vectores Propios.md",
-    "University Degree Notes/Ciclo 03/Álgebra Lineal para Ciencia de Datos/Clase 09 - Espacios y Subespacios Vectoriales.md",
-    "University Degree Notes/Ciclo 03/Álgebra Lineal para Ciencia de Datos/Clase 05 - Repaso para el Parcial.md",
-    "University Degree Notes/Ciclo 03/Matemática III/Clase 14 - Aplicaciones de Integrales Múltiples.md",
-    "University Degree Notes/Ciclo 03/Matemática III/Clase 13 - Integrales Dobles en Coordenadas Polares.md",
-    "University Degree Notes/Ciclo 03/Matemática III/Clase 12 - Integrales Dobles.md",
-    "University Degree Notes/Ciclo 03/Matemática III/Clase 07 - Funciones de Varias Variables.md",
-    "University Degree Notes/Ciclo 03/Matemática III/Clase 05 - Repaso para el Parcial.md",
-    "University Degree Notes/Ciclo 03/Matemática III/Clase 03 - Producto Cruz, Rectas y Planos en el Espacio.md",
-    "University Degree Notes/Ciclo 03/Probabilidad y Estadística/Clase 14 - Laboratorio 3.md",
-    "University Degree Notes/Ciclo 03/Matemática III/Clase 04 - Superficies Cuádricas.md",
-    "University Degree Notes/Ciclo 03/Álgebra Lineal para Ciencia de Datos/Clase 05 -.md",
-    "University Degree Notes/Ciclo 03/Matemática III/Clase 10 - Multiplicadores de Lagrange.md",
-    "University Degree Notes/Ciclo 03/Matemática III/Clase 12 -.md",
-    "University Degree Notes/Ciclo 03/Matemática III/Clase 08 - Regla de la Cadena, Derivación Implícita y Gradiente.md",
-    "University Degree Notes/Ciclo 03/Matemática III/Clase 04 -.md",
-    "University Degree Notes/Ciclo 03/Matemática III/Clase 02 - Ángulos y Cosenos Directores de un Vector.md",
+    "Python/Pandas/Data Selection.md",
+    "Python/Pandas/Data Exploration.md",
+    "Python/Pandas/Column Operations.md",
+    "University Degree Notes/Ciclo 04/Data Analysis/Clase 07 - Fundamentos de Python para Análisis de Datos.md",
+    "Insumos/6.fundamentos_python_1.ipynb",
+    "Insumos/6.fundamentos_python_2.ipynb",
+    "Insumos/6.fundamentos_python_3.ipynb",
+    "Insumos",
+    "Nueva carpeta",
+    "University Degree Notes/Ciclo 04/Data Analysis/Clase 08 - Introducción a NumPy y Pandas.md",
+    "University Degree Notes/Ciclo 04/Data Analysis/Clase 03 - Preparación de Datos.md",
+    "Machine Learning/09-MLOps-en-Profundidad.md.tmp.12264.1521a16ba3e0",
+    "Kubernetes/13 - Managed Kubernetes, CI-CD y Buenas Prácticas.md",
+    "Kubernetes/13 - Managed Kubernetes, CI-CD y Buenas Prácticas.md.tmp.12264.beafb5704a42",
+    "Kubernetes/12 - Observabilidad en Kubernetes.md",
+    "Kubernetes/12 - Observabilidad en Kubernetes.md.tmp.12264.2c46834515c1",
+    "Kubernetes/11 - Kubernetes para Servir Modelos de ML.md",
+    "Kubernetes/11 - Kubernetes para Servir Modelos de ML.md.tmp.12264.d3f2ac800a82",
+    "Kubernetes/10 - Seguridad y RBAC.md",
+    "Kubernetes/10 - Seguridad y RBAC.md.tmp.12264.83713aca78b8",
+    "Kubernetes/09 - Helm - Gestión de Paquetes para Kubernetes.md",
+    "Kubernetes/08 - Escalado - HPA, VPA y Cluster Autoscaler.md",
+    "Kubernetes/07 - Volumes y Almacenamiento Persistente.md",
+    "Kubernetes/06 - ConfigMaps y Secrets.md",
+    "Kubernetes/05 - Services y Networking.md",
+    "Kubernetes/04 - Deployments y ReplicaSets.md",
+    "University Degree Notes/Ciclo 04/Programación Web II (Frontend)/Clase 04 - HTML5, CSS3, Bootstrap y Media Queries.md",
+    "Kubernetes/03 - Pods.md",
+    "University Degree Notes/Ciclo 04/Administración de Servidores/Clase 07 - Administración de Servidores Linux.md",
+    "Kubernetes/02 - kubectl y el Modelo Declarativo.md",
+    "Kubernetes/01 - Introducción y Arquitectura del Clúster.md",
+    "FastAPI/01 - Introducción y Arquitectura.md",
+    "University Degree Notes/Ciclo 04/Data Analysis/Clase 01 - Fundamentos del Análisis de Datos.md",
+    "FastAPI/05 - Validación Avanzada con Pydantic.md",
+    "Scikit-learn/01 - Introducción, Filosofía y la API Consistente.md",
+    "FastAPI/16 - Integración con el Ecosistema.md",
     "Machine Learning/Imágenes/statsmodels-logo-v2-horizontal.svg",
     "Machine Learning/Imágenes/simpy-logo-small.webp",
     "Machine Learning/Imágenes/Scikit_learn_logo_small.svg.webp",

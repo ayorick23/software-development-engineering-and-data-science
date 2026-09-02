@@ -95,6 +95,7 @@ El beneficio real frente a tu implementación actual con `.bak` y JSON de estado
 
 ## Ver también
 
+- Cheat-sheet técnico completo de MLflow (sintaxis, API, ejemplos): `MLflow/01 - Introducción y Arquitectura General.md`
 - [[07-Librerias-de-Data-Science-y-ML]]
 - [[09-MLOps-en-Profundidad]]
 - [[14-CICD-para-ML-con-GitLab]]
