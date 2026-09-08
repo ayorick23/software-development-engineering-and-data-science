@@ -8,3 +8,5 @@ Fecha de clase: 2026-09-01
 
 **[[Python/NumPy/01 - Introducción y Arquitectura Interna|NumPy]]** y **[[Python/Pandas/01 - Introducción y Arquitectura Interna|Pandas]]** son las librerías principales de Python para trabajar con datos. **NumPy** sirve para cálculos numéricos rápidos con arreglos de números. **Pandas** usa a NumPy para crear tablas de datos con nombres en las filas y columnas.
 
+[NUMPY](obsidian://open?vault=Software%20Development%20Engineering%20and%20Data%20Science&file=Python%2FNumPy%2F01%20-%20Introducci%C3%B3n%20y%20Arquitectura%20Interna)
+

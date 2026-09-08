@@ -22,7 +22,7 @@ Diagramas de flujo en LucidChart (ya tengo cuenta)
 No tienen un estándar, los símbolos pueden variar
 
 # Operadores Lógicos
-(ver [[Introduction to Python#Operadores Lógicos|Operadores Lógicos]])
+(ver [[01 - Introduction to Python#Operadores Lógicos|Operadores Lógicos]])
 
 ## Tablas de verdad
 

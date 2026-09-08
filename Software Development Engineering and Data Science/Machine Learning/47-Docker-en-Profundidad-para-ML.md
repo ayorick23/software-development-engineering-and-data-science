@@ -138,3 +138,4 @@ Este Dockerfile es exactamente lo que tu `.gitlab-ci.yml` de [[14-CICD-para-ML-c
 - [[17-Arquitecturas-de-Despliegue-de-Modelos]]
 - [[12-Gestion-Moderna-de-Proyectos-Python]]
 - [[24-Configuracion-Profesional-de-Proyectos]]
+- [[Docker/01 - Introducción y Arquitectura|Docker/]] — cheat-sheet completo de Docker (Dockerfile, multi-stage builds, redes, volúmenes, seguridad, Compose, orquestación)

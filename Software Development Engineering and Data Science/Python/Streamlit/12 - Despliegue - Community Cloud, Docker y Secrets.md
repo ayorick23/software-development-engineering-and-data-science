@@ -96,7 +96,7 @@ docker build -t mi-app-streamlit .
 docker run -p 8501:8501 --env-file .env mi-app-streamlit
 ```
 
-`--server.address=0.0.0.0` es imprescindible dentro de un contenedor — sin esto, Streamlit solo escucha en `localhost` del contenedor, inaccesible desde fuera. Ver `Docker/Introduction to Docker.md`.
+`--server.address=0.0.0.0` es imprescindible dentro de un contenedor — sin esto, Streamlit solo escucha en `localhost` del contenedor, inaccesible desde fuera. Ver `Docker/01 - Introducción y Arquitectura.md`.
 
 ### Docker Compose — Streamlit + backend + base de datos
 
@@ -119,7 +119,7 @@ services:
       - "5000:5000"
 ```
 
-Ver `Docker/Docker Compose.md` y `MLflow/03 - Tracking - Servidor, Backend Store y Artifact Store.md` — patrón común cuando el dashboard de Streamlit consume directamente un servidor de MLflow que corre en el mismo entorno.
+Ver `Docker/08 - Docker Compose en Profundidad.md` y `MLflow/03 - Tracking - Servidor, Backend Store y Artifact Store.md` — patrón común cuando el dashboard de Streamlit consume directamente un servidor de MLflow que corre en el mismo entorno.
 
 ## Despliegue detrás de un reverse proxy (nginx)
 
@@ -160,7 +160,7 @@ Streamlit no incluye un sistema de autenticación de usuarios "listo para produc
 
 ## Ver también
 
-- `Docker/Introduction to Docker.md`
-- `Docker/Docker Compose.md`
+- `Docker/01 - Introducción y Arquitectura.md`
+- `Docker/08 - Docker Compose en Profundidad.md`
 - `MLflow/03 - Tracking - Servidor, Backend Store y Artifact Store.md`
 - [[14 - Buenas Prácticas, Rendimiento y Testing]]

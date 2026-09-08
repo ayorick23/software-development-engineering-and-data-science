@@ -82,6 +82,8 @@ aliases: [Librerias de Python para Data Science, Librerias ML]
 
 **Hasta dónde llega:** Es una **caja de herramientas matemáticas de propósito general**, no una librería de Machine Learning — no tiene la noción de "entrenar un modelo con datos etiquetados" como scikit-learn. Muchas librerías de ML (incluido scikit-learn) usan SciPy internamente.
 
+Cheat-sheet práctico con la sintaxis completa: [[Python/SciPy/01 - Introducción y Arquitectura|Python/SciPy]].
+
 ### SimPy
 
 ![[simpy-logo-small.webp|302]]
@@ -89,6 +91,8 @@ aliases: [Librerias de Python para Data Science, Librerias ML]
 **Qué hace:** Una librería de **simulación de eventos discretos** — modelar sistemas donde ocurren eventos en el tiempo (ej. clientes llegando a una fila, llamadas entrando a un call center, piezas moviéndose por una línea de producción) para estudiar su comportamiento sin tener que observarlo en la vida real.
 
 **Hasta dónde llega:** SimPy **no es una librería de Machine Learning ni de análisis estadístico de datos históricos** — es para _simular_ sistemas hipotéticos, útil para responder preguntas tipo "¿qué pasaría si aumentamos la dotación de agentes en un 20%?" (muy relevante para _modelado de capacidad_ en contextos de WFM), no para predecir a partir de datos reales ya observados.
+
+Cheat-sheet práctico con la sintaxis completa: [[Python/SimPy/01 - Introducción y Conceptos Fundamentales|Python/SimPy]].
 
 ### StatsModels
 

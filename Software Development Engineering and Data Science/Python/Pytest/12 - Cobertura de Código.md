@@ -28,7 +28,7 @@ TOTAL                       65      3    95%
 
 ## Qué mide realmente la cobertura (y qué no)
 
-Ver la advertencia conceptual ya establecida en [[Testing#Conceptos Fundamentales de Testing|Python/Testing]]: cobertura mide **qué líneas se ejecutaron**, no si el comportamiento fue verificado correctamente. Un test que llama a una función sin ningún `assert` sobre su resultado cuenta como "cobertura" completa de esa función, aunque no verifique absolutamente nada.
+Ver la advertencia conceptual ya establecida en [[19 - Testing#Conceptos Fundamentales de Testing|Python/Testing]]: cobertura mide **qué líneas se ejecutaron**, no si el comportamiento fue verificado correctamente. Un test que llama a una función sin ningún `assert` sobre su resultado cuenta como "cobertura" completa de esa función, aunque no verifique absolutamente nada.
 
 ```python
 # Esto cuenta como 100% de cobertura de la función, pero NO prueba nada realmente
@@ -89,5 +89,5 @@ omit = ["*/migrations/*", "*/tests/*", "manage.py"]
 
 - [[11 - Plugins del Ecosistema]]
 - [[16 - Integración con CI-CD]]
-- [[Testing#Conceptos Fundamentales de Testing|Python/Testing]]
+- [[19 - Testing#Conceptos Fundamentales de Testing|Python/Testing]]
 - [[Machine Learning/13-Testing-en-Machine-Learning|Machine Learning/13 - Testing en Machine Learning]]

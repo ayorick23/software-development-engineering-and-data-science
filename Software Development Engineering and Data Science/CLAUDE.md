@@ -13,7 +13,7 @@ Code snippets that appear inside notes (Python, SQL, Java, DAX, etc.) are teachi
 Top-level folders group notes by subject:
 
 - `Machine Learning/` — a numbered sequence of deep-dive notes (`01-...md` through `51-...md`) forming a continuous curriculum from ML fundamentals through MLOps, advanced Python, SQL, design patterns, and model deployment/monitoring. Notes explicitly build on prior ones (see cross-links below) — read the referenced earlier note before assuming context.
-- `Python/`, `SQL/`, `Java/`, `R/`, `DAX/`, `Docker/`, `Git/`, `Power BI/`, `Tableau/`, `Calculus Fundamentals/`, `People Analytics/` — topical reference notes, one concept per file (e.g. `Python/Decorators.md`, `SQL/Joins.md`).
+- `Python/`, `SQL/`, `Java/`, `R/`, `DAX/`, `Docker/`, `Git/`, `Power BI/`, `Tableau/`, `Calculus Fundamentals/`, `People Analytics/` — topical reference notes, one concept per file (e.g. `SQL/Joins.md`). The root-level files directly inside `Python/` (fundamentals, from `01 - Introduction to Python.md` through `25 - APIs.md`) are numbered in logical reading order rather than alphabetically; subfolders inside `Python/` (e.g. `Python/Pandas/`, `Python/FastAPI/`) are separate numbered sequences for each library/framework.
 - `University Degree Notes/` — chronological class notes organized by `Ciclo 0N/<Materia>/Clase NN - <Título>.md`, in Spanish, mirroring an actual university course sequence.
 - `Excalidraw/` — hand-drawn diagrams (`.excalidraw.md`) created via the Excalidraw plugin.
 - `Templates/` — Templater plugin templates (e.g. `Clase.md`) used to scaffold new notes with frontmatter.

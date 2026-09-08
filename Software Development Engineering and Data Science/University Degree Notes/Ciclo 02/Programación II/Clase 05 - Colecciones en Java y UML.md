@@ -7,7 +7,7 @@ Fecha de clase: 2025-08-11
 [[Clase 04 - Entrada de Datos y Arrays|← Clase anterior]] | [[Clase 07 - Concurrencia en Java|Clase siguiente →]]
 
 # Colecciones en Java
-(similar a [[Data Structures and Algorithms]])
+(similar a [[18 - Data Structures and Algorithms]])
 
 Java nos ofrecen colecciones dinámicas, estas colecciones son estructuras que permiten almacenar y manipular un conjunto de datos de manera flexible y eficiente, a diferencia de los [[Clase 04 - Entrada de Datos y Arrays#Array en Java|arrays]] tradicionales. Las colecciones no tienen un tamaño fijo definido cuando declaramos una variable de tipo colección. Las colecciones dinámicas pueden cambiar su tamaño cuando el programa está en tiempo de ejecución, por lo cual estas estructuras son recomendadas cuando tenemos que almacenar datos cuando no sabemos que tendremos que manipular.
 

@@ -4,9 +4,9 @@ tags: [pytest, python, testing, cheat-sheet]
 
 # 01 — Introducción y Arquitectura
 
-> Complementa la sección `## Pytest` de [[Testing#Pytest El Estándar Moderno de la Comunidad|Python/Testing]] con la profundidad práctica de sintaxis.
+> Complementa la sección `## Pytest` de [[19 - Testing#Pytest El Estándar Moderno de la Comunidad|Python/Testing]] con la profundidad práctica de sintaxis.
 
-**Pytest** es el framework de testing de facto de la comunidad Python — no viene en la librería estándar (a diferencia de [[Testing#Unittest (PyUnit) El Framework Estándar|unittest]]), pero se ha vuelto el estándar de la industria por su sintaxis mínima, su sistema de fixtures, y su enorme ecosistema de plugins.
+**Pytest** es el framework de testing de facto de la comunidad Python — no viene en la librería estándar (a diferencia de [[19 - Testing#Unittest (PyUnit) El Framework Estándar|unittest]]), pero se ha vuelto el estándar de la industria por su sintaxis mínima, su sistema de fixtures, y su enorme ecosistema de plugins.
 
 ```bash
 pip install pytest
@@ -72,4 +72,4 @@ Pytest está construido internamente sobre un sistema de **hooks** y **plugins**
 - [[02 - Escritura y Descubrimiento de Tests]]
 - [[03 - Fixtures - Fundamentos]]
 - [[17 - Buenas Prácticas, Errores Comunes y Comparativa]]
-- [[Testing#Pytest El Estándar Moderno de la Comunidad|Python/Testing]]
+- [[19 - Testing#Pytest El Estándar Moderno de la Comunidad|Python/Testing]]

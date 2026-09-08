@@ -12,7 +12,7 @@ Tener un buen manejo de las herramientas y habilidades es crucial para el éxito
 
 1. **Conocimientos en análisis de datos:** es fundamental entender terminología básica como indicadores de costo, retorno de inversión, y más. Esto te permitirá proponer ideas valiosas basadas en los datos.
 2. **Trabajo colaborativo:** a lo largo de tu proyecto, colaborarás con personas de diversas áreas como científicos de datos o expertos en análisis estadísticos. Fomentar un buen trabajo en equipo es esencial para el éxito.
-3. **Herramientas tecnológicas:** aunque Excel es una excelente herramienta inicial, hay otras como R, [[Introduction to Python|Python]] y [[Clase 01 - Definición de Base de Datos|SQL]] que también pueden ser útiles en análisis más complejos, especialmente al combinarlas con [[Integración con Python|Power BI]] para análisis avanzado.
+3. **Herramientas tecnológicas:** aunque Excel es una excelente herramienta inicial, hay otras como R, [[01 - Introduction to Python|Python]] y [[Clase 01 - Definición de Base de Datos|SQL]] que también pueden ser útiles en análisis más complejos, especialmente al combinarlas con [[Integración con Python|Power BI]] para análisis avanzado.
 
 ### ¿Cómo limpiar y preparar tus datos en Excel?
 

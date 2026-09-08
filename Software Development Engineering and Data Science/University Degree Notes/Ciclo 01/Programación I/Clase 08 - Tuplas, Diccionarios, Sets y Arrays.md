@@ -9,7 +9,7 @@ Fecha de la clase: 15 de marzo de 2025
 # Arrays y Colecciones avanzadas
 
 ## Tuplas (`tuples`)
-(ver [[Lists and Tuples#Tuplas|Tuplas]])
+(ver [[05 - Lists and Tuples#Tuplas|Tuplas]])
 
 Una tupla es similar a una lista, pero con una diferencia importante: es inmutable, lo que significa que no puedes modificar sus elementos después de que se han creado. Esto lo hace útil cuando deseas asegurarte de que los datos no cambien.
 
@@ -37,7 +37,7 @@ tupla[1] = "nuevo" #Error: TypeError: 'tuple' object does not support item assig
 ```
 
 ## Diccionarios (`dicts`)
-(ver [[Dictionaries]])
+(ver [[06 - Dictionaries]])
 
 Un diccionario es una colección no ordenada (en versiones anteriores a Pythhon 3.7), mutable que almacena pares de clave-valor. En lugar de acceder a los elementos por un índice, se accede mediante claves únicas.
 
@@ -101,7 +101,7 @@ print(mi_dicc) #defaultdict(<class 'list'>, {'nombres': ['Juan']})
 ```
 
 ## Conjuntos (`sets`)
-(ver [[Sets]])
+(ver [[07 - Sets]])
 
 Un conjunto es una colección no ordenada de elementos únicos. No permiten elementos duplicados y no mantienen el orden de inserción.
 
@@ -122,7 +122,7 @@ print(conjunto) #{1, 2, 3, 4}
 ```
 
 ## Arreglos (`arrays`)
-(ver [[Data Structures and Algorithms#Arrays|Arrays]])
+(ver [[18 - Data Structures and Algorithms#Arrays|Arrays]])
 
 En Python, normalmente usamos listas en lugar de arrays, ya que las listas son muy flexibles. Sin embargo, existe el módulo array que permite trabajar con arrays más eficientes en memoria cuando todos los elementos son del mismo tipo.
 

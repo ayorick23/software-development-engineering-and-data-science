@@ -91,7 +91,7 @@ COPY inferencia.py /app/inferencia.py
 CMD ["python", "/app/inferencia.py"]
 ```
 
-Ver `Docker/Introduction to Docker.md` y `MLflow/09 - Model Serving y Despliegue.md` — al construir una imagen de despliegue, conviene fijar versiones exactas de la librería de boosting usada (`xgboost==2.1.0`, no un rango), dado el riesgo de incompatibilidad entre versiones mencionado en la sección de persistencia.
+Ver `Docker/01 - Introducción y Arquitectura.md` y `MLflow/09 - Model Serving y Despliegue.md` — al construir una imagen de despliegue, conviene fijar versiones exactas de la librería de boosting usada (`xgboost==2.1.0`, no un rango), dado el riesgo de incompatibilidad entre versiones mencionado en la sección de persistencia.
 
 ## FastAPI — servir un modelo de boosting directamente
 

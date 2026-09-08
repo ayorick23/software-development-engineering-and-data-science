@@ -9,7 +9,7 @@ Fecha de la clase: 8 de marzo de 2025
 # Iterando información en listas
 
 ## Lista
-(ver [[Lists and Tuples#Listas|Listas]])
+(ver [[05 - Lists and Tuples#Listas|Listas]])
 
 Es una colección ordenada y mutable que permite almacenar múltiples elementos.
 
@@ -30,7 +30,7 @@ mezclado = [1, "texto", 3.5]
 ### Conceptos fundamentales de listas
 
 ### Indexación y Slicing
-(ver [[Lists and Tuples#Índices y Slicing (_Rebanado_)|Indexación y Slicing]])
+(ver [[05 - Lists and Tuples#Índices y Slicing (_Rebanado_)|Indexación y Slicing]])
 
 ```python
 lista = [10, 20, 30, 40, 50]
@@ -57,7 +57,7 @@ print(matriz[1][2]) #accede al numero 6
 ```
 
 ### Comprensión de listas (`List Comprehension`)
-(ver [[Control Flow#Listas por Comprensión|Listas por Comprensión]])
+(ver [[02 - Control Flow#Listas por Comprensión|Listas por Comprensión]])
 
 ```python
 cuadrados = [x**2 for x in range(5)]
@@ -65,7 +65,7 @@ print(cuadrados) #[0, 1, 4, 9, 16]
 ```
 
 ## Collections y deque
-(ver [[Data Structures and Algorithms#Queue (_Cola_)|Queue (Cola)]])
+(ver [[18 - Data Structures and Algorithms#Queue (_Cola_)|Queue (Cola)]])
 
 El modulo `collections`: Proporciona estructuras de datos avanzadas mas eficientes.
 
@@ -109,7 +109,7 @@ dq.clear()                   #vacía el deque
 </aside>
 
 ## Bucle `do`-`while`
-(ver [[Control Flow#Bucle `do`-`while`|Bucle do-while]])
+(ver [[02 - Control Flow#Bucle `do`-`while`|Bucle do-while]])
 
 Python no tiene una sentencia `do`-`while` nativa como otros lenguajes (que garantiza que el bloque se ejecute al menos una vez antes de evaluar la condición). Se emula combinando `while True` con un `if` y `break`:
 

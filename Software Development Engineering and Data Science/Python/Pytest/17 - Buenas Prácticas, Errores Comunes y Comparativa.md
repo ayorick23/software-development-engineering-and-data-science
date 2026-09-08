@@ -94,12 +94,12 @@ Un nombre de test descriptivo sirve como documentación viva — cuando falla en
 | Estado del proyecto | Activo, estándar de facto | Activo (parte de la stdlib) | **Discontinuado** — sucesor espiritual es pytest | Activo, pero de uso muy acotado |
 | Mejor para | La gran mayoría de proyectos nuevos | Librerías que deben minimizar dependencias externas, o equipos ya invertidos en unittest | Ya no recomendado para proyectos nuevos | Ejemplos de documentación que deben mantenerse correctos |
 
-**Regla práctica:** pytest es la elección por default para cualquier proyecto nuevo — su sintaxis más simple, sistema de fixtures superior, y ecosistema de plugins lo hacen strictamente más capaz que `unittest` para la gran mayoría de casos, sin perder la capacidad de ejecutar tests escritos en estilo `unittest` (pytest los descubre y corre igual, ver [[Testing#Unittest (PyUnit) El Framework Estándar|Python/Testing]]). `unittest` sigue siendo razonable cuando el proyecto es una librería que busca minimizar dependencias externas (al venir en la librería estándar). `nose`/`nose2` no se recomienda para proyectos nuevos. `doctest` es un complemento, no un sustituto, útil específicamente para mantener ejemplos de documentación verificados automáticamente.
+**Regla práctica:** pytest es la elección por default para cualquier proyecto nuevo — su sintaxis más simple, sistema de fixtures superior, y ecosistema de plugins lo hacen strictamente más capaz que `unittest` para la gran mayoría de casos, sin perder la capacidad de ejecutar tests escritos en estilo `unittest` (pytest los descubre y corre igual, ver [[19 - Testing#Unittest (PyUnit) El Framework Estándar|Python/Testing]]). `unittest` sigue siendo razonable cuando el proyecto es una librería que busca minimizar dependencias externas (al venir en la librería estándar). `nose`/`nose2` no se recomienda para proyectos nuevos. `doctest` es un complemento, no un sustituto, útil específicamente para mantener ejemplos de documentación verificados automáticamente.
 
 ## Ver también
 
 - [[01 - Introducción y Arquitectura]]
 - [[03 - Fixtures - Fundamentos]]
 - [[09 - Mocking y Monkeypatching]]
-- [[Testing#¿Cuál Usar?|Python/Testing]]
+- [[19 - Testing#¿Cuál Usar?|Python/Testing]]
 - [[Machine Learning/25-Testing-Avanzado|Machine Learning/25 - Testing Avanzado]]

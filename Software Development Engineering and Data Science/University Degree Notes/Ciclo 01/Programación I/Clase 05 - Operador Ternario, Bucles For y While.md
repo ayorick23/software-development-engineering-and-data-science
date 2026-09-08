@@ -7,7 +7,7 @@ Fecha de la clase: 22 de febrero de 2025
 [[Clase 04 - Listas, Arreglos, Matrices y Estructuras Condicionales|← Clase anterior]] | [[Clase 07 - Indexación y Slicing, Collections y Deques|Clase siguiente →]]
 
 # Operador Ternario (Sentencia Condicional)
-(ver [[Control Flow#Operador Condicional Ternario|Operador Condicional Ternario]])
+(ver [[02 - Control Flow#Operador Condicional Ternario|Operador Condicional Ternario]])
 
 Un operador ternario es una **expresión condicional que toma tres argumentos y permite ejecutar diferentes bloques de código dependiendo de si una condición es verdadera o falsa**.
 
@@ -52,7 +52,7 @@ Los bucles son estructuras de control que permiten ejecutar un bloque de código
 - Se combinan con otras estructuras (como condicionales) para realizar operaciones mas complejas.
 
 ## Bucle `for`
-(ver [[Control Flow#Bucle `for`|Bucle for]])
+(ver [[02 - Control Flow#Bucle `for`|Bucle for]])
 
 Se usa cuando **sabemos cuantas veces queremos repetir un bloque de código.** Se ejecuta sobre secuencias como listas o rangos.
 
@@ -102,7 +102,7 @@ for i in range(1, 6):
 ```
 
 ## Bucle `while`
-(ver [[Control Flow#Bucle `while`|Bucle while]])
+(ver [[02 - Control Flow#Bucle `while`|Bucle while]])
 
 Ejecuta un bloque de código mientras una condición sea verdadera. **Se usa cuando no sabemos cuantas veces se repetirá el ciclo**, pero si conocemos la condición de salida.
 

@@ -20,7 +20,7 @@ En 1995, Sun lanzó Java 1.0, destacando su **JVM** (_Java Virtual Machine_) y s
 Hoy, Java es uno de los lenguajes más usados en desarrollo backend, Android (aunque ahora Kotlin es preferido) y sistemas empresariales. Su filosofía de seguridad, portabilidad y comunidad lo mantiene relevante.
 
 ## Definición de una Clase en Java
-(similar a [[OOP#Definición de Clases|Definición de Clases en Python]])
+(similar a [[17 - OOP#Definición de Clases|Definición de Clases en Python]])
 
 Una clase es como un molde o plantilla que define cómo serán los objetos.
 
@@ -75,7 +75,7 @@ public class HolaMundo{
 | Valores Posibles  | `true` o `false`                                     |
 | Valor por Defecto | `false` (en variables de clase)                      |
 ## Operadores Aritméticos
-(Similares a los [[Introduction to Python#Operadores Aritméticos|Operadores Aritméticos en Python]])
+(Similares a los [[01 - Introduction to Python#Operadores Aritméticos|Operadores Aritméticos en Python]])
 
 | Operador | Nombre         | Ejemplo | Resultado (si a = 10, b = 3) |
 | -------- | -------------- | ------- | ---------------------------- |
@@ -88,7 +88,7 @@ public class HolaMundo{
 | ``--``   | Decremento     | a--     | a = 9 (post-decremento)      |
 
 ## Operadores de Asignación
-(Similares a los [[Introduction to Python#Operadores de Asignación|Operadores de Asignación en Python]])
+(Similares a los [[01 - Introduction to Python#Operadores de Asignación|Operadores de Asignación en Python]])
 
 | Operador | Ejemplo    | Equivalente a |
 | -------- | ---------- | ------------- |
@@ -100,7 +100,7 @@ public class HolaMundo{
 | ``%=``   | ``a %= 3`` | ``a = a % 3`` |
 
 ## Operadores Relacionales (Comparación)
-(Similares a los [[Introduction to Python#Operadores Relacionales|Operadores Relacionales en Python]])
+(Similares a los [[01 - Introduction to Python#Operadores Relacionales|Operadores Relacionales en Python]])
 
 | Operador | Nombre            | Ejemplo | Resultado (`a = 5`, `b = 3`) |
 | -------- | ----------------- | ------- | ---------------------------- |
@@ -112,7 +112,7 @@ public class HolaMundo{
 | <=       | Menor o igual que | a <= 3  | false                        |
 
 ## Operadores Lógicos
-(Similares a los [[Introduction to Python#Operadores Lógicos|Operadores Lógicos en Python]])
+(Similares a los [[01 - Introduction to Python#Operadores Lógicos|Operadores Lógicos en Python]])
 
 | Operador | Nombre             | Ejemplo      | Resultado (a=true, b=false)           |
 | -------- | ------------------ | ------------ | ------------------------------------- |
@@ -128,7 +128,7 @@ if (a > 0 && b > 0):
 ## Estructuras de Control
 
 ### ``if-else``
-(Similar a [[Control Flow#Sentencias Condicionales `if`, `elif`, `else`|if-elif-else en Python]])
+(Similar a [[02 - Control Flow#Sentencias Condicionales `if`, `elif`, `else`|if-elif-else en Python]])
 
 Permite ejecutar un bloque de código si se cumple una condición.
 
@@ -161,7 +161,7 @@ if (nota >= 90){
 ```
 
 ### ``switch``
-(Similar a [[Control Flow#Estructura `match`-`case`|match-case en Python]])
+(Similar a [[02 - Control Flow#Estructura `match`-`case`|match-case en Python]])
 
 Para selección múltiple basada en un valor.
 
@@ -187,7 +187,7 @@ System.out.println(nombreDia);
 ```
 
 ### ``for``
-(Similar a [[Control Flow#Bucle `for`|for en Python]])
+(Similar a [[02 - Control Flow#Bucle `for`|for en Python]])
 
 Para ejecutar un bloque un número específico de veces.
 
@@ -198,7 +198,7 @@ for (int i = 1; 1 <= 5; i++){
 ```
 
 ### ``while``
-(Similar a [[Control Flow#Bucle `while`|while en Python]])
+(Similar a [[02 - Control Flow#Bucle `while`|while en Python]])
 
 Ejecuta mientras se cumpla una condición.
 
@@ -211,7 +211,7 @@ while (contador <= 5){
 ```
 
 ### ``do-while``
-(Similar a [[Control Flow#Bucle `do`-`while`|do-while en Python]])
+(Similar a [[02 - Control Flow#Bucle `do`-`while`|do-while en Python]])
 
 Similar al while, pero garantiza al menos una ejecución.
 
@@ -224,7 +224,7 @@ do {
 ```
 
 ## Estructuras de Salto
-(Similar a las [[Control Flow#Declaraciones de control de bucle|declaraciones de control de bucle en Python]])
+(Similar a las [[02 - Control Flow#Declaraciones de control de bucle|declaraciones de control de bucle en Python]])
 
 ### ``break``
 
@@ -251,7 +251,7 @@ for (int i = 0; 1 < 10; i++) {
 }
 ```
 ### ``return``
-(Similar a los [[Functions#Valores de Retorno|valores de retorno en Python]])
+(Similar a los [[03 - Functions#Valores de Retorno|valores de retorno en Python]])
 
 Sale de un método y opcionalmente devuelve un valor.
 

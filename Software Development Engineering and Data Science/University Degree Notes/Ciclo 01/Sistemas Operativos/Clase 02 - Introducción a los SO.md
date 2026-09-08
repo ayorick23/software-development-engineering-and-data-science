@@ -167,7 +167,7 @@ Es un modelo de sistema operativo que organiza sus funciones y servicios en dos 
 - macOS (modelos de red)
 
 # Máquinas Virtuales
-(ver [[Introduction to Docker#Contenedores vs. Máquinas Virtuales (VMs)|Contenedores vs. Máquinas Virtuales]] y continuación en [[Clase 11 - Virtualización, Ventajas y Desventajas|Clase 11]])
+(ver [[Docker/01 - Introducción y Arquitectura#Contenedores vs. Máquinas Virtuales (VMs)|Contenedores vs. Máquinas Virtuales]] y continuación en [[Clase 11 - Virtualización, Ventajas y Desventajas|Clase 11]])
 
 Es un sistema operativo diseñado para crear, administrar y ejecutar múltiples máquinas virtuales (VMs) sobre un único hardware físico.
 

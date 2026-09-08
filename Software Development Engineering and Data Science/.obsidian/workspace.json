@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University Degree Notes/Ciclo 04/Data Analysis/Clase 01 - Fundamentos del Análisis de Datos.md",
+                "file": "University Degree Notes/Ciclo 04/Estadística Inferencial/Clase 08 - IC para Varianza y Proporciones.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Clase 01 - Fundamentos del Análisis de Datos"
+              "title": "Clase 08 - IC para Varianza y Proporciones"
             }
           },
           {
@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/13 - Managed Kubernetes, CI-CD y Buenas Prácticas.md",
+                "file": "Docker/01 - Introducción y Arquitectura.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "13 - Managed Kubernetes, CI-CD y Buenas Prácticas"
+              "title": "01 - Introducción y Arquitectura"
             }
           },
           {
@@ -42,12 +42,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/07-Librerias-de-Data-Science-y-ML.md",
+                "file": "Python/62 - Seguridad en Python.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "07-Librerias-de-Data-Science-y-ML"
+              "title": "62 - Seguridad en Python"
             }
           },
           {
@@ -240,44 +240,44 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0db42c3a2e8227bc",
+  "active": "52ef889c7054675a",
   "lastOpenFiles": [
-    "Machine Learning/07-Librerias-de-Data-Science-y-ML.md",
-    "Python/Pytest/16 - Integración con CI-CD.md",
-    "Python/Pandas/01 - Introducción y Arquitectura Interna.md",
-    "Python/Pytest/02 - Escritura y Descubrimiento de Tests.md",
-    "Python/Pytest/01 - Introducción y Arquitectura.md",
-    "University Degree Notes/Ciclo 04/Administración de Servidores/Clase 08 - Configuración de Red en Linux.md",
-    "Python/Pytest/17 - Buenas Prácticas, Errores Comunes y Comparativa.md",
-    "Python/Pytest/17 - Buenas Prácticas, Errores Comunes y Comparativa.md.tmp.11976.79c004d65670",
-    "Python/Pytest/16 - Integración con CI-CD.md.tmp.11976.e17fb82904ea",
-    "Python/Pytest/15 - Property-Based Testing con Hypothesis.md",
-    "Kubernetes/13 - Managed Kubernetes, CI-CD y Buenas Prácticas.md",
-    "Python/Pytest/14 - Testing de Bases de Datos e Infraestructura.md",
-    "Python/Pytest/14 - Testing de Bases de Datos e Infraestructura.md.tmp.11976.0452d543ccc6",
-    "Python/Pytest/13 - Testing Asíncrono.md",
-    "Python/Pytest/12 - Cobertura de Código.md",
-    "Python/Pytest/12 - Cobertura de Código.md.tmp.11976.af08b13eff3e",
-    "Python/Pytest/11 - Plugins del Ecosistema.md",
-    "Python/Pytest/10 - conftest.py y Organización de Proyectos.md",
-    "Python/Pytest/09 - Mocking y Monkeypatching.md",
-    "Python/Pytest/09 - Mocking y Monkeypatching.md.tmp.11976.e8367b0ee63c",
-    "Python/Pytest/08 - Assertions Avanzadas.md",
-    "Python/Pytest/08 - Assertions Avanzadas.md.tmp.11976.6d2e079fe25f",
-    "Python/Pytest/07 - Manejo de Excepciones y Warnings.md",
-    "Python/Pytest/06 - Marks y Selección de Tests.md",
-    "Python/Pytest/06 - Marks y Selección de Tests.md.tmp.11976.c94d0ec65145",
-    "Python/Pytest/05 - Parametrización de Tests.md",
-    "Python/Pytest/05 - Parametrización de Tests.md.tmp.11976.dccf4a661271",
-    "Python/Pytest/04 - Fixtures Avanzadas.md",
-    "Python/Pytest/04 - Fixtures Avanzadas.md.tmp.11976.e8e6677f2ba8",
-    "Python/Pytest/03 - Fixtures - Fundamentos.md",
-    "Python/Pytest/03 - Fixtures - Fundamentos.md.tmp.11976.e38ba0a2d997",
-    "Kubernetes/02 - kubectl y el Modelo Declarativo.md",
-    "Kubernetes/01 - Introducción y Arquitectura del Clúster.md",
-    "Python/Polars/17 - Buenas Prácticas, Errores Comunes y Comparativa.md",
-    "Python/Polars/02 - Eager vs Lazy API.md",
-    "Python/Polars/16 - Integración con el Ecosistema.md",
+    "Python/62 - Seguridad en Python.md",
+    "Python/61 - Empaquetado y Distribución.md",
+    "Python/61 - Empaquetado y Distribución.md.tmp.14540.740c138a26b4",
+    "Python/60 - CLIs Profesionales.md",
+    "Python/60 - CLIs Profesionales.md.tmp.14540.6ae42550a65b",
+    "Python/59 - Python Moderno por Versión.md",
+    "Python/58 - Profiling y Optimización de Rendimiento.md",
+    "Python/58 - Profiling y Optimización de Rendimiento.md.tmp.14540.2acbc85ba368",
+    "Python/57 - Paralelismo Real.md",
+    "Python/56 - Sincronización y Modelos de Concurrencia.md",
+    "Python/55 - Async Generators y Async Context Managers.md",
+    "Python/54 - Asyncio en Profundidad.md",
+    "Python/54 - Asyncio en Profundidad.md.tmp.14540.84098d925ac2",
+    "Python/53 - Fechas y Zonas Horarias.md",
+    "Python/52 - Logging Avanzado.md",
+    "Python/52 - Logging Avanzado.md.tmp.14540.e271a11bd215",
+    "Python/51 - Módulos e Imports a Fondo.md",
+    "Python/50 - Context Managers Avanzados.md",
+    "Python/50 - Context Managers Avanzados.md.tmp.14540.4530d72159bc",
+    "Python/49 - Excepciones Avanzadas.md",
+    "Python/49 - Excepciones Avanzadas.md.tmp.14540.199beffdf40d",
+    "Python/48 - Serialización Avanzada.md",
+    "Python/47 - Datos Binarios.md",
+    "Python/47 - Datos Binarios.md.tmp.14540.9c87bfe668ef",
+    "Python/46 - Collections en Profundidad.md",
+    "Python/46 - Collections en Profundidad.md.tmp.14540.d9ec708ac901",
+    "Python/45 - Estilo Pythonico y Buenas Prácticas.md",
+    "Python/45 - Estilo Pythonico y Buenas Prácticas.md.tmp.14540.17f3e9137600",
+    "Python/44 - Linters y Formateadores.md",
+    "Python/43 - Análisis Estático con Mypy y Pyright.md",
+    "Python/42 - Type Hints y el Módulo Typing.md",
+    "Python/41 - Patrones de Diseño Pythonicos.md",
+    "Python/40 - Dataclasses, NamedTuple y Comparativa con Attrs-Pydantic.md",
+    "Python/39 - Enums Avanzados.md",
+    "Python/38 - Metaclases y type().md",
+    "Python/37 - Dunder Methods y Protocolos Avanzados.md",
     "Python/Matplotlib/output_33_0.png",
     "Python/Matplotlib/output_32_0.png",
     "Python/Matplotlib/output_31_0.png",

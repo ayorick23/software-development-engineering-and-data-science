@@ -30,7 +30,7 @@ MLOps es, en esencia, **aplicarle al ciclo de vida de un modelo de ML las mismas
 
 ### Docker
 
-(ver [[Introduction to Docker]])
+(ver [[Docker/01 - Introducción y Arquitectura|Introducción a Docker]])
 
 **Qué hace:** Empaqueta una aplicación (o un modelo con todas sus dependencias exactas: versión de Python, librerías, sistema operativo base) en un **contenedor** — una unidad portable que corre exactamente igual sin importar en qué máquina se ejecute.
 

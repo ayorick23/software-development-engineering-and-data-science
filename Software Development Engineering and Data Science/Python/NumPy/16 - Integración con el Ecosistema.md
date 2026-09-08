@@ -55,7 +55,7 @@ stats.zscore(arr)                     # z-scores, útil para detección de outli
 curve_fit(funcion_modelo, x_datos, y_datos)   # ajuste de curvas no lineales sobre arrays de NumPy
 ```
 
-SciPy toma como entrada y devuelve `ndarray`s en toda su API — es, conceptualmente, "todo lo que NumPy deja fuera" (optimización, estadística avanzada, procesamiento de señales) construido sobre el mismo array base.
+SciPy toma como entrada y devuelve `ndarray`s en toda su API — es, conceptualmente, "todo lo que NumPy deja fuera" (optimización, estadística avanzada, procesamiento de señales) construido sobre el mismo array base. Cheat-sheet completo: [[Python/SciPy/01 - Introducción y Arquitectura|Python/SciPy]].
 
 ## PyTorch y TensorFlow — conversión de/hacia tensores
 

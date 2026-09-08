@@ -26,15 +26,15 @@ La configuración de red define **cómo se identifica** un servidor, **por d�
 Antes de cambiar algo, conviene observar. `ip` es la herramienta moderna para consultar interfaces, direcciones y rutas. El nombre de interfaz **no es universal**: se debe copiar el que muestra el servidor.
 
 ```bash
-admin@ubuntu:~$ ip -br address  # resumen de interfaces e IP
-lo               UNKNOWN        127.0.0.1/8 ::1/128
-enp0s3           UP             192.168.10.20/24
+ip -br address        # resumen de interfaces e IP
+>> lo               UNKNOWN        127.0.0.1/8 ::1/128
+   enp0s3           UP             192.168.10.20/24
 
-admin@ubuntu:~$ ip route        # tabla de rutas
-default via 192.168.10.1 dev enp0s3 proto static
-192.168.10.0/24 dev enp0s3 proto kernel scope link src 192.168.10.20
+ip route              # tabla de rutas
+>> default via 192.168.10.1 dev enp0s3 proto static
+   192.168.10.0/24 dev enp0s3 proto kernel scope link src 192.168.10.20
 
-admin@ubuntu:~$ ip link show enp0s3 # estado de una interfaz
+ip link show enp0s3   # estado de una interfaz
 ```
 
 |Estado|Qué suele indicar|Qué comprobar|
@@ -67,15 +67,17 @@ Netplan lee archivos **YAML** de `/etc/netplan/` y entrega la configuración
  Localizar, validar y aplicar
 
 ```bash
-admin@ubuntu:~$ ls -l /etc/netplan/       # archivos como 00-installer-config.yaml
-admin@ubuntu:~$ sudo netplan generate     # valida y genera la configuración
-admin@ubuntu:~$ sudo netplan try          # aplica temporalmente y pide confirmación
-admin@ubuntu:~$ sudo netplan apply        # aplica de inmediato
+ls -l /etc/netplan/       # archivos como 00-installer-config.yaml
+sudo netplan generate     # valida y genera la configuración
+sudo netplan try          # aplica temporalmente y pide confirmación
+sudo netplan apply        # aplica de inmediato
 ```
+
+> **Al administrar por SSH:** usa primero `sudo netplan try`. Si la configuración corta la conexión, Netplan revierte si no se confirma. Conservar acceso de consola de la VM o equipo físico es prudente.
 
 ### Ejemplo A: obtener la configuración por DHCP
 
-```bash
+```yaml
 # Archivo: /etc/netplan/00-installer-config.yaml
 network:
   version: 2
@@ -86,7 +88,7 @@ network:
 
 ### Ejemplo B: servidor con IP estática
 
-```bash
+```yaml
 # Archivo: /etc/netplan/01-servidor-estatico.yaml
 network:
   version: 2
@@ -113,7 +115,7 @@ La **tabla de rutas** decide el siguiente salto de cada paquete. Una ruta espe
 
  Ruta a una red remota en Netplan:
 
-```bash
+```yaml
 # Fragmento dentro de enp0s3: 172.16.30.0 se alcanza por otro router
 routes:
   - to: default
@@ -125,10 +127,10 @@ routes:
 Cómo comprobar DNS:
 
 ```bash
-admin@ubuntu:~$ resolvectl status             # DNS activo por interfaz
-admin@ubuntu:~$ resolvectl query ubuntu.com   # consulta un nombre
-admin@ubuntu:~$ getent hosts ubuntu.com       # usa el mecanismo normal del sistema
-admin@ubuntu:~$ cat /etc/resolv.conf          # referencia generada; no suele editarse a mano
+resolvectl status             # DNS activo por interfaz
+resolvectl query ubuntu.com   # consulta un nombre
+getent hosts ubuntu.com       # usa el mecanismo normal del sistema
+cat /etc/resolv.conf          # referencia generada; no suele editarse a mano
 ```
 
 ---
@@ -146,11 +148,11 @@ Diagnosticar por capas evita cambios al azar. Se empieza cerca del servidor y se
  Herramientas y lo que responden:
 
 ```bash
-admin@ubuntu:~$ ping -c 4 192.168.10.1   # ¿alcanzo la puerta de enlace?
-admin@ubuntu:~$ ping -c 4 1.1.1.1        # ¿hay salida por IP?
-admin@ubuntu:~$ tracepath 1.1.1.1        # ¿por qué saltos viaja el tráfico?
-admin@ubuntu:~$ ss -tulpn                # ¿qué puertos escucha el servidor?
-admin@ubuntu:~$ sudo journalctl -u systemd-networkd # eventos de red
+ping -c 4 192.168.10.1       # ¿alcanzo la puerta de enlace?
+ping -c 4 1.1.1.1            # ¿hay salida por IP?
+tracepath 1.1.1.1            # ¿por qué saltos viaja el tráfico?
+ss -tulpn                    # ¿qué puertos escucha el servidor?
+sudo journalctl -u systemd-networkd # eventos de red
 ```
 
 ---
@@ -168,18 +170,18 @@ admin@ubuntu:~$ sudo journalctl -u systemd-networkd # eventos de red
  1 y 2. Identificar la interfaz y el archivo Netplan:
 
 ```bash
-admin@web01:~$ ip -br address
+ip -br address
 >> enp0s3           UP             192.168.50.101/24
 
-admin@web01:~$ ls -l /etc/netplan/
+ls -l /etc/netplan/
 >> -rw------- 1 root root 180 00-installer-config.yaml
 
-admin@web01:~$ sudo nano /etc/netplan/00-installer-config.yaml
+sudo nano /etc/netplan/00-installer-config.yaml
 ```
 
 3. Contenido del archivo de configuración:
 
-```bash
+```yaml
 network:
   version: 2
   ethernets:
@@ -196,17 +198,16 @@ network:
  4 y 5. Validar, aplicar y verificar:
 
 ```bash
-admin@web01:~$ sudo netplan generate          # valida la sintaxis
+sudo netplan generate            # valida la sintaxis
+sudo netplan try                 # confirmar solo si conserva conectividad
 
-admin@web01:~$ sudo netplan try               # confirmar solo si conserva conectividad
+ip -br address show enp0s3
+>> enp0s3           UP             192.168.50.20/24
 
-admin@web01:~$ ip -br address show enp0s3
-enp0s3           UP             192.168.50.20/24
+ip route | grep default
+>> default via 192.168.50.1 dev enp0s3
 
-admin@web01:~$ ip route | grep default
-default via 192.168.50.1 dev enp0s3
+ping -c 4 192.168.50.1         # comprueba el router
 
-admin@web01:~$ ping -c 4 192.168.50.1       # comprueba el router
-
-admin@web01:~$ resolvectl query ubuntu.com  # comprueba DNS
+resolvectl query ubuntu.com    # comprueba DNS
 ```

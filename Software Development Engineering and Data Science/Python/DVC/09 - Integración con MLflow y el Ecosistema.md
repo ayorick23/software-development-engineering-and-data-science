@@ -121,11 +121,11 @@ RUN dvc pull   # trae los datos versionados DENTRO de la imagen (o en tiempo de 
 CMD ["dvc", "repro"]
 ```
 
-Ver `Docker/Introduction to Docker.md` — combinar DVC con una imagen Docker fija (versiones exactas de dependencias) cierra el último eslabón de reproducibilidad: mismo código (Git), mismos datos (DVC), mismo entorno de ejecución (Docker).
+Ver `Docker/01 - Introducción y Arquitectura.md` — combinar DVC con una imagen Docker fija (versiones exactas de dependencias) cierra el último eslabón de reproducibilidad: mismo código (Git), mismos datos (DVC), mismo entorno de ejecución (Docker).
 
 ## Ver también
 
 - [[46-Reproducibilidad-con-DVC]] (en `Machine Learning/`)
 - `MLflow/02 - Tracking - Fundamentos y API de Logging.md`
 - `Optuna/01 - Introducción y Conceptos Fundamentales.md`
-- `Docker/Introduction to Docker.md`
+- `Docker/01 - Introducción y Arquitectura.md`

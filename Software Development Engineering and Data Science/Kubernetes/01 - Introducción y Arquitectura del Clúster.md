@@ -4,11 +4,11 @@ tags: [kubernetes, k8s, mlops, orquestacion, cheat-sheet]
 
 # 01 — Introducción y Arquitectura del Clúster
 
-> Este cheat-sheet profundiza en la sintaxis y arquitectura de Kubernetes. Para el panorama conceptual de dónde encaja en un flujo de MLOps, ver [[09-MLOps-en-Profundidad#Kubernetes|09-MLOps-en-Profundidad]] y [[17-Arquitecturas-de-Despliegue-de-Modelos]] en `Machine Learning/`; para la orquestación más simple que Kubernetes reemplaza a escala, ver `Docker/Orchestration and Scalability.md`.
+> Este cheat-sheet profundiza en la sintaxis y arquitectura de Kubernetes. Para el panorama conceptual de dónde encaja en un flujo de MLOps, ver [[09-MLOps-en-Profundidad#Kubernetes|09-MLOps-en-Profundidad]] y [[17-Arquitecturas-de-Despliegue-de-Modelos]] en `Machine Learning/`; para la orquestación más simple que Kubernetes reemplaza a escala, ver `Docker/11 - Orquestación y Escalabilidad.md`.
 
 ## ¿Qué problema resuelve Kubernetes?
 
-Cuando una aplicación empaquetada en [[Containers|contenedores]] (ver `Docker/`) pasa de correr en una laptop a correr en producción, aparecen preguntas que un humano no puede responder manualmente a escala: ¿en qué máquina se ejecuta cada contenedor? ¿qué pasa si esa máquina se cae? ¿cómo se reparte el tráfico entre 50 réplicas? ¿cómo se actualiza la aplicación sin downtime?
+Cuando una aplicación empaquetada en [[Docker/05 - Ciclo de Vida de Contenedores|contenedores]] (ver `Docker/`) pasa de correr en una laptop a correr en producción, aparecen preguntas que un humano no puede responder manualmente a escala: ¿en qué máquina se ejecuta cada contenedor? ¿qué pasa si esa máquina se cae? ¿cómo se reparte el tráfico entre 50 réplicas? ¿cómo se actualiza la aplicación sin downtime?
 
 **Kubernetes (K8s)** es un orquestador de contenedores de código abierto, originado en Google (basado en su sistema interno Borg), que automatiza:
 
@@ -140,5 +140,5 @@ minikube start
 
 - [[09-MLOps-en-Profundidad#Kubernetes]] (en `Machine Learning/`)
 - [[17-Arquitecturas-de-Despliegue-de-Modelos]] (en `Machine Learning/`)
-- `Docker/Orchestration and Scalability.md`
-- `Docker/Introduction to Docker.md`
+- `Docker/11 - Orquestación y Escalabilidad.md`
+- `Docker/01 - Introducción y Arquitectura.md`

@@ -39,7 +39,7 @@ El álgebra lineal permite:
 ## Software de Apoyo
 
 ### Python
-(ver [[Introduction to Python]])
+(ver [[01 - Introduction to Python]])
 
 Es el lenguaje principal en ciencia de datos por su ecosistema:
 

@@ -91,7 +91,7 @@ kubectl get events --sort-by='.lastTimestamp' -n <namespace>   # eventos recient
 
 ## Comparativa final: Kubernetes vs. Docker Swarm
 
-Retomando la comparación de `Docker/Orchestration and Scalability.md`, ahora con el detalle completo de lo que Kubernetes ofrece:
+Retomando la comparación de `Docker/11 - Orquestación y Escalabilidad.md`, ahora con el detalle completo de lo que Kubernetes ofrece:
 
 | | Docker Swarm | Kubernetes |
 |---|---|---|

@@ -7,7 +7,7 @@ Fecha de clase: 2026-04-24
 [[Clase 12 - Distribución Normal|← Clase anterior]] | [[Clase 14 - Laboratorio 3|Clase siguiente →]]
 
 # Tipos de Distribución
-(la [[Clase 12 - Distribución Normal|Distribución Normal]] de la Clase 12 es continua; aquí se ubica dentro del panorama general de distribuciones, incluyendo las discretas. Se profundiza en Binomial y Poisson en [[Clase 01 - Distribuciones Discretas, Binomial y Poisson|Estadística Inferencial, Clase 01]])
+(la [[Clase 12 - Distribución Normal|Distribución Normal]] de la Clase 12 es continua; aquí se ubica dentro del panorama general de distribuciones, incluyendo las discretas. Se profundiza en Binomial y Poisson en [[Clase 01 - Distribuciones de Probabilidad Discretas - Introducción a R|Estadística Inferencial, Clase 01]])
 
 Las distribuciones de probabilidad se clasifican según el tipo de variable que modelan.
 

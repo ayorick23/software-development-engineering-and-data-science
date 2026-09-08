@@ -24,7 +24,7 @@ def test_resta(calculadora):           # la MISMA fixture, reutilizada en otro t
     assert calculadora.restar(5, 3) == 2
 ```
 
-Esto reemplaza el `setUp()`/`tearDown()` de `unittest` (ver [[Testing#Unittest (PyUnit) El Framework Estándar|Python/Testing]]) con inyección de dependencias explícita por nombre de parámetro — más flexible porque cada test declara exactamente qué fixtures necesita, en vez de heredar un `setUp()` compartido por toda una clase.
+Esto reemplaza el `setUp()`/`tearDown()` de `unittest` (ver [[19 - Testing#Unittest (PyUnit) El Framework Estándar|Python/Testing]]) con inyección de dependencias explícita por nombre de parámetro — más flexible porque cada test declara exactamente qué fixtures necesita, en vez de heredar un `setUp()` compartido por toda una clase.
 
 ## `yield` — setup y teardown en una sola función
 

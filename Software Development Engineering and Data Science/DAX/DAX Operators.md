@@ -3,7 +3,7 @@
 Los **operadores en DAX** son los símbolos que le dicen al motor DAX qué tipo de cálculo o comparación realizar. Son los bloques de construcción más básicos de cualquier fórmula y se dividen en tres categorías principales.
 
 ## Operadores de Comparación
-(misma lógica de [[Introduction to Python#Operadores Relacionales|Operadores Relacionales en Python]])
+(misma lógica de [[01 - Introduction to Python#Operadores Relacionales|Operadores Relacionales en Python]])
 
 Estos operadores se utilizan para comparar dos valores y devolver un resultado booleano (`TRUE` o `FALSE`). Son la base de las expresiones lógicas y de los filtros.
 

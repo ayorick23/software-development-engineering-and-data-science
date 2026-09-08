@@ -7,7 +7,7 @@ Fecha de la clase: 5 de abril de 2025
 [[Clase 10 - Archivos CSV|← Clase anterior]] | [[Clase 14 - Archivos y Directorios|Clase siguiente →]]
 
 # Funciones en Python
-(ver [[Functions]])
+(ver [[03 - Functions]])
 
 Una función es un bloque de código reutilizable que realiza una tarea específica. Permiten estructurar el código en partes más pequeñas y manejables, evitando la repetición y facilitando la depuración.
 
@@ -73,7 +73,7 @@ saludar("Luis") #Hola, Luis
 ```
 
 ### Parámetros arbitrarios `(*args)`
-(ver [[Functions#Tipos de Argumentos|Tipos de Argumentos]])
+(ver [[03 - Functions#Tipos de Argumentos|Tipos de Argumentos]])
 
 Se usa para pasar una cantidad variable de argumentos en forma de tupla.
 

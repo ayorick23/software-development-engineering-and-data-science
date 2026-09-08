@@ -18,7 +18,7 @@ Fecha de la clase: 8 de febrero de 2025
 8. En caso de si regresa a ingresar un número, caso contrario finaliza el diagrama
 
 ## Operadores Aritméticos
-(ver [[Introduction to Python#Operadores Aritméticos|Operadores Aritméticos]])
+(ver [[01 - Introduction to Python#Operadores Aritméticos|Operadores Aritméticos]])
 
 Permiten realizar operaciones matemáticos sobre valores numéricos. Python admite operaciones básicas como suma, resta, multiplicación y otras más avanzadas como exponenciación y módulo.
 
@@ -33,7 +33,7 @@ Permiten realizar operaciones matemáticos sobre valores numéricos. Python admi
 | `**` | Exponenciación | 2 ** 3 | 8 |
 
 ## Operadores Lógicos
-(ver [[Introduction to Python#Operadores Lógicos|Operadores Lógicos]])
+(ver [[01 - Introduction to Python#Operadores Lógicos|Operadores Lógicos]])
 
 Permiten combinar expresiones booleanas. Se usan principalmente en estructuras de control como `if`, `while` y `for`.
 
@@ -53,7 +53,7 @@ Permiten combinar expresiones booleanas. Se usan principalmente en estructuras d
 </aside>
 
 ## Operadores de Comparación
-(ver [[Introduction to Python#Operadores Relacionales|Operadores Relacionales]])
+(ver [[01 - Introduction to Python#Operadores Relacionales|Operadores Relacionales]])
 
 Comparan valores y devuelven un valor booleano (`True` o `False`).
 

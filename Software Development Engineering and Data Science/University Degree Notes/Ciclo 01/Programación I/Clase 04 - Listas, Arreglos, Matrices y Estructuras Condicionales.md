@@ -9,7 +9,7 @@ Fecha de la clase: 15 de febrero de 2025
 # Arreglos, listas y matrices
 
 ## Listas
-(ver [[Lists and Tuples#Listas|Listas]])
+(ver [[05 - Lists and Tuples#Listas|Listas]])
 
 > Son uno de los tipos de datos que más se utilizan en Python y se caracteriza por ser flexible. Así mismo permite almacenar una colección ordenada de elementos de diferentes tipos (enteros, flotantes, cadenas, etc.). Es decir, las listas son estructuras de datos que almacenan una secuencia ordenada de elementos.
 
@@ -27,7 +27,7 @@ lista = ['Ciencia', 'Datos', 'Ingenieria', 10, 'Certificacion']
 ```
 
 ## Arreglos (`Array`)
-(ver [[Data Structures and Algorithms#Arrays|Arrays]])
+(ver [[18 - Data Structures and Algorithms#Arrays|Arrays]])
 
 > El módulo `array` estándar proporciona arreglos, que son estructura de datos. Los arreglos son homogéneos, lo que significa que todos los elementos deben ser del mismo tipo, a diferencia de las listas.
 > 
@@ -104,7 +104,7 @@ Las estructuras condicionales permiten que un programa tome decisiones evaluando
 - Se usan en validaciones de datos, cálculos, lógica de negocios, juegos, etc.
 
 ## Uso de if, elif, else
-(ver [[Control Flow#Sentencias Condicionales `if`, `elif`, `else`|Sentencias Condicionales if, elif, else]])
+(ver [[02 - Control Flow#Sentencias Condicionales `if`, `elif`, `else`|Sentencias Condicionales if, elif, else]])
 
 1. `if`. Evalúa una condición. Si es verdadera, ejecuta el código dentro del bloque.
 2. `elif`. Se usa cuando hay múltiples condiciones. Solo se ejecuta si la condición previa es falsa.

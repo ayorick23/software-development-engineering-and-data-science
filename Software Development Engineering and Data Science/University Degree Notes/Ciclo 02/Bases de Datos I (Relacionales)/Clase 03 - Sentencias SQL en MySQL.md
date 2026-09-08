@@ -169,7 +169,7 @@ WHERE EXISTS
 
 ### MySQL ``ANY`` & ``ALL``
 (ver [[Clase 14 - Subconsultas en MySQL#MySQL ``ANY``, ``ALL``|MySQL ALL, ANY]])
-(similar a [[Built-in Functions#`all()` y `any()`|all() y any() en Python]])
+(similar a [[04 - Built-in Functions#`all()` y `any()`|all() y any() en Python]])
 
 **ANY:** devuelve un resultado verdadero si alguno de los valores del subquery cumple con la condición establecida.
 

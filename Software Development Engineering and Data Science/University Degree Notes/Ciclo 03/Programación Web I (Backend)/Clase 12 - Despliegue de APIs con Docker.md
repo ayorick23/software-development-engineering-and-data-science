@@ -11,7 +11,7 @@ Fecha de clase: 2026-04-13
 
 ## ¿Por Qué Contenerizar una API?
 
-Hasta ahora, la API .NET 8 de este curso corre directamente en la máquina de desarrollo, con su propia versión del SDK de .NET, su propia configuración y su propia base de datos local. Ese entorno **no viaja** con el código: el clásico problema de "en mi máquina funciona". Un **contenedor Docker** (ver [[Introduction to Docker]]) empaqueta la API junto con exactamente la versión del runtime de .NET que necesita, de modo que corre igual en la laptop del desarrollador, en el servidor de un compañero o en la nube.
+Hasta ahora, la API .NET 8 de este curso corre directamente en la máquina de desarrollo, con su propia versión del SDK de .NET, su propia configuración y su propia base de datos local. Ese entorno **no viaja** con el código: el clásico problema de "en mi máquina funciona". Un **contenedor Docker** (ver [[Docker/01 - Introducción y Arquitectura|Introducción a Docker]]) empaqueta la API junto con exactamente la versión del runtime de .NET que necesita, de modo que corre igual en la laptop del desarrollador, en el servidor de un compañero o en la nube.
 
 ## Dockerfile para una API .NET 8
 

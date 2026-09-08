@@ -7,11 +7,11 @@ Fecha de la clase: 26 de abril de 2025
 [[Clase 11 - Funciones|← Clase anterior]] | [[Clase 15 - Pruebas Unitarias y Módulos|Clase siguiente →]]
 
 # Archivos en Python
-(ver [[Files Handling]], continuación de [[Clase 09 - Manejo de Archivos|Clase 09]])
+(ver [[13 - Files Handling]], continuación de [[Clase 09 - Manejo de Archivos|Clase 09]])
 
 Verificar si un archivos existe es una práctica fundamental para evitar errores al intentar leer, modificar o eliminar archivos que podrían no estar presentes.
 
-Python nos brinda el módulo estándar `os` (ver [[Files Handling#Módulo `os`|Módulo os]]), el cual permite interactuar con el sistema operativo, proporciona funciones para manejar rutas, directorios, archivos, procesos, permisos y más. Dentro de este módulo, la función `os.path.isfile(ruta)` sirve para determinar si una ruta corresponde a un archivo existente (ver [[Files Handling#Validez de Rutas de Archivos|Validez de Rutas de Archivos]]).
+Python nos brinda el módulo estándar `os` (ver [[13 - Files Handling#Módulo `os`|Módulo os]]), el cual permite interactuar con el sistema operativo, proporciona funciones para manejar rutas, directorios, archivos, procesos, permisos y más. Dentro de este módulo, la función `os.path.isfile(ruta)` sirve para determinar si una ruta corresponde a un archivo existente (ver [[13 - Files Handling#Validez de Rutas de Archivos|Validez de Rutas de Archivos]]).
 
 ```python
 import os
@@ -30,4 +30,4 @@ Un directorio (también llamado carpeta) es una ubicación dentro del sistema de
 
 El módulo estándar `os`, que permite interactuar con el sistema operativo. Dentro de este módulo, la función `os.pathh.isdir(ruta)` es la encargada de verificar si una ruta específica corresponde a un directorio existente.
 
-Si la carpeta no existe, el programa podría crearla usando `os.mkdir()` o `os.makedirs()` (ver [[Files Handling#Creación de Nuevas Carpetas|Creación de Nuevas Carpetas]]) antes de continuar. De esta forma, se evitan errores como `FileNotFoundError` o `OSError`.
+Si la carpeta no existe, el programa podría crearla usando `os.mkdir()` o `os.makedirs()` (ver [[13 - Files Handling#Creación de Nuevas Carpetas|Creación de Nuevas Carpetas]]) antes de continuar. De esta forma, se evitan errores como `FileNotFoundError` o `OSError`.

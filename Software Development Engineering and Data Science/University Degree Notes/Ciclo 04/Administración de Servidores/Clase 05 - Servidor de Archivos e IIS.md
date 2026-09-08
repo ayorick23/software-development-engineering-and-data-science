@@ -93,7 +93,7 @@ Las **GPO** permiten aplicar ese mapeo a muchos usuarios sin configurar cada e
 
 ---
 
-## HTTP, HTTPS, DNS y hostnames
+## HTTP, HTTPS, DNS y Hostnames
 
 **DNS** relaciona `intranet.empresa.local` con `192.168.1.10` mediante un registro **A**. Solo entonces el navegador sabe a qué servidor conectarse.
 

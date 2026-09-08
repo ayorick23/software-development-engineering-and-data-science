@@ -188,7 +188,7 @@ La restauración rápida asegura que las operaciones se reanuden con mínima int
 La virtualización en la nube permite a las empresas acceder a recursos de manera más flexible y escalable, optimizando la utilización de recursos.
 
 ### Contenedores
-(ver [[Introduction to Docker]])
+(ver [[Docker/01 - Introducción y Arquitectura|Introducción a Docker]])
 
 Los contenedores son una forma eficiencia de virtualizar aplicaciones, permitiendo a las empresas ejecutar múltiples aplicaciones en un solo sistema operativo.
 

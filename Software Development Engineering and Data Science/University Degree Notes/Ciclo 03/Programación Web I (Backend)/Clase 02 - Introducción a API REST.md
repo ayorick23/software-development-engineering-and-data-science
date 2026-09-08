@@ -9,7 +9,7 @@ Fecha de clase: 2026-02-02
 # Introducción a API REST
 
 ## ¿Qué es una API y por qué se usa?
-(ver [[APIs|APIs en Python]])
+(ver [[25 - APIs|APIs en Python]])
 
 Las **APIs (_Application Programming Interfaces_)** son esenciales en el desarrollo de software actual. Permiten que distintos sistemas puedan comunicarse, intercambiar información y trabajar de forma integrada. Por ejemplo, cuando usamos una app de transporte, esta consulta información de ubicación mediante la API de Google Maps; o cuando compramos en línea, el sistema se conecta con APIS de pago como PayPal o Stripe.
 

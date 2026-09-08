@@ -89,7 +89,7 @@ mlflow run . --env-manager conda
 
 ## Ejecución en Docker
 
-Para reproducibilidad total (incluyendo dependencias de sistema operativo, no solo Python), el entorno puede ser una imagen Docker completa — ver también `Docker/Introduction to Docker.md`:
+Para reproducibilidad total (incluyendo dependencias de sistema operativo, no solo Python), el entorno puede ser una imagen Docker completa — ver también `Docker/01 - Introducción y Arquitectura.md`:
 
 ```yaml
 # MLproject
@@ -143,5 +143,5 @@ Para pipelines más complejos con dependencias, reintentos y schedules, esto nor
 
 - [[01 - Introducción y Arquitectura General]]
 - [[14 - Integraciones con el Ecosistema]]
-- `Docker/Docker Compose.md`
+- `Docker/08 - Docker Compose en Profundidad.md`
 - `Machine Learning/50-Orquestacion-Prefect-y-Airflow.md`

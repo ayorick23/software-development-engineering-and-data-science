@@ -96,7 +96,7 @@ mlflow models build-docker \
 docker run -p 5001:8080 mi-registro.azurecr.io/claro-rd-model:v3
 ```
 
-Esto genera una imagen autocontenida (modelo + entorno + servidor REST) lista para desplegar en cualquier orquestador de contenedores — ver `Docker/Orchestration and Scalability.md`.
+Esto genera una imagen autocontenida (modelo + entorno + servidor REST) lista para desplegar en cualquier orquestador de contenedores — ver `Docker/11 - Orquestación y Escalabilidad.md`.
 
 ## Generar solo el Dockerfile (para personalizar)
 

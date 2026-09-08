@@ -47,6 +47,8 @@ Se divide en dos grandes ramas:
 
 **Por qué importa para Data Science:** Casi todo lo que haces —desde un simple promedio en un dashboard hasta la validación de un modelo de ML— descansa sobre supuestos estadísticos. Sin entender estadística, es fácil confundir ruido con señal.
 
+Cheat-sheet práctico aplicado a ML/DS (distribuciones por tipo de problema, pruebas de hipótesis, A/B testing, supuestos de modelos): [[Estadística Aplicada/01 - Estadística Descriptiva para EDA|Estadística Aplicada/]].
+
 ---
 
 ## Probabilidad

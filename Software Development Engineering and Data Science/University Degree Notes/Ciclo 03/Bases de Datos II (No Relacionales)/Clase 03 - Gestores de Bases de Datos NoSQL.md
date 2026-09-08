@@ -20,7 +20,7 @@ En esta clase analizamos tres enfoques principales:
 
 ## MongoDB - Modelo Documental
 
-MongoDB almacena información en documentos [[JSON and YAML#Archivos JSON|JSON]]/``BSON``.
+MongoDB almacena información en documentos [[14 - JSON and YAML#Archivos JSON|JSON]]/``BSON``.
 
 Características conceptuales:
 
@@ -83,7 +83,7 @@ Es una solución empresarial orientada a la nube.
 ## Introducción a Docker
 
 ### ¿Qué es Docker?
-(ver [[Introduction to Docker]])
+(ver [[Docker/01 - Introducción y Arquitectura|Introducción a Docker]])
 
 Docker es una plataforma de contenedores que permite ejecutar aplicaciones aisladas dentro de entornos portables y ligeros llamados _contenedores_.
 

@@ -21,7 +21,7 @@ mlflow models build-docker -m "models:/mi-modelo@champion" -n registro/mi-modelo
 docker push registro/mi-modelo:$(date +%Y%m%d)
 ```
 
-Ver `Docker/Introduction to Docker.md` y `Docker/Docker Compose.md` para fundamentos de Docker en sí.
+Ver `Docker/01 - Introducción y Arquitectura.md` y `Docker/08 - Docker Compose en Profundidad.md` para fundamentos de Docker en sí.
 
 ## Kubernetes
 
@@ -61,7 +61,7 @@ spec:
       resource: {name: cpu, target: {type: Utilization, averageUtilization: 70}}
 ```
 
-Ver `Docker/Orchestration and Scalability.md`.
+Ver `Docker/11 - Orquestación y Escalabilidad.md`.
 
 ## Orquestadores de pipelines: Airflow y Prefect
 

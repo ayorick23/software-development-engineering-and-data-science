@@ -7,7 +7,7 @@ Fecha de la clase: 22 de marzo de 2025
 [[Clase 08 - Tuplas, Diccionarios, Sets y Arrays|← Clase anterior]] | [[Clase 10 - Archivos CSV|Clase siguiente →]]
 
 # Manejo de archivos
-(ver [[Files Handling#Lectura y Escritura de Archivos|Lectura y Escritura de Archivos]])
+(ver [[13 - Files Handling#Lectura y Escritura de Archivos|Lectura y Escritura de Archivos]])
 
 El manejo de archivos en Python permite interactuar con datos almacenados en archivos externos, como texto o binarios. Python proporciona funciones y métodos integrados para abrir, leer, escribir, cerrar y manipular archivos de manera eficiente. Más adelante, en [[Clase 14 - Archivos y Directorios|Clase 14]], se retoma este tema para verificar la existencia de archivos y trabajar con directorios usando el módulo `os`.
 
@@ -45,7 +45,7 @@ with open("datos.txt", "r") as archivo:
 	print(contenido)
 ```
 
-El [[Context Manager#Declaración `with`|with statement]] es una construcción en Python que simplifica la gestión de recursos que deben ser limpiados después de su uso. Por ejemplo archivos, conexiones de bases de datos o bloques de código que necesitan liberar recursos específicos.
+El [[15 - Context Manager#Declaración `with`|with statement]] es una construcción en Python que simplifica la gestión de recursos que deben ser limpiados después de su uso. Por ejemplo archivos, conexiones de bases de datos o bloques de código que necesitan liberar recursos específicos.
 
 ## Modos de apertura de archivos
 

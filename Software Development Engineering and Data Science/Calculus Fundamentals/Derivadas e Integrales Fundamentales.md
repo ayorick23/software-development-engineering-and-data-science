@@ -188,3 +188,7 @@ $$
 | Fracción racional simple | Fracciones parciales   | $(\frac{P(x)}{Q(x)} \rightarrow \sum \frac{A_i}{x - a_i})$ |
 | Cuadrático irreducible   | Fracciones parciales   | $(\frac{Ax + B}{x^2 + bx + c})$                            |
 | Combinación de ambos     | Mezclado               | Aplica ambos métodos si es necesario                       |
+
+## Ver también
+
+- [[Python/SymPy/01 - Introducción y Filosofía|Python/SymPy]] — calcular estas derivadas e integrales simbólicamente y de forma exacta con Python, en vez de a mano

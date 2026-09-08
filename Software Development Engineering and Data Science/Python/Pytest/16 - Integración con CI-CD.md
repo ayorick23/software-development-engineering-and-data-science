@@ -40,7 +40,7 @@ steps:
   - run: pytest
 ```
 
-Ejecutar la suite completa contra múltiples versiones de Python en paralelo detecta incompatibilidades antes de que un usuario con una versión distinta las encuentre en producción — el mismo objetivo que [[Testing#Tox El Entorno de Pruebas Aislado|Tox]] resuelve localmente, aplicado ahora a nivel de pipeline de CI.
+Ejecutar la suite completa contra múltiples versiones de Python en paralelo detecta incompatibilidades antes de que un usuario con una versión distinta las encuentre en producción — el mismo objetivo que [[19 - Testing#Tox El Entorno de Pruebas Aislado|Tox]] resuelve localmente, aplicado ahora a nivel de pipeline de CI.
 
 ## Reportes en formato JUnit XML
 
@@ -93,4 +93,4 @@ Cachear tanto las dependencias de Python como el propio caché interno de pytest
 - [[15 - Property-Based Testing con Hypothesis]]
 - [[12 - Cobertura de Código]]
 - [[Machine Learning/48-CICD-con-GitHub-Actions|Machine Learning/48 - CI/CD con GitHub Actions]]
-- [[Testing#Tox El Entorno de Pruebas Aislado|Python/Testing]]
+- [[19 - Testing#Tox El Entorno de Pruebas Aislado|Python/Testing]]

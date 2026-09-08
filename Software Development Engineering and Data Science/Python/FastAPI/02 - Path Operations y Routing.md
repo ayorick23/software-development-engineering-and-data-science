@@ -29,7 +29,7 @@ def actualizar_item(id: int): ...
 def borrar_item(id: int): ...
 ```
 
-Cada decorador registra una **path operation**: una combinación única de método HTTP + ruta. Cada uno de estos conceptos (verbos, códigos de estado) ya se cubrió a nivel general en `Python/APIs.md` — aquí es cómo se implementan concretamente en FastAPI.
+Cada decorador registra una **path operation**: una combinación única de método HTTP + ruta. Cada uno de estos conceptos (verbos, códigos de estado) ya se cubrió a nivel general en `Python/25 - APIs.md` — aquí es cómo se implementan concretamente en FastAPI.
 
 ## Path parameters — parte de la URL
 

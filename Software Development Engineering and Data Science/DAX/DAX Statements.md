@@ -56,4 +56,4 @@ RETURN
    VentasEsteAño - VentasAñoPasado
 ```
 
-**Importante:** Una declaración `VAR` debe ser seguida por un `RETURN` (misma lógica de [[Functions#Valores de Retorno|Valores de Retorno en Python]]) que especifica qué valor debe devolver la medida o la columna.
+**Importante:** Una declaración `VAR` debe ser seguida por un `RETURN` (misma lógica de [[03 - Functions#Valores de Retorno|Valores de Retorno en Python]]) que especifica qué valor debe devolver la medida o la columna.

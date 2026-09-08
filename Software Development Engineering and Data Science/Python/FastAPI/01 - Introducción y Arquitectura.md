@@ -97,4 +97,4 @@ FastAPI gana en proyectos donde la validación de datos es central (APIs de dato
 - [[02 - Path Operations y Routing]]
 - [[03 - Request Body y Modelos Pydantic]]
 - [[49-APIs-con-FastAPI-para-Servir-Modelos]]
-- `Python/APIs.md`
+- `Python/25 - APIs.md`

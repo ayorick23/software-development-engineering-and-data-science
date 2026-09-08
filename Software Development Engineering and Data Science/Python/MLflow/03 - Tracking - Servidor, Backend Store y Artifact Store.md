@@ -74,7 +74,7 @@ mlflow server \
 
 ## Desplegar el servidor con Docker Compose
 
-Patrón típico para un equipo pequeño-mediano — ver también [[14 - Integraciones con el Ecosistema]] y `Docker/Docker Compose.md`:
+Patrón típico para un equipo pequeño-mediano — ver también [[14 - Integraciones con el Ecosistema]] y `Docker/08 - Docker Compose en Profundidad.md`:
 
 ```yaml
 # docker-compose.yml
