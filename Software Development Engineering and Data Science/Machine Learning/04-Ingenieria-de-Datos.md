@@ -149,6 +149,8 @@ Es simplemente **la API de Python para Apache Spark**. Existe porque Python es e
 
 **Qué problema resuelve:** Falta de reproducibilidad, testing y documentación en transformaciones SQL; es la pieza central que hizo viable el patrón ELT moderno (ver arriba) y dio origen al rol de [[02-Roles-y-Carreras-en-DS-ML#Analytics Engineer|Analytics Engineer]].
 
+> **Cheat-sheet práctico:** la sintaxis, comandos y patrones de dbt (models, tests, incrementales, snapshots, CI/CD) están en la carpeta `dbt/`, empezando por [[dbt/01 - Introducción y Arquitectura|01 - Introducción y Arquitectura]].
+
 ---
 
 ## Streaming / Mensajería
@@ -288,3 +290,4 @@ En la práctica, la decisión rara vez es puramente técnica — depende de:
 - [[02-Roles-y-Carreras-en-DS-ML]]
 - [[03-Arquitectura-Empresarial-de-Datos-y-ML]]
 - [[05-Ciencia-de-Datos-Estadistica-y-Fundamentos-ML]]
+- [[dbt/01 - Introducción y Arquitectura|dbt — cheat-sheet práctico]] (en `dbt/`)

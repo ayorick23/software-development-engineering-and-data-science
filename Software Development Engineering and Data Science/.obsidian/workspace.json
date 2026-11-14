@@ -8,60 +8,63 @@
         "type": "tabs",
         "children": [
           {
-            "id": "336386c2b5e3c3b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "University Degree Notes/Ciclo 04/Estadística Inferencial/Clase 08 - IC para Varianza y Proporciones.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Clase 08 - IC para Varianza y Proporciones"
-            }
-          },
-          {
-            "id": "eec545fbe85865ea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Docker/01 - Introducción y Arquitectura.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "01 - Introducción y Arquitectura"
-            }
-          },
-          {
             "id": "52ef889c7054675a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/62 - Seguridad en Python.md",
+                "file": "CLAUDE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "62 - Seguridad en Python"
+              "title": "CLAUDE"
             }
           },
           {
             "id": "b7869be1aa82caed",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
+              "type": "markdown",
+              "state": {
+                "file": "dbt/02 - Instalación, Proyecto y profiles.yml.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "02 - Instalación, Proyecto y profiles.yml"
+            }
+          },
+          {
+            "id": "37dfd39157513ec6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Checklist de Funcionalidades.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Checklist de Funcionalidades"
+            }
+          },
+          {
+            "id": "ad86542b90d42bc6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dbt/01 - Introducción y Arquitectura.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "01 - Introducción y Arquitectura"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -240,44 +243,44 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "52ef889c7054675a",
+  "active": "b7869be1aa82caed",
   "lastOpenFiles": [
-    "Python/62 - Seguridad en Python.md",
-    "Python/61 - Empaquetado y Distribución.md",
-    "Python/61 - Empaquetado y Distribución.md.tmp.14540.740c138a26b4",
-    "Python/60 - CLIs Profesionales.md",
-    "Python/60 - CLIs Profesionales.md.tmp.14540.6ae42550a65b",
-    "Python/59 - Python Moderno por Versión.md",
-    "Python/58 - Profiling y Optimización de Rendimiento.md",
-    "Python/58 - Profiling y Optimización de Rendimiento.md.tmp.14540.2acbc85ba368",
-    "Python/57 - Paralelismo Real.md",
-    "Python/56 - Sincronización y Modelos de Concurrencia.md",
-    "Python/55 - Async Generators y Async Context Managers.md",
-    "Python/54 - Asyncio en Profundidad.md",
-    "Python/54 - Asyncio en Profundidad.md.tmp.14540.84098d925ac2",
-    "Python/53 - Fechas y Zonas Horarias.md",
-    "Python/52 - Logging Avanzado.md",
-    "Python/52 - Logging Avanzado.md.tmp.14540.e271a11bd215",
-    "Python/51 - Módulos e Imports a Fondo.md",
-    "Python/50 - Context Managers Avanzados.md",
-    "Python/50 - Context Managers Avanzados.md.tmp.14540.4530d72159bc",
-    "Python/49 - Excepciones Avanzadas.md",
-    "Python/49 - Excepciones Avanzadas.md.tmp.14540.199beffdf40d",
-    "Python/48 - Serialización Avanzada.md",
-    "Python/47 - Datos Binarios.md",
-    "Python/47 - Datos Binarios.md.tmp.14540.9c87bfe668ef",
-    "Python/46 - Collections en Profundidad.md",
-    "Python/46 - Collections en Profundidad.md.tmp.14540.d9ec708ac901",
-    "Python/45 - Estilo Pythonico y Buenas Prácticas.md",
-    "Python/45 - Estilo Pythonico y Buenas Prácticas.md.tmp.14540.17f3e9137600",
-    "Python/44 - Linters y Formateadores.md",
-    "Python/43 - Análisis Estático con Mypy y Pyright.md",
-    "Python/42 - Type Hints y el Módulo Typing.md",
-    "Python/41 - Patrones de Diseño Pythonicos.md",
-    "Python/40 - Dataclasses, NamedTuple y Comparativa con Attrs-Pydantic.md",
-    "Python/39 - Enums Avanzados.md",
-    "Python/38 - Metaclases y type().md",
-    "Python/37 - Dunder Methods y Protocolos Avanzados.md",
+    "dbt/sed9Gj6jy",
+    "dbt/13 - Estructura de Proyecto y Modelado.md.tmp.17084.e810d9b534a3",
+    "Machine Learning/04-Ingenieria-de-Datos.md.tmp.17084.17b86eaf7e1b",
+    "dbt/16 - Python Models, Ecosistema y Buenas Prácticas.md",
+    "dbt/15 - dbt en Producción - CI-CD y Orquestación.md",
+    "dbt/15 - dbt en Producción - CI-CD y Orquestación.md.tmp.17084.e3a9ac163ff4",
+    "dbt/01 - Introducción y Arquitectura.md",
+    "dbt/14 - Semantic Layer y Métricas.md",
+    "dbt/14 - Semantic Layer y Métricas.md.tmp.17084.050fcda901cd",
+    "dbt/13 - Estructura de Proyecto y Modelado.md",
+    "dbt/12 - Documentación, Lineage y Contratos.md",
+    "dbt/12 - Documentación, Lineage y Contratos.md.tmp.17084.72403ccc8c5e",
+    "dbt/11 - Tests de Datos y Unit Tests.md",
+    "dbt/11 - Tests de Datos y Unit Tests.md.tmp.17084.ba877c8a8a72",
+    "dbt/10 - Packages.md",
+    "dbt/10 - Packages.md.tmp.17084.cca6d6df421a",
+    "dbt/09 - Jinja y Macros.md",
+    "dbt/08 - Snapshots y SCD Tipo 2.md",
+    "dbt/07 - Modelos Incrementales.md",
+    "dbt/07 - Modelos Incrementales.md.tmp.17084.0e0e6621c24b",
+    "Checklist de Funcionalidades.md",
+    "dbt/06 - Materializaciones.md",
+    "dbt/05 - Sources y Seeds.md",
+    "dbt/04 - Models, ref() y el DAG.md",
+    "dbt/04 - Models, ref() y el DAG.md.tmp.17084.77c6509720c3",
+    "dbt/03 - CLI y Selección de Nodos.md",
+    "dbt/02 - Instalación, Proyecto y profiles.yml.md",
+    "dbt",
+    "Proyecto.md",
+    "CLAUDE.md",
+    "University Degree Notes/Ciclo 04/Administración de Servidores/Clase 14 - Servicio Web con Apache y Certificados SSL.md",
+    "University Degree Notes/Ciclo 04/Administración de Servidores/Clase 11 - DHCP.md",
+    "University Degree Notes/Ciclo 04/Administración de Servidores/Clase 13 - Protección de Red con Firewall.md",
+    "University Degree Notes/Ciclo 04/Administración de Servidores/Clase 10 - DNS en Ubuntu Server.md",
+    "University Degree Notes/Ciclo 04/Estadística Inferencial/Clase 10 - Pruebas de Hipótesis para Dos Muestras.md",
+    "University Degree Notes/Ciclo 04/Estadística Inferencial/Clase 09 - Pruebas de Hipótesis.md",
     "Python/Matplotlib/output_33_0.png",
     "Python/Matplotlib/output_32_0.png",
     "Python/Matplotlib/output_31_0.png",

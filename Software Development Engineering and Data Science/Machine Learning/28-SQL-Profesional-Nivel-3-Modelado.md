@@ -113,3 +113,4 @@ Aunque `qf.hrAgentForecastResult` probablemente no es un warehouse formal con St
 - [[03-Arquitectura-Empresarial-de-Datos-y-ML]]
 - [[04-Ingenieria-de-Datos]]
 - [[29-SQL-para-Machine-Learning]]
+- [[dbt/13 - Estructura de Proyecto y Modelado|dbt — Estructura de Proyecto y Modelado]] (Star Schema implementado con dbt) y [[dbt/08 - Snapshots y SCD Tipo 2|dbt — Snapshots y SCD Tipo 2]] (en `dbt/`)

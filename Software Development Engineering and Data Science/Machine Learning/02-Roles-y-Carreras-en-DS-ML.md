@@ -119,6 +119,7 @@ Para cada rol: **qué hace**, **herramientas**, **conocimientos necesarios**, **
 - **Matemáticas:** Baja.
 - **Nube:** Alta (vive dentro del Data Warehouse en la nube).
 - **Etapa del ciclo:** Transformación de datos ya cargados (parte del paso 2, específicamente la "T" de ELT).
+- **Para practicar:** ver el cheat-sheet de dbt en `dbt/`, empezando por [[dbt/01 - Introducción y Arquitectura|01 - Introducción y Arquitectura]] (incluye una ruta de aprendizaje en [[16 - Python Models, Ecosistema y Buenas Prácticas]]).
 
 ---
 
