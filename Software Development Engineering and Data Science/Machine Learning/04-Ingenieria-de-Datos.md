@@ -104,6 +104,8 @@ Es simplemente **la API de Python para Apache Spark**. Existe porque Python es e
 
 **Cuándo se elige:** Análisis exploratorio rápido, pipelines de datos medianos que no justifican un cluster, o como motor de consulta embebido dentro de una aplicación.
 
+**Ver también:** cheat-sheet práctico completo en [[DuckDB/01 - Introducción y Arquitectura|DuckDB]] (CLI, API de Python, Parquet y particionado Hive, S3, Friendly SQL, tipos anidados, extensiones, DuckLake, rendimiento y uso en pipelines con dbt y Airflow).
+
 ![[Pasted image 20260714124244.png]]
 ### Polars
 

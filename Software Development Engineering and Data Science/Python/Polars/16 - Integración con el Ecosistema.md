@@ -80,3 +80,4 @@ Ver [[Streamlit/05 - Mostrar Datos - DataFrames, Tablas y Métricas|Streamlit]] 
 - [[01 - Introducción y Arquitectura]]
 - [[17 - Buenas Prácticas, Errores Comunes y Comparativa]]
 - [[Python/Pandas/16 - Integración con el Ecosistema|Python/Pandas]]
+- [[DuckDB/11 - Integración con Pandas, Polars y Arrow|DuckDB/11]]: el lado de DuckDB en la integración (replacement scans, zero-copy, cuándo usar cada uno)

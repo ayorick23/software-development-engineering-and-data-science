@@ -331,3 +331,4 @@ La organización detallada de `models/` se cubre en [[13 - Estructura de Proyect
 - [[13 - Estructura de Proyecto y Modelado]]
 - [[24-Configuracion-Profesional-de-Proyectos]] (en `Machine Learning/`) — manejo de configuración y secretos
 - [[12-Gestion-Moderna-de-Proyectos-Python]] (en `Machine Learning/`) — uv y entornos
+- [[DuckDB/01 - Introducción y Arquitectura|DuckDB]]: cheat-sheet del motor; opciones avanzadas de dbt-duckdb en [[DuckDB/16 - DuckDB en Pipelines y Buenas Prácticas#dbt-duckdb|DuckDB/16]]

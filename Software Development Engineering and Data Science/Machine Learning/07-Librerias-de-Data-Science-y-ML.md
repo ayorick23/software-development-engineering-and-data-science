@@ -60,7 +60,7 @@ aliases: [Librerias de Python para Data Science, Librerias ML]
 
 **Qué hace:** Manipulación y análisis de datos **tabulares** en memoria (dataframes) — filtrar, agrupar, unir, transformar, limpiar. Es la herramienta de trabajo diario más usada en ciencia de datos con Python.
 
-**Hasta dónde llega:** Pandas **no entrena modelos** (aunque a veces se usa junto a scikit-learn tan seguido que la gente los confunde), y **no está diseñado para datasets que no caben en la memoria RAM de una sola máquina** (para eso: Spark, [[#Dask]], o [[04-Ingenieria-de-Datos#DuckDB|DuckDB]]).
+**Hasta dónde llega:** Pandas **no entrena modelos** (aunque a veces se usa junto a scikit-learn tan seguido que la gente los confunde), y **no está diseñado para datasets que no caben en la memoria RAM de una sola máquina** (para eso: Spark, [[#Dask]], o [[04-Ingenieria-de-Datos#DuckDB|DuckDB]]; cheat-sheet práctico en [[DuckDB/01 - Introducción y Arquitectura|DuckDB/]]).
 
 **Ver también:** cheat-sheet práctico completo en [[Python/Pandas/01 - Introducción y Arquitectura Interna|Python/Pandas]] (arquitectura interna, selección, groupby, series de tiempo, rendimiento e integración con el resto del stack).
 

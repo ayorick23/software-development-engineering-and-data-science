@@ -129,3 +129,4 @@ Ninguna de estas herramientas reemplaza lo que ya construiste (tu sistema de aut
 - [[11-Logging-en-Python-para-ML]]
 - [[19-Mantenimiento-y-Ciclo-de-Vida-del-Modelo]]
 - [[44-Ingesta-Incremental-CDC-e-Idempotencia]]
+- [[Python/Airflow/01 - Introducción y Arquitectura|Python/Airflow]] — cheat-sheet práctico completo de **Airflow 3.x** (TaskFlow, assets, dynamic task mapping, deferrable, Cosmos/dbt, MLflow, despliegue y testing). Ojo: el ejemplo de esta nota usa sintaxis de Airflow 2; la guía de migración está en [[Python/Airflow/17 - Testing, Observabilidad y Buenas Prácticas#Migración de Airflow 2 a 3|Airflow/17]]

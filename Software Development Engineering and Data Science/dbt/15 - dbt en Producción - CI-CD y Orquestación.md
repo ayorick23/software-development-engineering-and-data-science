@@ -375,6 +375,7 @@ dbt run -s fct_page_views --event-time-start 2025-01-01 --event-time-end 2025-02
 
 - [[03 - CLI y Selección de Nodos]] — `state:`, `--defer`, `retry`
 - [[11 - Tests de Datos y Unit Tests]]
+- [[Python/Airflow/15 - Airflow con dbt, Docker, Kubernetes y MLflow|Airflow/15]] — orquestar dbt desde Airflow con Astronomer Cosmos (una tarea por modelo)
 - [[16 - Python Models, Ecosistema y Buenas Prácticas]]
 - [[48-CICD-con-GitHub-Actions]] y [[50-Orquestacion-Prefect-y-Airflow]] (en `Machine Learning/`)
 - [[14-CICD-para-ML-con-GitLab]] (en `Machine Learning/`) — la versión GitLab del pipeline
